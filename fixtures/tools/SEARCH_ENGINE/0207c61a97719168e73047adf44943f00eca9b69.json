@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "api.erssegd.com phishing"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Apr 27, 2023 · API利用のメリット＆デメリット Web APIとは？ APIの種類と違い API事例4選 Google、LINEにPayPayも APIを理解 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "APIとは何か？ API連携ってどういうこと？ 図解で仕組みを ...",
+        "url": "https://www.sbbit.jp/article/cont1/62752"
+      },
+      {
+        "category": "general",
+        "content": "Apr 18, 2022 · アプリケーションの開発者は、APIを使ってアプリケーション間の連携がスムーズに行えるよう、意識してプログラ …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "今さら聞けない「API」とは？初心者にもわかりやすく解説",
+        "url": "https://kwcplus.kddi-web.com/blog/what-is-api"
+      },
+      {
+        "category": "general",
+        "content": "Feb 15, 2026 · 先輩エンジニアがこんな会話をしているのを聞いて、「APIって何…？ 」と思ったことはありませんか？ この記事で …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "【初心者向け】APIとは？ ― 仕組みから使い方まで図解で ...",
+        "url": "https://qiita.com/kotaro_ai_lab/items/29eaf6cf6690f6ee5e0d"
+      },
+      {
+        "category": "general",
+        "content": "Dec 26, 2025 · 開発効率やアプリの利便性を高められる面で、APIは重要な仕組みの1つです。 そこで、今回は APIとは何なのか 、 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "APIとは？意味や仕組み、活用するメリットもわかりやすく解説 ...",
+        "url": "https://www.sejuku.net/blog/application-programming-interface"
+      },
+      {
+        "category": "general",
+        "content": "Jan 31, 2026 · APIの仕組みは、レストランの注文のやりとりに例えるとわかりやすいです。 お客さん（APIを使う側のアプリ）が「 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "APIとは何かを簡単にわかりやすく解説！意味・仕組み・身近な ...",
+        "url": "https://run-digital.com/it/what-is-api/"
+      },
+      {
+        "category": "general",
+        "content": "Jan 29, 2024 · あれが！ まさに！ APIのおかげ で実現しています！ このように、APIは私たちが日常的に利用するさまざまなサービ …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "【API】結局APIって何ですか？ #初心者 - Qiita",
+        "url": "https://qiita.com/shimada_slj/items/175168fc744d4788e60d"
+      },
+      {
+        "category": "general",
+        "content": "API（アプリケーションプログラミングインターフェース）とは、あるコンピュータプログラム (ソフトウェア)の機能や管理する …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "API（アプリケーションプログラミングインターフェース）とは ...",
+        "url": "https://e-words.jp/w/API.html"
+      },
+      {
+        "category": "general",
+        "content": "Sep 27, 2014 · 「API」の説明です。 正確ではないけど何となく分かる、IT用語の意味を「ざっくりと」理解するためのIT用語辞典 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "APIとは｜「分かりそう」で「分からない」でも「分かった」気 ...",
+        "url": "https://wa3.i-3-i.info/word12428.html"
+      },
+      {
+        "category": "general",
+        "content": "Mar 20, 2026 · Web API（ウェブ エーピーアイ） Web APIとは、「Web API」は、 インターネット上で使用されるAPIの総称 です …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "【図解】APIの種類と違いをエンジニア初心者向けにまとめてみた",
+        "url": "https://atsudayo.com/api/"
+      },
+      {
+        "category": "general",
+        "content": "May 6, 2026 · API連携を基礎から丁寧に解説。 SNSログインやデータ共有など身近な例を通じて仕組みを理解し、CSVやWebhook …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "API連携とは？システム間連携の仕組み・種類・メリット ...",
+        "url": "https://rpm.zeku.co.jp/column/api-integration-guide"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:13Z",
+  "source_url": "http://searxng:8080/search?q=api.erssegd.com+phishing&format=json",
+  "status": "success",
+  "summary": "SearXNG search for api.erssegd.com phishing: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

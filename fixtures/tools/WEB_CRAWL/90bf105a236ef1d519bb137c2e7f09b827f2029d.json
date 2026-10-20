@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WEB_CRAWL unavailable: HTTP 401: {\"url\":\"https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAY3muGdU5GTQANIzs_g==&cid=tB4CoXXZ8TejkEMzF86yQcGeLbWmQPzTlstSD2jVCc4Hv71KOUzy2Pp2VwLo8267j31cwWBgw~s4fvle7lP00sIXWTZgTzNa_EcPlf10JBQFnMF7AScNFmXXY1JgUixC&referer=http%3A%2F%2Fwww.reuters.com%2Flegal%2Flitigation%2Fjury-reaches-verdict-meta-google-trial-social-media-addiction-2026-03-25%2F&hash=2013457ADA70C67D6A4123E0A76873&t=fe&s=43909&e=afd27868db9982cbf6fc11bc98c40ac76f42a7a306af7c926f2c5647521437f0f233f69afc466e63122e5df152f5e3b5&b=4202\"}",
+  "parameters": {
+    "url": "https://www.reuters.com/legal/litigation/jury-reaches-verdict-meta-google-trial-social-media-addiction-2026-03-25/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:26:03Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL unavailable: HTTP 401: {\"url\":\"https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAY3muGdU5GTQANIzs_g==&cid=tB4CoXXZ8TejkEMzF86yQcGeLbWmQPzTlstSD2jVCc4Hv71KOUzy2Pp2VwLo8267j31cwWBgw~s4fvle7lP00sIXWTZgTzNa_EcPlf10JBQFnMF7AScNFmXXY1JgUixC&referer=http%3A%2F%2Fwww.reuters.com%2Flegal%2Flitigation%2Fjury-reaches-verdict-meta-google-trial-social-media-addiction-2026-03-25%2F&hash=2013457ADA70C67D6A4123E0A76873&t=fe&s=43909&e=afd27868db9982cbf6fc11bc98c40ac76f42a7a306af7c926f2c5647521437f0f233f69afc466e63122e5df152f5e3b5&b=4202\"}",
+  "tool_type": "WEB_CRAWL"
+}

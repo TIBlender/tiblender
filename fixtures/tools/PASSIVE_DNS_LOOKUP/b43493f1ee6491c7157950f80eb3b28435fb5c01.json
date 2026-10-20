@@ -1,0 +1,91 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "17lpc.com",
+      "azmediya.com",
+      "getinvl.com",
+      "hermeswebui-qniwzdzfvqveivdhwif8usk9.automatizerhub.com.br",
+      "img.taithaitimes.com",
+      "mosquitonets.org",
+      "pubikilora.top",
+      "www.getinvl.com",
+      "www.pubikilora.top",
+      "www.sv8betvip.com",
+      "zhzzj.cn"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.87.75"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.21.87.75"
+  },
+  "raw": {
+    "malicious_count": 60,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789417206,
+        "host_name": "allegro.lokalna-oferta8881381239101.sbs",
+        "host_name_malicious": 10,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.87.75",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789417205,
+        "host_name": "vinted.lokalna-oferta8881381239101.sbs",
+        "host_name_malicious": 11,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.87.75",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789417201,
+        "host_name": "olx.lokalna-oferta8881381239101.sbs",
+        "host_name_malicious": 10,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.87.75",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789417168,
+        "host_name": "alebilet.lokalna-oferta8881381239101.sbs",
+        "host_name_malicious": 10,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.87.75",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789413750,
+        "host_name": "azmediya.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.87.75",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 12,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:29:43Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/104.21.87.75/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 104.21.87.75: 20 resolution(s); hosts: allegro.lokalna-oferta8881381239101.sbs, vinted.lokalna-oferta8881381239101.sbs, olx.lokalna-oferta8881381239101.sbs, alebilet.lokalna-oferta8881381239101.sbs, azmediya.com, lokalna-oferta8881381239101.sbs, allegrolokalnie.lokalna-oferta8881381239101.sbs, www.sv8betvip.com, img.taithaitimes.com, www.pubikilora.top",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

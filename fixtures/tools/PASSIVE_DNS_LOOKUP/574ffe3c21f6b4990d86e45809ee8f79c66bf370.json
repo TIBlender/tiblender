@@ -1,0 +1,85 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "api.threatbook.io",
+      "ati.threatbook.io",
+      "i.threatbook.io",
+      "static-resource.threatbook.io",
+      "threatbook.io"
+    ],
+    "hashes": [],
+    "ips": [
+      "118.194.235.78"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "118.194.235.78"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1788145525,
+        "host_name": "static-resource.threatbook.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "118.194.235.78",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1776348240,
+        "host_name": "api.threatbook.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "118.194.235.78",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1764059788,
+        "host_name": "ati.threatbook.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "118.194.235.78",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1750145434,
+        "host_name": "i.threatbook.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "118.194.235.78",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1749552251,
+        "host_name": "threatbook.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "118.194.235.78",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 1,
+    "total_count": 5
+  },
+  "recorded_at": "2026-09-15T01:41:23Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/118.194.235.78/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 118.194.235.78: 5 resolution(s); hosts: static-resource.threatbook.io, api.threatbook.io, ati.threatbook.io, i.threatbook.io, threatbook.io",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

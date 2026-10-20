@@ -1,0 +1,329 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2525 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(sfrclak.com malware and command-and-control campaign) Tj
+T*
+() Tj
+T*
+(Report ID: TIBLENDER-RUN-252a5d11fa1a) Tj
+T*
+(Generated At: 2026-09-16T08:49:00Z) Tj
+T*
+(Severity: HIGH) Tj
+T*
+(Category: malware) Tj
+T*
+() Tj
+T*
+(Executive Summary) Tj
+T*
+() Tj
+T*
+(6 post\(s\) from discord, reddit and x posted on 2026-03-31 were consolidated into one malware) Tj
+T*
+(and command-and-control cluster across 3 platform\(s\), rated CRITICAL. The cluster carries 1) Tj
+T*
+(domain, 2 file hashes. Matched threat vocabulary: malware, payload, npm. This summary is) Tj
+T*
+(composed from the cluster's indicators, counts and vocabulary matches; the source posts are) Tj
+T*
+(quoted under source evidence in the language they were posted in.) Tj
+T*
+() Tj
+T*
+(Key Findings) Tj
+T*
+() Tj
+T*
+(- Infrastructure) Tj
+T*
+(- Infrastructure focus selection used the heuristic planner \(no LLM agent configured\).) Tj
+T*
+(- Infrastructure agent investigated domain_registration_and_whois,) Tj
+T*
+(dns_and_passive_dns_analysis, ssl_tls_certificate_analysis with 5 tool query/queries \(5) Tj
+T*
+(successful\).) Tj
+T*
+(- Infrastructure agent pivoted one level into 2 newly discovered indicator query/queries.) Tj
+T*
+(- Technical) Tj
+T*
+(- Technical focus selection used the heuristic planner \(no LLM agent configured\).) Tj
+T*
+(- Technical agent investigated technical_intelligence_and_security_report_collection,) Tj
+T*
+(cve_exploitation_analysis with 2 tool query/queries \(2 successful\).) Tj
+T*
+(- Social) Tj
+T*
+(- Social focus selection used the heuristic planner \(no LLM agent configured\).) Tj
+T*
+(- Social agent investigated sns_account_abuse_and_spread_tracking,) Tj
+T*
+(social_engineering_tactics_analysis with 4 tool query/queries \(4 successful\).) Tj
+T*
+(- Actor) Tj
+T*
+(- Actor focus selection used the heuristic planner \(no LLM agent configured\).) Tj
+T*
+(- Actor agent investigated apt_group_and_threat_actor_investigation,) Tj
+T*
+(cybercrime_group_and_market_analysis, campaign_tracking with 5 tool query/queries \(5) Tj
+T*
+(successful\).) Tj
+T*
+(- Indicators) Tj
+T*
+(- Extracted from the cluster's posts: 1 domain, 2 file hashes.) Tj
+T*
+(- Severity CRITICAL across 3 platform\(s\).) Tj
+T*
+() Tj
+T*
+(IoCs) Tj
+T*
+() Tj
+T*
+(| Type | Value | Extraction Type | Source Platforms |) Tj
+T*
+() Tj
+T*
+(| domain | sfrclak.com | Direct | discord, reddit, x |) Tj
+T*
+(| ip | 142.11.206.73 | Pivot | - |) Tj
+T*
+(| hash | 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a | Direct | reddit,) Tj
+T*
+(x |) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 2114 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(| hash | f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd | Direct | reddit,) Tj
+T*
+(x |) Tj
+T*
+() Tj
+T*
+(CVEs) Tj
+T*
+() Tj
+T*
+(| CVE ID | Exploited In Wild |) Tj
+T*
+() Tj
+T*
+(| none | - |) Tj
+T*
+() Tj
+T*
+(TTPs) Tj
+T*
+() Tj
+T*
+(| MITRE ID | Tactic | Technique | Evidence |) Tj
+T*
+() Tj
+T*
+(| T1105 | Command and Control | Ingress Tool Transfer | Payload/C2 context appears in the) Tj
+T*
+(cluster. |) Tj
+T*
+() Tj
+T*
+(Threat Actor) Tj
+T*
+() Tj
+T*
+(Unknown) Tj
+T*
+() Tj
+T*
+(Attack Timeline) Tj
+T*
+() Tj
+T*
+(| Timestamp | Event | Significance |) Tj
+T*
+() Tj
+T*
+(| 2026-03-31T03:20:27Z | x source post sample-x-axios-0001 | Primary source evidence used) Tj
+T*
+(for clustering and report generation. |) Tj
+T*
+(| 2026-03-31T04:22:49Z | x source post sample-x-axios-0002 | Primary source evidence used) Tj
+T*
+(for clustering and report generation. |) Tj
+T*
+(| 2026-03-31T04:52:56Z | x source post sample-x-axios-0003 | Primary source evidence used) Tj
+T*
+(for clustering and report generation. |) Tj
+T*
+(| 2026-03-31T07:54:11Z | discord source post sample-discord-axios-0001 | Primary source) Tj
+T*
+(evidence used for clustering and report generation. |) Tj
+T*
+(| 2026-03-31T13:53:00Z | reddit source post sample-reddit-axios-0001 | Primary source) Tj
+T*
+(evidence used for clustering and report generation. |) Tj
+T*
+(| 2026-03-31T14:56:44Z | reddit source post sample-reddit-axios-0002 | Primary source) Tj
+T*
+(evidence used for clustering and report generation. |) Tj
+T*
+() Tj
+T*
+(Recommendations) Tj
+T*
+() Tj
+T*
+(Immediate) Tj
+T*
+() Tj
+T*
+(1. Block or monitor the listed domains, URLs and IP addresses according to local policy. The) Tj
+T*
+(cluster carries network indicators that can be actioned directly.) Tj
+T*
+(2. Add the listed file hashes to endpoint blocklists and hunt for prior executions. File) Tj
+T*
+(hashes in the cluster identify the delivered sample.) Tj
+T*
+(3. Search SIEM and EDR telemetry for the listed indicators and the associated campaign) Tj
+T*
+(terms. Retrospective search establishes whether the campaign already reached the estate.) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 2822 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(Short-Term) Tj
+T*
+() Tj
+T*
+(1. Preserve the source evidence and re-run enrichment if new platform posts appear in the) Tj
+T*
+(next cycle. Evidence is credible but the cluster is still developing.) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(Source Evidence) Tj
+T*
+() Tj
+T*
+(- sample-discord-axios-0001 \(discord, 2026-03-31T07:54:11Z\): Malware signal: Discord) Tj
+T*
+(incident channel is treating the Axios npm compromise as one campaign across x, reddit, and) Tj
+T*
+(discord evidence. The affected package versions, sfrclak[.]com payload host, and payload) Tj
+T*
+(hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com) Tj
+T*
+(- sample-reddit-axios-0001 \(reddit, 2026-03-31T13:53:00Z\): Malware signal: Reddit triage) Tj
+T*
+(thread for the Axios npm compromise confirms this is not a simple typosquat. The same) Tj
+T*
+(sfrclak[.]com payload host, malicious postinstall behavior, and affected versions) Tj
+T*
+(axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com) Tj
+T*
+(- sample-reddit-axios-0002 \(reddit, 2026-03-31T14:56:44Z\): Other signal: Axios supply-chain) Tj
+T*
+(response notes: audit CI runners and developer workstations that installed axios@1.14.1,) Tj
+T*
+(axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com,) Tj
+T*
+(f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd, and) Tj
+T*
+(92ff08773995ebc8d55ec4. IoCs:) Tj
+T*
+(92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a) Tj
+T*
+(f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com) Tj
+T*
+(- sample-x-axios-0001 \(x, 2026-03-31T03:20:27Z\): Malware signal: Axios npm supply-chain) Tj
+T*
+(compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1.) Tj
+T*
+(The active payload host sfrclak[.]com is being shared for CI and developer workstation) Tj
+T*
+(hunting. IoCs: sfrclak.com) Tj
+T*
+(- sample-x-axios-0002 \(x, 2026-03-31T04:22:49Z\): Malware signal: Additional Axios campaign) Tj
+T*
+(triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload) Tj
+T*
+(hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and) Tj
+T*
+(92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a. IoCs:) Tj
+T*
+(92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a) Tj
+T*
+(f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com) Tj
+T*
+(- sample-x-axios-0003 \(x, 2026-03-31T04:52:56Z\): Malware signal: Axios incident update: the) Tj
+T*
+(malicious npm postinstall path contacts sfrclak[.]com after users install affected package) Tj
+T*
+(versions. Hunt for axios@1.14.1, axios@0.30.4, plain-crypto-js@4.2.1, and the two payload) Tj
+T*
+(hashes already circulating in the thread. IoCs: sfrclak.com) Tj
+ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000000323 00000 n 
+0000002899 00000 n 
+0000003025 00000 n 
+0000005190 00000 n 
+0000005316 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+8189
+%%EOF

@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "Supply Chain cluster"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "UW Engineering researchers turn environmental insight into tools for healthier communities: cleaner power, sustainable materials, …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "UW Homepage",
+        "url": "https://www.washington.edu/"
+      },
+      {
+        "category": "general",
+        "content": "Find your place within UW’s integrated health system, with a number of award-winning hospitals and facilities located in the greater …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "UW Jobs",
+        "url": "https://www.washington.edu/jobs/"
+      },
+      {
+        "category": "general",
+        "content": "Specimen Processing Services is a divison of the Department of Medicine in the UW Medicine health system. Our division is …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "SPS Tools - UW Departments Web Server",
+        "url": "https://depts.washington.edu/lmedsps/"
+      },
+      {
+        "category": "general",
+        "content": "We value the wide lens of our students’ experiences, talents and sheer brainpower. You aren’t just a GPA and a set of numbers. We …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Apply – Office of Admissions",
+        "url": "https://admit.washington.edu/Apply/"
+      },
+      {
+        "category": "general",
+        "content": "Dec 31, 2021 · The UW Medicine Communications Toolkit is a set of links to communications resources used by UW Medicine …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "UW Medicine Comm Toolkit",
+        "url": "https://depts.washington.edu/comtools/"
+      },
+      {
+        "category": "general",
+        "content": "I am a Cascadia student, UW employee, UW in the High School student or recently created a UW NetID for Foster admission exams. …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "UW NetID – Office of Admissions",
+        "url": "https://admit.washington.edu/uw-netid/"
+      },
+      {
+        "category": "general",
+        "content": "The UW College of Engineering's Industry Capstone Program partners UW ECE students with sponsor organizations to devise …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "UW Department of Electrical & Computer Engineering",
+        "url": "https://www.ee.washington.edu/"
+      },
+      {
+        "category": "general",
+        "content": "1 day ago · Quick links, news, updates, and statistics for F and J international students from International Student Services.",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "International Student Services - ISS",
+        "url": "https://iss.washington.edu/"
+      },
+      {
+        "category": "general",
+        "content": "University of Washington: Trauma Radiology Home UW Emergency Radiology Trauma Radiology Reference Resource 01. Central …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Determining Settings of Programmable VP Shunts | UW Emergency …",
+        "url": "https://faculty.washington.edu/jeff8rob/trauma-radiology-reference-resource/1-cns/determining-settings-of-programmable-vp-shunts/"
+      },
+      {
+        "category": "general",
+        "content": "The Allen School offers academic programs to undergraduate, graduate, and interdisciplinary students in computer science and …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Academic Programs & Curriculum - Paul G. Allen School of Computer ...",
+        "url": "https://www.cs.washington.edu/academics/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:41:52Z",
+  "source_url": "http://searxng:8080/search?q=Supply+Chain+cluster&format=json",
+  "status": "success",
+  "summary": "SearXNG search for Supply Chain cluster: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

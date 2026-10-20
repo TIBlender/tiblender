@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "mansfieldpediatrics.com other"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "네이버는 다양한 정보와 유용한 컨텐츠를 제공하는 대한민국 대표 포털 사이트입니다.",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "NAVER",
+        "url": "https://www.naver.com/"
+      },
+      {
+        "category": "general",
+        "content": "방문 중인 사이트에서 설명을 제공하지 않습니다.",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "www.naver.co.kr",
+        "url": "https://www.naver.co.kr/index.html"
+      },
+      {
+        "category": "general",
+        "content": "중국어 모음을 클릭 해주시면 됩니다. 한자 모양체를 선택해주세요. Copyright © NAVER Corp. All Rights Reserved.",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "네이버 사전 (NAVER dictionary)",
+        "url": "https://dict.naver.com/"
+      },
+      {
+        "category": "general",
+        "content": "5 days ago · 생성형AI를 통해 주제별로 인기 있는 콘텐츠를 자동 추출하여 요약된 정보를 보여줍니다. 일부 콘텐츠의 경우 주제와 일치하지 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "홈 : 네이버스포츠",
+        "url": "https://sports.news.naver.com/index"
+      },
+      {
+        "category": "general",
+        "content": "5 days ago · 생성형AI를 통해 주제별로 인기 있는 콘텐츠를 자동 추출하여 요약된 정보를 보여줍니다. 일부 콘텐츠의 경우 주제와 일치하지 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "네이버 엔터 - Naver",
+        "url": "https://entertain.naver.com/home"
+      },
+      {
+        "category": "general",
+        "content": "Dec 3, 2024 · 최신버전 네이버앱을 설치한 후 사용해주세요 네이버앱 설치하기 모바일웹으로 열기",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Naver - 네이버",
+        "url": "https://naverapp.m.naver.com/"
+      },
+      {
+        "category": "general",
+        "content": "영화 '가능한 사랑'의 주제가 '탐내지 말라'라는 십계명이라고 들었는데, 이 주제를 어떻게 스토리에 녹여냈는지 궁금해요. 이창동 감독님이 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "네이버 지식iN",
+        "url": "https://kin.naver.com/"
+      },
+      {
+        "category": "general",
+        "content": "모든 여정의 시작, 네이버지도",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "NAVER",
+        "url": "https://maps.naver.com/p/"
+      },
+      {
+        "category": "general",
+        "content": "1. 내 취향 콘텐츠를 주제별로 탐색해 보세요. 검색홈 하단에서 내가 좋아하는 주제를 골라 콘텐츠를 탐색할 수 있어요. 스포츠, 엔터, …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "네이버 - NAVER - Google Play 앱",
+        "url": "https://play.google.com/store/apps/details?id=com.nhn.android.search&hl=ko"
+      },
+      {
+        "category": "general",
+        "content": "Sep 16, 2025 · 네이버는 한국 인터넷 사용자의 60% 이상이 활용하는 검색엔진으로, AI 기술과 DB 기반 큐레이션을 통해 관련성 높은 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "네이버 홈페이지 바로가기 (https://www.naver.com)",
+        "url": "https://eziro.com/info/%EB%84%A4%EC%9D%B4%EB%B2%84-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:30Z",
+  "source_url": "http://searxng:8080/search?q=mansfieldpediatrics.com+other&format=json",
+  "status": "success",
+  "summary": "SearXNG search for mansfieldpediatrics.com other: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

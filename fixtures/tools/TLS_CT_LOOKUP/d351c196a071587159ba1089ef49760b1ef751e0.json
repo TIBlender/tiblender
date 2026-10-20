@@ -1,0 +1,40 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "ap-prod.apnews.com",
+      "apcdp.apnews.com",
+      "apcdpuat.apnews.com",
+      "aws-dims.apnews.com",
+      "aws-static.apnews.com",
+      "sli.apnews.com",
+      "static.ap-aws-prod.production.ap-aws.brightspot.cloud"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "apnews.com"
+  },
+  "raw": {
+    "count": 38,
+    "issuers": [],
+    "names": [
+      "apcdp.apnews.com",
+      "apcdpuat.apnews.com",
+      "aws-dims.apnews.com",
+      "aws-static.apnews.com",
+      "static.ap-aws-prod.production.ap-aws.brightspot.cloud",
+      "sli.apnews.com",
+      "ap-prod.apnews.com"
+    ],
+    "provider": "certspotter"
+  },
+  "recorded_at": "2026-09-10T12:09:04Z",
+  "source_url": "https://api.certspotter.com/v1/issuances?domain=apnews.com&include_subdomains=true&expand=dns_names",
+  "status": "success",
+  "summary": "Certificate transparency lookup for apnews.com: 38 certificate row(s); sample names=apcdp.apnews.com, apcdpuat.apnews.com, aws-dims.apnews.com, aws-static.apnews.com, static.ap-aws-prod.production.ap-aws.brightspot.cloud.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

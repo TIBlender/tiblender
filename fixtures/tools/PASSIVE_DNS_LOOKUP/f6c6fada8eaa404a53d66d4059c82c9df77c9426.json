@@ -1,0 +1,98 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "ads.elespectador.com",
+      "armstrongeconomics.com",
+      "blogs.elespectador.com",
+      "dreamcatcher-sailing.com",
+      "ecotuktuk.com",
+      "educationreview.com.au",
+      "elespectador.com",
+      "elespectador.go-vip.net",
+      "hendersondiversifiedincome.com",
+      "hendersonsmallercompanies.com",
+      "merck2-upgrade.go-vip.net",
+      "muleride.com",
+      "playstationlifestyle.net",
+      "racquetmag.com",
+      "stage.crustore.org",
+      "surfwithseanwb.com",
+      "www.educationreview.com.au",
+      "www.elespectador.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "192.0.66.91"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "192.0.66.91"
+  },
+  "raw": {
+    "malicious_count": 21,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789487841,
+        "host_name": "merck2-upgrade.go-vip.net",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789143831,
+        "host_name": "elespectador.go-vip.net",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788968933,
+        "host_name": "www.elespectador.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788945276,
+        "host_name": "ads.elespectador.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788942659,
+        "host_name": "elespectador.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:30:13Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/192.0.66.91/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 192.0.66.91: 20 resolution(s); hosts: merck2-upgrade.go-vip.net, elespectador.go-vip.net, www.elespectador.com, ads.elespectador.com, elespectador.com, blogs.elespectador.com, hendersonsmallercompanies.com, wavestone.management, stage.crustore.org, educationreview.com.au",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

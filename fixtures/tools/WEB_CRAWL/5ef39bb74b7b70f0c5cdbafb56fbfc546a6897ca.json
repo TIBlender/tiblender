@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://specterops.io/blog/2026/03/31/jamfhound-v1-1-update-sso-attack-paths-and-okta-additions/"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "JamfHound v1.1 Update: SSO Attack Paths and Okta Additions - SpecterOps We value your privacy We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customize Reject All Accept All Join us at Specter Bash for our annual training event with a Halloween twist. Register now Contact Us Support Blog Platform Services Training Community Company Resources Book a Demo Back to Blog RESEARCH & TRADECRAFT JamfHound v1.1 Update: SSO Attack Paths and Okta Additions AUTHOR Lance B. Cain READ TIME 10 mins PUBLISHED Mar 31, 2026 v1.1 Highlights How JAMF Pro Handles Single Sign-On jamf_SSOInt",
+    "javascript_rendered": true,
+    "title": "JamfHound v1.1 Update: SSO Attack Paths and Okta Additions - SpecterOps",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:20:13Z",
+  "source_url": "https://specterops.io/blog/2026/03/31/jamfhound-v1-1-update-sso-attack-paths-and-okta-additions/",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://specterops.io/blog/2026/03/31/jamfhound-v1-1-update-sso-attack-paths-and-okta-additions/. Title: JamfHound v1.1 Update: SSO Attack Paths and Okta Additions - SpecterOps. Excerpt: JamfHound v1.1 Update: SSO Attack Paths and Okta Additions - SpecterOps We value your privacy We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customize Reject All Accept All Join us at Specter Bash for our annual training event with a Halloween twist. Register now Contact Us Support Blog Platform Services Training Community Company Resources Book a Demo Back to Blog RESEARCH & TRADECRAFT JamfHound v1.1 Update: SSO Attack Paths and Okta Additions AUTHOR Lance B. Cain READ TIME 10 mins PUBLISHED Mar 31, 2026 v1.1 Highlights How JAMF Pro Handles Single Sign-On jamf_SSOInt",
+  "tool_type": "WEB_CRAWL"
+}

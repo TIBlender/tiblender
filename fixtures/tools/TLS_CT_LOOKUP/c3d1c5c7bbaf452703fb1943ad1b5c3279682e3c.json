@@ -1,0 +1,41 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "b.www.wsj.com",
+      "ore.www.wsj.com",
+      "vir.www.wsj.com",
+      "www.wsj.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.wsj.com"
+  },
+  "raw": {
+    "count": 201,
+    "issuers": [
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M04"
+    ],
+    "names": [
+      "ore.www.wsj.com",
+      "vir.www.wsj.com",
+      "b.www.wsj.com",
+      "www.wsj.com",
+      "www.wsj.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:20:12Z",
+  "source_url": "https://crt.sh/?q=%25.www.wsj.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.wsj.com: 201 certificate row(s); sample names=ore.www.wsj.com, vir.www.wsj.com, b.www.wsj.com, www.wsj.com, www.wsj.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

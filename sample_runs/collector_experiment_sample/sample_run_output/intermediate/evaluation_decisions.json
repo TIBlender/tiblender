@@ -1,0 +1,30 @@
+{
+  "cluster-252a5d11fa1a": {
+    "verdict": "PROCEED",
+    "rounds": [
+      {
+        "round_index": 1,
+        "judge": "rule-judge-a",
+        "verdict": "PROCEED",
+        "quality_score": 1.0,
+        "reason": "Independent source, IoC, and perspective evidence are sufficient for a structured TI report.",
+        "requested_followups": [],
+        "sufficiency": {
+          "score": 1.0,
+          "rationale": "Source and indicator volume were scored with the local smoke-test rubric."
+        },
+        "consistency": {
+          "score": 1.0,
+          "rationale": "Smoke-test consistency is estimated from platform count and available perspective evidence."
+        },
+        "evidence_quality": {
+          "score": 0.95,
+          "rationale": "Smoke-test evidence quality is estimated from IoC count and successful perspective coverage."
+        },
+        "follow_up_actions": []
+      }
+    ],
+    "final_quality_score": 1.0,
+    "reason": "Independent source, IoC, and perspective evidence are sufficient for a structured TI report."
+  }
+}

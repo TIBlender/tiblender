@@ -1,0 +1,70 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2026-34621"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "cve": "CVE-2026-34621"
+  },
+  "raw": {
+    "description": "Acrobat Reader versions 24.001.30356, 26.001.21367 and earlier are affected by an Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+    "id": "CVE-2026-34621",
+    "metrics": {
+      "cvssMetricV31": [
+        {
+          "cvssData": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.6,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "REQUIRED",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "exploitabilityScore": 1.8,
+          "impactScore": 6.0,
+          "source": "psirt@adobe.com",
+          "type": "Secondary"
+        }
+      ],
+      "ssvcV203": [
+        {
+          "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "ssvcData": {
+            "id": "CVE-2026-34621",
+            "options": [
+              {
+                "exploitation": "active"
+              },
+              {
+                "automatable": "no"
+              },
+              {
+                "technicalImpact": "total"
+              }
+            ],
+            "role": "CISA Coordinator",
+            "timestamp": "2026-04-11T00:00:00+00:00",
+            "version": "2.0.3"
+          }
+        }
+      ]
+    }
+  },
+  "recorded_at": "2026-09-16T05:06:53Z",
+  "source_url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2026-34621",
+  "status": "success",
+  "summary": "NVD lookup for CVE-2026-34621: Acrobat Reader versions 24.001.30356, 26.001.21367 and earlier are affected by an Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+  "tool_type": "NVD_CVE_LOOKUP"
+}

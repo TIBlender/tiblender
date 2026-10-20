@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host vote.webbyawards.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://vote.webbyawards.com/PublicVoting#/2026/podcasts/shows/public-service-activism"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:28Z",
+  "source_url": "https://vote.webbyawards.com/PublicVoting#/2026/podcasts/shows/public-service-activism",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host vote.webbyawards.com for https://vote.webbyawards.com/PublicVoting#/2026/podcasts/shows/public-service-activism",
+  "tool_type": "WEB_CRAWL"
+}

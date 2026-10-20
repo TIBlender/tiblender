@@ -1,0 +1,37 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "trend-now.org"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "trend-now.org"
+  },
+  "raw": {
+    "count": 3,
+    "issuers": [
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01"
+    ],
+    "names": [
+      "*.trend-now.org",
+      "trend-now.org",
+      "*.trend-now.org",
+      "trend-now.org",
+      "*.trend-now.org",
+      "trend-now.org"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:08:54Z",
+  "source_url": "https://crt.sh/?q=%25.trend-now.org&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for trend-now.org: 3 certificate row(s); sample names=*.trend-now.org, trend-now.org, *.trend-now.org, trend-now.org, *.trend-now.org.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

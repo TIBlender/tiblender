@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.elastic.co"
+    ],
+    "hashes": [],
+    "ips": [
+      "13.32.67.180",
+      "146.75.118.217",
+      "146.75.122.217",
+      "151.101.122.217",
+      "151.101.130.132",
+      "151.101.130.217",
+      "151.101.194.132",
+      "151.101.194.217",
+      "151.101.2.132",
+      "151.101.2.217",
+      "151.101.210.217",
+      "151.101.22.217",
+      "151.101.246.217",
+      "151.101.38.217",
+      "151.101.66.132",
+      "151.101.66.217",
+      "167.82.22.132",
+      "167.82.50.132",
+      "199.232.18.217",
+      "199.232.254.217"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.elastic.co"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1781875965,
+        "host_name": "www.elastic.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "167.82.22.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1781608083,
+        "host_name": "www.elastic.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "167.82.50.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1779126544,
+        "host_name": "www.elastic.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.2.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1779126538,
+        "host_name": "www.elastic.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.194.132",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1779126530,
+        "host_name": "www.elastic.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.66.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:13:36Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.elastic.co/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.elastic.co: 20 resolution(s); addresses: 167.82.22.132, 167.82.50.132, 151.101.2.132, 151.101.194.132, 151.101.66.132, 151.101.130.132, 151.101.22.217, 146.75.118.217, 199.232.18.217, 146.75.122.217",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

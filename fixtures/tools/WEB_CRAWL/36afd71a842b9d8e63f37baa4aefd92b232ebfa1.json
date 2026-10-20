@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host omny.fm is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://omny.fm/shows/the-daily-zeitgeist/no-allies-is-good-big-tech-wins-even-when-they-lose-04-01-26"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:05Z",
+  "source_url": "https://omny.fm/shows/the-daily-zeitgeist/no-allies-is-good-big-tech-wins-even-when-they-lose-04-01-26",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host omny.fm for https://omny.fm/shows/the-daily-zeitgeist/no-allies-is-good-big-tech-wins-even-when-they-lose-04-01-26",
+  "tool_type": "WEB_CRAWL"
+}

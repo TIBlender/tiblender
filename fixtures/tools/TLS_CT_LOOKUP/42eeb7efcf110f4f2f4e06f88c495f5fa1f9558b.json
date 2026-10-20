@@ -1,0 +1,43 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "securityaid.co.uk"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "securityaid.co.uk"
+  },
+  "raw": {
+    "count": 19,
+    "issuers": [
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36",
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36",
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36",
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36",
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV R36"
+    ],
+    "names": [
+      "*.securityaid.co.uk",
+      "securityaid.co.uk",
+      "*.securityaid.co.uk",
+      "securityaid.co.uk",
+      "*.securityaid.co.uk",
+      "securityaid.co.uk",
+      "*.securityaid.co.uk",
+      "securityaid.co.uk",
+      "*.securityaid.co.uk",
+      "securityaid.co.uk"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:08:48Z",
+  "source_url": "https://crt.sh/?q=%25.securityaid.co.uk&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for securityaid.co.uk: 19 certificate row(s); sample names=*.securityaid.co.uk, securityaid.co.uk, *.securityaid.co.uk, securityaid.co.uk, *.securityaid.co.uk.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

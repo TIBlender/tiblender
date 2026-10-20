@@ -1,0 +1,36 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.ncsc.gov.uk"
+  },
+  "raw": {
+    "count": 55,
+    "issuers": [
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Google Trust Services, CN=WE1"
+    ],
+    "names": [
+      "www.ncsc.gov.uk",
+      "www.ncsc.gov.uk",
+      "www.ncsc.gov.uk",
+      "www.ncsc.gov.uk",
+      "www.ncsc.gov.uk"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:15:31Z",
+  "source_url": "https://crt.sh/?q=%25.www.ncsc.gov.uk&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.ncsc.gov.uk: 55 certificate row(s); sample names=www.ncsc.gov.uk, www.ncsc.gov.uk, www.ncsc.gov.uk, www.ncsc.gov.uk, www.ncsc.gov.uk.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

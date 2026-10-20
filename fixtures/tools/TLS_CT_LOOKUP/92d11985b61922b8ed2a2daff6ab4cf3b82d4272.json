@@ -1,0 +1,43 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "gampangjepehcgk.pages.dev"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "gampangjepehcgk.pages.dev"
+  },
+  "raw": {
+    "count": 17,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=YE1"
+    ],
+    "names": [
+      "*.gampangjepehcgk.pages.dev",
+      "gampangjepehcgk.pages.dev",
+      "*.gampangjepehcgk.pages.dev",
+      "gampangjepehcgk.pages.dev",
+      "*.gampangjepehcgk.pages.dev",
+      "gampangjepehcgk.pages.dev",
+      "*.gampangjepehcgk.pages.dev",
+      "gampangjepehcgk.pages.dev",
+      "*.gampangjepehcgk.pages.dev",
+      "gampangjepehcgk.pages.dev"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:06:41Z",
+  "source_url": "https://crt.sh/?q=%25.gampangjepehcgk.pages.dev&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for gampangjepehcgk.pages.dev: 17 certificate row(s); sample names=*.gampangjepehcgk.pages.dev, gampangjepehcgk.pages.dev, *.gampangjepehcgk.pages.dev, gampangjepehcgk.pages.dev, *.gampangjepehcgk.pages.dev.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

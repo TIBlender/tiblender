@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "新宿駅西口5分｜サンデンタルクリニック：歯科統合治療で自然治癒力を最大限に。鍼灸・漢方・整体等も導入し、心身の健康と予 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "サンデンタルクリニック | 新宿駅西口徒歩5分の歯医者さん",
+        "url": "https://sundentalclinic.jp/"
+      },
+      {
+        "category": "general",
+        "content": "Jun 30, 2026 · 1987年 (昭和62年) (医)明徳会福岡歯科サンデンタルクリニック院長就任 1989年 (平成元年) 同大学より医学博士号を …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "スタッフ紹介 | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/about/staff/"
+      },
+      {
+        "category": "general",
+        "content": "Jul 17, 2026 · 2026年8月の休診日は以下になります。 8月2日(日) 8月11日(祝・火) 8月16日(日) 8月30日( 03-3348-578503-3346-1081 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "2026年8月の休診日 | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/news/4766/"
+      },
+      {
+        "category": "general",
+        "content": "Aug 6, 2026 · 2026年9月の休診日は以下になります。 9月6日(日) 9月20日(日) 9月21日(月・祝) 9月22日( 03-3348-578503-3346 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "2026年9月の休診日 | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/news/5169/"
+      },
+      {
+        "category": "general",
+        "content": "Mar 29, 2025 · ホワイトニングとは ホワイトニング治療は歯を削ることなく白く出来る治療法なので、広く行われています。 以前 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "ホワイトニング | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/menu/whitenning/"
+      },
+      {
+        "category": "general",
+        "content": "Oct 12, 2021 · スタッフ紹介 TOP 医院案内 ABOUT 診療案内 MENU アクセス ACCESS よくあるご質問 FAQ サンデンタル通信 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "医院案内 | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/about/"
+      },
+      {
+        "category": "general",
+        "content": "Mar 29, 2025 · 添加物を一切用いないため、完全自己血液由来のゲル素材といえます。 サンデンタルクリニックではCTとCAD/CAM …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "インプラント治療について | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/menu/implant/"
+      },
+      {
+        "category": "general",
+        "content": "Jun 3, 2022 · ぜひ定期的に検診をされることをお勧めします。 もし虫歯が見つかっても、初期の段階で治療を行うことにより、痛 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "よくあるご質問 | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/faq/"
+      },
+      {
+        "category": "general",
+        "content": "Mar 29, 2025 · 何より、気持ちよくリラックスして治療を受けて頂くことができ、治療の最中に眠ってしまわれる方も多くいらっ …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "当院が選ばれる理由 | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/about/reason/"
+      },
+      {
+        "category": "general",
+        "content": "Oct 12, 2021 · 03-3348-578503-3346-1081 mei-yu-stec@sundentalclinic.net当院に分院はございませんのでご注意ください。",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "診療科目 | サンデンタルクリニック",
+        "url": "https://sundentalclinic.jp/menu/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:47:08Z",
+  "source_url": "http://searxng:8080/search?q=92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a+malware&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

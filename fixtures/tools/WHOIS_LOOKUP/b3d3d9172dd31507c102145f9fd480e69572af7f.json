@@ -1,0 +1,255 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "trend-now.org"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "trend-now.org"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  ""
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+1.2024422253"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "trustandsafety@support.aws.com"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "468",
+        "links": [
+          {
+            "href": "https://rdap.publicinterestregistry.org/rdap/entity/468",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.publicinterestregistry.org/rdap/entity/468"
+          },
+          {
+            "href": "https://rdap.registrar.amazon.com/rdap/",
+            "rel": "about",
+            "type": "application/rdap+json",
+            "value": "https://rdap.registrar.amazon.com/rdap/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "468",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Amazon Registrar, Inc."
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "expiration",
+        "eventDate": "2026-10-04T07:07:44.045Z"
+      },
+      {
+        "eventAction": "registration",
+        "eventDate": "2025-10-04T07:07:44.045Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-08-12T06:43:45.904Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-15T00:56:26.152Z"
+      }
+    ],
+    "ldhName": "trend-now.org",
+    "links": [
+      {
+        "href": "https://rdap.registrar.amazon.com/rdap/domain/trend-now.org",
+        "rel": "related",
+        "type": "application/rdap+json",
+        "value": "https://rdap.publicinterestregistry.org/rdap/domain/trend-now.org"
+      },
+      {
+        "href": "https://rdap.publicinterestregistry.org/rdap/domain/trend-now.org",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.publicinterestregistry.org/rdap/domain/trend-now.org"
+      }
+    ],
+    "nameservers": [
+      {
+        "handle": "873d6fc8b2f4446d98f9ce0e954fee08-LROR",
+        "ipAddresses": {
+          "v4": [
+            "205.251.197.120"
+          ],
+          "v6": [
+            "2600:9000:5305:7800::1"
+          ]
+        },
+        "ldhName": "ns-1400.awsdns-47.org",
+        "objectClassName": "nameserver",
+        "status": [
+          "associated"
+        ],
+        "unicodeName": "ns-1400.awsdns-47.org"
+      },
+      {
+        "handle": "1e2e18bc0fb84b49b9b3997a488694f7-LROR",
+        "ldhName": "ns-1806.awsdns-33.co.uk",
+        "objectClassName": "nameserver",
+        "status": [
+          "associated"
+        ],
+        "unicodeName": "ns-1806.awsdns-33.co.uk"
+      },
+      {
+        "handle": "bbf479a18cb945a98730b4e0853302fa-LROR",
+        "ldhName": "ns-359.awsdns-44.com",
+        "objectClassName": "nameserver",
+        "status": [
+          "associated"
+        ],
+        "unicodeName": "ns-359.awsdns-44.com"
+      },
+      {
+        "handle": "195f89ba8d24446ab685d475efd653ec-LROR",
+        "ldhName": "ns-600.awsdns-11.net",
+        "objectClassName": "nameserver",
+        "status": [
+          "associated"
+        ],
+        "unicodeName": "ns-600.awsdns-11.net"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "Public Interest Registry provides this RDAP service for informational purposes only, and to assist persons in obtaining information about or related to a domain name registration record. Public Interest Registry does not guarantee its accuracy. Users accessing the Public Interest Registry RDAP service agree to use the data only for lawful purposes, and under no circumstances may this data be used to: a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the registrar's own existing customers and b) enable high volume, automated, electronic processes that send queries or data to the systems of Public Interest Registry or any ICANN-accredited registrar, except as reasonably necessary to register domain names or modify existing registrations. When using the Public Interest Registry RDAP service, please consider the following: the RDAP service is not a replacement for standard EPP commands to the SRS service. RDAP is not considered authoritative for registered domain objects. The RDAP service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the RDAP services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of RDAP service access. Abuse of the RDAP system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the RDAP records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis for accessing the withheld data. Access to this data can be requested by submitting a request to WHOISrequest@pir.org. Public Interest Registry Inc. reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy."
+        ],
+        "links": [
+          {
+            "href": "https://thenew.org/org-people/about-pir/policies/",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.publicinterestregistry.org/rdap/domain/trend-now.org"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "application/rdap+json",
+            "value": "https://rdap.publicinterestregistry.org/rdap/domain/trend-now.org"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "type": "application/rdap+json",
+            "value": "https://rdap.publicinterestregistry.org/rdap/domain/trend-now.org"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_response_profile_1",
+      "icann_rdap_technical_implementation_guide_1",
+      "redacted"
+    ],
+    "redacted": [
+      {
+        "method": "removal",
+        "name": {
+          "type": "Registry Domain ID"
+        },
+        "pathLang": "jsonpath",
+        "prePath": "$.handle"
+      }
+    ],
+    "secureDNS": {
+      "delegationSigned": false,
+      "maxSigLife": 1
+    },
+    "status": [
+      "active"
+    ],
+    "unicodeName": "trend-now.org"
+  },
+  "recorded_at": "2026-09-15T00:56:26Z",
+  "source_url": "https://rdap.publicinterestregistry.org/rdap/domain/trend-now.org",
+  "status": "success",
+  "summary": "RDAP domain lookup for trend-now.org: handle=n/a; status=active; nameservers=ns-1400.awsdns-47.org,ns-1806.awsdns-33.co.uk,ns-359.awsdns-44.com,ns-600.awsdns-11.net; events=expiration=2026-10-04T07:07:44.045Z; registration=2025-10-04T07:07:44.045Z; last changed=2026-08-12T06:43:45.904Z; last update of RDAP database=2026-09-15T00:56:26.152Z; entities=468.",
+  "tool_type": "WHOIS_LOOKUP"
+}

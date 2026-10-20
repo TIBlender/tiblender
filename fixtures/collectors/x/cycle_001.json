@@ -1,0 +1,323 @@
+{
+  "notes": {
+    "noise_post_refs": [
+      "TIBLENDER-2026-03-17-76f8cab684e42e71-35db711f:p3",
+      "TIBLENDER-2026-03-24-08b4ffb2df969e47-0b8bc1d7:p5",
+      "TIBLENDER-2026-03-24-3d70e4de4dfc5998-c199ac38:p3",
+      "TIBLENDER-2026-03-25-3b6f1dfa94696319-069df8a7:p5",
+      "TIBLENDER-2026-03-25-57a16249db9a4247-226e7f0f:p11",
+      "TIBLENDER-2026-04-12-e97a5df62a933274-0f15a0cc:p2"
+    ]
+  },
+  "platform": "x",
+  "posts": [
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+      "source_ref": "TIBLENDER-2026-03-23-10a9a091f0e6f2f6-7e283510:p5",
+      "timestamp": "2026-03-22T18:02:52Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+      "source_ref": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f:p1",
+      "timestamp": "2026-03-23T05:39:22Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+      "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p1",
+      "timestamp": "2026-03-23T07:51:44Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+      "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p7",
+      "timestamp": "2026-03-23T07:59:24Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+      "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p6",
+      "timestamp": "2026-03-23T08:53:28Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+      "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p3",
+      "timestamp": "2026-03-23T09:04:36Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+      "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p5",
+      "timestamp": "2026-03-23T09:10:51Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-23-08b4ffb2df969e47-0b8bc1d7",
+      "source_ref": "TIBLENDER-2026-03-24-08b4ffb2df969e47-0b8bc1d7:p5",
+      "timestamp": "2026-03-23T16:10:03Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-03-24-57a16249db9a4247-226e7f0f",
+      "source_ref": "TIBLENDER-2026-03-25-57a16249db9a4247-226e7f0f:p11",
+      "timestamp": "2026-03-24T19:42:49Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+      "source_ref": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5:p2",
+      "timestamp": "2026-03-24T22:52:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "x",
+      "report_id": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b",
+      "source_ref": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b:p3",
+      "timestamp": "2026-03-25T03:40:00Z"
+    }
+  ],
+  "provenance": "anonymized_dataset_excerpt",
+  "responses": [
+    {
+      "payload": {
+        "data": [
+          {
+            "author_id": "926636298014",
+            "created_at": "2026-03-22T18:02:52.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "143367603358986788",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "Codex Security、研究プレビューで公開。複雑な脆弱性を検知・パッチ適用する AI セキュリティエージェントの具体的なスペックと特徴を解説します。 ・VRAM: 8GB RTX 3070 環境で動作確認済み、INT4 量子化対応により低スペックでも利用可能 ・速度: 従来手法比 2.3 倍高速化、レイテンシ 150ms [Attached Media]"
+          },
+          {
+            "author_id": "510797235176",
+            "created_at": "2026-03-23T07:51:44.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "980935269115663842",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems hxxps://securityaid[.]co[.]uk/?p=40004&feed_id=61957"
+          },
+          {
+            "author_id": "817937374947",
+            "created_at": "2026-03-23T07:59:24.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "995369183416875580",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html"
+          },
+          {
+            "author_id": "666634945352",
+            "created_at": "2026-03-23T08:53:28.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "324619447491591708",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html #CyberSecurity"
+          },
+          {
+            "author_id": "249572856706",
+            "created_at": "2026-03-23T09:04:36.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "704446104151847663",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "كشفت تقارير أمنية عن استغلال نشط لثغرة حرجة تحمل المعرف CVE-2025-32975 في أنظمة Quest KACE SMA، والتي تتيح للمهاجمين تجاوز المصادقة والسيطرة على الحسابات الإدارية دون الحاجة لبيانات دخول. 📌 للتفاصيل راجع hxxps://securityaid[.]co[.]uk/?p=40004"
+          },
+          {
+            "author_id": "885372572175",
+            "created_at": "2026-03-23T09:10:51.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "181316282640047851",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "🚨 Critical Alert! Hackers are actively exploiting CVE-2025-32975 (CVSS 10.0) to hijack unpatched Quest KACE SMA systems. Patch immediately to avoid compromise! #CyberSecurity #CVE https://thehackernews.com/article/2025/03/cve-2025-32975-quest-kace-sma-rce-vulnerability/"
+          },
+          {
+            "author_id": "726656548151",
+            "created_at": "2026-03-24T22:52:00.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "619543035644590993",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "GitHub repos Revnin/CCTV-MACHINE, vxqs/Lenovo-CVE-2025-8061, and 4chech/CVE-2026-41242 all dropped on April 27, 2026 in UTC+09:00 hours after CVE-2026-41242 hit, with PoCs for ZoneMinder SQLi, Lenovo driver flaws, and protobufjs code injection. #CVE-2024-51482 #CVE-2025-8061 #CVE-2026-41242"
+          },
+          {
+            "author_id": "742152456411",
+            "created_at": "2026-03-25T03:40:00.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "801759152763187303",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "Exploits dropping fast: smooth-pentest-agent and CVE-2025-8061 hit sploitus on Apr 26, then GitHub repos for ZoneMinder CVE-2024-51482, Lenovo CVE-2025-8061, and protobufjs CVE-2026-41242 by 27th. Rapid weaponization alert! #CVE #Exploits"
+          },
+          {
+            "author_id": "508798553928",
+            "created_at": "2026-03-23T05:39:22.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "109014866745231577",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "The FBI and CISA warned that Russian-linked actors are impersonating customer support on apps like Signal to carry out phishing attacks and compromise user accounts. https://www.theregister.com/2026/03/22/russian_messaging_support_phishing_scam/ #FBI #CISA #Russia #Signal #Phishing #CyberSecurity #CybersecurityNews #[AUTHOR_REDACTED]"
+          },
+          {
+            "author_id": "472094587722",
+            "created_at": "2026-03-24T19:42:49.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "967028611795610501",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "Today’s LiteLLM supply chain compromise is a reminder: AI systems aren’t just vulnerable at the model layer. Supply chain attacks widen the blast radius fast. Because compromised code runs in the same environment as your AI apps."
+          },
+          {
+            "author_id": "635825028069",
+            "created_at": "2026-03-23T16:10:03.000Z",
+            "entities": {
+              "urls": []
+            },
+            "id": "395568156705739216",
+            "lang": "en",
+            "public_metrics": {
+              "like_count": 0,
+              "retweet_count": 0
+            },
+            "text": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM #malware https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html"
+          }
+        ],
+        "includes": {
+          "users": [
+            {
+              "id": "926636298014",
+              "username": "u4927efe3"
+            },
+            {
+              "id": "510797235176",
+              "username": "u391fd339"
+            },
+            {
+              "id": "817937374947",
+              "username": "uf8b841c4"
+            },
+            {
+              "id": "666634945352",
+              "username": "uf921782c"
+            },
+            {
+              "id": "249572856706",
+              "username": "u791f0eeb"
+            },
+            {
+              "id": "885372572175",
+              "username": "u69a86be2"
+            },
+            {
+              "id": "726656548151",
+              "username": "u112c5c86"
+            },
+            {
+              "id": "742152456411",
+              "username": "u4b379ecb"
+            },
+            {
+              "id": "508798553928",
+              "username": "uc333045c"
+            },
+            {
+              "id": "472094587722",
+              "username": "u60ddf540"
+            },
+            {
+              "id": "635825028069",
+              "username": "u717da2df"
+            }
+          ]
+        },
+        "meta": {
+          "result_count": 11
+        }
+      },
+      "request": {
+        "endpoint": "tweets/search/recent",
+        "query": "artifact"
+      }
+    }
+  ],
+  "source_reports": [
+    "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+    "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+    "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+    "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+    "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b"
+  ],
+  "window": {
+    "cycle_index": 1,
+    "end": "2026-03-25T23:59:59Z",
+    "label": "cycle_001",
+    "start": "2026-03-22T00:00:00Z"
+  }
+}

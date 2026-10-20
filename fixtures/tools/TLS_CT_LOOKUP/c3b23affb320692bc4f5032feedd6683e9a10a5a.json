@@ -1,0 +1,44 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "academy.specterops.io",
+      "int.ops.specterops.io",
+      "ops.specterops.io",
+      "pay.specterops.io",
+      "support.specterops.io",
+      "swag.specterops.io"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "specterops.io"
+  },
+  "raw": {
+    "count": 1054,
+    "issuers": [
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=YE2"
+    ],
+    "names": [
+      "pay.specterops.io",
+      "academy.specterops.io",
+      "*.int.ops.specterops.io",
+      "*.ops.specterops.io",
+      "swag.specterops.io",
+      "support.specterops.io"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:11:56Z",
+  "source_url": "https://crt.sh/?q=%25.specterops.io&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for specterops.io: 1054 certificate row(s); sample names=pay.specterops.io, academy.specterops.io, *.int.ops.specterops.io, *.ops.specterops.io, swag.specterops.io.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

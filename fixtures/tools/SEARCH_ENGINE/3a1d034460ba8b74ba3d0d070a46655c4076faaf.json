@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "microsoft zero-day"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "NAVER（네이버）是韩国著名门户/搜索引擎网站，其Logo为一顶草帽，于1999年6月正式投入使用。 使用独有的搜索引擎，并且在韩 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "naver - 知乎",
+        "url": "https://www.zhihu.com/topic/19566912/intro"
+      },
+      {
+        "category": "general",
+        "content": "韩国比较著名的网络文学网站是NAVER웹소설。 （네이버 웹소설） 11区 素以动漫闻名，但是网络小说在青少年中还是很有市场的。 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "国外有类似国内『起点』网络小说网站吗？ - 知乎",
+        "url": "https://www.zhihu.com/question/20634843"
+      },
+      {
+        "category": "general",
+        "content": "Sep 14, 2016 · 看到问题我去韩国的门户网站네이버搜索了一下부산행 좀비 원인（釜山行出现僵尸的原因），找了一篇赞同较高的答案 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "电影《釜山行》中的丧尸病毒是怎么来的？ - 知乎",
+        "url": "https://www.zhihu.com/question/50559070"
+      },
+      {
+        "category": "general",
+        "content": "Aug 18, 2026 · 弟弟举报哥哥冒名顶替上大学，母亲自说自话，不能信，妈妈才是整件事情的罪恶之源。这个妈妈太会算计了，算计了 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "弟弟举报哥哥冒名顶替上大学案开庭，母亲首发声，湘潭大学 ...",
+        "url": "https://www.zhihu.com/question/2073017538514871592"
+      },
+      {
+        "category": "general",
+        "content": "韩国naver电商平台是现在热门的蓝海电商平台之一，小编也是看到有不少卖家朋友在关注naver平台。 naver现在也是支持中国卖家入 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "naver怎么设置语言为中文呀？",
+        "url": "https://www.zhihu.com/tardis/bd/ans/2798147623"
+      },
+      {
+        "category": "general",
+        "content": "如题 1.naver平台一般会给你三个解封的方式让你选择（你账号已经绑定手机and邮箱的情况下）（啰嗦一句，naver账号申请后一定要 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Naver账号如何解封？ - 知乎",
+        "url": "https://www.zhihu.com/question/325787437"
+      },
+      {
+        "category": "general",
+        "content": "随着《牛来》热度越来越高，大家心里最好奇的一件事也慢慢冒了出来： 一千万的票房，看着数字不小，一层层分完后，最后真正能 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "电影《牛来》票房突破1000万大关，导演能到手多少钱？ - 知乎",
+        "url": "https://www.zhihu.com/question/2072655813127280205"
+      },
+      {
+        "category": "general",
+        "content": "네이버 카페 – Naver Cafe on the App Store 查看全部内容",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Naver Cafe - 知乎",
+        "url": "https://www.zhihu.com/topic/19804452/intro"
+      },
+      {
+        "category": "general",
+        "content": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "有问题，就会有答案 - 知乎",
+        "url": "https://www.zhihu.com/?lang=zh-Hant"
+      },
+      {
+        "category": "general",
+        "content": "知乎话题广场，汇聚多样化主题，助您探索知识、分享见解。",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "话题广场 - 知乎",
+        "url": "https://www.zhihu.com/topics"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:48Z",
+  "source_url": "http://searxng:8080/search?q=microsoft+zero-day&format=json",
+  "status": "success",
+  "summary": "SearXNG search for microsoft zero-day: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

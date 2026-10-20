@@ -1,0 +1,70 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2024-51482"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "cve": "CVE-2024-51482"
+  },
+  "raw": {
+    "description": "ZoneMinder is a free, open source closed-circuit television software application. ZoneMinder v1.37.* <= 1.37.64 is vulnerable to boolean-based SQL Injection in function of web/ajax/event.php. This is fixed in 1.37.65.",
+    "id": "CVE-2024-51482",
+    "metrics": {
+      "cvssMetricV31": [
+        {
+          "cvssData": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.9,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "exploitabilityScore": 3.1,
+          "impactScore": 6.0,
+          "source": "security-advisories@github.com",
+          "type": "Secondary"
+        }
+      ],
+      "ssvcV203": [
+        {
+          "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "ssvcData": {
+            "id": "CVE-2024-51482",
+            "options": [
+              {
+                "exploitation": "poc"
+              },
+              {
+                "automatable": "no"
+              },
+              {
+                "technicalImpact": "total"
+              }
+            ],
+            "role": "CISA Coordinator",
+            "timestamp": "2024-10-31T19:38:43.424341Z",
+            "version": "2.0.3"
+          }
+        }
+      ]
+    }
+  },
+  "recorded_at": "2026-09-16T05:06:09Z",
+  "source_url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2024-51482",
+  "status": "success",
+  "summary": "NVD lookup for CVE-2024-51482: ZoneMinder is a free, open source closed-circuit television software application. ZoneMinder v1.37.* <= 1.37.64 is vulnerable to boolean-based SQL Injection in function of web/ajax/event.php. This is fixed in 1.37.65.",
+  "tool_type": "NVD_CVE_LOOKUP"
+}

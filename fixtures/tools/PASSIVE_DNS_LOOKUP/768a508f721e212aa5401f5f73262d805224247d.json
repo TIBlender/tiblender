@@ -1,0 +1,92 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "1iinch.gr.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.207.76.72",
+      "107.189.17.124",
+      "107.189.19.66",
+      "153.76.122.152",
+      "185.53.179.136",
+      "191.44.114.185",
+      "209.74.82.247",
+      "45.144.175.115",
+      "45.88.90.88",
+      "89.125.169.73",
+      "89.125.17.164",
+      "91.108.239.14"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "1iinch.gr.com"
+  },
+  "raw": {
+    "malicious_count": 132,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1782995094,
+        "host_name": "1iinch.gr.com",
+        "host_name_malicious": 9,
+        "host_name_suspicious": 1,
+        "ip_address": "185.53.179.136",
+        "ip_address_malicious": 11,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782992795,
+        "host_name": "1iinch.gr.com",
+        "host_name_malicious": 9,
+        "host_name_suspicious": 1,
+        "ip_address": "153.76.122.152",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782962824,
+        "host_name": "1iinch.gr.com",
+        "host_name_malicious": 9,
+        "host_name_suspicious": 1,
+        "ip_address": "107.189.19.66",
+        "ip_address_malicious": 2,
+        "ip_address_suspicious": 3,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782530973,
+        "host_name": "1iinch.gr.com",
+        "host_name_malicious": 9,
+        "host_name_suspicious": 1,
+        "ip_address": "89.125.17.164",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782500892,
+        "host_name": "1iinch.gr.com",
+        "host_name_malicious": 9,
+        "host_name_suspicious": 1,
+        "ip_address": "107.189.17.124",
+        "ip_address_malicious": 2,
+        "ip_address_suspicious": 3,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 28,
+    "total_count": 12
+  },
+  "recorded_at": "2026-09-16T05:07:08Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/1iinch.gr.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 1iinch.gr.com: 12 resolution(s); addresses: 185.53.179.136, 153.76.122.152, 107.189.19.66, 89.125.17.164, 107.189.17.124, 91.108.239.14, 89.125.169.73, 209.74.82.247, 191.44.114.185, 45.144.175.115",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,90 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2023-23397"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "cve": "CVE-2023-23397"
+  },
+  "raw": {
+    "description": "Microsoft Outlook Elevation of Privilege Vulnerability",
+    "id": "CVE-2023-23397",
+    "metrics": {
+      "cvssMetricV31": [
+        {
+          "cvssData": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "exploitabilityScore": 3.9,
+          "impactScore": 5.9,
+          "source": "secure@microsoft.com",
+          "type": "Secondary"
+        },
+        {
+          "cvssData": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "exploitabilityScore": 3.9,
+          "impactScore": 5.9,
+          "source": "nvd@nist.gov",
+          "type": "Primary"
+        }
+      ],
+      "ssvcV203": [
+        {
+          "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "ssvcData": {
+            "id": "CVE-2023-23397",
+            "options": [
+              {
+                "exploitation": "active"
+              },
+              {
+                "automatable": "no"
+              },
+              {
+                "technicalImpact": "total"
+              }
+            ],
+            "role": "CISA Coordinator",
+            "timestamp": "2024-03-21T18:47:26.732010Z",
+            "version": "2.0.3"
+          }
+        }
+      ]
+    }
+  },
+  "recorded_at": "2026-09-16T06:31:07Z",
+  "source_url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2023-23397",
+  "status": "success",
+  "summary": "NVD lookup for CVE-2023-23397: Microsoft Outlook Elevation of Privilege Vulnerability",
+  "tool_type": "NVD_CVE_LOOKUP"
+}

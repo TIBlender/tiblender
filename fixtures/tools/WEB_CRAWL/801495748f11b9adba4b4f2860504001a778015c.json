@@ -1,0 +1,35 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2025-59512",
+      "CVE-2026-21508",
+      "CVE-2026-21510",
+      "CVE-2026-27912",
+      "CVE-2026-40362"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://blog.0patch.com/2026/03/micropatches-released-for-windows.html"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Micropatches released for Windows Storage Elevation of Privilege Vulnerability (CVE-2026-21508) Keeping Microsoft Office 2021 Secure For 3 More Years (Or Even Longer) Learn more Help center Sign in Windows 10 / Patches / Pricing / Blog / Partners / Resources Questions? Buy now Micropatches released for Windows Storage Elevation of Privilege Vulnerability (CVE-2026-21508) Mitja Kolšek Mar 31, 2026 February 2026 Windows Updates brought a patch for CVE-2026-21508, a local privilege escalation vulnerability in Windows Storage component allowing a low-privileged local user to run arbitrary code as Local System. The vulnerability was found and reported to Microsoft by security researcher Oscar Zan",
+    "javascript_rendered": true,
+    "title": "Micropatches released for Windows Storage Elevation of Privilege Vulnerability (CVE-2026-21508)",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:17:49Z",
+  "source_url": "https://0patch.com/blog/micropatches-released-for-windows-storage-elevation-of-privilege-vulnerability-cv",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://0patch.com/blog/micropatches-released-for-windows-storage-elevation-of-privilege-vulnerability-cv. Title: Micropatches released for Windows Storage Elevation of Privilege Vulnerability (CVE-2026-21508). Excerpt: Micropatches released for Windows Storage Elevation of Privilege Vulnerability (CVE-2026-21508) Keeping Microsoft Office 2021 Secure For 3 More Years (Or Even Longer) Learn more Help center Sign in Windows 10 / Patches / Pricing / Blog / Partners / Resources Questions? Buy now Micropatches released for Windows Storage Elevation of Privilege Vulnerability (CVE-2026-21508) Mitja Kolšek Mar 31, 2026 February 2026 Windows Updates brought a patch for CVE-2026-21508, a local privilege escalation vulnerability in Windows Storage component allowing a low-privileged local user to run arbitrary code as Local System. The vulnerability was found and reported to Microsoft by security researcher Oscar Zan",
+  "tool_type": "WEB_CRAWL"
+}

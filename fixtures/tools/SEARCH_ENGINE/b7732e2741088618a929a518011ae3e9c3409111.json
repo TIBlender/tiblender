@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "yvngvualr.com other"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Aug 27, 2026 · 브랜드사이트 하나네트워크 글로벌네트워크 하나은행 SNS 고객센터 1588-1111 / 1599-1111 고객센터 (해외) +82-42-520 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "하나은행",
+        "url": "https://www.kebhana.com/"
+      },
+      {
+        "category": "general",
+        "content": "방문 중인 사이트에서 설명을 제공하지 않습니다.",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "하나은행",
+        "url": "https://www.hanabank.com/common/login.do"
+      },
+      {
+        "category": "general",
+        "content": "May 16, 2024 · ⓒ Hana Bank. All rights reserved. 고객센터 1599-1111 해외 82-42-520-2500",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "KEB하나은행",
+        "url": "https://www.kebhana.com/easyone_index_ko.html"
+      },
+      {
+        "category": "general",
+        "content": "Sep 12, 2025 · 기업인터넷뱅킹, 조회, 이체, 결재함,외환,수출입,B2B전자결제등 제공.",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "메인 < 하나은행 기업뱅킹 [ocp4-72008]",
+        "url": "http://biz.kebhana.com/"
+      },
+      {
+        "category": "general",
+        "content": "1 영업점을 직접 방문하지 않아도 되므로, 빠르고 편리하게 이용할 수 있습니다. 2 계좌를 직접 입력하지 않아도 되며, 클릭만으로 모든 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "인터넷뱅킹 혜택 < 인터넷뱅킹 < 이용안내 < 하나은행",
+        "url": "https://www.hanabank.com/cont/info/info01/info0107/index.jsp"
+      },
+      {
+        "category": "general",
+        "content": "외환 전문은행, 하나은행 - 200여 개국으로 빠르고 안전한 해외송금 - 알뜰하게 환전하고 바로 찾는 환전지갑 - USD, EUR, JPY 등 27개국 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "하나은행, 새로워진 하나원큐를 경험해보세요 - Google Play 앱",
+        "url": "https://play.google.com/store/apps/details?id=com.hanabank.oqf&hl=ko"
+      },
+      {
+        "category": "general",
+        "content": "하나은행/외환은행 합병은 언제되나요? 2015년 8월 19일 금융위원회 합병 본인가 최종 승인을 받았으며, 통합은행 출범은 9월 1일로 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "KEB하나은행",
+        "url": "https://banking.kebhana.com/kebhana/info/index.jsp"
+      },
+      {
+        "category": "general",
+        "content": "Aug 22, 2026 · 2020년 2월 3일, 합병 4년 반 만에 KEB하나은행에서 통합 이전의 명칭인 하나은행으로 회귀했다. 고객 입장에서 KEB …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "하나은행 - 나무위키",
+        "url": "https://namu.wiki/w/%ED%95%98%EB%82%98%EC%9D%80%ED%96%89"
+      },
+      {
+        "category": "general",
+        "content": "빠르고 간편한 KEB 하나은행 조회 서비스를 이용하세요.",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "빠른조회서비스 < KEB 하나은행",
+        "url": "https://biz.kebhana.com/cont/adm/redirect/quick_service.jsp"
+      },
+      {
+        "category": "general",
+        "content": "Growing Together, Sharing Happiness 금융의 NEXT를 선도할 여러분을 기다립니다.",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "하나은행 채용사이트",
+        "url": "https://hanabank.recruiter.co.kr/career/home"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:50Z",
+  "source_url": "http://searxng:8080/search?q=yvngvualr.com+other&format=json",
+  "status": "success",
+  "summary": "SearXNG search for yvngvualr.com other: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

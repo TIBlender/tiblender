@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "CVE-2026-21508 exploitation"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "CVEにはCVE互換認定の制度があり、脆弱性検査ツールや脆弱性対策情報提供サービス等がCVE識別番号の正確な表示、適切な関 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "共通脆弱性識別子CVE概説 | 情報セキュリティ | IPA 独立行政 ...",
+        "url": "https://www.ipa.go.jp/security/vuln/scap/cve.html"
+      },
+      {
+        "category": "general",
+        "content": "2 days ago · CVE検索・脆弱性検索が日本語でできる無料の脆弱性データベース。 NVD収載315,908件のCVE脆弱性情報を毎日自動 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "CVE検索・脆弱性検索 日本語データベース | CVE Registry",
+        "url": "https://cvejp.com/"
+      },
+      {
+        "category": "general",
+        "content": "The CVE Program partners with community members worldwide to grow CVE content and expand its usage. Click below to learn …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "CVE: Common Vulnerabilities and Exposures",
+        "url": "https://www.cve.org/"
+      },
+      {
+        "category": "general",
+        "content": "Apr 13, 2026 · CVE 一覧 CVE-2026-10536Critical(9.8) libcurlのHTTP/2 Use-After-Free CVE-2026-10536：影響範囲と対応方法 2026 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "CVE 脆弱性一覧 | つみかさね | つみかさね",
+        "url": "https://tsumikasane.net/security/cve/"
+      },
+      {
+        "category": "general",
+        "content": "May 27, 2023 · CVE脆弱性の全貌を解明！ 本記事では、脆弱性の基本概念から発見・報告方法、リスク評価、そして具体的な対策 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "CVE 脆弱性の基本と対策法を初心者にもわかりやすく解説 ...",
+        "url": "https://study-sec.com/cve/"
+      },
+      {
+        "category": "general",
+        "content": "共通脆弱性識別子（CVE＝Common Vulnerabilities and Exposures）は、公開済みの情報セキュリティ脆弱性共通名称（CVE識別 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "共通脆弱性識別子 - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E5%85%B1%E9%80%9A%E8%84%86%E5%BC%B1%E6%80%A7%E8%AD%98%E5%88%A5%E5%AD%90"
+      },
+      {
+        "category": "general",
+        "content": "CVE（Common Vulnerabilities and Exposures）とは、脆弱性を標準化するための識別子です。サイバーセキュリティ業界では広く …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "CVE（Common Vulnerabilities and Exposures）とは？脆弱 ...",
+        "url": "https://www.trendmicro.com/ja_jp/what-is/cve.html"
+      },
+      {
+        "category": "general",
+        "content": "Jul 15, 2026 · 脆弱性対策情報データベース JVN iPedia JVNに掲載される脆弱性対策情報のほか、 国内外問わず日々公開される脆弱 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "JVN iPedia - 脆弱性対策情報データベース",
+        "url": "https://jvndb.jvn.jp/index.html"
+      },
+      {
+        "category": "general",
+        "content": "Provides a high-level overview of the CVE Program, what a CVE Record is and how it enables two or more people or tools to refer to …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "CVE: Common Vulnerabilities and Exposures",
+        "url": "https://www.cve.org/About/Overview"
+      },
+      {
+        "category": "general",
+        "content": "CVE Record: CVE-2026-31431 ただし、脆弱性に関する検証コードが既に公開されています。 また、他の脆弱性と組み合わせるこ …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Linuxの脆弱性対策について (CVE-2026-31431、Copy Fail)",
+        "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260501.html"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:23:49Z",
+  "source_url": "http://searxng:8080/search?q=CVE-2026-21508+exploitation&format=json",
+  "status": "success",
+  "summary": "SearXNG search for CVE-2026-21508 exploitation: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

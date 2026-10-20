@@ -1,0 +1,457 @@
+{
+  "cluster-252a5d11fa1a": {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "iocs": [
+      {
+        "value": "sfrclak.com",
+        "ioc_type": "domain",
+        "extraction_type": "Direct",
+        "confidence": "HIGH",
+        "sources": [
+          "post:sample-discord-axios-0001",
+          "post:sample-reddit-axios-0001",
+          "post:sample-reddit-axios-0002",
+          "post:sample-x-axios-0001",
+          "post:sample-x-axios-0002",
+          "post:sample-x-axios-0003",
+          "tool:DISCORD_SEARCH:sfrclak.com malware",
+          "tool:PASSIVE_DNS_LOOKUP:sfrclak.com",
+          "tool:REDDIT_SEARCH:sfrclak.com malware",
+          "tool:WHOIS_LOOKUP:sfrclak.com",
+          "tool:X_SEARCH:sfrclak.com malware"
+        ],
+        "perspectives": [
+          "Actor",
+          "Infrastructure",
+          "Social"
+        ],
+        "tools": [
+          "DISCORD_SEARCH",
+          "PASSIVE_DNS_LOOKUP",
+          "REDDIT_SEARCH",
+          "WHOIS_LOOKUP",
+          "X_SEARCH"
+        ],
+        "adjustments": []
+      },
+      {
+        "value": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+        "ioc_type": "hash",
+        "extraction_type": "Direct",
+        "confidence": "HIGH",
+        "sources": [
+          "post:sample-reddit-axios-0002",
+          "post:sample-x-axios-0002",
+          "tool:REDDIT_SEARCH:sfrclak.com malware",
+          "tool:X_SEARCH:sfrclak.com malware"
+        ],
+        "perspectives": [
+          "Actor",
+          "Social"
+        ],
+        "tools": [
+          "REDDIT_SEARCH",
+          "X_SEARCH"
+        ],
+        "adjustments": []
+      },
+      {
+        "value": "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+        "ioc_type": "hash",
+        "extraction_type": "Direct",
+        "confidence": "HIGH",
+        "sources": [
+          "post:sample-reddit-axios-0002",
+          "post:sample-x-axios-0002",
+          "tool:REDDIT_SEARCH:sfrclak.com malware",
+          "tool:X_SEARCH:sfrclak.com malware"
+        ],
+        "perspectives": [
+          "Actor",
+          "Social"
+        ],
+        "tools": [
+          "REDDIT_SEARCH",
+          "X_SEARCH"
+        ],
+        "adjustments": []
+      },
+      {
+        "value": "142.11.206.73",
+        "ioc_type": "ip",
+        "extraction_type": "Pivot",
+        "confidence": "MEDIUM",
+        "sources": [
+          "tool:PASSIVE_DNS_LOOKUP:sfrclak.com",
+          "tool:WHOIS_LOOKUP:142.11.206.73"
+        ],
+        "perspectives": [
+          "Infrastructure"
+        ],
+        "tools": [
+          "PASSIVE_DNS_LOOKUP",
+          "WHOIS_LOOKUP"
+        ],
+        "adjustments": [
+          "shared_hosting_environment:co_tenants_dropped"
+        ]
+      }
+    ],
+    "cves": [],
+    "ttps": [],
+    "per_perspective": {
+      "Infrastructure": {
+        "focus_types": [
+          "domain_registration_and_whois",
+          "dns_and_passive_dns_analysis",
+          "ssl_tls_certificate_analysis"
+        ],
+        "queries": 5,
+        "success": 5,
+        "unavailable": 0,
+        "error": 0,
+        "discovered": [
+          "142.11.206.73",
+          "300gorillaz.silverbackplot.com",
+          "aceshiba.coingorillas.com",
+          "aceshiba.com",
+          "callnrwise.com",
+          "coingorillas.com",
+          "cpanel.aceshiba.com",
+          "cpanel.coingorillas.com",
+          "cpcalendars.aceshiba.com",
+          "cpcalendars.coingorillas.com",
+          "cpcalendars.thedailygrindsxm.com",
+          "cpcontacts.aceshiba.com",
+          "cpcontacts.coingorillas.com",
+          "flowersforthenewgen.com",
+          "hwsrv-1320779.hostwindsdns.com",
+          "hwsrv-679276.hostwindsdns.com",
+          "hwsrv-888963.hostwindsdns.com",
+          "lefacteurh.com",
+          "mail.aceshiba.com",
+          "mail.coingorillas.com",
+          "mail.flowersforthenewgen.com",
+          "sfrclak.com"
+        ],
+        "diagnostics": []
+      },
+      "Technical": {
+        "focus_types": [
+          "technical_intelligence_and_security_report_collection",
+          "cve_exploitation_analysis"
+        ],
+        "queries": 2,
+        "success": 2,
+        "unavailable": 0,
+        "error": 0,
+        "discovered": [],
+        "diagnostics": []
+      },
+      "Social": {
+        "focus_types": [
+          "sns_account_abuse_and_spread_tracking",
+          "social_engineering_tactics_analysis"
+        ],
+        "queries": 4,
+        "success": 4,
+        "unavailable": 0,
+        "error": 0,
+        "discovered": [
+          "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+          "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+          "sfrclak.com"
+        ],
+        "diagnostics": []
+      },
+      "Actor": {
+        "focus_types": [
+          "apt_group_and_threat_actor_investigation",
+          "cybercrime_group_and_market_analysis",
+          "campaign_tracking"
+        ],
+        "queries": 5,
+        "success": 5,
+        "unavailable": 0,
+        "error": 0,
+        "discovered": [
+          "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+          "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+          "sfrclak.com"
+        ],
+        "diagnostics": []
+      }
+    },
+    "trajectory": [
+      {
+        "step": 1,
+        "perspective": "Infrastructure",
+        "focus_type": "domain_registration_and_whois",
+        "tool_type": "WHOIS_LOOKUP",
+        "parameters": {
+          "domain": "sfrclak.com"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 2,
+        "perspective": "Infrastructure",
+        "focus_type": "dns_and_passive_dns_analysis",
+        "tool_type": "PASSIVE_DNS_LOOKUP",
+        "parameters": {
+          "domain": "sfrclak.com"
+        },
+        "status": "success",
+        "new_iocs": 1,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 3,
+        "perspective": "Infrastructure",
+        "focus_type": "ssl_tls_certificate_analysis",
+        "tool_type": "TLS_CT_LOOKUP",
+        "parameters": {
+          "domain": "sfrclak.com"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 4,
+        "perspective": "Infrastructure",
+        "focus_type": "related_domain_and_infrastructure_pivoting",
+        "tool_type": "WHOIS_LOOKUP",
+        "parameters": {
+          "ip": "142.11.206.73",
+          "pivot": true
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 5,
+        "perspective": "Infrastructure",
+        "focus_type": "related_domain_and_infrastructure_pivoting",
+        "tool_type": "PASSIVE_DNS_LOOKUP",
+        "parameters": {
+          "ip": "142.11.206.73",
+          "pivot": true
+        },
+        "status": "success",
+        "new_iocs": 20,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 6,
+        "perspective": "Technical",
+        "focus_type": "technical_intelligence_and_security_report_collection",
+        "tool_type": "SEARCH_ENGINE",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 7,
+        "perspective": "Technical",
+        "focus_type": "technical_intelligence_and_security_report_collection",
+        "tool_type": "SEARCH_ENGINE",
+        "parameters": {
+          "query": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 8,
+        "perspective": "Social",
+        "focus_type": "sns_account_abuse_and_spread_tracking",
+        "tool_type": "X_SEARCH",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 9,
+        "perspective": "Social",
+        "focus_type": "sns_account_abuse_and_spread_tracking",
+        "tool_type": "DISCORD_SEARCH",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 10,
+        "perspective": "Social",
+        "focus_type": "social_engineering_tactics_analysis",
+        "tool_type": "REDDIT_SEARCH",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 11,
+        "perspective": "Social",
+        "focus_type": "social_engineering_tactics_analysis",
+        "tool_type": "TELEGRAM_SEARCH",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": false,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 12,
+        "perspective": "Actor",
+        "focus_type": "apt_group_and_threat_actor_investigation",
+        "tool_type": "SEARCH_ENGINE",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": true,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 13,
+        "perspective": "Actor",
+        "focus_type": "apt_group_and_threat_actor_investigation",
+        "tool_type": "REDDIT_SEARCH",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": true,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 14,
+        "perspective": "Actor",
+        "focus_type": "cybercrime_group_and_market_analysis",
+        "tool_type": "TELEGRAM_SEARCH",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": true,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 15,
+        "perspective": "Actor",
+        "focus_type": "cybercrime_group_and_market_analysis",
+        "tool_type": "DISCORD_SEARCH",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": true,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      },
+      {
+        "step": 16,
+        "perspective": "Actor",
+        "focus_type": "campaign_tracking",
+        "tool_type": "X_SEARCH",
+        "parameters": {
+          "query": "sfrclak.com malware"
+        },
+        "status": "success",
+        "new_iocs": 0,
+        "new_cves": 0,
+        "new_ttps": 0,
+        "duplicate": true,
+        "confidence": "MEDIUM",
+        "mode": "rl_guided"
+      }
+    ],
+    "stats": {
+      "ioc_total": 4,
+      "ioc_high": 3,
+      "ioc_medium": 1,
+      "ioc_low": 0,
+      "pivot_total": 1,
+      "direct_total": 3,
+      "tool_success_rate": 1.0,
+      "perspectives_active": 4
+    },
+    "filtered_benign": []
+  }
+}

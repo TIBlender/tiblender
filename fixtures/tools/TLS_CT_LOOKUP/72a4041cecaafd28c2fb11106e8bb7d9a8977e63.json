@@ -1,0 +1,40 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "cm.theconversation.com",
+      "help.theconversation.com",
+      "interactives.theconversation.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "theconversation.com"
+  },
+  "raw": {
+    "count": 1891,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE1"
+    ],
+    "names": [
+      "help.theconversation.com",
+      "help.theconversation.com",
+      "cm.theconversation.com",
+      "cm.theconversation.com",
+      "interactives.theconversation.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:12:44Z",
+  "source_url": "https://crt.sh/?q=%25.theconversation.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for theconversation.com: 1891 certificate row(s); sample names=help.theconversation.com, help.theconversation.com, cm.theconversation.com, cm.theconversation.com, interactives.theconversation.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

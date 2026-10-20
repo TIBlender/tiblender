@@ -1,0 +1,86 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "trend-now.org"
+    ],
+    "hashes": [],
+    "ips": [
+      "3.167.138.123",
+      "3.167.138.26",
+      "3.167.138.7",
+      "3.167.138.73",
+      "99.84.237.22",
+      "99.84.237.57"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "trend-now.org"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1762046625,
+        "host_name": "trend-now.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "99.84.237.22",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1762042767,
+        "host_name": "trend-now.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "99.84.237.57",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1759767146,
+        "host_name": "trend-now.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.167.138.123",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1759767146,
+        "host_name": "trend-now.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.167.138.7",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1759767146,
+        "host_name": "trend-now.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.167.138.26",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 6
+  },
+  "recorded_at": "2026-09-15T01:20:23Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/trend-now.org/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for trend-now.org: 6 resolution(s); addresses: 99.84.237.22, 99.84.237.57, 3.167.138.123, 3.167.138.7, 3.167.138.26, 3.167.138.73",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

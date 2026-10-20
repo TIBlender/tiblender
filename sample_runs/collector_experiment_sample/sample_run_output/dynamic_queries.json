@@ -1,0 +1,19 @@
+[
+  {
+    "expires_at": "2026-09-23T08:49:00Z",
+    "generated_at": "2026-09-16T08:49:00Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 7,
+    "query": "sfrclak.com",
+    "rationale": "VOLUME trend detected on cluster cluster-252a5d11fa1a; seeded from domain 'sfrclak.com'.",
+    "source_cluster_id": "cluster-252a5d11fa1a",
+    "source_report_id": "TIBLENDER-RUN-252a5d11fa1a",
+    "trend_types": [
+      "VOLUME"
+    ]
+  }
+]

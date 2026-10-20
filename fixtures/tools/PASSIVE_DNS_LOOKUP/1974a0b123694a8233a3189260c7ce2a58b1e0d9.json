@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "theconversation.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "151.101.1.169",
+      "151.101.1.208",
+      "151.101.129.208",
+      "151.101.130.110",
+      "151.101.130.132",
+      "151.101.130.133",
+      "151.101.193.169",
+      "151.101.193.208",
+      "151.101.194.110",
+      "151.101.194.132",
+      "151.101.194.133",
+      "151.101.2.110",
+      "151.101.2.132",
+      "151.101.2.133",
+      "151.101.65.208",
+      "151.101.66.110",
+      "151.101.66.132",
+      "151.101.66.133",
+      "162.125.32.12",
+      "88.191.249.183"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "theconversation.com"
+  },
+  "raw": {
+    "malicious_count": 3,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1695719784,
+        "host_name": "theconversation.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "162.125.32.12",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Sangfor ZSand"
+      },
+      {
+        "date": 1695719784,
+        "host_name": "theconversation.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "88.191.249.183",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Sangfor ZSand"
+      },
+      {
+        "date": 1660200078,
+        "host_name": "theconversation.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.130.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1660198142,
+        "host_name": "theconversation.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.194.132",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1660193716,
+        "host_name": "theconversation.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.66.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:12:23Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/theconversation.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for theconversation.com: 20 resolution(s); addresses: 162.125.32.12, 88.191.249.183, 151.101.130.132, 151.101.194.132, 151.101.66.132, 151.101.2.132, 151.101.194.133, 151.101.2.133, 151.101.130.133, 151.101.66.133",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

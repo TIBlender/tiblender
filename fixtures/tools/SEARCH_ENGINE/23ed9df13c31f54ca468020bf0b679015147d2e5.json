@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "trend-now.org vulnerability"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Contact Microsoft Support. Find solutions to common problems, or get help from a support agent.",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Contact Us - Microsoft Support",
+        "url": "https://support.microsoft.com/en-gb/contactus"
+      },
+      {
+        "category": "general",
+        "content": "Microsoft hält immer ein Auge auf ungewöhnliche Anmeldeaktivitäten, nur für den Fall, dass jemand anderes versucht, auf Ihr Konto …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Anmelden bei Hotmail | Microsoft Support",
+        "url": "https://support.microsoft.com/de-de/accounts-billing/manage/how-to-sign-in-to-hotmail"
+      },
+      {
+        "category": "general",
+        "content": "Aug 11, 2026 · We have released Security Updates for Exchange Server SE. Exchange Server 2019 and 2016 ESU updates only.",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Released: August 2026 Exchange Server Security Updates | Microsoft ...",
+        "url": "https://techcommunity.microsoft.com/blog/Exchange/released-august-2026-exchange-server-security-updates/4543951"
+      },
+      {
+        "category": "general",
+        "content": "Sep 16, 2025 · Since Microsoft has shifted focus to Windows 10 and Windows 11, official direct downloads for Windows 8 ISOs are no …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Windows 8.1 ISO download for 64 and 32 bit | Microsoft Community Hub",
+        "url": "https://techcommunity.microsoft.com/discussions/windowsinsiderprogram/windows-8-1-iso-download-for-64-and-32-bit/4454650"
+      },
+      {
+        "category": "general",
+        "content": "Tip If you don't see your picture at the top of screen, check to see if ad blocking is turned on. Sometimes this prevents the picture …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Sign out of Hotmail or Outlook.com | Microsoft Support",
+        "url": "https://support.microsoft.com/en-us/accounts-billing/manage/sign-out-of-hotmail-or-outlook-com"
+      },
+      {
+        "category": "general",
+        "content": "Learn how to change the refresh rate for your display in Windows to determine how smoothly motion appears on your screen.",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Change the refresh rate on your monitor in Windows | Microsoft Support",
+        "url": "https://support.microsoft.com/en-us/windows/hardware/display-graphics/change-the-refresh-rate-on-your-monitor-in-windows"
+      },
+      {
+        "category": "general",
+        "content": "Training: In Microsoft Outlook, you can share your calendar with other people and open a shared calendar. Learn how in this online …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Share your calendar in Outlook | Microsoft Support",
+        "url": "https://support.microsoft.com/en-us/outlook/training/share-your-calendar-in-outlook"
+      },
+      {
+        "category": "general",
+        "content": "Important When you close your Microsoft account, your email and contacts are deleted from our servers and can't be recovered. If …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Close your Outlook.com account | Microsoft Support",
+        "url": "https://support.microsoft.com/en-us/accounts-billing/manage/close-your-outlook-com-account"
+      },
+      {
+        "category": "general",
+        "content": "Get help with using mail, calendar, and contacts on Outlook.com.",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Get help with Outlook.com | Microsoft Support",
+        "url": "https://support.microsoft.com/en-us/outlook/get-help-with-outlook-com"
+      },
+      {
+        "category": "general",
+        "content": "Mar 31, 2026 · Microsoft has officially removed the SaRA utility from all in-support versions of Windows updates released on and after …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Microsoft Support and Recovery Assistant (SaRA) command-line utility ...",
+        "url": "https://support.microsoft.com/en-us/servicing/os/windows/docs/2026/03/microsoft-support-and-recovery-assistant-sara-command-line-utility-removal-from-windows"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:35Z",
+  "source_url": "http://searxng:8080/search?q=trend-now.org+vulnerability&format=json",
+  "status": "success",
+  "summary": "SearXNG search for trend-now.org vulnerability: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

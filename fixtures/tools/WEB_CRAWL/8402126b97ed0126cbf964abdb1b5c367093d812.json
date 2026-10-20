@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host med.stanford.edu is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://med.stanford.edu/news/insights/2021/10/addictive-potential-of-social-media-explained.html"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:04Z",
+  "source_url": "https://med.stanford.edu/news/insights/2021/10/addictive-potential-of-social-media-explained.html",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host med.stanford.edu for https://med.stanford.edu/news/insights/2021/10/addictive-potential-of-social-media-explained.html",
+  "tool_type": "WEB_CRAWL"
+}

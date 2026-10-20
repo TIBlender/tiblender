@@ -1,0 +1,98 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "216.xkmqpqxy.top",
+      "9a7025.xkmqpqxy.top",
+      "blockwerk.xyz",
+      "dwpv.com.cn",
+      "eos77a.com",
+      "gloveguru.net",
+      "golfclubiq.fairwaysofeden.com",
+      "hnhuayeyl.com",
+      "kod.huseyinfiliz.com",
+      "menumunch.co.uk",
+      "oi.158168.org",
+      "pirate.net.cn",
+      "planchalisa.com",
+      "tka567.com",
+      "togelpelalawan.com",
+      "www.blockwerk.xyz",
+      "www.cyberstortrb.top",
+      "www.menumunch.co.uk"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.30.58"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.21.30.58"
+  },
+  "raw": {
+    "malicious_count": 23,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789429964,
+        "host_name": "pirate.net.cn",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.30.58",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789429420,
+        "host_name": "216.xkmqpqxy.top",
+        "host_name_malicious": 11,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.30.58",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789414576,
+        "host_name": "planchalisa.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.30.58",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789414432,
+        "host_name": "gloveguru.net",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.30.58",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789414178,
+        "host_name": "dwpv.com.cn",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.30.58",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:28:00Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/104.21.30.58/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 104.21.30.58: 20 resolution(s); hosts: pirate.net.cn, 216.xkmqpqxy.top, planchalisa.com, gloveguru.net, dwpv.com.cn, oi.158168.org, aitol.ren, hnhuayeyl.com, golfclubiq.fairwaysofeden.com, eos77a.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,99 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "5b80d96122cce5499727bdf7521cc647.range.immersivelabs.online",
+      "ambrisa.com",
+      "cybermission24.immersivelabs.online",
+      "d41987b8ea5086ddda2def1bad20bfac.range.immersivelabs.online",
+      "enf-web.com",
+      "fairplay24.live",
+      "guitarwithgiovanni.com",
+      "impactassessments.co",
+      "iwumenssoccercamps.com",
+      "lesilencio.com",
+      "lifeguardannuities.com",
+      "maxprimect.com",
+      "pepbuyer.com",
+      "summytext.com",
+      "xmonlinetrading.com",
+      "yonoslotsdhan.com"
+    ],
+    "hashes": [
+      "5b80d96122cce5499727bdf7521cc647",
+      "d41987b8ea5086ddda2def1bad20bfac"
+    ],
+    "ips": [
+      "18.165.9.43"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "18.165.9.43"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1788480367,
+        "host_name": "d41987b8ea5086ddda2def1bad20bfac.range.immersivelabs.online",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.165.9.43",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1788404093,
+        "host_name": "288bra.cc",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.165.9.43",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1788328401,
+        "host_name": "ambrisa.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.165.9.43",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1788324282,
+        "host_name": "enf-web.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.165.9.43",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1788223643,
+        "host_name": "pepbuyer.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.165.9.43",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:31:41Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/18.165.9.43/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 18.165.9.43: 20 resolution(s); hosts: d41987b8ea5086ddda2def1bad20bfac.range.immersivelabs.online, 288bra.cc, ambrisa.com, enf-web.com, pepbuyer.com, iwumenssoccercamps.com, lesilencio.com, sawaddeethaimassagebylakshmi.co.nz, 5b80d96122cce5499727bdf7521cc647.range.immersivelabs.online, xmonlinetrading.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,40 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "1iinch.gr.com",
+      "www.1iinch.gr.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "1iinch.gr.com"
+  },
+  "raw": {
+    "count": 8,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=R13"
+    ],
+    "names": [
+      "www.1iinch.gr.com",
+      "www.1iinch.gr.com",
+      "1iinch.gr.com",
+      "1iinch.gr.com",
+      "1iinch.gr.com",
+      "www.1iinch.gr.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:07:25Z",
+  "source_url": "https://crt.sh/?q=%25.1iinch.gr.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for 1iinch.gr.com: 8 certificate row(s); sample names=www.1iinch.gr.com, www.1iinch.gr.com, 1iinch.gr.com, 1iinch.gr.com, 1iinch.gr.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

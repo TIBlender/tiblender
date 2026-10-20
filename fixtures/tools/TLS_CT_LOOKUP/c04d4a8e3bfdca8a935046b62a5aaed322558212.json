@@ -1,0 +1,49 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.infoblox.com",
+      "www.infoblox.com.br",
+      "www.infoblox.com.cn"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.infoblox.com"
+  },
+  "raw": {
+    "count": 473,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR2"
+    ],
+    "names": [
+      "www.infoblox.com",
+      "www.infoblox.com.br",
+      "www.infoblox.com.cn",
+      "www.infoblox.com.tw",
+      "www.infoblox.com",
+      "www.infoblox.com.br",
+      "www.infoblox.com.cn",
+      "www.infoblox.com.tw",
+      "www.infoblox.com",
+      "www.infoblox.com",
+      "www.infoblox.com",
+      "www.infoblox.com.br",
+      "www.infoblox.com.cn",
+      "www.infoblox.com.tw"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:14:18Z",
+  "source_url": "https://crt.sh/?q=%25.www.infoblox.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.infoblox.com: 473 certificate row(s); sample names=www.infoblox.com, www.infoblox.com.br, www.infoblox.com.cn, www.infoblox.com.tw, www.infoblox.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

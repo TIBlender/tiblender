@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host bsky.app is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://bsky.app/profile/atrupar.com/post/3mie6lcfobh2c"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:24:56Z",
+  "source_url": "https://bsky.app/profile/atrupar.com/post/3mie6lcfobh2c",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host bsky.app for https://bsky.app/profile/atrupar.com/post/3mie6lcfobh2c",
+  "tool_type": "WEB_CRAWL"
+}

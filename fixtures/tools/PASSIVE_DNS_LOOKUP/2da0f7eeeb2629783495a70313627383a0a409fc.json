@@ -1,0 +1,95 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "ameli-gouv.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "103.45.247.45",
+      "154.216.19.122",
+      "171.22.147.123",
+      "185.157.247.2",
+      "185.53.179.136",
+      "190.97.166.45",
+      "193.233.48.93",
+      "195.110.124.154",
+      "216.198.79.1",
+      "35.186.223.180",
+      "45.145.164.37",
+      "45.148.116.34",
+      "45.155.168.199",
+      "74.119.239.234",
+      "81.88.57.96"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "ameli-gouv.com"
+  },
+  "raw": {
+    "malicious_count": 284,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1778562800,
+        "host_name": "ameli-gouv.com",
+        "host_name_malicious": 16,
+        "host_name_suspicious": 0,
+        "ip_address": "185.53.179.136",
+        "ip_address_malicious": 11,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1776040530,
+        "host_name": "ameli-gouv.com",
+        "host_name_malicious": 16,
+        "host_name_suspicious": 0,
+        "ip_address": "216.198.79.1",
+        "ip_address_malicious": 2,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1729489227,
+        "host_name": "ameli-gouv.com",
+        "host_name_malicious": 16,
+        "host_name_suspicious": 0,
+        "ip_address": "154.216.19.122",
+        "ip_address_malicious": 4,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1691971696,
+        "host_name": "ameli-gouv.com",
+        "host_name_malicious": 16,
+        "host_name_suspicious": 0,
+        "ip_address": "35.186.223.180",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1691807660,
+        "host_name": "ameli-gouv.com",
+        "host_name_malicious": 16,
+        "host_name_suspicious": 0,
+        "ip_address": "74.119.239.234",
+        "ip_address_malicious": 14,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 4,
+    "total_count": 15
+  },
+  "recorded_at": "2026-09-15T01:12:34Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/ameli-gouv.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for ameli-gouv.com: 15 resolution(s); addresses: 185.53.179.136, 216.198.79.1, 154.216.19.122, 35.186.223.180, 74.119.239.234, 103.45.247.45, 195.110.124.154, 81.88.57.96, 45.148.116.34, 185.157.247.2",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

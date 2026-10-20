@@ -1,0 +1,25 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://edition.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity"
+  },
+  "raw": {
+    "blocked_resource_types": [],
+    "excerpt": ":root{--primitive-color-brand-primary:#c00;--primitive-color-brand-secondary:#ff3f3f;--primitive-color-brand-tertiary:#a4001e;--primitive-color-brand-business:#66c9af;--primitive-color-brand-politics:#3061f3;--primitive-color-brand-travel:#f06c00;--primitive-color-brand-underscored:#6a29d5;--primitive-color-neutral-800:#0c0c0c;--primitive-color-neutral-700:#262626;--primitive-color-neutral-600:#404040;--primitive-color-neutral-500:#6e6e6e;--primitive-color-neutral-400:#b1b1b1;--primitive-color-neutral-300:#e6e6e6;--primitive-color-neutral-200:#f8f8f8;--primitive-color-neutral-100:#fff;--primitive-color-red-800:#450000;--primitive-color-red-700:#720000;--primitive-color-red-600:#a20000;--prim",
+    "fallback_reason": "Playwright is not installed for JavaScript rendering.",
+    "javascript_rendered": false,
+    "title": ""
+  },
+  "recorded_at": "2026-09-16T08:47:31Z",
+  "source_url": "https://edition.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity",
+  "status": "success",
+  "summary": "Static crawl of https://edition.cnn.com/2026/04/03/tech/anthropic-mythos-ai-cybersecurity. Title: n/a. Excerpt: :root{--primitive-color-brand-primary:#c00;--primitive-color-brand-secondary:#ff3f3f;--primitive-color-brand-tertiary:#a4001e;--primitive-color-brand-business:#66c9af;--primitive-color-brand-politics:#3061f3;--primitive-color-brand-travel:#f06c00;--primitive-color-brand-underscored:#6a29d5;--primitive-color-neutral-800:#0c0c0c;--primitive-color-neutral-700:#262626;--primitive-color-neutral-600:#404040;--primitive-color-neutral-500:#6e6e6e;--primitive-color-neutral-400:#b1b1b1;--primitive-color-neutral-300:#e6e6e6;--primitive-color-neutral-200:#f8f8f8;--primitive-color-neutral-100:#fff;--primitive-color-red-800:#450000;--primitive-color-red-700:#720000;--primitive-color-red-600:#a20000;--prim",
+  "tool_type": "WEB_CRAWL"
+}

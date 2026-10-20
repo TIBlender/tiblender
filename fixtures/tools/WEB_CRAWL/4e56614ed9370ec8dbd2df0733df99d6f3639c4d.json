@@ -1,0 +1,31 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "apnews.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://apnews.com/article/iran-us-israel-trump-lebanon-march-31-2026-07fcd5216ceae44965de79a60a4623da"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Just a moment... apnews.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a38e60d8c983e3bb Performance and Security by Cloudflare Privacy",
+    "javascript_rendered": true,
+    "title": "Just a moment...",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-10T12:19:00Z",
+  "source_url": "https://apnews.com/article/iran-us-israel-trump-lebanon-march-31-2026-07fcd5216ceae44965de79a60a4623da",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://apnews.com/article/iran-us-israel-trump-lebanon-march-31-2026-07fcd5216ceae44965de79a60a4623da. Title: Just a moment.... Excerpt: Just a moment... apnews.com Performing security verification This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot. Ray ID: a38e60d8c983e3bb Performance and Security by Cloudflare Privacy",
+  "tool_type": "WEB_CRAWL"
+}

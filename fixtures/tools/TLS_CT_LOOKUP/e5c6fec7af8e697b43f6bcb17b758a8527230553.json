@@ -1,0 +1,51 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "dev-www.npr.org",
+      "prod-dr-www.npr.org",
+      "prod-www.npr.org",
+      "stage-www.npr.org",
+      "www.npr.org",
+      "wwww.npr.org"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.npr.org"
+  },
+  "raw": {
+    "count": 256,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR2"
+    ],
+    "names": [
+      "dev-www.npr.org",
+      "prod-www.npr.org",
+      "stage-www.npr.org",
+      "www.npr.org",
+      "wwww.npr.org",
+      "prod-www.npr.org",
+      "www.npr.org",
+      "prod-www.npr.org",
+      "www.npr.org",
+      "prod-dr-www.npr.org",
+      "www.npr.org",
+      "prod-dr-www.npr.org",
+      "www.npr.org"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:10:59Z",
+  "source_url": "https://crt.sh/?q=%25.www.npr.org&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.npr.org: 256 certificate row(s); sample names=dev-www.npr.org, prod-www.npr.org, stage-www.npr.org, www.npr.org, wwww.npr.org.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

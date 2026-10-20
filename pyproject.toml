@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiblender"
+version = "1.0.0"
+description = "TIBlender: early-warning threat intelligence from cross-platform social media evidence (ACSAC 2026)"
+requires-python = ">=3.11"
+authors = [
+  {name = "Hiroki Nakano"},
+  {name = "Takashi Koide"},
+  {name = "Daiki Chiba"},
+]
+license = {text = "LicenseRef-TIBlender-Research-Evaluation (see LICENSE)"}
+dependencies = [
+  "langgraph==1.0.10",
+  "numpy==1.26.4",
+  "scikit-learn==1.7.2",
+  "telethon==1.42.0",
+]
+
+[project.optional-dependencies]
+browser = [
+  "playwright==1.50.0",
+]
+reference = [
+  "sentence-transformers>=2.7,<4",
+  "torch>=2.3,<3",
+]
+ocr = [
+  "pytesseract>=0.3,<1",
+  "Pillow>=10,<12",
+]
+dev = [
+  "pytest==8.3.4",
+  "coverage>=7,<8",
+  # evaluation/run_evaluation.sh executes the dataset's notebook with
+  # `jupyter nbconvert --execute`; nbclient is what actually runs the cells.
+  "jupyter>=1,<2",
+  "nbclient>=0.10,<1",
+]
+
+[project.scripts]
+tiblender = "tiblender_runtime.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tiblender_runtime*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = [
+  "-p", "no:plugins",
+  "-p", "no:rerunfailures",
+  "-p", "no:cacheprovider",
+]
+markers = [
+  "slow: exercises the full offline three-cycle sample run; still runs by default.",
+]

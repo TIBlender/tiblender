@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.lw.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.lw.com"
+  },
+  "raw": {
+    "count": 36,
+    "issuers": [
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=GeoTrust TLS RSA CA G1",
+      "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+    ],
+    "names": [
+      "www.lw.com",
+      "www.lw.com",
+      "www.lw.com",
+      "www.lw.com",
+      "www.lw.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:14:42Z",
+  "source_url": "https://crt.sh/?q=%25.www.lw.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.lw.com: 36 certificate row(s); sample names=www.lw.com, www.lw.com, www.lw.com, www.lw.com, www.lw.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

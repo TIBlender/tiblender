@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.technologyreview.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "192.0.66.184",
+      "3.220.9.69",
+      "3.221.126.62",
+      "3.228.72.85",
+      "3.229.178.204",
+      "34.192.111.148",
+      "34.203.99.93",
+      "34.224.185.241",
+      "34.232.135.84",
+      "52.1.127.50",
+      "52.4.177.151",
+      "52.5.232.178",
+      "52.7.103.227",
+      "52.70.195.119",
+      "52.73.120.139",
+      "52.86.137.228",
+      "52.86.239.89",
+      "52.87.62.207",
+      "54.158.230.58",
+      "54.174.156.76"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.technologyreview.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1586287928,
+        "host_name": "www.technologyreview.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.184",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1586110741,
+        "host_name": "www.technologyreview.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "52.73.120.139",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1586083722,
+        "host_name": "www.technologyreview.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "34.232.135.84",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1586083722,
+        "host_name": "www.technologyreview.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.229.178.204",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1585618499,
+        "host_name": "www.technologyreview.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "34.224.185.241",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:18:21Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.technologyreview.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.technologyreview.com: 20 resolution(s); addresses: 192.0.66.184, 52.73.120.139, 34.232.135.84, 3.229.178.204, 34.224.185.241, 52.86.137.228, 52.5.232.178, 3.221.126.62, 34.203.99.93, 3.220.9.69",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

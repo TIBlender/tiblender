@@ -1,0 +1,31 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "reuters.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.reuters.com/world/serbian-students-protesters-clash-with-police-belgrade-2026-03-31/"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "reuters.com",
+    "javascript_rendered": true,
+    "title": "reuters.com",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-10T12:22:30Z",
+  "source_url": "https://www.reuters.com/world/serbian-students-protesters-clash-with-police-belgrade-2026-03-31/",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.reuters.com/world/serbian-students-protesters-clash-with-police-belgrade-2026-03-31/. Title: reuters.com. Excerpt: reuters.com",
+  "tool_type": "WEB_CRAWL"
+}

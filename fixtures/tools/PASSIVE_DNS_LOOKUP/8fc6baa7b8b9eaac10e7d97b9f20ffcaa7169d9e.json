@@ -1,0 +1,94 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.yahoo.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "180.222.106.11",
+      "180.222.106.12",
+      "180.222.109.251",
+      "180.222.109.252",
+      "200.152.162.136",
+      "200.152.162.137",
+      "200.152.162.143",
+      "200.152.162.189",
+      "209.73.179.247",
+      "209.73.179.248",
+      "69.147.71.247",
+      "69.147.87.251",
+      "74.6.228.137",
+      "87.248.100.136"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.yahoo.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1771984674,
+        "host_name": "www.yahoo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "200.152.162.137",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1771984674,
+        "host_name": "www.yahoo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "200.152.162.189",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1771984674,
+        "host_name": "www.yahoo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "200.152.162.136",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1771984674,
+        "host_name": "www.yahoo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "200.152.162.143",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1771818299,
+        "host_name": "www.yahoo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "69.147.87.251",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:20:18Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.yahoo.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.yahoo.com: 20 resolution(s); addresses: 200.152.162.137, 200.152.162.189, 200.152.162.136, 200.152.162.143, 69.147.87.251, 209.73.179.248, 209.73.179.247, 69.147.71.247, 2406:2000:9c:800::11, 180.222.106.12",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

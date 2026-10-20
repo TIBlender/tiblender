@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "hunt.io malware"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "「hunt」の意味・翻訳・日本語 - (…を)狩る、 (…の)狩猟をする、狩猟に使う、 (猟犬を連れて)狩り立てる、 (…を)見いだそうとす …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "英語「hunt」の意味・使い方・読み方 | Weblio英和辞書",
+        "url": "https://ejje.weblio.jp/content/hunt"
+      },
+      {
+        "category": "general",
+        "content": "HUNT& (ハントアンド) ハンティングベストは前作 Hide N Seekハンティングベストが発売して丸3年が経過し、その間に様々な …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "HUNT& (ハントアンド) ハンティングベスト - トレイルカメラ ...",
+        "url": "https://hyke-store.com/?pid=142146135"
+      },
+      {
+        "category": "general",
+        "content": "英検準2級・3級レベル:huntの意味・和訳。 【動詞】（hʌnt/音声を聞く）狩る（例文）They hunted deer and foxes.英検®︎対応！ …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "huntとは・意味・使い方・読み方・例文 - 英ナビ!辞書 英和辞典",
+        "url": "https://www.ei-navi.jp/dictionary/content/hunt/"
+      },
+      {
+        "category": "general",
+        "content": "HUNTFISHING fishing apparel&fishing gear online shop",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "HUNTjapan®︎",
+        "url": "https://huntjapan.shop/"
+      },
+      {
+        "category": "general",
+        "content": "Sep 29, 2023 · ハントの作品情報。上映スケジュール、キャスト、あらすじ、映画レビュー、予告動画。Netflixの大人気ドラマ「イ …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "ハント : 作品情報・キャスト・あらすじ・動画 - 映画.com",
+        "url": "https://eiga.com/movie/99321/"
+      },
+      {
+        "category": "general",
+        "content": "hunt（ハント）の意味・使い方を徹底解説。 「狩る・狩りをする・探し求める」（動詞）、「狩り・探索」（名詞）の全用法と …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "hunt の意味・使い方・語源・例文 | 英単語辞書",
+        "url": "https://www.eigo-duke.com/word/word/hunt.html"
+      },
+      {
+        "category": "general",
+        "content": "2 days ago · ハントの映画情報。 1346件のレビュー (口コミ・感想・評価)、内容・ネタバレ、あらすじ、予告編・予告動画、公開 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "ハント - 映画情報・レビュー・評価・あらすじ・動画配信 ...",
+        "url": "https://filmarks.com/movies/104327"
+      },
+      {
+        "category": "general",
+        "content": "ティモシー・ハント (Richard Timothy Hunt、1943年 - ）- イギリスの生化学者、ノーベル賞受賞者。 リン・ハント （Lynn Avery …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "ハント - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%B3%E3%83%88"
+      },
+      {
+        "category": "general",
+        "content": "Aug 27, 2019 · Hunt: Showdown 1896 is the brutally rewarding extraction shooter. Track twisted monsters and overcome ruthless …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Save 60% on Hunt: Showdown 1896 on Steam",
+        "url": "https://store.steampowered.com/app/594650/Hunt_Showdown_1896/"
+      },
+      {
+        "category": "general",
+        "content": "・とんねるず石橋さんが狩猟体験に 22.8 ・中国一有名な日本人 竹内亮 監督作品に主演 23.10 ・Hunt＋監修【罠ガール】第7巻発売 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Hunt+ ハント・プラス 完全貸切 グランピング 狩猟体験 キャンプ ...",
+        "url": "https://www.hunt-plus.com/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:24Z",
+  "source_url": "http://searxng:8080/search?q=hunt.io+malware&format=json",
+  "status": "success",
+  "summary": "SearXNG search for hunt.io malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,10 @@
+# Optional list of Telegram channels/supergroups to collect from.
+# One entry per line: a public @username, a bare username, or a numeric
+# channel id. Lines starting with # are ignored.
+#
+# When this file lists no channel, the collector reads every channel and
+# supergroup the signed-in account has already joined (client.get_dialogs()).
+# Finding channels and joining them is an operational task performed outside
+# this artifact; see docs/CREDENTIALS.md and docs/FIDELITY.md.
+#
+# @example_threat_intel_channel

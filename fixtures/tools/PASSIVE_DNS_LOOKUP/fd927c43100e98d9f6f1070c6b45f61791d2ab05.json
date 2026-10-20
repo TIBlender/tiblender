@@ -1,0 +1,89 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "erqun.com.cn",
+      "fastrac-web-profile.cloudflare.app",
+      "imagegen.cannadydental.com",
+      "juegabdmbet.site",
+      "media.relationship-duet.com",
+      "opa.omanuveki.site",
+      "ourexpatpension.com",
+      "www.omanuveki.site",
+      "www.wearenrlabs.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.67.210"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.21.67.210"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789423973,
+        "host_name": "bj88b.name",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.67.210",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789423939,
+        "host_name": "www.bj88b.name",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.67.210",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789422642,
+        "host_name": "juegabdmbet.site",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.67.210",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789418284,
+        "host_name": "777plusph.best",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.67.210",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789399531,
+        "host_name": "www.wearenrlabs.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.67.210",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 7,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:29:08Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/104.21.67.210/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 104.21.67.210: 20 resolution(s); hosts: bj88b.name, www.bj88b.name, juegabdmbet.site, 777plusph.best, www.wearenrlabs.com, wj777.wine, opa.omanuveki.site, ourexpatpension.com, fastrac-web-profile.cloudflare.app, z999gname.asia",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

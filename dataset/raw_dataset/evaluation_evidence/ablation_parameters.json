@@ -1,0 +1,40 @@
+{
+  "A1_without_multi_perspective": {
+    "baseline_mean_iocs_per_report": 2.1,
+    "without_component_mean_iocs_per_report": 0.4,
+    "mean_ioc_delta_pct": -81,
+    "exclusive_findings_per_report": {
+      "infrastructure_iocs": 1.91,
+      "technical_cves": 0.31,
+      "social_iocs": 2.85,
+      "actor_iocs": 0.31
+    },
+    "perspective_overlap_pct": 2.3
+  },
+  "A2_without_adaptive_eval": {
+    "baseline_mean_iocs_per_report": 2.1,
+    "without_component_mean_iocs_per_report": 1.6,
+    "mean_ioc_delta_pct": -24,
+    "initial_proceed_avg_iocs": 10.0,
+    "followup_rescued_avg_iocs": 7.4,
+    "low_quality_avg_iocs": 0.6
+  },
+  "A3_without_trend_query": {
+    "dynamic_queries_total": 15965
+  },
+  "A4_without_rl": {
+    "baseline_mean_iocs_per_report": 2.1,
+    "without_component_mean_iocs_per_report": 1.6,
+    "mean_ioc_delta_pct": -24,
+    "investigation_iocs_with_rl": 10.0,
+    "investigation_iocs_without_rl": 6.4,
+    "queries_with_rl": 27.1,
+    "queries_without_rl": 19.9
+  },
+  "A5_without_dual_track_clustering": {
+    "dual_track_avg_cluster_size_posts": 20.1,
+    "semantic_only_avg_cluster_size_posts": 52.1,
+    "dual_track_post_coverage_pct": 98.9,
+    "context_posts_missed_by_ioc_only_pct": 77.5
+  }
+}

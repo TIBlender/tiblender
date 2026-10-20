@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.lw.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "13.105.221.10",
+      "13.105.221.11",
+      "13.107.213.43",
+      "13.107.213.67",
+      "13.107.246.60",
+      "13.107.246.62",
+      "13.107.246.67",
+      "13.107.246.77",
+      "13.107.253.62",
+      "13.107.253.67",
+      "150.171.109.178",
+      "150.171.109.182",
+      "150.171.109.183",
+      "150.171.109.184",
+      "150.171.110.195",
+      "150.171.110.209",
+      "150.171.110.210",
+      "150.171.110.211",
+      "150.171.110.3",
+      "40.90.64.193"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.lw.com"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1788304211,
+        "host_name": "www.lw.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "150.171.110.3",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788293235,
+        "host_name": "www.lw.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "150.171.110.210",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788293233,
+        "host_name": "www.lw.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "150.171.110.209",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788291595,
+        "host_name": "www.lw.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "150.171.109.184",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788291372,
+        "host_name": "www.lw.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "150.171.109.178",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 5,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:14:25Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.lw.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.lw.com: 20 resolution(s); addresses: 150.171.110.3, 150.171.110.210, 150.171.110.209, 150.171.109.184, 150.171.109.178, 150.171.109.182, 150.171.110.211, 150.171.110.195, 150.171.109.183, 13.107.213.43",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

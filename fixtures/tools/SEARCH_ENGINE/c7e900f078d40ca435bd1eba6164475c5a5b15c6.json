@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "Vulnerability cluster"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "vulnerability (countable and uncountable, plural vulnerabilities) (uncountable) The state of being vulnerable; susceptibility to attack or …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "英語「vulnerability」の意味・使い方・読み方 | Weblio英和辞書",
+        "url": "https://ejje.weblio.jp/content/vulnerability"
+      },
+      {
+        "category": "general",
+        "content": "脆弱性 脆弱性 （ぜいじゃくせい、 英: vulnerability）とは、 情報セキュリティ ・ サイバーセキュリティ の用語で、 コンピュータ …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "脆弱性 - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E8%84%86%E5%BC%B1%E6%80%A7"
+      },
+      {
+        "category": "general",
+        "content": "Jul 5, 2025 · 「vulnerability」の意味や使い方を、よく使われるフレーズや例文とともに紹介します。 vulnerabilityの意味と使い …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "「vulnerability」の意味・使い方｜よく使うフレーズと例文で ...",
+        "url": "https://reibun-eigo.com/entry-vulnerability/"
+      },
+      {
+        "category": "general",
+        "content": "Jul 31, 2024 · vulnerabilityの意味と使い方 では、vulnerabilityの意味とそれを使った例文をみていきます。 名詞という点をご確認く …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "【vulnerable】の意味とは？弱さ・脆さを表す英語、反対語や ...",
+        "url": "https://kimini.online/blog/archives/60153"
+      },
+      {
+        "category": "general",
+        "content": "Jun 10, 2025 · 「vulnerability」を使ったよく使われるフレーズは「exploit a vulnerability（脆弱性を悪用する）」「address a …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "「vulnerability」の意味と使い方をわかりやすく解説【フレーズ ...",
+        "url": "https://english-words.com/meaning-vulnerability/"
+      },
+      {
+        "category": "general",
+        "content": "Jul 6, 2022 · vulnerabilityの意味や発音、カタカナ読みや品詞の分類などまとめ。 vulnerabilityの意味｜発音品詞名詞意味 脆弱性 ぜ …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "vulnerabilityの意味｜発音｜カタカナ読み｜品詞 | 英語発音ウェブ",
+        "url": "https://www.hatsu-on.com/vulnerability/"
+      },
+      {
+        "category": "general",
+        "content": "vulnerability（バルネラビリティ）は「傷つきやすさ・弱さ」を表す名詞。 心の弱さや無防備さのほか、ITでは攻撃されやすい「脆 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "vulnerability の意味・使い方・語源・例文 | 英単語辞書",
+        "url": "https://www.eigo-duke.com/word/word/vulnerability.html"
+      },
+      {
+        "category": "general",
+        "content": "This country has the infrastructure to address our energy vulnerability. She has recently lost her mother, increasing her emotional …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "VULNERABILITY | 意味, Cambridge 英語辞書での定義",
+        "url": "https://dictionary.cambridge.org/ja/dictionary/english/vulnerability"
+      },
+      {
+        "category": "general",
+        "content": "Dec 9, 2022 · バルネラビティとは バルネラビティとは、「脆弱性」を意味する言葉で、使われる状況で意味が変わります。大まか …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "バルネラビティとは？心理学的な意味やメリット、会社で導入 ...",
+        "url": "https://www.cbase.co.jp/column/article557/"
+      },
+      {
+        "category": "general",
+        "content": "傷つきやすいこと，弱さ，脆弱性 〖 vulnerability 〗 Despite her hard exterior, she had a certain vulnerability that made her quite …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "vulnerabilityとは・意味・使い方・読み方・例文 - 英ナビ!辞書 ...",
+        "url": "https://www.ei-navi.jp/dictionary/content/vulnerability/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:41:54Z",
+  "source_url": "http://searxng:8080/search?q=Vulnerability+cluster&format=json",
+  "status": "success",
+  "summary": "SearXNG search for Vulnerability cluster: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

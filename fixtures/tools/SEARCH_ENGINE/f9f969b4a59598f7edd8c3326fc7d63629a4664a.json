@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "trend-now.org"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Antonyms for Hate. 3 646 opposites of hate- words and phrases with opposite meaning. WordsPhrases. NounsVerbs. …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "HATE Antonyms: 3 646 Opposite Words & Phrases - Power Thesaurus",
+        "url": "https://www.powerthesaurus.org/hate/antonyms"
+      },
+      {
+        "category": "general",
+        "content": "3 days ago · Synonyms for HATE: despise, loathe, detest, abhor, abominate, disdain, disapprove (of), have it in for; Antonyms of …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "HATE! Synonyms: 121 Similar and Opposite Words - Merriam-Webster",
+        "url": "https://www.merriam-webster.com/thesaurus/hate!"
+      },
+      {
+        "category": "general",
+        "content": "Antonyms for hate at Synonyms.com with free online thesaurus, synonyms, definitions and translations.",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Antonym of hate - Synonyms.com",
+        "url": "https://www.synonyms.com/antonyms/hate%20"
+      },
+      {
+        "category": "general",
+        "content": "Phrases such as 'hold dear,' 'cherish,' or 'be fond of' are antonyms for 'hate.' These expressions imply caring about someone or …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "What is the opposite of hate? | Antonyms hate | Promova",
+        "url": "https://promova.com/antonyms-of/hate"
+      },
+      {
+        "category": "general",
+        "content": "Jan 14, 2020 · Here are 400 Important Opposite Words List.",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Opposite Of Hate, Antonyms of Hate, Meaning and Example Sentences ...",
+        "url": "https://englishgrammarhere.com/opposite-words/opposite-of-hate-antonyms-of-hate-meaning-and-example-sentences/"
+      },
+      {
+        "category": "general",
+        "content": "4 days ago · Synonyms for HATES: despises, loathes, detests, abhors, disdains, abominates, disapproves (of), has it in for; …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "HATES Synonyms: 69 Similar and Opposite Words - Merriam-Webster",
+        "url": "https://www.merriam-webster.com/thesaurus/hates"
+      },
+      {
+        "category": "general",
+        "content": "Antonyms of hate are love, admire, and crave. Check all antonyms of hate in our online thesaurus for antonyms.",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Antonyms of hate - Wordhelp",
+        "url": "https://www.wordhelp.com/thesaurus/antonyms/?q=hate"
+      },
+      {
+        "category": "general",
+        "content": "Opposite words for Hate. Definition: verb. ['ˈheɪt'] dislike intensely; feel antipathy or aversion towards.",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Opposite word for HATE > Synonyms & Antonyms",
+        "url": "https://www.antonym.com/antonyms/hate"
+      },
+      {
+        "category": "general",
+        "content": "Find all the antonyms of the word hate presented in a simple and clear manner. More than 47,200 antonyms available on synonyms …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Antonyms for hate | List of English antonyms",
+        "url": "https://www.synonyms-thesaurus.com/antonyms-hate"
+      },
+      {
+        "category": "general",
+        "content": "What are opposite words of Hate? Love, like, liking, fondness. Full list of antonyms for Hate is here.",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "More 90 Hate Antonyms. Full list of opposite words of hate.",
+        "url": "https://thesaurus.plus/antonyms/hate"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:37Z",
+  "source_url": "http://searxng:8080/search?q=trend-now.org&format=json",
+  "status": "success",
+  "summary": "SearXNG search for trend-now.org: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

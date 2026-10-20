@@ -1,0 +1,31 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "bbc.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.bbc.com/news/articles/cly6387xgqxo"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Russian military plane crash kills 29 in occupied Crimea Skip to content Register Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Russian military plane crash kills 29 in occupied Crimea 1 April 2026 Share Save Add as preferred on Google Harry Sekulich AirTeamImages The An-26 is a Soviet-era aircraft designed primarily for military use (file photo) A Russian military plane has crashed in the occupied Ukrainian peninsula of Crimea, killing 29 people on board, the Russian defence ministry has said. Wreckage of the An-26 aircraft was found on Tuesday after the plane lost contact with authorities during a \"routine flight\", according to the ministry. ",
+    "javascript_rendered": true,
+    "title": "Russian military plane crash kills 29 in occupied Crimea",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-10T12:21:32Z",
+  "source_url": "https://www.bbc.com/news/articles/cly6387xgqxo",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.bbc.com/news/articles/cly6387xgqxo. Title: Russian military plane crash kills 29 in occupied Crimea. Excerpt: Russian military plane crash kills 29 in occupied Crimea Skip to content Register Sign In Home News Sport Business Technology Health Culture Arts Travel Earth Audio Video Live Russian military plane crash kills 29 in occupied Crimea 1 April 2026 Share Save Add as preferred on Google Harry Sekulich AirTeamImages The An-26 is a Soviet-era aircraft designed primarily for military use (file photo) A Russian military plane has crashed in the occupied Ukrainian peninsula of Crimea, killing 29 people on board, the Russian defence ministry has said. Wreckage of the An-26 aircraft was found on Tuesday after the plane lost contact with authorities during a \"routine flight\", according to the ministry. ",
+  "tool_type": "WEB_CRAWL"
+}

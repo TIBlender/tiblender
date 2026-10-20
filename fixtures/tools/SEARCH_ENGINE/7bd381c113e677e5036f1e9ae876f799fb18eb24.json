@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "getbreachflow.co"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "pizza al taglio我一般当中饭吃，或者买一块带回家烤箱热下当简单的晚饭。。。这种配料不太好说，每个店都有不一样的。。 不过一 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "披萨馅料有哪些经典的种类？都用了哪些食材？ - 知乎",
+        "url": "https://www.zhihu.com/question/27157954"
+      },
+      {
+        "category": "general",
+        "content": "虽然乌鲁木齐一带被认为是地理上离海最远的地区，但心理距离并不算远，毕竟几个小时的飞机航程，就能飞到数十个生活习惯差别并 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "乌兹别克斯坦是一个怎么样的国家？ - 知乎",
+        "url": "https://www.zhihu.com/question/60608232"
+      },
+      {
+        "category": "general",
+        "content": "明显感觉Pizza 4U的发展速度不一般呢。 相比起其他的餐饮品牌，4U的开店速度简直可以用开挂来形容了。 个人觉得Pizza 4U最主要 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Pizza 4U披萨为什么会有如此快的发展速度呢？ - 知乎",
+        "url": "https://www.zhihu.com/question/51613957"
+      },
+      {
+        "category": "general",
+        "content": "知乎话题广场，汇聚多样化主题，助您探索知识、分享见解。",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "话题广场 - 知乎",
+        "url": "https://www.zhihu.com/topics"
+      },
+      {
+        "category": "general",
+        "content": "以前对这个操作不熟悉。后来看过几个模板后就发现这个简单，就是插入同一个交叉引用就可以。 1、一篇文献引用多次的情况 正常一 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "写论文，一篇文献前面引用了后面又要引用，在文中怎么标注？",
+        "url": "https://www.zhihu.com/question/325120848"
+      },
+      {
+        "category": "general",
+        "content": "很老的的一部只找到2分钟的剪辑，求完整版",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "求一部老电影叫BEVERLY HILLS PIZZA GIRLS? - 知乎",
+        "url": "https://www.zhihu.com/question/343390259"
+      },
+      {
+        "category": "general",
+        "content": "pizza的音标为 [ˈpitsə]，中文谐音大概是pī cě。",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "pizza 怎么发音？ - 知乎",
+        "url": "https://www.zhihu.com/question/19706180"
+      },
+      {
+        "category": "general",
+        "content": "我看网上说都是一次一粒，然后我和药师说，来2粒打虫药，结果他说不单卖，要买就得一盒，一盒10粒。我说，那得吃到什么时候 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "成人需要每年吃一次肠虫清或其它打虫药吗？ - 知乎",
+        "url": "https://www.zhihu.com/question/60105302"
+      },
+      {
+        "category": "general",
+        "content": "May 8, 2020 · 具体语境非常重要！ 毕竟有时候 Do u want a pizza or give u my pizza. means a lot，你懂的~",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "pizza有啥隐喻？ - 知乎",
+        "url": "https://www.zhihu.com/question/393541996"
+      },
+      {
+        "category": "general",
+        "content": "昨天就有朋友问我PIZZA，虽然跌了但是庄家依然存在，而不是庄家跑了。 1-2周左右PIZZA就会爆发出惊人的能量。 试问哪个币大爆 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "什么是plain pizza? - 知乎",
+        "url": "https://www.zhihu.com/question/39761711"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:23Z",
+  "source_url": "http://searxng:8080/search?q=getbreachflow.co&format=json",
+  "status": "success",
+  "summary": "SearXNG search for getbreachflow.co: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

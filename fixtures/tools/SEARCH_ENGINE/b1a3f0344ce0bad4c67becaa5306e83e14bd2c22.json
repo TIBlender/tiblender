@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "22e32bcf113326e366ac480b077067cf vulnerability"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "企业如何用CRM才能真正做到降本增效？ 今天，我就用一文讲清这些问题！ 读完本文，你将清楚得了解CRM的概念、框架、流程、 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "一文详细讲解CRM系统（附架构图、流程、功能介绍）",
+        "url": "https://www.zhihu.com/tardis/zm/art/721739362"
+      },
+      {
+        "category": "general",
+        "content": "Sep 3, 2026 · 广受企业好评的CRM客户关系管理系统 -Zoho CRM 回答数 1,110，获得 445 次赞同",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Zoho CRM - 知乎",
+        "url": "https://www.zhihu.com/org/zoho-crm-86"
+      },
+      {
+        "category": "general",
+        "content": "More Information Cumulative updates available for Microsoft Dynamics CRM 9.1 The following table lists the available cumulative …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Microsoft Dynamics 365 On-Premises Cumulative Updates",
+        "url": "https://support.microsoft.com/en-us/servicing/dynamics/crm/microsoft-dynamics-365-on-premises-cumulative-updates"
+      },
+      {
+        "category": "general",
+        "content": "Aprenda como se preparar para a atualização do Windows 11, desde certificar-se de que seu dispositivo pode executar o Windows …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Preparando-se para a atualização do Windows 11 | Microsoft Support",
+        "url": "https://support.microsoft.com/pt-br/windows/deployment/install-upgrade/getting-ready-for-the-windows-11-upgrade"
+      },
+      {
+        "category": "general",
+        "content": "【2026国产免费CRM排行榜：中小企业必看的10款工具】 本文将深入对比10款可免费的 国产CRM系统： 纷享销客 、 Zoho CRM 、 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "有哪些免费的轻量级在线 CRM 系统？ - 知乎",
+        "url": "https://www.zhihu.com/question/19782115/answers/updated"
+      },
+      {
+        "category": "general",
+        "content": "公司想用一个CRM系统，我不熟悉，请了解的知友们帮忙推荐并对比分析几个CRM系统，最好是三个哦。最好是开…",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "CRM 开源系统有哪些推荐？ - 知乎",
+        "url": "https://www.zhihu.com/question/19925561"
+      },
+      {
+        "category": "general",
+        "content": "May 5, 2015 · 尽管CRM各路解释都有，但说白了，CRM就是一种提高竞争力的手段： 企业通过策略和技术，争夺更多客户、高效跟 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "客户关系管理（CRM）是什么？ - 知乎",
+        "url": "https://www.zhihu.com/question/30124083"
+      },
+      {
+        "category": "general",
+        "content": "一、CRM、ERP、OA是什么？ 1、CRM> > CRM（模板即开即用） 定义 CRM 即 Customer Relationship Management，是一种以客 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "CRM、ERP、OA之间到底是啥关系？钉钉、企业微信算哪一种？",
+        "url": "https://www.zhihu.com/question/458546794"
+      },
+      {
+        "category": "general",
+        "content": "Microsoft Dynamics CRM 2011 updates and hotfixes Microsoft Dynamics CRM 2013 updates and hotfixes Microsoft Dynamics CRM …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "OrgDBOrgSettings tool for Microsoft Dynamics CRM",
+        "url": "https://support.microsoft.com/en-us/servicing/dynamics/crm/hotfix/2020/10/orgdborgsettings-tool-for-microsoft-dynamics-crm"
+      },
+      {
+        "category": "general",
+        "content": "国内外最著名的的8大 CRM （客户关系管理）系统盘点，包含免费、付费，适用于中小企业、大型企业等不同类型。 通过了解大家 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "有哪些简单、免费、适合中小型企业的 CRM 软件？ - 知乎",
+        "url": "https://www.zhihu.com/question/19863729"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:23:00Z",
+  "source_url": "http://searxng:8080/search?q=22e32bcf113326e366ac480b077067cf+vulnerability&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 22e32bcf113326e366ac480b077067cf vulnerability: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

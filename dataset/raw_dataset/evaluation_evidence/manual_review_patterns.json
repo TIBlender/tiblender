@@ -1,0 +1,29 @@
+{
+  "false_positive_patterns": {
+    "security_media_domain_misidentified_as_ioc": "Security-media, vendor, or reference hosts retained as IoCs when the source post discussed an advisory or third-party analysis rather than attacker-controlled infrastructure.",
+    "poc_announcement_misclassified_as_exploitation": "PoC or disclosure discussion elevated to active exploitation without sufficient corroboration.",
+    "news_article_without_direct_attack_confirmation": "News-only summary without a directly actionable threat signal.",
+    "reposted_ti_report_treated_as_new_incident": "Reposted threat-intelligence item treated as a new incident."
+  },
+  "major_quality_issue_patterns": {
+    "severity_over_assignment_in_single_source_reports": "Severity over-assigned in a single-source report.",
+    "other_major_quality_issues": "Other major quality issue (duplicate or split cluster)."
+  },
+  "false_negative_patterns": {
+    "low_cvss_vulnerability_later_confirmed_exploited": "Low-CVSS vulnerability later confirmed exploited.",
+    "hacktivist_target_list_minimal_ioc_diversity": "Hacktivist target list with minimal IoC diversity.",
+    "initial_access_broker_listing_insufficient_indicators": "Initial-access-broker listing with insufficient indicators.",
+    "emerging_threat_with_insufficient_corroborating_evidence": "Emerging threat with insufficient corroborating evidence.",
+    "single_source_regional_threat_report": "Single-source regional threat report."
+  },
+  "quality_audit_design": "For each sampled report three binary decisions by two analysts: report-level false positive, unsupported IoC issue, major quality issue; analyst_disagreements counts decisions where the analysts differed.",
+  "label_evidence": {
+    "security_media_domain_misidentified_as_ioc": "the report lists a security-media, vendor or reference host among its IoCs (values in reference_hosts_listed_as_iocs)",
+    "poc_announcement_misclassified_as_exploitation": "the report describes PoC or exploit code and exploitation without any indicator",
+    "news_article_without_direct_attack_confirmation": "the report summarises news coverage with no indicator and its summary reports no confirmed attack",
+    "reposted_ti_report_treated_as_new_incident": "the report text describes a repost of earlier reporting",
+    "unsupported_ioc_issue": "every IoC of the report carries LOW confidence",
+    "severity_over_assignment_in_single_source_reports": "HIGH or CRITICAL severity with a single source post",
+    "other_major_quality_issues": "the report shares its title with another report (split cluster)"
+  }
+}

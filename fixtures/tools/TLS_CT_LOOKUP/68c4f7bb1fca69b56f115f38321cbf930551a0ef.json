@@ -1,0 +1,42 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "api.sploitus.com",
+      "sploitus.com",
+      "x.sploitus.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "sploitus.com"
+  },
+  "raw": {
+    "count": 278,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Let's Encrypt, CN=YE2"
+    ],
+    "names": [
+      "x.sploitus.com",
+      "x.sploitus.com",
+      "*.sploitus.com",
+      "sploitus.com",
+      "*.sploitus.com",
+      "sploitus.com",
+      "api.sploitus.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:08:51Z",
+  "source_url": "https://crt.sh/?q=%25.sploitus.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for sploitus.com: 278 certificate row(s); sample names=x.sploitus.com, x.sploitus.com, *.sploitus.com, sploitus.com, *.sploitus.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "phishstats.info"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.112.1",
+      "104.21.16.1",
+      "104.21.32.1",
+      "104.21.48.1",
+      "104.21.64.1",
+      "104.21.70.79",
+      "104.21.80.1",
+      "104.21.96.1",
+      "167.99.112.139",
+      "172.67.221.211",
+      "188.114.96.2",
+      "188.114.96.5",
+      "188.114.96.6",
+      "188.114.97.0",
+      "188.114.97.2",
+      "188.114.97.3",
+      "188.114.97.5",
+      "188.114.97.6",
+      "199.59.243.224",
+      "76.223.26.96"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "phishstats.info"
+  },
+  "raw": {
+    "malicious_count": 25,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1747817308,
+        "host_name": "phishstats.info",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "167.99.112.139",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1737017546,
+        "host_name": "phishstats.info",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "104.21.48.1",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1736702847,
+        "host_name": "phishstats.info",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "104.21.80.1",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1736702847,
+        "host_name": "phishstats.info",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "104.21.96.1",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1736702847,
+        "host_name": "phishstats.info",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "104.21.64.1",
+        "ip_address_malicious": 3,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 27,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:19:31Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/phishstats.info/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for phishstats.info: 20 resolution(s); addresses: 167.99.112.139, 104.21.48.1, 104.21.80.1, 104.21.96.1, 104.21.64.1, 104.21.112.1, 104.21.16.1, 104.21.32.1, 188.114.97.0, 172.67.221.211",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

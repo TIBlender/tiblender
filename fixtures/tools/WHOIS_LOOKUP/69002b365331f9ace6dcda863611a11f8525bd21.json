@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "HTTP 400: {\n  \"rdapConformance\": [\n    \"rdap_level_0\",\n    \"icann_rdap_response_profile_1\",\n    \"icann_rdap_technical_implementation_guide_1\"\n  ],\n  \"notices\": [\n    {\n      \"title\": \"Terms of Service\",\n      \"description\": [\n        \"Public Interest Registry provides this RDAP service for informational purposes only, and to assist persons in obtaining information about or related to a domain name registration record. Public Interest Registry does not guarantee its accuracy. Users accessing the Public Interest Registry RDAP service agree to use the data only for lawful purposes, and under no circumstances may this data be used to: a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other t",
+  "parameters": {
+    "domain": "www.pbs.org"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:16:21Z",
+  "source_url": "",
+  "status": "error",
+  "summary": "WHOIS_LOOKUP failed: HTTP 400: {\n  \"rdapConformance\": [\n    \"rdap_level_0\",\n    \"icann_rdap_response_profile_1\",\n    \"icann_rdap_technical_implementation_guide_1\"\n  ],\n  \"notices\": [\n    {\n      \"title\": \"Terms of Service\",\n      \"description\": [\n        \"Public Interest Registry provides this RDAP service for informational purposes only, and to assist persons in obtaining information about or related to a domain name registration record. Public Interest Registry does not guarantee its accuracy. Users accessing the Public Interest Registry RDAP service agree to use the data only for lawful purposes, and under no circumstances may this data be used to: a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other t",
+  "tool_type": "WHOIS_LOOKUP"
+}

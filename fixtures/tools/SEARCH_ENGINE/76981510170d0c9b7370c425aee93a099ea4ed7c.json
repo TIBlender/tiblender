@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "www.techgines.com exploitation"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "2014年時点での各国の ウェブ・インデックス （英語版） を表した世界地図。 World Wide Web （ワールド・ワイド・ウェブ 、略 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "World Wide Web - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/World_Wide_Web"
+      },
+      {
+        "category": "general",
+        "content": "Viewing a web page on the World Wide Web normally begins either by typing the URL of the page into a web browser or by following …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "World Wide Web - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+      },
+      {
+        "category": "general",
+        "content": "Jul 21, 2026 · 1990年には世界初のWebブラウザとWebサーバーが開発され、1991年に世界初のWebサイトが公開されました。 当時 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "WWWとは？初心者でもわかるワールドワイドウェブの基本と ...",
+        "url": "https://it-yougo.jp/fe/143"
+      },
+      {
+        "category": "general",
+        "content": "Nov 7, 2017 · wwwとは、「インターネットのホームページの閲覧機能を提供しているサーバを識別するために一般的に使われる名 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "URLのwwwとはどういう意味？wwwの必要性とありなしの違い ...",
+        "url": "https://satopedia.com/www/"
+      },
+      {
+        "category": "general",
+        "content": "Aug 12, 2023 · 「ワールドワイドウェブ（World Wide Web）」とは、 インターネット上にある無数のコンテンツを結びつけて張り …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "ワールドワイドウェブ（www）とは何か？インターネットとの ...",
+        "url": "https://tech-camp.in/note/technology/101184/"
+      },
+      {
+        "category": "general",
+        "content": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Google",
+        "url": "https://www.google.com/?hl=jp"
+      },
+      {
+        "category": "general",
+        "content": "Jul 23, 2025 · まとめ｜wwwの正体とURL統一の実務 wwwはWorld Wide Webの略で、インターネットという通信網の上で動くサー …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "wwwとは？意味と仕組み・wwwあり／なしの違いを解説 – ホーム ...",
+        "url": "https://access-link.co.jp/what-is-www/"
+      },
+      {
+        "category": "general",
+        "content": "WWW 呼び方はダブリュダブリュダブリュ。正式名称はWorld Wide Web（ワールドワイドウェブ。直訳：世界中に張り巡らされた …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "パソコン用語 wwwの読み方や意味、サーバーやブラウザ、URL ...",
+        "url": "https://www2.oninet.ne.jp/sakigakesoft/pc/internet-mame-2.html"
+      },
+      {
+        "category": "general",
+        "content": "Nov 5, 2023 · World Wide Web（通称：Web）は、インターネット上で情報を公開し、アクセスするためのシステムです。 Web …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "初心者でもわかるWorld Wide Webの歴史と進化",
+        "url": "https://innovative.jp/archives/581"
+      },
+      {
+        "category": "general",
+        "content": "Jul 15, 2020 · 「www」はWorld Wide Webの略でインターネット上にある無数のコンテンツを結びつけて張り巡らされたシステムの …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "【IT用語】初心者必見！URLのWWW（World Wide Web ...",
+        "url": "https://web-knowledge-info.com/wp/web_basic_knowledge1/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:53Z",
+  "source_url": "http://searxng:8080/search?q=www.techgines.com+exploitation&format=json",
+  "status": "success",
+  "summary": "SearXNG search for www.techgines.com exploitation: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,118 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "300gorillaz.silverbackplot.com",
+      "aceshiba.coingorillas.com",
+      "aceshiba.com",
+      "callnrwise.com",
+      "coingorillas.com",
+      "cpanel.aceshiba.com",
+      "cpanel.coingorillas.com",
+      "cpcalendars.aceshiba.com",
+      "cpcalendars.coingorillas.com",
+      "cpcalendars.thedailygrindsxm.com",
+      "cpcontacts.aceshiba.com",
+      "cpcontacts.coingorillas.com",
+      "flowersforthenewgen.com",
+      "hwsrv-1320779.hostwindsdns.com",
+      "hwsrv-679276.hostwindsdns.com",
+      "hwsrv-888963.hostwindsdns.com",
+      "lefacteurh.com",
+      "mail.aceshiba.com",
+      "mail.coingorillas.com",
+      "mail.flowersforthenewgen.com",
+      "ns2.thedailygrindsxm.com",
+      "pets.aceshiba.com",
+      "raveysworld.silverbackplot.com",
+      "send16.gladipageuous.com",
+      "sfrclak.com",
+      "v1.coingorillas.com",
+      "webdisk.aceshiba.com",
+      "webdisk.coingorillas.com",
+      "webmail.aceshiba.com",
+      "webmail.coingorillas.com",
+      "www.300gorillaz.silverbackplot.com",
+      "www.aceshiba.coingorillas.com",
+      "www.aceshiba.com",
+      "www.coingorillas.com",
+      "www.flowersforthenewgen.com",
+      "www.pets.aceshiba.com",
+      "www.raveysworld.silverbackplot.com",
+      "www.v1.coingorillas.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "142.11.206.73"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "142.11.206.73"
+  },
+  "raw": {
+    "malicious_count": 818,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1774974943,
+        "host_name": "hwsrv-679276.hostwindsdns.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.11.206.73",
+        "ip_address_malicious": 19,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1774957850,
+        "host_name": "send16.gladipageuous.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "142.11.206.73",
+        "ip_address_malicious": 19,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1774929228,
+        "host_name": "callnrwise.com",
+        "host_name_malicious": 19,
+        "host_name_suspicious": 0,
+        "ip_address": "142.11.206.73",
+        "ip_address_malicious": 19,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1774919170,
+        "host_name": "hwsrv-1320779.hostwindsdns.com",
+        "host_name_malicious": 11,
+        "host_name_suspicious": 1,
+        "ip_address": "142.11.206.73",
+        "ip_address_malicious": 19,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1774917276,
+        "host_name": "sfrclak.com",
+        "host_name_malicious": 23,
+        "host_name_suspicious": 1,
+        "ip_address": "142.11.206.73",
+        "ip_address_malicious": 19,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 43,
+    "total_count": 40
+  },
+  "recorded_at": "2026-09-10T13:38:25Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/142.11.206.73/resolutions?limit=40",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 142.11.206.73: 40 resolution(s); hosts: hwsrv-679276.hostwindsdns.com, send16.gladipageuous.com, callnrwise.com, hwsrv-1320779.hostwindsdns.com, sfrclak.com, pbp9f0.asia, flowersforthenewgen.com, www.flowersforthenewgen.com, mail.flowersforthenewgen.com, mec8.fun",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

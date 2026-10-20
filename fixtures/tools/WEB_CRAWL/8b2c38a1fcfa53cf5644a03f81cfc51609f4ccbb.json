@@ -1,0 +1,52 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "apiexplorerzone.com",
+      "blessedwirrow.org",
+      "digdonger.org",
+      "fetchapiutility.com",
+      "hmedshop.shop",
+      "keitaro.io",
+      "rapiddevapi.com",
+      "rednosehorse.com",
+      "ryptosell.shop",
+      "scyphoserippleepidosite.com",
+      "subiz.tds11111.com",
+      "sunpetalra.com",
+      "swim39.ru",
+      "tds11111.com",
+      "tonamlchecks.com",
+      "urlscan.io"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.9.36",
+      "172.67.141.109",
+      "185.184.123.58",
+      "188.114.97.3",
+      "62.60.246.29"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.infoblox.com/blog/threat-intelligence/patterns-pirates-and-provider-action-what-we-learned-working-with-keitaro/"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Inside Keitaro Abuse Part 3: Trends, Cracked Keys & Response Skip to primary navigation Skip to main content Skip to primary sidebar Skip to custom navigation Community | Blog | Cloud Services | Contact | Platform Products Solutions Support & Services Resources Company Pricing Company Security Community IPv6 CoE Infoblox Threat Intel Home / Infoblox Threat Intel / Patterns, Pirates, and Provider Action: What We Learned Working with Keitaro PATTERNS, PIRATES, AND PROVIDER ACTION: WHAT WE LEARNED WORKING WITH KEITARO March 31, 2026 Authors: Infoblox Threat Intel and Confiant Executive Summary This post is part 3 in our multi‑part series examining abuse of Keitaro Tracker. In part 1 and part 2,",
+    "javascript_rendered": true,
+    "title": "Inside Keitaro Abuse Part 3: Trends, Cracked Keys & Response",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:20:54Z",
+  "source_url": "https://www.infoblox.com/blog/threat-intelligence/patterns-pirates-and-provider-action-what-we-learned-working-with-keitaro/",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.infoblox.com/blog/threat-intelligence/patterns-pirates-and-provider-action-what-we-learned-working-with-keitaro/. Title: Inside Keitaro Abuse Part 3: Trends, Cracked Keys & Response. Excerpt: Inside Keitaro Abuse Part 3: Trends, Cracked Keys & Response Skip to primary navigation Skip to main content Skip to primary sidebar Skip to custom navigation Community | Blog | Cloud Services | Contact | Platform Products Solutions Support & Services Resources Company Pricing Company Security Community IPv6 CoE Infoblox Threat Intel Home / Infoblox Threat Intel / Patterns, Pirates, and Provider Action: What We Learned Working with Keitaro PATTERNS, PIRATES, AND PROVIDER ACTION: WHAT WE LEARNED WORKING WITH KEITARO March 31, 2026 Authors: Infoblox Threat Intel and Confiant Executive Summary This post is part 3 in our multi‑part series examining abuse of Keitaro Tracker. In part 1 and part 2,",
+  "tool_type": "WEB_CRAWL"
+}

@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.npr.org/2026/03/31/nx-s1-5766991/iran-war-lebanon-israel-dubai-trump-oil-europe"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "U.S. journalist kidnapped in Iraq : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player NEWSLETTERS NPR SHOP GET NPR+ NEWS CULTURE MUSIC PODCASTS & SHOWS SEARCH SPECIAL SERIES Middle East conflict Trump hints at an end to military action in Iran, saying U.S. will leave in 2-3 weeks UPDATED MARCH 31, 20268:14 PM ET By NPR Staff People walk toward the Kadhimiya Shrine at sunset in the Shia neighborhood in Baghdad, Tuesday. Leo Correa/AP President Trump said on Tuesday that the United States will be leaving Iran very soon, giving a two to three week timetable. Trump's remarks came in response to a question about gas prices — which earlier Tuesday hit a national aver",
+    "javascript_rendered": true,
+    "title": "U.S. journalist kidnapped in Iraq : NPR",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:21:36Z",
+  "source_url": "https://www.npr.org/2026/03/31/nx-s1-5766991/iran-war-lebanon-israel-dubai-trump-oil-europe",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.npr.org/2026/03/31/nx-s1-5766991/iran-war-lebanon-israel-dubai-trump-oil-europe. Title: U.S. journalist kidnapped in Iraq : NPR. Excerpt: U.S. journalist kidnapped in Iraq : NPR Accessibility links Skip to main content Keyboard shortcuts for audio player NEWSLETTERS NPR SHOP GET NPR+ NEWS CULTURE MUSIC PODCASTS & SHOWS SEARCH SPECIAL SERIES Middle East conflict Trump hints at an end to military action in Iran, saying U.S. will leave in 2-3 weeks UPDATED MARCH 31, 20268:14 PM ET By NPR Staff People walk toward the Kadhimiya Shrine at sunset in the Shia neighborhood in Baghdad, Tuesday. Leo Correa/AP President Trump said on Tuesday that the United States will be leaving Iran very soon, giving a two to three week timetable. Trump's remarks came in response to a question about gas prices — which earlier Tuesday hit a national aver",
+  "tool_type": "WEB_CRAWL"
+}

@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "HTTP 400: {\"rdapConformance\":[\"rdap_level_0\",\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\"],\"lang\":\"en\",\"description\":[\"gampangjepehcgk.pages.dev is not a valid domain name: Domain name must have exactly one part above the TLD\"],\"errorCode\":400,\"title\":\"Bad Request\",\"notices\":[{\"description\":[\"By querying our Domain Database as part of the RDAP pilot program (RDAP Domain Database), you are agreeing to comply with these terms and acknowledging that your information will be used in accordance with Charleston Road Registry's Privacy Policy (https://www.registry.google/about/privacy.html), so please read the terms and Privacy Policy carefully.\",\"Any information provided is 'as is' without any guarantee of accuracy.\",\"Please do not misuse the RDAP Domain Database. It is in",
+  "parameters": {
+    "domain": "gampangjepehcgk.pages.dev"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:56:04Z",
+  "source_url": "",
+  "status": "error",
+  "summary": "WHOIS_LOOKUP failed: HTTP 400: {\"rdapConformance\":[\"rdap_level_0\",\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\"],\"lang\":\"en\",\"description\":[\"gampangjepehcgk.pages.dev is not a valid domain name: Domain name must have exactly one part above the TLD\"],\"errorCode\":400,\"title\":\"Bad Request\",\"notices\":[{\"description\":[\"By querying our Domain Database as part of the RDAP pilot program (RDAP Domain Database), you are agreeing to comply with these terms and acknowledging that your information will be used in accordance with Charleston Road Registry's Privacy Policy (https://www.registry.google/about/privacy.html), so please read the terms and Privacy Policy carefully.\",\"Any information provided is 'as is' without any guarantee of accuracy.\",\"Please do not misuse the RDAP Domain Database. It is in",
+  "tool_type": "WHOIS_LOOKUP"
+}

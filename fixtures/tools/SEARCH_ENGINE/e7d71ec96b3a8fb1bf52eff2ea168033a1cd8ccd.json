@@ -1,0 +1,105 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2026-41940"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "CVE-2026-41940"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "2026年4月28日，全球最大的Web托管控制面板提供商cPanel发布了一则紧急安全公告，修复了一个被编号为CVE-2026-41940的严重 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "CVE-2026-41940深度剖析：cPanel史上最严重认证绕过漏洞 ...",
+        "url": "https://blog.csdn.net/weixin_42376192/article/details/160700504"
+      },
+      {
+        "category": "general",
+        "content": "Apr 30, 2026 · cPanel & WHM 认证绕过漏洞 (CVE-2026-41940)允许未认证攻击者通过构造特殊请求，完全绕过 cPanel/WHM 的登录 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "【漏洞复现】cPanel&WHM认证绕过漏洞（CVE-2026-41940 ...",
+        "url": "https://xz.aliyun.com/news/92068"
+      },
+      {
+        "category": "general",
+        "content": "2026年5月曝光的cPanel&WHM认证绕过漏洞 (CVE-2026-41940)影响全球150万实例，攻击者无需凭证即可获取WHM Root权限。 本 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "CVE-2026-41940：cPanel预认证认证绕过漏洞深度剖析与 ...",
+        "url": "https://cloud.tencent.com/developer/article/2691097"
+      },
+      {
+        "category": "general",
+        "content": "Apr 29, 2026 · cPanel和WHM在11.40版本之后的登录流程中存在严重的认证绕过漏洞。由于未对特定登录请求进行充分的身份验证， …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "CVE-2026-41940 cPanel认证绕过漏洞 - IPBUF",
+        "url": "https://www.ipbuf.com/static/cve/2026/CVE-2026-41940_zh.html"
+      },
+      {
+        "category": "general",
+        "content": "CVE-2026-41940 是一个严重的认证绕过漏洞，通过 CRLF 注入可以获取 WHM root 访问权限。 虽然 Shell::exec 在新版本中已被禁 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "核弹漏洞CVE-2026-41940 cPanel/WHM 认证绕过至RCE ...",
+        "url": "https://www.freebuf.com/articles/web/483221.html"
+      },
+      {
+        "category": "general",
+        "content": "Apr 30, 2026 · 文章总结： 奇安信CERT发布cPanel&WHM身份认证绕过漏洞 (CVE-2026-41940)安全通告，该高危漏洞CVSS评 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "【已复现】cPanel&WHM身份认证绕过漏洞 (CVE-2026-41940 ...",
+        "url": "https://security.zone.ci/secarticles/wx/527356.html"
+      },
+      {
+        "category": "general",
+        "content": "CVE-2026-41940 Detail Description cPanel and WHM versions after 11.40 contain an authentication bypass vulnerability in the login …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "NVD-CVE-2026-41940",
+        "url": "https://nvd.nist.gov/vuln/detail/cve-2026-41940"
+      },
+      {
+        "category": "general",
+        "content": "Apr 30, 2026 · 近日，奇安信CERT监测到官方修复cPanel&WHM 身份认证绕过漏洞 (CVE-2026-41940)，该漏洞源于登录流程中的会 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "【已复现】cPanel&WHM身份认证绕过漏洞 (CVE-2026-41940 ...",
+        "url": "https://zone.ci/secarticles/wx/527101.html"
+      },
+      {
+        "category": "general",
+        "content": "May 8, 2026 · cPanel & WHM存在严重认证绕过漏洞CVE-2026-41940，攻击者可利用CRLF注入获取root权限。 影响版本包括11.86.* …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "CVE-2026-41940｜cPanel/WHM登录流程认证绕过漏洞（POC）",
+        "url": "https://cloud.tencent.com/developer/article/2665930"
+      },
+      {
+        "category": "general",
+        "content": "May 1, 2026 · 前言 2026年4月28日，全球最流行的服务器控制面板cPanel发布紧急安全公告，修复了一个编号为 CVE-2026-41940 的 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "CVE-2026-41940 cPanel认证绕过漏洞深度解析：无权限远程 ...",
+        "url": "https://blog.csdn.net/weixin_42376192/article/details/160676196"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:07Z",
+  "source_url": "http://searxng:8080/search?q=CVE-2026-41940&format=json",
+  "status": "success",
+  "summary": "SearXNG search for CVE-2026-41940: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

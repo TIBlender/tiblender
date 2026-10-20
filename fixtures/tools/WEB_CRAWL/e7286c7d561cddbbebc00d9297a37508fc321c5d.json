@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host hunt.io is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "http://hunt.io"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:03Z",
+  "source_url": "http://hunt.io",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host hunt.io for http://hunt.io",
+  "tool_type": "WEB_CRAWL"
+}

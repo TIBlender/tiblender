@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "Ransomware cluster"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Thunderbird is a free email application that’s easy to set up and customize - and it’s loaded with great features!",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Download — Thunderbird",
+        "url": "https://www.thunderbird.net/en-US/thunderbird/all/"
+      },
+      {
+        "category": "general",
+        "content": "Thunderbird is a free email application that’s easy to set up and customize - and it’s loaded with great features!",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Thunderbird — Free Your Inbox.",
+        "url": "https://www.thunderbird.net/en-US/"
+      },
+      {
+        "category": "general",
+        "content": "Thunderbird is a personal information manager (PIM) with e-mail, newsgroup, news feed, and instant messaging functionality, with …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Mozilla Thunderbird - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mozilla_Thunderbird"
+      },
+      {
+        "category": "general",
+        "content": "Apr 7, 2025 · This article describes how to install Thunderbird on Windows. If you are upgrading from a previous version of …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Install Thunderbird on Windows | Thunderbird Help - Mozilla Support",
+        "url": "https://support.mozilla.org/en-US/kb/installing-thunderbird-windows"
+      },
+      {
+        "category": "general",
+        "content": "Learn how to use Thunderbird and ask your questions. Thunderbird contributors from around the world are working to make your …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Thunderbird Desktop — Thunderbird",
+        "url": "https://www.thunderbird.net/en-US/desktop/"
+      },
+      {
+        "category": "general",
+        "content": "Sep 9, 2026 · Mozilla Thunderbird is a free, open-source email client that allows users to manage multiple email accounts in one place.",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Download Mozilla Thunderbird (free) for Windows, macOS ... - Gizmodo",
+        "url": "https://gizmodo.com/download/mozilla-thunderbird"
+      },
+      {
+        "category": "general",
+        "content": "We want our users to have freedom and choice in how they communicate. The official monthly release. This release is intended for …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Mozilla Thunderbird - Free download and install on Windows",
+        "url": "https://apps.microsoft.com/detail/9mx7tgvgqfcl"
+      },
+      {
+        "category": "general",
+        "content": "Thunderbird can use web-based storage services to send large file attachments. Grow and share your expertise with others. Answer …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Thunderbird Help - Mozilla Support",
+        "url": "https://support.mozilla.org/en-US/products/thunderbird"
+      },
+      {
+        "category": "general",
+        "content": "In Algonquian mythology, the thunderbird controls the upper world while the underworld is governed by the underwater panther or …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Thunderbird (mythology) - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Thunderbird_(mythology)"
+      },
+      {
+        "category": "general",
+        "content": "Thunderbird is a free email application that’s easy to set up and customize - and it’s loaded with great features!",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Releases — Thunderbird",
+        "url": "https://www.thunderbird.net/en-US/thunderbird/releases/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:38Z",
+  "source_url": "http://searxng:8080/search?q=Ransomware+cluster&format=json",
+  "status": "success",
+  "summary": "SearXNG search for Ransomware cluster: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,193 @@
+{
+  "workflow_engine": "langgraph_stategraph",
+  "workflow_nodes": [
+    "normalize_posts",
+    "cluster_posts",
+    "investigate_clusters",
+    "evaluate_clusters",
+    "generate_reports",
+    "cross_cycle_feedback"
+  ],
+  "posts_loaded": 6,
+  "normalized_posts": 6,
+  "threat_related_posts": 6,
+  "clusters_generated": 1,
+  "clusters_investigated": 1,
+  "reports_generated": 1,
+  "tool_recording_replay": {
+    "by_tool": {
+      "PASSIVE_DNS_LOOKUP": {
+        "calls": 2,
+        "hits": 2,
+        "misses": 0,
+        "hit_rate": 1.0
+      },
+      "SEARCH_ENGINE": {
+        "calls": 3,
+        "hits": 3,
+        "misses": 0,
+        "hit_rate": 1.0
+      },
+      "TLS_CT_LOOKUP": {
+        "calls": 1,
+        "hits": 1,
+        "misses": 0,
+        "hit_rate": 1.0
+      },
+      "WHOIS_LOOKUP": {
+        "calls": 2,
+        "hits": 2,
+        "misses": 0,
+        "hit_rate": 1.0
+      }
+    },
+    "calls": 8,
+    "hits": 8,
+    "misses": 0,
+    "hit_rate": 1.0
+  },
+  "output_dir": ".",
+  "pipeline_steps": [
+    "Step 1 adaptive collection/post normalization",
+    "Step 2 dual-track campaign clustering",
+    "Step 3 multi-perspective investigation",
+    "Step 4 adaptive evaluation loop with follow-up investigation",
+    "Step 5 structured JSON/Markdown/PDF/STIX report generation",
+    "Cross-cycle trend query and policy feedback"
+  ],
+  "report_generation": {
+    "llm_provider": "azure_openai",
+    "llm_model": "",
+    "allow_heuristic_reports": true,
+    "mode": "offline_deterministic"
+  },
+  "post_normalization": {
+    "mode": "offline_deterministic",
+    "summary_source": "local_rules"
+  },
+  "cluster_refinement": {
+    "mode": "offline_deterministic"
+  },
+  "embedding_resolution": {
+    "requested_backend": "hashing",
+    "resolved_backend": "hashing",
+    "actual_backend": "sklearn_hashing_vectorizer",
+    "requested_trend_backend": "hashing",
+    "resolved_trend_backend": "hashing",
+    "actual_trend_backend": "sklearn_hashing_vectorizer",
+    "offline_pin_applied": true,
+    "embedding_fallback_applied": false
+  },
+  "llm_fallbacks": {
+    "normalization_posts": 0,
+    "cluster_refinement_batches": 0,
+    "planner_clusters": 0,
+    "perspective_units": 0,
+    "judge_rounds": 0,
+    "report_fields": 0,
+    "dynamic_query_signals": 0,
+    "strategic_value_clusters": 0,
+    "perspective_focus_padded": 0,
+    "unattributed_fallbacks": 0
+  },
+  "llm_fallback_reasons": {
+    "truncated": 0,
+    "timeout": 0,
+    "http_status": 0,
+    "network": 0,
+    "empty_content": 0,
+    "json_parse": 0,
+    "invalid_response": 0,
+    "non_english_output": 0,
+    "unknown": 0
+  },
+  "language_guard": {
+    "reports_checked": 1,
+    "reports_rewritten": 0,
+    "sections_rewritten": []
+  },
+  "investigation_planning": {
+    "mode": "offline_deterministic"
+  },
+  "feedback": {
+    "dynamic_query_count": 1,
+    "trajectory_count": 16,
+    "policy_type": "multiaction_dqn",
+    "training_status": "bc_only_insufficient_transitions",
+    "policy_state_path": "history/policy_state.json",
+    "trajectory_path": "intermediate/investigation_trajectories.json",
+    "trend_counts": {
+      "VOLUME": 1,
+      "PROPAGATION": 0,
+      "ESCALATION": 0,
+      "EARLY_WARNING": 0
+    },
+    "history_size": 6
+  },
+  "hyperparameters": {
+    "llm_temperature": 0.0,
+    "llm_max_output_tokens": 4096,
+    "llm_batch_size": 20,
+    "llm_cluster_batch_size": 10,
+    "llm_max_concurrent": 8,
+    "cluster_workers": 4,
+    "llm_timeout_seconds": 60,
+    "min_text_chars": 24,
+    "jaccard_threshold": 0.25,
+    "absorption_threshold": 0.75,
+    "min_cluster_size": 3,
+    "min_samples": 2,
+    "cluster_epsilon": 0.08,
+    "embedding_backend": "hashing",
+    "embedding_model": "BAAI/bge-large-en-v1.5",
+    "embedding_features": 384,
+    "embedding_fallback": true,
+    "embedding_local_files_only": true,
+    "hdbscan_backend": "sklearn",
+    "merge_similarity_threshold": 0.92,
+    "merge_max_time_gap_seconds": 21600,
+    "merge_min_context_overlap": 2,
+    "min_severity": "MEDIUM",
+    "max_evaluation_rounds": 3,
+    "rl_similarity_gate": 0.6,
+    "rl_max_steps": 10,
+    "rl_action_top_k": 5,
+    "rl_policy_backend": "multiaction_dqn",
+    "reference_rl_hidden_dim": 256,
+    "reference_rl_dropout": 0.1,
+    "reference_rl_bc_epochs": 20,
+    "reference_rl_bc_batch_size": 32,
+    "reference_rl_bc_learning_rate": 0.0003,
+    "reference_rl_bc_patience": 3,
+    "reference_rl_bc_validation_split": 0.1,
+    "reference_rl_dqn_episodes": 50,
+    "reference_rl_dqn_learning_rate": 0.0001,
+    "reference_rl_replay_capacity": 10000,
+    "reference_rl_training_min_transitions": 1000,
+    "reference_rl_epsilon_init": 1.0,
+    "reference_rl_epsilon_min": 0.01,
+    "reference_rl_epsilon_decay": 0.9,
+    "reference_rl_discount": 0.99,
+    "trend_window_hours": 168,
+    "trend_similarity_threshold": 0.8,
+    "volume_sigma_k": 1.5,
+    "trend_min_similar_snapshots": 4,
+    "trend_volume_min_posts": 4,
+    "early_warning_threshold": 0.75,
+    "trend_embedding_backend": "hashing",
+    "max_queries_per_perspective": 5,
+    "perspective_workers": 4,
+    "pivot_depth": 1,
+    "enable_pivot_iocs": true,
+    "enable_real_tools": true,
+    "tool_timeout_seconds": 20,
+    "max_tool_results": 5,
+    "tool_max_bytes": 2097152,
+    "web_crawl_max_bytes": 200000,
+    "web_crawl_render_js": true,
+    "web_crawl_wait_ms": 1000,
+    "search_engine_provider": "searxng",
+    "search_engine_max_results": 10,
+    "searxng_base_url": "http://searxng:8080"
+  }
+}

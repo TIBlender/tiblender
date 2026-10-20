@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.newsweek.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.newsweek.com"
+  },
+  "raw": {
+    "count": 66,
+    "issuers": [
+      "C=US, O=Certainly, CN=Certainly Intermediate R1",
+      "C=US, O=Certainly, CN=Certainly Intermediate R1",
+      "C=US, O=Certainly, CN=Certainly Intermediate R1",
+      "C=US, O=Certainly, CN=Certainly Intermediate R1",
+      "C=US, O=Certainly, CN=Certainly Intermediate R1"
+    ],
+    "names": [
+      "www.newsweek.com",
+      "www.newsweek.com",
+      "www.newsweek.com",
+      "www.newsweek.com",
+      "www.newsweek.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:10:37Z",
+  "source_url": "https://crt.sh/?q=%25.www.newsweek.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.newsweek.com: 66 certificate row(s); sample names=www.newsweek.com, www.newsweek.com, www.newsweek.com, www.newsweek.com, www.newsweek.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

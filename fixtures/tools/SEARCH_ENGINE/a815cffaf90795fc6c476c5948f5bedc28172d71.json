@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "www.esentire.com other"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "2014年時点での各国の ウェブ・インデックス （英語版） を表した世界地図。 World Wide Web （ワールド・ワイド・ウェブ 、略 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "World Wide Web - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/World_Wide_Web"
+      },
+      {
+        "category": "general",
+        "content": "Viewing a web page on the World Wide Web normally begins either by typing the URL of the page into a web browser or by following …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "World Wide Web - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web"
+      },
+      {
+        "category": "general",
+        "content": "Jul 21, 2026 · 1990年には世界初のWebブラウザとWebサーバーが開発され、1991年に世界初のWebサイトが公開されました。 当時 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "WWWとは？初心者でもわかるワールドワイドウェブの基本と ...",
+        "url": "https://it-yougo.jp/fe/143"
+      },
+      {
+        "category": "general",
+        "content": "Nov 7, 2017 · wwwとは、「インターネットのホームページの閲覧機能を提供しているサーバを識別するために一般的に使われる名 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "URLのwwwとはどういう意味？wwwの必要性とありなしの違い ...",
+        "url": "https://satopedia.com/www/"
+      },
+      {
+        "category": "general",
+        "content": "Aug 12, 2023 · 「ワールドワイドウェブ（World Wide Web）」とは、 インターネット上にある無数のコンテンツを結びつけて張り …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "ワールドワイドウェブ（www）とは何か？インターネットとの ...",
+        "url": "https://tech-camp.in/note/technology/101184/"
+      },
+      {
+        "category": "general",
+        "content": "Jul 22, 2026 · World Wide Web, the leading information retrieval service of the Internet (the worldwide computer network). The Web …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "World Wide Web | History, Uses & Benefits | Britannica",
+        "url": "https://www.britannica.com/topic/World-Wide-Web"
+      },
+      {
+        "category": "general",
+        "content": "The World Wide Web (\"WWW\", \"W3\" or simply \"the Web\") is a global information medium that users can access via computers …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "History of the World Wide Web - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/History_of_the_World_Wide_Web"
+      },
+      {
+        "category": "general",
+        "content": "Web（ウェブ、WWW）とは、インターネット上で標準的に用いられている文書の公開・閲覧システム。 文字や図表、画像、動画 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Web（ウェブ / WWW）とは - IT用語辞典 e-Words",
+        "url": "https://e-words.jp/w/Web.html"
+      },
+      {
+        "category": "general",
+        "content": "Google 検索は次の言語でもご利用いただけます: English",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Google",
+        "url": "https://www.google.com/?hl=ja"
+      },
+      {
+        "category": "general",
+        "content": "Oct 13, 2023 · The world wide web (‘www’ or ‘web’ for short) is a collection of webpages found on this global network of computers. …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "What is the world wide web? - BBC Bitesize",
+        "url": "https://www.bbc.co.uk/bitesize/articles/z2nbgk7"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:41Z",
+  "source_url": "http://searxng:8080/search?q=www.esentire.com+other&format=json",
+  "status": "success",
+  "summary": "SearXNG search for www.esentire.com other: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.tomsguide.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.tomsguide.com"
+  },
+  "raw": {
+    "count": 192,
+    "issuers": [
+      "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R46 DV TLS CA 2026 Q3",
+      "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R46 DV TLS CA 2026 Q3",
+      "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R46 DV TLS CA 2026 Q3",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR1"
+    ],
+    "names": [
+      "www.tomsguide.com",
+      "www.tomsguide.com",
+      "www.tomsguide.com",
+      "www.tomsguide.com",
+      "www.tomsguide.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:11:33Z",
+  "source_url": "https://crt.sh/?q=%25.www.tomsguide.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.tomsguide.com: 192 certificate row(s); sample names=www.tomsguide.com, www.tomsguide.com, www.tomsguide.com, www.tomsguide.com, www.tomsguide.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

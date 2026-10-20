@@ -1,0 +1,462 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "103.45.247.45"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "103.45.247.45"
+  },
+  "raw": {
+    "cidr0_cidrs": [
+      {
+        "length": 24,
+        "v4prefix": "103.45.247.0"
+      }
+    ],
+    "country": "NL",
+    "endAddress": "103.45.247.255",
+    "entities": [
+      {
+        "handle": "CloudWebManage-MNT",
+        "links": [
+          {
+            "href": "https://rdap.db.ripe.net/entity/CloudWebManage-MNT",
+            "rel": "self",
+            "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+          },
+          {
+            "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+            "rel": "copyright",
+            "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+          }
+        ],
+        "objectClassName": "entity",
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "CloudWebManage-MNT"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "individual"
+            ]
+          ]
+        ]
+      },
+      {
+        "handle": "CWM7-RIPE",
+        "links": [
+          {
+            "href": "https://rdap.db.ripe.net/entity/CWM7-RIPE",
+            "rel": "self",
+            "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+          },
+          {
+            "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+            "rel": "copyright",
+            "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+          }
+        ],
+        "objectClassName": "entity",
+        "roles": [
+          "administrative",
+          "technical"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Cloud Web Manage"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "group"
+            ],
+            [
+              "adr",
+              {
+                "label": "1560 Brodway"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "email",
+              {
+                "type": "abuse"
+              },
+              "text",
+              "abuse@cloudwm.com"
+            ]
+          ]
+        ]
+      },
+      {
+        "entities": [
+          {
+            "handle": "CloudWebManage-MNT",
+            "links": [
+              {
+                "href": "https://rdap.db.ripe.net/entity/CloudWebManage-MNT",
+                "rel": "self",
+                "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+              },
+              {
+                "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+                "rel": "copyright",
+                "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+              }
+            ],
+            "objectClassName": "entity",
+            "roles": [
+              "registrant"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "CloudWebManage-MNT"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "individual"
+                ]
+              ]
+            ]
+          },
+          {
+            "handle": "YA57445-RIPE",
+            "links": [
+              {
+                "href": "https://rdap.db.ripe.net/entity/YA57445-RIPE",
+                "rel": "self",
+                "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+              },
+              {
+                "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+                "rel": "copyright",
+                "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+              }
+            ],
+            "objectClassName": "entity",
+            "roles": [
+              "administrative",
+              "technical"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Yohay Azulay"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "individual"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "58 Acre Road\nKiryat Bialik\n27071\nISRAEL"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "text",
+                  "+972747300020"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "ORG-OCCL1-RIPE"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "CWM7-RIPE",
+        "objectClassName": "entity",
+        "roles": [
+          "abuse"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Cloud Web Manage"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "group"
+            ],
+            [
+              "adr",
+              {
+                "label": "1560 Brodway"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "email",
+              {
+                "type": "abuse"
+              },
+              "text",
+              "abuse@cloudwm.com"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2023-03-16T16:46:22Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2023-03-26T11:05:19Z"
+      }
+    ],
+    "handle": "103.45.247.0 - 103.45.247.255",
+    "ipVersion": "v4",
+    "links": [
+      {
+        "href": "https://www.kamatera.com/geofeed.csv",
+        "rel": "geofeed",
+        "type": "application/geofeed+csv",
+        "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/103.45.247.0%20-%20103.45.247.255",
+        "rel": "rdap-up",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/103.45.247.0%20-%20103.45.247.255?status=active",
+        "rel": "rdap-up rdap-active",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-down/103.45.247.0%20-%20103.45.247.255",
+        "rel": "rdap-down",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/103.45.247.0%20-%20103.45.247.255",
+        "rel": "rdap-top",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/103.45.247.0%20-%20103.45.247.255?status=active",
+        "rel": "rdap-top rdap-active",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-bottom/103.45.247.0%20-%20103.45.247.255",
+        "rel": "rdap-bottom",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ip/103.45.247.45",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+      },
+      {
+        "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+        "rel": "copyright",
+        "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+      }
+    ],
+    "name": "CLOUDWEBMANAGE-EU",
+    "notices": [
+      {
+        "description": [
+          "This output has been filtered."
+        ],
+        "title": "Filtered"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit:"
+        ],
+        "links": [
+          {
+            "href": "https://www.ripe.net/contact-form?topic=ripe_dbm&show_form=true",
+            "rel": "inaccuracy-report",
+            "type": "text/html",
+            "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      },
+      {
+        "description": [
+          "Objects returned came from source",
+          "RIPE"
+        ],
+        "title": "Source"
+      },
+      {
+        "description": [
+          "This is the RIPE Database query service. The objects are in RDAP format."
+        ],
+        "links": [
+          {
+            "href": "http://www.ripe.net/db/support/db-terms-conditions.pdf",
+            "rel": "terms-of-service",
+            "type": "application/pdf",
+            "value": "https://rdap.db.ripe.net/ip/103.45.247.45"
+          }
+        ],
+        "title": "Terms and Conditions"
+      }
+    ],
+    "objectClassName": "ip network",
+    "parentHandle": "103.45.244.0 - 103.45.247.255",
+    "port43": "whois.ripe.net",
+    "rdapConformance": [
+      "geofeed1",
+      "rirSearch1",
+      "ips",
+      "cidr0",
+      "rdap_level_0",
+      "nro_rdap_profile_0",
+      "redacted"
+    ],
+    "redacted": [
+      {
+        "method": "removal",
+        "name": {
+          "description": "Personal e-mail information"
+        },
+        "prePath": "$.entities[?(@.handle=='CWM7-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+        "reason": {
+          "description": "Personal data"
+        }
+      },
+      {
+        "method": "removal",
+        "name": {
+          "description": "Personal e-mail information"
+        },
+        "prePath": "$.entities[?(@.handle=='CWM7-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+        "reason": {
+          "description": "Personal data"
+        }
+      }
+    ],
+    "startAddress": "103.45.247.0",
+    "status": [
+      "active"
+    ],
+    "type": "ASSIGNED PA"
+  },
+  "recorded_at": "2026-09-15T01:25:57Z",
+  "source_url": "https://rdap.db.ripe.net/ip/103.45.247.45",
+  "status": "success",
+  "summary": "RDAP ip lookup for 103.45.247.45: handle=103.45.247.0 - 103.45.247.255; status=active; nameservers=n/a; events=registration=2023-03-16T16:46:22Z; last changed=2023-03-26T11:05:19Z; entities=CloudWebManage-MNT,CWM7-RIPE,CWM7-RIPE.",
+  "tool_type": "WHOIS_LOOKUP"
+}

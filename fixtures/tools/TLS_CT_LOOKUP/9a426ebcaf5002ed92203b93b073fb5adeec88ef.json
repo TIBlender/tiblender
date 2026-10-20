@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.esentire.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.esentire.com"
+  },
+  "raw": {
+    "count": 141,
+    "issuers": [
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Let's Encrypt, CN=YR1"
+    ],
+    "names": [
+      "www.esentire.com",
+      "www.esentire.com",
+      "www.esentire.com",
+      "www.esentire.com",
+      "www.esentire.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:10:06Z",
+  "source_url": "https://crt.sh/?q=%25.www.esentire.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.esentire.com: 141 certificate row(s); sample names=www.esentire.com, www.esentire.com, www.esentire.com, www.esentire.com, www.esentire.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

@@ -1,0 +1,148 @@
+{
+  "notes": {
+    "noise_post_refs": [
+      "TIBLENDER-2026-03-31-dd31428c29fb57b1-6b97b940:p3",
+      "TIBLENDER-2026-04-01-c25b6c5ad3d61407-b6ad0e62:p7",
+      "TIBLENDER-2026-04-01-c752bcde9c5c00b0-189f0ce1:p6",
+      "TIBLENDER-2026-04-02-0d50f3b2ed0acb22-bf6584cc:p2",
+      "TIBLENDER-2026-04-02-27b035d9cd858b1c-da31741f:p2",
+      "TIBLENDER-2026-04-03-5afe204d9c7c32ef-5c915b80:p1"
+    ]
+  },
+  "platform": "telegram",
+  "posts": [
+    {
+      "kind": "noise",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-02-27b035d9cd858b1c-da31741f",
+      "source_ref": "TIBLENDER-2026-04-02-27b035d9cd858b1c-da31741f:p2",
+      "timestamp": "2026-03-30T20:14:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+      "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p33",
+      "timestamp": "2026-03-31T11:15:24Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea",
+      "source_ref": "TIBLENDER-2026-04-02-41323e4452b44e62-09575e22:bulk:p0",
+      "timestamp": "2026-04-01T14:20:52Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-02-0d50f3b2ed0acb22-bf6584cc",
+      "source_ref": "TIBLENDER-2026-04-02-0d50f3b2ed0acb22-bf6584cc:p2",
+      "timestamp": "2026-04-02T12:20:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+      "source_ref": "TIBLENDER-2026-04-03-c25b6c5ad3d61407-e988eafd:p28",
+      "timestamp": "2026-04-02T19:39:27Z"
+    }
+  ],
+  "provenance": "anonymized_dataset_excerpt",
+  "responses": [
+    {
+      "payload": {
+        "chats": [
+          {
+            "id": "4245627308",
+            "title": "channel-u05243d36",
+            "username": "tichancdumdwvw"
+          },
+          {
+            "id": "9426932429",
+            "title": "channel-u65b39551",
+            "username": "tichan9k1mtl2z"
+          }
+        ]
+      },
+      "request": {
+        "endpoint": "dialogs"
+      }
+    },
+    {
+      "payload": [
+        {
+          "date": "2026-03-30T20:14:00Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 630859,
+          "media": {},
+          "message": "⏰ Pavel Sitnikov just launched this OSINT hunt on his 'Freedom Fox' channel, announcing prizes for tracking Nevzorov's routes and home surveillance. It follows Russian media quoting him on building a cyber army led by intel services. Nevzorov, now with Ukrainian citizenship, is already facing political cases back home.",
+          "views": 0
+        },
+        {
+          "date": "2026-03-31T11:15:24Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 630860,
+          "media": {},
+          "message": "广告:❇️搬U赚钱靠谱跑分项目，进群日入上万，小白可教，无套路，福利多多 西昌修车老湿机约炮群 女仆、御姐高端定制等【点击咨询客服】 西昌精品资源『工作室+上门服务』『独家资源，价格实惠』靠谱茶馆 西昌学生良家【92】【95】【98】一条龙、上门、楼凤 交流娱乐/西昌/攀枝花 10k 四川绵阳德阳西昌达州聊天... 3k 四川西昌绿主找情侣奴单女 四川西昌绿主找情侣奴单女 四川省西昌164700_这里下午有没有 西昌彝族人，2001年生，现用飞... 网友投稿_此人名叫花勇，西昌... 新华社西昌_9_月_28_日电，9_月_2 还是成都好，来了西昌没靠谱的 兄弟们，西昌哪里有好耍的 1月17日00时55分，中国在西昌卫星 _1.28%_西昌电力(sh600505)_4.81% 10月15日3时12分在西昌卫星发射中 西昌卫星发射中心发射一枚运载... 西昌卫星发射中心发射的运载火... 热搜：兽兽 小木町 小瓜陆 张雪峰 金币崽 六角琴 洛克王国 兽兽门 神再佑我璐酱 周雨",
+          "views": 0
+        },
+        {
+          "date": "2026-04-01T14:20:52Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 630861,
+          "media": {},
+          "message": "Хакеры из Северная Корея взломали аккаунт разработчика библиотеки Axios и внедрили вредоносный код в обновлени е, которым пользуются тысячи компаний, включая криптопроекты . Установившие его рисковали раскрыть приватные ключи и доступ к средствам - первые жертвы уже есть, и масштаб атаки может расти. CNN North Korean hackers bug software used by thousands of US companies in potential crypto heist attempt Suspected North Korean hackers have bugged a software package that has been used by thousands of US companies in a major supply-chain attack that could take months to recover from, security experts said Tuesday. hxxps://edition[.]cnn[.]com/2026/03/31/politics/north-korea-hacking-crypto",
+          "views": 0
+        },
+        {
+          "date": "2026-04-02T12:20:00Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 630862,
+          "media": {},
+          "message": "🤨 Social media's buzzing about $DRIFT losing 270M USD to a supposed Lazarus hack, but where's the blockchain proof or on-chain flow? No word from the project team yet, and that prediction from two years back feels too convenient without evidence. Treat it as rumor until wallets confirm the drain.",
+          "views": 0
+        }
+      ],
+      "request": {
+        "channel_id": "4245627308",
+        "endpoint": "messages"
+      }
+    },
+    {
+      "payload": [
+        {
+          "date": "2026-04-02T19:39:27Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 532196,
+          "media": {},
+          "message": "#ParsedReport #CompletenessLow 02-04-2026 STARDUST CHOLLIMA Likely Compromises Axios npm Package hxxps://www[.]crowdstrike[.]com/en-us/blog/stardust-chollima-likely-compromises-axios-npm-package/ Report completeness: Low Actors/Campaigns: Bluenoroff Axios_compromise Famous_chollima Threats: Zshbucket Invisibleferret Supply_chain_technique Victims: Software, Cryptocurrency holders, Financial technology Industry: Financial Geo: Dprk ChatGPT TTPs: do not use without manual check T1033, T1078, T1082, T1195.001, T1583.001, T1587.001 IOCs: Domain: 1 IP: 3 Soft: Linux, macOS Platforms: intel Attached WebPage: STARDUST CHOLLIMA Likely Compromises Axios npm Package STARDUST CHOLLIMA has likely compromised Axios Note Package Manager (npm) Package with stolen manager credentials. Learn more.",
+          "views": 0
+        }
+      ],
+      "request": {
+        "channel_id": "9426932429",
+        "endpoint": "messages"
+      }
+    }
+  ],
+  "source_reports": [
+    "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+    "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+    "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd",
+    "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+    "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+    "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+    "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea"
+  ],
+  "window": {
+    "cycle_index": 3,
+    "end": "2026-04-02T23:59:59Z",
+    "label": "cycle_003",
+    "start": "2026-03-30T00:00:00Z"
+  }
+}

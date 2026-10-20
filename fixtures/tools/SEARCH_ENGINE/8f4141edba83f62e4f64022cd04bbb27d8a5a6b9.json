@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "1sou.top"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Download WhatsApp on your mobile device, tablet or desktop and stay connected with reliable private messaging and calling. …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Download WhatsApp",
+        "url": "https://www.whatsapp.com/download"
+      },
+      {
+        "category": "general",
+        "content": "Log in to WhatsApp Web for simple, reliable and private messaging on your desktop. Send and receive messages and files with …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "WhatsApp Web",
+        "url": "https://web.whatsapp.com/"
+      },
+      {
+        "category": "general",
+        "content": "Use WhatsApp Messenger to stay in touch with friends and family. WhatsApp is free and offers simple, secure, reliable messaging …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "WhatsApp | Secure and Reliable Free Private Messaging and Calling",
+        "url": "https://www.whatsapp.com/"
+      },
+      {
+        "category": "general",
+        "content": "Diselenggarakan oleh WhatsApp 2026 © WhatsApp LLC Privasi & Ketentuan",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "WhatsApp - wa.me",
+        "url": "https://wa.me/?lang=id"
+      },
+      {
+        "category": "general",
+        "content": "Hosted by WhatsApp 2026 © WhatsApp LLC Privacy & Terms",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "HOUSAB - WhatsApp",
+        "url": "https://wa.me/"
+      },
+      {
+        "category": "general",
+        "content": "WhatsApp from Meta is a FREE messaging and video calling app. It’s used by over 2B people in more than 180 countries. It’s simple, …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "WhatsApp Messenger - Apps on Google Play",
+        "url": "https://play.google.com/store/apps/details?id=com.whatsapp&hl=en"
+      },
+      {
+        "category": "general",
+        "content": "WhatsApp Web is accessed through web.WhatsApp.com and access is granted after the user scans their personal QR code through …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "WhatsApp - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/WhatsApp"
+      },
+      {
+        "category": "general",
+        "content": "WhatsApp connects you with the people you care about most, effortlessly and privately.",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "WhatsApp from Meta",
+        "url": "https://www.meta.com/whatsapp/"
+      },
+      {
+        "category": "general",
+        "content": "With end-to-end encryption on WhatsApp, your personal messages, photos, calls and more stay between you and the people you …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Download WhatsApp for Desktop",
+        "url": "https://www.whatsapp.com/download/desktop?lang=en"
+      },
+      {
+        "category": "general",
+        "content": "Gunakan WhatsApp Messenger untuk berkomunikasi dengan teman dan keluarga. WhatsApp adalah aplikasi berkirim pesan dan …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "WhatsApp | Perpesanan dan Telepon Pribadi Gratis yang Aman dan …",
+        "url": "https://www.whatsapp.com/?lang=id"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T06:32:40Z",
+  "source_url": "http://searxng:8080/search?q=1sou.top&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 1sou.top: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host packetstorm.news is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://packetstorm.news/news/view/41031"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T08:47:32Z",
+  "source_url": "https://packetstorm.news/news/view/41031",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host packetstorm.news for https://packetstorm.news/news/view/41031",
+  "tool_type": "WEB_CRAWL"
+}

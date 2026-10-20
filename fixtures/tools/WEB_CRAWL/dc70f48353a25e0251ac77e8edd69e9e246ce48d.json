@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.reversinglabs.com/owasp-genai-security-project-updates"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Powered by THE INAUGURAL GARTNER® MAGIC QUADRANT™ FOR SOFTWARE SUPPLY CHAIN SECURITY IS OUT GET THE REPORT Skip to main content Contact Us Support Blog Community Open search modal ReversingLabs: Home SOLUTIONS Secure Software Onboarding Secure Build & Release Verify AI Supply Chain Integrate Safe Open Source Go Beyond the SBOM Increase Email Threat Resilience Detect Malware in File Shares & Storage Advanced Malware Analysis Suite ICAP Enabled Solutions Scalable File An",
+    "javascript_rendered": true,
+    "title": "",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:21:55Z",
+  "source_url": "https://www.reversinglabs.com/owasp-genai-security-project-updates",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.reversinglabs.com/owasp-genai-security-project-updates. Title: n/a. Excerpt: We value your privacy We use cookies to enhance your browsing experience, serve personalised ads or content, and analyse our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customise Reject All Accept All Powered by THE INAUGURAL GARTNER® MAGIC QUADRANT™ FOR SOFTWARE SUPPLY CHAIN SECURITY IS OUT GET THE REPORT Skip to main content Contact Us Support Blog Community Open search modal ReversingLabs: Home SOLUTIONS Secure Software Onboarding Secure Build & Release Verify AI Supply Chain Integrate Safe Open Source Go Beyond the SBOM Increase Email Threat Resilience Detect Malware in File Shares & Storage Advanced Malware Analysis Suite ICAP Enabled Solutions Scalable File An",
+  "tool_type": "WEB_CRAWL"
+}

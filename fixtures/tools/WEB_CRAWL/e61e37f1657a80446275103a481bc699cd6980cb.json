@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.ms.now is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.ms.now/opinion/section-230-trump-free-speech"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:56Z",
+  "source_url": "https://www.ms.now/opinion/section-230-trump-free-speech",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.ms.now for https://www.ms.now/opinion/section-230-trump-free-speech",
+  "tool_type": "WEB_CRAWL"
+}

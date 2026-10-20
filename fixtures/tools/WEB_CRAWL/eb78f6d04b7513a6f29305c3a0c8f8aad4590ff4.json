@@ -1,0 +1,35 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "csandker.io",
+      "www.fortinet.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": [
+      "https://csandker.io/2021/02/21/Offensive-Windows-IPC-2-RPC.html",
+      "https://www.fortinet.com/blog/threat-research/the-case-studies-of-microsoft-windows-remote-procedure-call-serv"
+    ]
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://specterops.io/blog/2023/10/18/uncovering-rpc-servers-through-windows-api-analysis/?source=rss----f05f8696e3cc---4"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Uncovering RPC Servers through Windows API Analysis - SpecterOps We value your privacy We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customize Reject All Accept All Join us at Specter Bash for our annual training event with a Halloween twist. Register now Contact Us Support Blog Platform Services Training Community Company Resources Book a Demo Back to Blog RESEARCH & TRADECRAFT Uncovering RPC Servers through Windows API Analysis AUTHOR Kai Huang READ TIME 18 mins PUBLISHED Oct 18, 2023 Intro Advapi32!LogonUser Advapi32!LogonUserA Addvapi32!LogonUserCommonA Advapi32!",
+    "javascript_rendered": true,
+    "title": "Uncovering RPC Servers through Windows API Analysis - SpecterOps",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:20:05Z",
+  "source_url": "https://specterops.io/blog/2023/10/18/uncovering-rpc-servers-through-windows-api-analysis/?source=rss----f05f8696e3cc---4",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://specterops.io/blog/2023/10/18/uncovering-rpc-servers-through-windows-api-analysis/?source=rss----f05f8696e3cc---4. Title: Uncovering RPC Servers through Windows API Analysis - SpecterOps. Excerpt: Uncovering RPC Servers through Windows API Analysis - SpecterOps We value your privacy We use cookies to enhance your browsing experience, serve personalized ads or content, and analyze our traffic. By clicking \"Accept All\", you consent to our use of cookies. Customize Reject All Accept All Join us at Specter Bash for our annual training event with a Halloween twist. Register now Contact Us Support Blog Platform Services Training Community Company Resources Book a Demo Back to Blog RESEARCH & TRADECRAFT Uncovering RPC Servers through Windows API Analysis AUTHOR Kai Huang READ TIME 18 mins PUBLISHED Oct 18, 2023 Intro Advapi32!LogonUser Advapi32!LogonUserA Addvapi32!LogonUserCommonA Advapi32!",
+  "tool_type": "WEB_CRAWL"
+}

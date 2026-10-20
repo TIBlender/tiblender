@@ -1,0 +1,63 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "api.erssegd.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "112.213.101.63",
+      "112.213.101.69",
+      "34.150.85.92"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "api.erssegd.com"
+  },
+  "raw": {
+    "malicious_count": 54,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1773563150,
+        "host_name": "api.erssegd.com",
+        "host_name_malicious": 13,
+        "host_name_suspicious": 1,
+        "ip_address": "34.150.85.92",
+        "ip_address_malicious": 4,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1770874066,
+        "host_name": "api.erssegd.com",
+        "host_name_malicious": 13,
+        "host_name_suspicious": 1,
+        "ip_address": "112.213.101.69",
+        "ip_address_malicious": 8,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1767786250,
+        "host_name": "api.erssegd.com",
+        "host_name_malicious": 13,
+        "host_name_suspicious": 1,
+        "ip_address": "112.213.101.63",
+        "ip_address_malicious": 3,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 4,
+    "total_count": 3
+  },
+  "recorded_at": "2026-09-15T01:12:50Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/api.erssegd.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for api.erssegd.com: 3 resolution(s); addresses: 34.150.85.92, 112.213.101.69, 112.213.101.63",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

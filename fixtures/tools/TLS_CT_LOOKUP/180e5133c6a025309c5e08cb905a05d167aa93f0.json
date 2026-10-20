@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.nytimes.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.nytimes.com"
+  },
+  "raw": {
+    "count": 50,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=R13"
+    ],
+    "names": [
+      "www.nytimes.com",
+      "www.nytimes.com",
+      "www.nytimes.com",
+      "www.nytimes.com",
+      "www.nytimes.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:15:53Z",
+  "source_url": "https://crt.sh/?q=%25.www.nytimes.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.nytimes.com: 50 certificate row(s); sample names=www.nytimes.com, www.nytimes.com, www.nytimes.com, www.nytimes.com, www.nytimes.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

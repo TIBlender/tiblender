@@ -1,0 +1,70 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2024-30085"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "cve": "CVE-2024-30085"
+  },
+  "raw": {
+    "description": "Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability",
+    "id": "CVE-2024-30085",
+    "metrics": {
+      "cvssMetricV31": [
+        {
+          "cvssData": {
+            "attackComplexity": "LOW",
+            "attackVector": "LOCAL",
+            "availabilityImpact": "HIGH",
+            "baseScore": 7.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "exploitabilityScore": 1.8,
+          "impactScore": 5.9,
+          "source": "secure@microsoft.com",
+          "type": "Secondary"
+        }
+      ],
+      "ssvcV203": [
+        {
+          "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "ssvcData": {
+            "id": "CVE-2024-30085",
+            "options": [
+              {
+                "exploitation": "poc"
+              },
+              {
+                "automatable": "no"
+              },
+              {
+                "technicalImpact": "total"
+              }
+            ],
+            "role": "CISA Coordinator",
+            "timestamp": "2025-01-06T14:00:52.981449Z",
+            "version": "2.0.3"
+          }
+        }
+      ]
+    }
+  },
+  "recorded_at": "2026-09-16T05:06:02Z",
+  "source_url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2024-30085",
+  "status": "success",
+  "summary": "NVD lookup for CVE-2024-30085: Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability",
+  "tool_type": "NVD_CVE_LOOKUP"
+}

@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host factide.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://factide.com/ta416-abused-microsofts-own-oauth-endpoint-to-plant-plugx-in-eu-missions/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:20Z",
+  "source_url": "https://factide.com/ta416-abused-microsofts-own-oauth-endpoint-to-plant-plugx-in-eu-missions/",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host factide.com for https://factide.com/ta416-abused-microsofts-own-oauth-endpoint-to-plant-plugx-in-eu-missions/",
+  "tool_type": "WEB_CRAWL"
+}

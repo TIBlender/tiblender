@@ -1,0 +1,32 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "account-helpdesk.icu"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "account-helpdesk.icu"
+  },
+  "raw": {
+    "count": 2,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=E7",
+      "C=US, O=Let's Encrypt, CN=E7"
+    ],
+    "names": [
+      "account-helpdesk.icu",
+      "account-helpdesk.icu"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:04:07Z",
+  "source_url": "https://crt.sh/?q=%25.account-helpdesk.icu&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for account-helpdesk.icu: 2 certificate row(s); sample names=account-helpdesk.icu, account-helpdesk.icu.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

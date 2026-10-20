@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.technologyreview.com/2019/08/13/610/section-230-law-moderation-social-media-content-bias/"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "What is Section 230 and why does Donald Trump want to change it? | MIT Technology Review SKIP TO CONTENT Menu MIT Technology Review Sign in SUBSCRIBE & SAVE 17% The Big Story Artificial intelligence Biotech & health Climate & energy 10 Breakthrough Technologies EmTech Future live event The Kids issue Menu MIT Technology Review Sign in SUBSCRIBE & SAVE 17% The Big Story Artificial intelligence Biotech & health Climate & energy 10 Breakthrough Technologies EmTech Future live event The Kids issue POLICY What is Section 230 and why does Donald Trump want to change it? This provision of the Communications Decency Act is being blamed for everything from social-media bias to enabling revenge porn. ",
+    "javascript_rendered": true,
+    "title": "What is Section 230 and why does Donald Trump want to change it? | MIT Technology Review",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:22:11Z",
+  "source_url": "https://www.technologyreview.com/2019/08/13/610/section-230-law-moderation-social-media-content-bias/",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.technologyreview.com/2019/08/13/610/section-230-law-moderation-social-media-content-bias/. Title: What is Section 230 and why does Donald Trump want to change it? | MIT Technology Review. Excerpt: What is Section 230 and why does Donald Trump want to change it? | MIT Technology Review SKIP TO CONTENT Menu MIT Technology Review Sign in SUBSCRIBE & SAVE 17% The Big Story Artificial intelligence Biotech & health Climate & energy 10 Breakthrough Technologies EmTech Future live event The Kids issue Menu MIT Technology Review Sign in SUBSCRIBE & SAVE 17% The Big Story Artificial intelligence Biotech & health Climate & energy 10 Breakthrough Technologies EmTech Future live event The Kids issue POLICY What is Section 230 and why does Donald Trump want to change it? This provision of the Communications Decency Act is being blamed for everything from social-media bias to enabling revenge porn. ",
+  "tool_type": "WEB_CRAWL"
+}

@@ -1,0 +1,27 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "gov.uk"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.ncsc.gov.uk/news/ncsc-warns-of-messaging-app-targeting"
+  },
+  "raw": {
+    "blocked_resource_types": [],
+    "excerpt": "NCSC warns of messaging app targeting | National Cyber Security Centre icons/chevron/16px/black Skip to main content Please enable JavaScript in your web browser to get the best experience. Home Utility navigation About NCSC Report an incident Contact us Open Search Menu Main navigation Advice & guidance Back Advice & guidance Our advice & guidance covers a broad range of topics Find information for... You & your family Small & medium sized organisations Large organisations Self employed & sole traders Public sector Cyber security professionals All advice and guidance articles Popular topics Artificial intelligence Cyber attack Frontier AI Passkeys Phishing All topics Other resources Glossar",
+    "fallback_reason": "Playwright is not installed for JavaScript rendering.",
+    "javascript_rendered": false,
+    "title": "NCSC warns of messaging app targeting | National Cyber Security Centre"
+  },
+  "recorded_at": "2026-09-16T05:25:58Z",
+  "source_url": "https://www.ncsc.gov.uk/news/ncsc-warns-of-messaging-app-targeting",
+  "status": "success",
+  "summary": "Static crawl of https://www.ncsc.gov.uk/news/ncsc-warns-of-messaging-app-targeting. Title: NCSC warns of messaging app targeting | National Cyber Security Centre. Excerpt: NCSC warns of messaging app targeting | National Cyber Security Centre icons/chevron/16px/black Skip to main content Please enable JavaScript in your web browser to get the best experience. Home Utility navigation About NCSC Report an incident Contact us Open Search Menu Main navigation Advice & guidance Back Advice & guidance Our advice & guidance covers a broad range of topics Find information for... You & your family Small & medium sized organisations Large organisations Self employed & sole traders Public sector Cyber security professionals All advice and guidance articles Popular topics Artificial intelligence Cyber attack Frontier AI Passkeys Phishing All topics Other resources Glossar",
+  "tool_type": "WEB_CRAWL"
+}

@@ -1,0 +1,99 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.malwarebytes.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "108.139.134.37",
+      "18.164.124.25",
+      "18.164.78.115",
+      "18.165.61.102",
+      "18.165.61.62",
+      "18.173.187.4",
+      "18.239.50.10",
+      "18.239.50.118",
+      "18.239.50.43",
+      "18.239.50.98",
+      "18.239.69.106",
+      "18.239.69.47",
+      "18.239.69.72",
+      "18.239.69.88",
+      "18.64.79.76",
+      "192.0.66.233",
+      "3.160.246.122",
+      "54.230.202.52",
+      "65.9.25.47"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.malwarebytes.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1742401703,
+        "host_name": "www.malwarebytes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "127.0.0.1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Microsoft Sysinternals"
+      },
+      {
+        "date": 1698708202,
+        "host_name": "www.malwarebytes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.233",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1698593583,
+        "host_name": "www.malwarebytes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "108.139.134.37",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1698337437,
+        "host_name": "www.malwarebytes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.239.69.72",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Zenbox"
+      },
+      {
+        "date": 1698337437,
+        "host_name": "www.malwarebytes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.239.69.88",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Zenbox"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:14:50Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.malwarebytes.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.malwarebytes.com: 20 resolution(s); addresses: 127.0.0.1, 192.0.66.233, 108.139.134.37, 18.239.69.72, 18.239.69.88, 18.239.69.47, 18.239.69.106, 18.64.79.76, 18.165.61.102, 18.165.61.62",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

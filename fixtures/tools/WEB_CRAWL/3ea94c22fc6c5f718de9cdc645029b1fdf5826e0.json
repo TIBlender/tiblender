@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.al-monitor.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.al-monitor.com/originals/2026/03/american-journalist-shelly-kittleson-abducted-iraq"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:58:04Z",
+  "source_url": "https://www.al-monitor.com/originals/2026/03/american-journalist-shelly-kittleson-abducted-iraq",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.al-monitor.com for https://www.al-monitor.com/originals/2026/03/american-journalist-shelly-kittleson-abducted-iraq",
+  "tool_type": "WEB_CRAWL"
+}

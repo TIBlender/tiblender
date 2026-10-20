@@ -1,0 +1,162 @@
+{
+  "notes": {
+    "noise_post_refs": [
+      "TIBLENDER-2026-03-17-76f8cab684e42e71-35db711f:p3",
+      "TIBLENDER-2026-03-24-08b4ffb2df969e47-0b8bc1d7:p5",
+      "TIBLENDER-2026-03-24-3d70e4de4dfc5998-c199ac38:p3",
+      "TIBLENDER-2026-03-25-3b6f1dfa94696319-069df8a7:p5",
+      "TIBLENDER-2026-03-25-57a16249db9a4247-226e7f0f:p11",
+      "TIBLENDER-2026-04-12-e97a5df62a933274-0f15a0cc:p2"
+    ]
+  },
+  "platform": "telegram",
+  "posts": [
+    {
+      "kind": "noise",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-12-e97a5df62a933274-0f15a0cc",
+      "source_ref": "TIBLENDER-2026-04-12-e97a5df62a933274-0f15a0cc:p2",
+      "timestamp": "2026-03-22T08:24:00Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-25-3b6f1dfa94696319-069df8a7",
+      "source_ref": "TIBLENDER-2026-03-25-3b6f1dfa94696319-069df8a7:p5",
+      "timestamp": "2026-03-22T22:15:00Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-17-76f8cab684e42e71-35db711f",
+      "source_ref": "TIBLENDER-2026-03-17-76f8cab684e42e71-35db711f:p3",
+      "timestamp": "2026-03-25T13:06:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b",
+      "source_ref": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b:p1",
+      "timestamp": "2026-03-25T19:00:13Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+      "source_ref": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5:p1",
+      "timestamp": "2026-03-25T20:40:04Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b",
+      "source_ref": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b:p2",
+      "timestamp": "2026-03-25T20:40:04Z"
+    }
+  ],
+  "provenance": "anonymized_dataset_excerpt",
+  "responses": [
+    {
+      "payload": {
+        "chats": [
+          {
+            "id": "9236589850",
+            "title": "channel-u7e2caa91",
+            "username": "tichanbwl7xkcz"
+          },
+          {
+            "id": "5606379064",
+            "title": "channel-u71fc03a5",
+            "username": "tichanf7runb0o"
+          }
+        ]
+      },
+      "request": {
+        "endpoint": "dialogs"
+      }
+    },
+    {
+      "payload": [
+        {
+          "date": "2026-03-22T08:24:00Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 127882,
+          "media": {},
+          "message": "⚠️ 'Exploits in DeFi protocols such as Aave and Compound are key deterrents for institutions,' per JPMorgan's new analysis. Flat TVL reinforces why big players are hesitant on broader crypto uptake. Still, keep in mind these are high-level observations, not incident specifics.",
+          "views": 0
+        },
+        {
+          "date": "2026-03-22T22:15:00Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 127883,
+          "media": {},
+          "message": "🛡️ These Apple refund phishing emails with 'Refund Processing Contact' subjects mirror last week's scam where scammers posed as banks for fake overpayments. Both push replies to non-Apple addresses and dangle varying refund amounts to hook users. Watch for storage change excuses in the body, just like those earlier waves.",
+          "views": 0
+        },
+        {
+          "date": "2026-03-25T13:06:00Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 127884,
+          "media": {},
+          "message": "⚠️ Look for phishing emails to your senior staff that use LinkedIn-scraped details to impersonate Palo Alto Networks recruiters. They push fake ATS fixes for $400–$800 with high-pressure tactics. Legit ones never charge fees.",
+          "views": 0
+        }
+      ],
+      "request": {
+        "channel_id": "9236589850",
+        "endpoint": "messages"
+      }
+    },
+    {
+      "payload": [
+        {
+          "date": "2026-03-25T19:00:13Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 431861,
+          "media": {},
+          "message": "**2026-04-27 04:00:12.369342 (UTC +09:00)** 1. **smooth-pentest-agent exploit** - Sun, 26 Apr 2026 15:00:18 +0000 - hxxps://sploitus[.]com/exploit?id=D64A63AF-73F1-5E02-BDC8-3EA059D87685 2. **angband exploit** - Sun, 26 Apr 2026 15:36:23 +0000 - hxxps://sploitus[.]com/exploit?id=3A3572A6-D06E-5ED6-A03A-AFD82C98F2FD 3. **Exploit for CVE-2025-8061 exploit** - Sun, 26 Apr 2026 17:47:59 +0000 - hxxps://sploitus[.]com/exploit?id=3CFEEF64-C04E-5BBB-8608-5B0A34151752 4. **Advanced-AI-Recon-and-Exploit-Framework exploit** - Sun, 26 Apr 2026 18:09:02 +0000 - hxxps://sploitus[.]com/exploit?id=2FC53BBC-FEED-522F-8B52-72FBD0BAB2CA",
+          "views": 0
+        },
+        {
+          "date": "2026-03-25T20:40:04Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 431862,
+          "media": {},
+          "message": "**2026-04-27 06:00:03.982511 (UTC +09:00)** 1. **CVE-2024-51482 (2024-11-01) Revnin/CCTV-MACHINE** - Mon, 27 Apr 2026 03:14:06 +0900 - https://github.com/Revnin/CCTV-MACHINE ` ZoneMinder is a free, open source closed-circuit television software application. ZoneMinder v1.37.* <= 1.37.64 is vulnerable to boolean-based SQ... ` 2. **CVE-2025-8061 (2025-09-11) vxqs/Lenovo-CVE-2025-8061** - Mon, 27 Apr 2026 02:47:59 +0900 - https://github.com/vxqs/Lenovo-CVE-2025-8061 ` A potential insufficient access control vulnerability was reported in the Lenovo Dispatcher 3.0 and Dispatcher 3.1 drivers used by some Lenovo co... ` 3. **CVE-2026-41242 (2026-04-18) 4chech/CVE-2026-41242** - Mon, 27 Apr 2026 01:48:56 +0900 - https://github.com/4chech/CVE-2026-41242 ` protobufjs compiles protobuf definitions into JavaScript (JS) functions. In versions prior to 8.0.1 and 7.5.5, attackers can inject arbitrary cod...`",
+          "views": 0
+        },
+        {
+          "date": "2026-03-25T20:40:04Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 431863,
+          "media": {},
+          "message": "**2026-04-27 06:00:03.982511 (UTC +09:00)** 1. **CVE-2024-51482 (2024-11-01) Revnin/CCTV-MACHINE** - Mon, 27 Apr 2026 03:14:06 +0900 - https://github.com/Revnin/CCTV-MACHINE ` ZoneMinder is a free, open source closed-circuit television software application. ZoneMinder v1.37.* <= 1.37.64 is vulnerable to boolean-based SQ... ` 2. **CVE-2025-8061 (2025-09-11) vxqs/Lenovo-CVE-2025-8061** - Mon, 27 Apr 2026 02:47:59 +0900 - https://github.com/vxqs/Lenovo-CVE-2025-8061 ` A potential insufficient access control vulnerability was reported in the Lenovo Dispatcher 3.0 and Dispatcher 3.1 drivers used by some Lenovo co... ` 3. **CVE-2026-41242 (2026-04-18) 4chech/CVE-2026-41242** - Mon, 27 Apr 2026 01:48:56 +0900 - https://github.com/4chech/CVE-2026-41242 ` protobufjs compiles protobuf definitions into JavaScript (JS) functions. In versions prior to 8.0.1 and 7.5.5, attackers can inject arbitrary cod...`",
+          "views": 0
+        }
+      ],
+      "request": {
+        "channel_id": "5606379064",
+        "endpoint": "messages"
+      }
+    }
+  ],
+  "source_reports": [
+    "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+    "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+    "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+    "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+    "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b"
+  ],
+  "window": {
+    "cycle_index": 1,
+    "end": "2026-03-25T23:59:59Z",
+    "label": "cycle_001",
+    "start": "2026-03-22T00:00:00Z"
+  }
+}

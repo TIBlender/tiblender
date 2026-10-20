@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host ameli-gouv.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://ameli-gouv.com/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:05Z",
+  "source_url": "https://ameli-gouv.com/",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host ameli-gouv.com for https://ameli-gouv.com/",
+  "tool_type": "WEB_CRAWL"
+}

@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "specterops.io vulnerability"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "세상의 모든 디자인, 미리캔버스로 완성! PPT, 카드뉴스, 동영상, 소셜 미디어 콘텐츠까지 수많은 템플릿과 디자인 요소로 쉽고 빠르게 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "디자인 플랫폼 미리캔버스",
+        "url": "https://www.miricanvas.com/ko"
+      },
+      {
+        "category": "general",
+        "content": "손쉽게 협업 가능한 간편한 무료 디자인 플랫폼, 미리캔버스에 초대합니다.",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "미리캔버스",
+        "url": "https://www.miricanvas.com/ko/workspace"
+      },
+      {
+        "category": "general",
+        "content": "MiriCanvas is an easy-to-use online design tool for templates and graphics. Create stunning presentations, social media posts, and …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "미리캔버스 - MiriCanvas | Free design tool with unique templates",
+        "url": "https://www.miricanvas.com/"
+      },
+      {
+        "category": "general",
+        "content": "미리캔버스를 가장 먼저 경험해보세요. 다양한 무료 템플릿과 디자인 소스를 바로 사용할 수 있습니다.",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "미리캔버스 - 비즈하우스",
+        "url": "https://wp.bizhows.com/cms/designcenter/miricanvas/"
+      },
+      {
+        "category": "general",
+        "content": "미리캔버스의 유니크한 무료 템플릿을 사용하여 쉽고 간편하게 전문가 수준의 디자인을 만들어보세요.",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "더 나은 디자인을 위한 무료 템플릿 | 미리캔버스",
+        "url": "https://www.miricanvas.com/ko/templates"
+      },
+      {
+        "category": "general",
+        "content": "Sep 5, 2026 · 소통 중심의 수업을 만드는 기획부터 제작까지, 교육용 미리캔버스의 모든 것을 확인해 보세요.",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "미리캔버스",
+        "url": "https://edu.miricanvas.com/edu/"
+      },
+      {
+        "category": "general",
+        "content": "미리캔버스 ppt 템플릿 프로페셔널한 PPT 제작, 미리캔버스 템플릿으로 쉽게 시작하세요 PPT는 아이디어와 정보를 시각적으로 전달하는 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "전문적인 디자인을 위한 무료 ppt 템플릿 1 페이지 | 미리캔버스",
+        "url": "https://www.miricanvas.com/ko/template/all-types/ppt"
+      },
+      {
+        "category": "general",
+        "content": "미리캔버스만큼 쉬운 디자인허브 콘텐츠 업로드. 지금 바로 시작하세요.",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "MiriCanvas DesignHub 디자인허브",
+        "url": "https://designhub.miricanvas.com/ko/login"
+      },
+      {
+        "category": "general",
+        "content": "May 27, 2026 · 전문가 수준의 디자인을 하기는 힘들지만 미리캔버스 자체가 일반인이 간단하게 디자인할 수 있게 제공되는 그래픽 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "미리캔버스 - 나무위키",
+        "url": "https://namu.wiki/w/%EB%AF%B8%EB%A6%AC%EC%BA%94%EB%B2%84%EC%8A%A4"
+      },
+      {
+        "category": "general",
+        "content": "미리캔버스, 어떤 점이 궁금하신가요? ⭐이용부터 해지·취소까지 한 번에 끝내는 Pro 요금제 완벽 가이드! [24년 8월 미리캔버스 소식] …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "미리캔버스 헬프 센터 - MiriCanvas",
+        "url": "https://help.miricanvas.com/hc/ko"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:52Z",
+  "source_url": "http://searxng:8080/search?q=specterops.io+vulnerability&format=json",
+  "status": "success",
+  "summary": "SearXNG search for specterops.io vulnerability: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

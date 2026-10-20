@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.spencer-law.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.spencer-law.com"
+  },
+  "raw": {
+    "count": 87,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=R13"
+    ],
+    "names": [
+      "www.spencer-law.com",
+      "www.spencer-law.com",
+      "www.spencer-law.com",
+      "www.spencer-law.com",
+      "www.spencer-law.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:17:28Z",
+  "source_url": "https://crt.sh/?q=%25.www.spencer-law.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.spencer-law.com: 87 certificate row(s); sample names=www.spencer-law.com, www.spencer-law.com, www.spencer-law.com, www.spencer-law.com, www.spencer-law.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

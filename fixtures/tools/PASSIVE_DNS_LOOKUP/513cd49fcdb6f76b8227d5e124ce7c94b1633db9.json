@@ -1,0 +1,93 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "146.75.107.5",
+      "146.75.115.5",
+      "146.75.119.5",
+      "146.75.75.5",
+      "151.101.111.5",
+      "151.101.135.5",
+      "151.101.191.5",
+      "151.101.207.5",
+      "151.101.239.5",
+      "151.101.39.5",
+      "151.101.87.5",
+      "199.232.147.5",
+      "199.232.191.5",
+      "199.232.43.5",
+      "206.188.193.70"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.cnn.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1786126497,
+        "host_name": "www.cnn.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42::773",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1786126497,
+        "host_name": "www.cnn.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:200::773",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1786126497,
+        "host_name": "www.cnn.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:400::773",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1786126497,
+        "host_name": "www.cnn.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:600::773",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1744552262,
+        "host_name": "www.cnn.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.207.5",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal Droidy"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:21:13Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.cnn.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.cnn.com: 20 resolution(s); addresses: 2a04:4e42::773, 2a04:4e42:200::773, 2a04:4e42:400::773, 2a04:4e42:600::773, 151.101.207.5, 151.101.191.5, 199.232.43.5, 2a04:4e42:7c::773, 199.232.147.5, 146.75.107.5",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

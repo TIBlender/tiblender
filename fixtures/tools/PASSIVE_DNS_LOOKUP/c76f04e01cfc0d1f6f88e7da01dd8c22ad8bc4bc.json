@@ -1,0 +1,86 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "equitabledemocracy.org"
+    ],
+    "hashes": [],
+    "ips": [
+      "159.65.102.98",
+      "159.89.158.37",
+      "165.22.144.242",
+      "198.202.211.1",
+      "75.2.70.75",
+      "99.83.190.102"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "equitabledemocracy.org"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1770131578,
+        "host_name": "equitabledemocracy.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "198.202.211.1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 2,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1717779079,
+        "host_name": "equitabledemocracy.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "75.2.70.75",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1717779078,
+        "host_name": "equitabledemocracy.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "99.83.190.102",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1661456604,
+        "host_name": "equitabledemocracy.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "159.89.158.37",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1574993810,
+        "host_name": "equitabledemocracy.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "165.22.144.242",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 3,
+    "total_count": 6
+  },
+  "recorded_at": "2026-09-16T05:09:17Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/equitabledemocracy.org/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for equitabledemocracy.org: 6 resolution(s); addresses: 198.202.211.1, 75.2.70.75, 99.83.190.102, 159.89.158.37, 165.22.144.242, 159.65.102.98",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

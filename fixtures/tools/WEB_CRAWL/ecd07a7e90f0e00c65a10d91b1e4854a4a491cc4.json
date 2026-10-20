@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host hunt.io is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://hunt.io/blog/axios-supply-chain-attack-ta444-bluenoroff"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:30Z",
+  "source_url": "https://hunt.io/blog/axios-supply-chain-attack-ta444-bluenoroff",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host hunt.io for https://hunt.io/blog/axios-supply-chain-attack-ta444-bluenoroff",
+  "tool_type": "WEB_CRAWL"
+}

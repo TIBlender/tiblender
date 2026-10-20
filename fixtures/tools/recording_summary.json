@@ -1,0 +1,86 @@
+{
+  "GITHUB_SEARCH": {
+    "error": 0,
+    "success": 22,
+    "unavailable": 0
+  },
+  "NVD_CVE_LOOKUP": {
+    "error": 0,
+    "success": 16,
+    "unavailable": 0
+  },
+  "PASSIVE_DNS_LOOKUP": {
+    "error": 0,
+    "success": 110,
+    "unavailable": 0
+  },
+  "SEARCH_ENGINE": {
+    "error": 0,
+    "success": 102,
+    "unavailable": 0
+  },
+  "TLS_CT_LOOKUP": {
+    "error": 0,
+    "success": 69,
+    "unavailable": 0
+  },
+  "WEB_CRAWL": {
+    "error": 0,
+    "success": 42,
+    "unavailable": 74
+  },
+  "WHOIS_LOOKUP": {
+    "error": 5,
+    "success": 91,
+    "unavailable": 43
+  },
+  "allow_crawl_hosts": [
+    "0patch.com",
+    "apnews.com",
+    "bbc.com",
+    "bleepingcomputer.com",
+    "cisa.gov",
+    "cnn.com",
+    "crowdstrike.com",
+    "cve.org",
+    "darkreading.com",
+    "elastic.co",
+    "esentire.com",
+    "github.com",
+    "helpnetsecurity.com",
+    "horizon3.ai",
+    "ic3.gov",
+    "infoblox.com",
+    "infosecurity-magazine.com",
+    "malwarebytes.com",
+    "microsoft.com",
+    "mitre.org",
+    "msrc.microsoft.com",
+    "ncsc.gov.uk",
+    "newsweek.com",
+    "nist.gov",
+    "npr.org",
+    "nvd.nist.gov",
+    "nytimes.com",
+    "pbs.org",
+    "pcmag.com",
+    "reuters.com",
+    "reversinglabs.com",
+    "safedep.io",
+    "security-next.com",
+    "security.googleblog.com",
+    "securityonline.info",
+    "securityweek.com",
+    "specterops.io",
+    "stepsecurity.io",
+    "technologyreview.com",
+    "theguardian.com",
+    "thehackernews.com",
+    "theregister.com",
+    "undernews.fr",
+    "washingtonpost.com",
+    "wsj.com"
+  ],
+  "recorded_at": "2026-09-19T06:30:21.217733Z",
+  "searxng_used": true
+}

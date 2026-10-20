@@ -1,0 +1,314 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "node-45-177-137-248.nxtv.com.br"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "node-45-177-137-248.nxtv.com.br"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "events": [
+              {
+                "eventAction": "registration",
+                "eventDate": "1999-08-04T12:00:00Z"
+              },
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-01-09T18:40:38Z"
+              }
+            ],
+            "handle": "SMJ5",
+            "objectClassName": "entity",
+            "roles": [
+              "administrative"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "individual"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Sérgio Mancera Jr."
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "devel@nxtv.com.br"
+                ],
+                [
+                  "lang",
+                  {},
+                  "language-tag",
+                  "pt"
+                ],
+                [
+                  "adr",
+                  {},
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "BR"
+                  ]
+                ]
+              ]
+            ]
+          }
+        ],
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventDate": "2016-03-29T02:42:50Z"
+          },
+          {
+            "eventAction": "last changed",
+            "eventDate": "2016-03-29T02:42:50Z"
+          }
+        ],
+        "legalRepresentative": "Sérgio Mancera Jr.",
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "***.766.718-**",
+            "type": "cpf"
+          }
+        ],
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "org"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Sérgio Mancera Jr."
+            ],
+            [
+              "adr",
+              {},
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "BR"
+              ]
+            ]
+          ]
+        ]
+      },
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventDate": "2000-11-09T12:00:00Z"
+          },
+          {
+            "eventAction": "last changed",
+            "eventDate": "2023-10-15T19:58:07Z"
+          }
+        ],
+        "handle": "CCL498",
+        "objectClassName": "entity",
+        "roles": [
+          "technical"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "individual"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Comets Comércio Eletrônico LTDA"
+            ],
+            [
+              "email",
+              {},
+              "text",
+              "aviana@gmail.com"
+            ],
+            [
+              "lang",
+              {},
+              "language-tag",
+              "pt"
+            ],
+            [
+              "adr",
+              {},
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "BR"
+              ]
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2019-08-28T23:46:04Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2024-11-01T17:48:53Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2029-08-28T23:46:04Z"
+      }
+    ],
+    "handle": "nxtv.com.br",
+    "ldhName": "nxtv.com.br",
+    "links": [
+      {
+        "href": "https://rdap.registro.br/domain/nxtv.com.br",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.registro.br/domain/nxtv.com.br"
+      },
+      {
+        "href": "https://rdap.registro.br/domain/nxtv.com.br?ticket=20069984",
+        "rel": "archives",
+        "type": "application/rdap+json",
+        "value": "https://rdap.registro.br/domain/nxtv.com.br"
+      }
+    ],
+    "nameservers": [
+      {
+        "events": [
+          {
+            "eventAction": "delegation check",
+            "eventDate": "2026-09-15T08:05:19Z",
+            "status": [
+              "ns aa"
+            ]
+          },
+          {
+            "eventAction": "last correct delegation check",
+            "eventDate": "2026-09-15T08:05:19Z"
+          }
+        ],
+        "ldhName": "chris.ns.cloudflare.com",
+        "objectClassName": "nameserver"
+      },
+      {
+        "events": [
+          {
+            "eventAction": "delegation check",
+            "eventDate": "2026-09-15T08:05:19Z",
+            "status": [
+              "ns aa"
+            ]
+          },
+          {
+            "eventAction": "last correct delegation check",
+            "eventDate": "2026-09-15T08:05:19Z"
+          }
+        ],
+        "ldhName": "gracie.ns.cloudflare.com",
+        "objectClassName": "nameserver"
+      }
+    ],
+    "nicbr_arbitration": true,
+    "notices": [
+      {
+        "description": [
+          "Copyright (c) Nic.br - Use of this data is governed by the Use and Privacy Policy. Distribution, commercialization, reproduction, and use for advertising or similar purposes are expressly prohibited.",
+          "2026-09-16T02:10:45-03:00 - 52.140.236.254"
+        ],
+        "links": [
+          {
+            "href": "https://registro.br/upp",
+            "rel": "alternate",
+            "type": "text/html",
+            "value": "https://rdap.registro.br/domain/nxtv.com.br"
+          }
+        ],
+        "title": "Use and Privacy Policy"
+      }
+    ],
+    "objectClassName": "domain",
+    "port43": "whois.registro.br",
+    "rdapConformance": [
+      "rdap_level_0",
+      "nicbr_level_0"
+    ],
+    "secureDNS": {
+      "delegationSigned": false
+    },
+    "status": [
+      "active"
+    ]
+  },
+  "recorded_at": "2026-09-16T05:10:45Z",
+  "source_url": "https://rdap.registro.br/domain/node-45-177-137-248.nxtv.com.br",
+  "status": "success",
+  "summary": "RDAP domain lookup for node-45-177-137-248.nxtv.com.br: handle=nxtv.com.br; status=active; nameservers=chris.ns.cloudflare.com,gracie.ns.cloudflare.com; events=registration=2019-08-28T23:46:04Z; last changed=2024-11-01T17:48:53Z; expiration=2029-08-28T23:46:04Z; entities=,CCL498.",
+  "tool_type": "WHOIS_LOOKUP"
+}

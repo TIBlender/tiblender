@@ -1,0 +1,85 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.newsnationnow.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "151.101.1.91",
+      "151.101.129.91",
+      "151.101.193.91",
+      "151.101.65.91",
+      "192.0.66.120"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.newsnationnow.com"
+  },
+  "raw": {
+    "malicious_count": 3,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1695749729,
+        "host_name": "www.newsnationnow.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.1.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1695749729,
+        "host_name": "www.newsnationnow.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.193.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1695749729,
+        "host_name": "www.newsnationnow.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.65.91",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1695749729,
+        "host_name": "www.newsnationnow.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.129.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1588550203,
+        "host_name": "www.newsnationnow.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.120",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 0,
+    "total_count": 5
+  },
+  "recorded_at": "2026-09-15T01:22:22Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.newsnationnow.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.newsnationnow.com: 5 resolution(s); addresses: 151.101.1.91, 151.101.193.91, 151.101.65.91, 151.101.129.91, 192.0.66.120",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

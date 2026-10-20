@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.reuters.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.reuters.com"
+  },
+  "raw": {
+    "count": 109,
+    "issuers": [
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R40",
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA OV R40",
+      "C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Organization Validation Secure Server CA",
+      "C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Organization Validation Secure Server CA",
+      "C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Organization Validation Secure Server CA"
+    ],
+    "names": [
+      "www.reuters.com",
+      "www.reuters.com",
+      "www.reuters.com",
+      "www.reuters.com",
+      "www.reuters.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-10T12:17:01Z",
+  "source_url": "https://crt.sh/?q=%25.www.reuters.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.reuters.com: 109 certificate row(s); sample names=www.reuters.com, www.reuters.com, www.reuters.com, www.reuters.com, www.reuters.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

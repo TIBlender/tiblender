@@ -1,0 +1,52 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "gampangjepehcgk.pages.dev"
+    ],
+    "hashes": [],
+    "ips": [
+      "172.66.44.79",
+      "172.66.47.177"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "gampangjepehcgk.pages.dev"
+  },
+  "raw": {
+    "malicious_count": 22,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1771486192,
+        "host_name": "gampangjepehcgk.pages.dev",
+        "host_name_malicious": 10,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.47.177",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1771486192,
+        "host_name": "gampangjepehcgk.pages.dev",
+        "host_name_malicious": 10,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.44.79",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 1,
+    "total_count": 2
+  },
+  "recorded_at": "2026-09-15T01:16:44Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/gampangjepehcgk.pages.dev/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for gampangjepehcgk.pages.dev: 2 resolution(s); addresses: 172.66.47.177, 172.66.44.79",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

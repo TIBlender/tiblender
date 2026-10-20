@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.nytimes.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "108.160.169.181",
+      "146.75.117.164",
+      "146.75.121.164",
+      "146.75.49.164",
+      "146.75.53.164",
+      "146.75.73.164",
+      "146.75.81.164",
+      "146.75.93.164",
+      "151.101.13.164",
+      "151.101.157.164",
+      "151.101.237.164",
+      "151.101.241.164",
+      "151.101.25.164",
+      "151.101.85.164",
+      "199.232.145.164",
+      "199.232.17.164",
+      "199.232.253.164",
+      "199.232.33.164",
+      "199.232.93.164",
+      "35.244.202.31"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.nytimes.com"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1727153968,
+        "host_name": "www.nytimes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "35.244.202.31",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1711036913,
+        "host_name": "www.nytimes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "199.232.145.164",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Microsoft Sysinternals"
+      },
+      {
+        "date": 1697639154,
+        "host_name": "www.nytimes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "108.160.169.181",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "Sangfor ZSand"
+      },
+      {
+        "date": 1693327503,
+        "host_name": "www.nytimes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "146.75.73.164",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal Droidy"
+      },
+      {
+        "date": 1678619692,
+        "host_name": "www.nytimes.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "146.75.81.164",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "SecondWrite"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:15:36Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.nytimes.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.nytimes.com: 20 resolution(s); addresses: 35.244.202.31, 199.232.145.164, 108.160.169.181, 146.75.73.164, 146.75.81.164, 146.75.53.164, 199.232.93.164, 146.75.121.164, 146.75.117.164, 151.101.237.164",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

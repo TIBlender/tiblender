@@ -1,0 +1,45 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "edition.cnn.com",
+      "fave.edition.cnn.com",
+      "sponsorcontent.edition.cnn.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "edition.cnn.com"
+  },
+  "raw": {
+    "count": 289,
+    "issuers": [
+      "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 OV TLS CA 2026 Q2",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+      "C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018",
+      "C=BE, O=GlobalSign nv-sa, CN=GlobalSign Atlas R3 DV TLS CA 2025 Q2"
+    ],
+    "names": [
+      "*.edition.cnn.com",
+      "edition.cnn.com",
+      "edition.cnn.com",
+      "fave.edition.cnn.com",
+      "sponsorcontent.edition.cnn.com",
+      "*.edition.cnn.com",
+      "edition.cnn.com",
+      "*.edition.cnn.com",
+      "edition.cnn.com",
+      "*.edition.cnn.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-10T12:11:33Z",
+  "source_url": "https://crt.sh/?q=%25.edition.cnn.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for edition.cnn.com: 289 certificate row(s); sample names=*.edition.cnn.com, edition.cnn.com, edition.cnn.com, fave.edition.cnn.com, sponsorcontent.edition.cnn.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

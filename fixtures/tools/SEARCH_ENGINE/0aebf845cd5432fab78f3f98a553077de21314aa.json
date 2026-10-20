@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "equitabledemocracy.org vulnerability"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "北洋銀行の事業者向けインターネットバンキングのご案内ページです。 利用者が北洋ビジネスダイレクトへログオンする場合はこ …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "利用者ログオン｜北洋ビジネスダイレクト｜北洋銀行",
+        "url": "https://www.hokuyobank.co.jp/bdirect/choice/user.html"
+      },
+      {
+        "category": "general",
+        "content": "北洋銀行の事業者向けインターネットバンキングのご案内ページです。インターネットを利用して振込振替や取引照会などが行える …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "北洋ビジネスダイレクト｜事務効率化｜北洋銀行",
+        "url": "https://www.hokuyobank.co.jp/bdirect/"
+      },
+      {
+        "category": "general",
+        "content": "サービスについてのお問い合わせ ダイレクトバンキングセンター フリーダイヤル (固定電話) 0120-440-043 携帯電話からは 0570 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "利用者ログオン (ID・暗証番号方式) - 北洋銀行",
+        "url": "https://bd3.hokuyobank.co.jp/HOKUG/CIBMU201.html"
+      },
+      {
+        "category": "general",
+        "content": "北洋銀行の法人・個人事業主のお客さま向けサービスのご案内ページです。 北洋銀行では、資金面のサポート、事務効率化、経営 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "法人・個人事業主のお客さま｜北洋銀行",
+        "url": "https://www.hokuyobank.co.jp/company/"
+      },
+      {
+        "category": "general",
+        "content": "Aug 1, 2026 · 疑問がでてきたら、まずは「よくあるご質問」をご覧ください。 北洋銀行へお電話にてお問い合わせください。 もし …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "ご利用の手引き&操作ガイド｜北洋ビジネスダイレクト｜北洋銀行",
+        "url": "https://www.hokuyobank.co.jp/bdirect/manual/menu2.html"
+      },
+      {
+        "category": "general",
+        "content": "・北洋銀行および提携先企業のサービスを共通のID（ほくようビジネスID）でご利用いただくための仕組みです。 ・北洋銀行の普 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "＜代替ログオン画面＞北洋銀行インターネットバンキング",
+        "url": "https://www.hokuyodirect.com/iblogon/"
+      },
+      {
+        "category": "general",
+        "content": "北洋銀行のインターネットバンキングサービスで、ビジネスダイレクトへのログオンや関連情報を提供しています。",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "北洋銀行",
+        "url": "https://bd3.hokuyobank.co.jp/IB_AP/FileTransporterServlet"
+      },
+      {
+        "category": "general",
+        "content": "ユーザーIDとログオンパスワードを入力し、ログオンしてください。 ※パスワードの大文字と小文字は区別されます。 入力間違い …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "ログオン - 北洋銀行",
+        "url": "https://hd2.hokuyobank.co.jp/iml/IBGate/iD04101CT"
+      },
+      {
+        "category": "general",
+        "content": "法人･個人事業主のお客さま 払込取引を行うには、あらかじめ 「北洋ビジネスダイレクト」 （事業者向けインターネットバンキン …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "北洋銀行インターネットバンキング 個人・法人選択",
+        "url": "https://www.hokuyobank.jp/mpn/ilink.cgi"
+      },
+      {
+        "category": "general",
+        "content": "北洋ビジネスダイレクトに関するQ&Aをまとめました。 ※ 北洋ビジネスダイレクトを初めてご利用いただくお客さまへ 初めてサー …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "よくあるご質問｜北洋ビジネスダイレクト｜北洋銀行",
+        "url": "https://www.hokuyobank.co.jp/bdirect/faq/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:44Z",
+  "source_url": "http://searxng:8080/search?q=equitabledemocracy.org+vulnerability&format=json",
+  "status": "success",
+  "summary": "SearXNG search for equitabledemocracy.org vulnerability: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

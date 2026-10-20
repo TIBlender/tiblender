@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "blog.0patch.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "142.250.178.147",
+      "142.250.186.51",
+      "142.251.180.121",
+      "142.251.183.121",
+      "142.251.184.121",
+      "142.251.189.121",
+      "142.251.31.121",
+      "172.217.18.211",
+      "173.194.206.121",
+      "173.194.209.121",
+      "173.194.64.121",
+      "173.194.79.121",
+      "18.208.88.157",
+      "192.178.129.121",
+      "192.178.209.121",
+      "192.178.210.121",
+      "192.178.212.121",
+      "216.58.215.51",
+      "64.233.179.121",
+      "98.84.224.111"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "blog.0patch.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1780050153,
+        "host_name": "blog.0patch.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.208.88.157",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1780050153,
+        "host_name": "blog.0patch.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "98.84.224.111",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1760142473,
+        "host_name": "blog.0patch.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.178.209.121",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1755874068,
+        "host_name": "blog.0patch.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.217.18.211",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1755686758,
+        "host_name": "blog.0patch.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "216.58.215.51",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:08:00Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/blog.0patch.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for blog.0patch.com: 20 resolution(s); addresses: 18.208.88.157, 98.84.224.111, 192.178.209.121, 172.217.18.211, 216.58.215.51, 192.178.210.121, 192.178.212.121, 142.250.178.147, 192.178.129.121, 142.251.189.121",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

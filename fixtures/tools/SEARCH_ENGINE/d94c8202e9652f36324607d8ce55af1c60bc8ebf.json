@@ -1,0 +1,31 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "gampangjepehcgk.pages.dev other"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Log in to WhatsApp Web for simple, reliable and private messaging on your desktop. Send and receive messages and files with …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "WhatsApp Web",
+        "url": "https://web.whatsapp.com/"
+      }
+    ],
+    "result_count": 1
+  },
+  "recorded_at": "2026-09-15T01:03:19Z",
+  "source_url": "http://searxng:8080/search?q=gampangjepehcgk.pages.dev+other&format=json",
+  "status": "success",
+  "summary": "SearXNG search for gampangjepehcgk.pages.dev other: 1 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

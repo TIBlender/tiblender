@@ -1,0 +1,44 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "gbhackers.com",
+      "www.gbhackers.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "gbhackers.com"
+  },
+  "raw": {
+    "count": 457,
+    "issuers": [
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Let's Encrypt, CN=YR2",
+      "C=US, O=Google Trust Services, CN=WE1"
+    ],
+    "names": [
+      "*.gbhackers.com",
+      "gbhackers.com",
+      "*.gbhackers.com",
+      "gbhackers.com",
+      "gbhackers.com",
+      "www.gbhackers.com",
+      "gbhackers.com",
+      "www.gbhackers.com",
+      "*.gbhackers.com",
+      "gbhackers.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:10:20Z",
+  "source_url": "https://crt.sh/?q=%25.gbhackers.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for gbhackers.com: 457 certificate row(s); sample names=*.gbhackers.com, gbhackers.com, *.gbhackers.com, gbhackers.com, gbhackers.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

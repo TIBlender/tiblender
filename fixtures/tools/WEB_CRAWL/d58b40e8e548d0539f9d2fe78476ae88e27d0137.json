@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.eff.org is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.eff.org/deeplinks/2025/08/new-documents-show-first-trump-doj-worked-congress-amend-section-230"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:49Z",
+  "source_url": "https://www.eff.org/deeplinks/2025/08/new-documents-show-first-trump-doj-worked-congress-amend-section-230",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.eff.org for https://www.eff.org/deeplinks/2025/08/new-documents-show-first-trump-doj-worked-congress-amend-section-230",
+  "tool_type": "WEB_CRAWL"
+}

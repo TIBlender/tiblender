@@ -1,0 +1,240 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "154.216.19.122"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "154.216.19.122"
+  },
+  "raw": {
+    "cidr0_cidrs": [
+      {
+        "length": 24,
+        "v4prefix": "154.216.19.0"
+      }
+    ],
+    "country": "US",
+    "endAddress": "154.216.19.255",
+    "entities": [
+      {
+        "handle": "CIS1-AFRINIC",
+        "lang": "en",
+        "links": [
+          {
+            "href": "https://rdap.afrinic.net/rdap/entity/CIS1-AFRINIC",
+            "rel": "self",
+            "value": "https://rdap.afrinic.net/rdap/entity/CIS1-AFRINIC"
+          }
+        ],
+        "objectClassName": "entity",
+        "port43": "whois.afrinic.net",
+        "roles": [
+          "administrative",
+          "technical"
+        ],
+        "status": [
+          "active"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "individual"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Cloud Innovation Support"
+            ],
+            [
+              "tel",
+              {
+                "type": "work"
+              },
+              "text",
+              "tel:+248-4-610-795"
+            ],
+            [
+              "email",
+              {},
+              "text",
+              "tech@cloudinnovation.org"
+            ],
+            [
+              "adr",
+              {
+                "label": "Gauteng\nZA\nSouth Africa"
+              },
+              "text",
+              [
+                "Gauteng",
+                "ZA",
+                "South Africa",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2020-05-20T08:34:00Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-04-15T12:18:00Z"
+      }
+    ],
+    "handle": "154.216.19.0 - 154.216.19.255",
+    "ipVersion": "v4",
+    "lang": "en",
+    "links": [
+      {
+        "href": "https://rdap.afrinic.net/rdap/ip/154.216.19.0 - 154.216.19.255",
+        "rel": "self",
+        "value": "https://rdap.afrinic.net/rdap/ip/154.216.19.0 - 154.216.19.255"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "This is the AfriNIC RDAP server."
+        ],
+        "links": [
+          {
+            "href": "https://www.afrinic.net/support/whois-db/reference-manual",
+            "hreflang": [
+              "en"
+            ],
+            "media": "screen",
+            "rel": "describedby",
+            "title": "AFRINIC Database Reference Manual",
+            "type": "text/html",
+            "value": "https://rdap.afrinic.net/rdap/ip/154.216.19.122"
+          }
+        ],
+        "title": "ABOUT"
+      },
+      {
+        "description": [
+          "This is the AFRINIC Database query service. The objects are in RDAP format."
+        ],
+        "links": [
+          {
+            "href": "https://afrinic.net/whois/terms",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.afrinic.net/rdap/ip/154.216.19.122"
+          }
+        ],
+        "title": "Terms and Conditions"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit: "
+        ],
+        "links": [
+          {
+            "href": "https://www.afrinic.net/support/whois-db/reference-manual",
+            "rel": "inaccuracy-report",
+            "title": "AFRINIC WHOIS Inaccuracy Report",
+            "type": "text/html",
+            "value": "https://rdap.afrinic.net/rdap/ip/154.216.19.122"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      },
+      {
+        "description": [
+          "2023-12-31T23:59:59Z"
+        ],
+        "links": [
+          {
+            "href": "https://www.ietf.org/id/draft-ietf-regext-rdap-jscontact-12.html",
+            "rel": "related",
+            "title": "jCard deprecation and replacement with JSContact Card",
+            "type": "text/html",
+            "value": "https://rdap.afrinic.net/rdap/ip/154.216.19.122"
+          },
+          {
+            "href": "https://rdap.afrinic.net/rdap/ip/154.216.19.122?jscard=1",
+            "rel": "alternate",
+            "title": "JSContact Card version",
+            "type": "application/rdap+json",
+            "value": "https://rdap.afrinic.net/rdap/ip/154.216.19.122"
+          }
+        ],
+        "title": "jCard sunset end"
+      },
+      {
+        "description": [
+          "2022-12-31T23:59:59Z"
+        ],
+        "links": [
+          {
+            "href": "https://www.ietf.org/id/draft-ietf-regext-rdap-jscontact-12.html",
+            "rel": "related",
+            "title": "jCard deprecation and replacement with JSContact Card",
+            "type": "text/html",
+            "value": "https://rdap.afrinic.net/rdap/ip/154.216.19.122"
+          },
+          {
+            "href": "https://rdap.afrinic.net/rdap/ip/154.216.19.122?jscard=1",
+            "rel": "alternate",
+            "title": "JSContact Card version",
+            "type": "application/rdap+json",
+            "value": "https://rdap.afrinic.net/rdap/ip/154.216.19.122"
+          }
+        ],
+        "title": "jCard deprecation end"
+      }
+    ],
+    "objectClassName": "ip network",
+    "parentHandle": "154.192.0.0 - 154.223.255.255",
+    "port43": "whois.afrinic.net",
+    "rdapConformance": [
+      "rdap_level_0",
+      "nro_rdap_profile_0",
+      "cidr0"
+    ],
+    "remarks": [
+      {
+        "description": [
+          "Geofeed https://hostedbackbone.net/geofeed.csv"
+        ],
+        "title": "Remark"
+      }
+    ],
+    "startAddress": "154.216.19.0",
+    "status": [
+      "active"
+    ],
+    "type": "ASSIGNED PA"
+  },
+  "recorded_at": "2026-09-15T01:26:43Z",
+  "source_url": "https://rdap.afrinic.net/rdap/ip/154.216.19.122",
+  "status": "success",
+  "summary": "RDAP ip lookup for 154.216.19.122: handle=154.216.19.0 - 154.216.19.255; status=active; nameservers=n/a; events=registration=2020-05-20T08:34:00Z; last changed=2026-04-15T12:18:00Z; entities=CIS1-AFRINIC.",
+  "tool_type": "WHOIS_LOOKUP"
+}

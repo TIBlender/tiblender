@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "bsky.app"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Apr 12, 2023 · Bot that posts Cornish history, folklore and festivals daily from A. A. Clinnick's The Cornish Year with additions by …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Bluesky (@bsky.app) — Bluesky",
+        "url": "https://bsky.app/profile/bsky.app"
+      },
+      {
+        "category": "general",
+        "content": "Mar 31, 2026 · もし集団攻撃や嫌がらせの標的になった場合、あるいはそのような行為を目撃した場合は、投稿の下部にある3点ア …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Bluesky日本語（公式） (@jp.bsky.app)",
+        "url": "https://bsky.app/profile/jp.bsky.app"
+      },
+      {
+        "category": "general",
+        "content": "Oops!",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "@redirect.bsky.app — Bluesky",
+        "url": "https://redirect.bsky.app/"
+      },
+      {
+        "category": "general",
+        "content": "Paul Simon pays tribute to the victims of 9/11 by performing “The Sound of Silence.” A male always handles the childcare in the emu …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Discover by @bsky.app - Bluesky Social",
+        "url": "https://bsky.app/profile/bsky.app/feed/whats-hot"
+      },
+      {
+        "category": "general",
+        "content": "© 2023 Bluesky PBC — All rights reserved",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Account - Bluesky Social",
+        "url": "https://account.bsky.app/signin"
+      },
+      {
+        "category": "general",
+        "content": "2023年1月に iOS と Android 向けのアプリの配信が開始された。 2023年12月にユーザーインターフェイスの日本語対応が始まり [6] …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Bluesky - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/Bluesky"
+      },
+      {
+        "category": "general",
+        "content": "Stay focused on your friend group, keep up-to-date on the latest news, or explore with an algorithm that learns what you like. On …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Welcome to the - Bluesky",
+        "url": "https://bsky.social/about"
+      },
+      {
+        "category": "general",
+        "content": "Your contribution helps keep Clearsky running and allows us to make improvements for the community.",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "ClearSky",
+        "url": "https://clearsky.app/"
+      },
+      {
+        "category": "general",
+        "content": "May 14, 2026 · ポイント：URL が https で始まり、ドメインが bsky.app であることを必ず確認し、フィッシングサイトへの誤アク …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Bluesky公式サイトでのサインアップ方法と2026年最新認証フロー ...",
+        "url": "https://app-tatsujin.com/bluesky-signup-guide-2026/"
+      },
+      {
+        "category": "general",
+        "content": "Mar 23, 2026 · Blueskyは、Twitter（現X）の共同創業者であるジャック・ドーシー氏が立ち上げた 分散型SNS です。 2024年から誰 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Blueskyの使い方｜始め方・投稿・フォローの基本ガイド【2026年 ...",
+        "url": "https://minto.tech/bluesky-app-beginner-start-guide/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:42Z",
+  "source_url": "http://searxng:8080/search?q=bsky.app&format=json",
+  "status": "success",
+  "summary": "SearXNG search for bsky.app: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

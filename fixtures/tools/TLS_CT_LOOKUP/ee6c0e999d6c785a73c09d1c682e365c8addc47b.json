@@ -1,0 +1,43 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "jerusalemsolutions.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "jerusalemsolutions.com"
+  },
+  "raw": {
+    "count": 27,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WE1"
+    ],
+    "names": [
+      "*.jerusalemsolutions.com",
+      "jerusalemsolutions.com",
+      "*.jerusalemsolutions.com",
+      "jerusalemsolutions.com",
+      "*.jerusalemsolutions.com",
+      "jerusalemsolutions.com",
+      "*.jerusalemsolutions.com",
+      "jerusalemsolutions.com",
+      "*.jerusalemsolutions.com",
+      "jerusalemsolutions.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:07:31Z",
+  "source_url": "https://crt.sh/?q=%25.jerusalemsolutions.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for jerusalemsolutions.com: 27 certificate row(s); sample names=*.jerusalemsolutions.com, jerusalemsolutions.com, *.jerusalemsolutions.com, jerusalemsolutions.com, *.jerusalemsolutions.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

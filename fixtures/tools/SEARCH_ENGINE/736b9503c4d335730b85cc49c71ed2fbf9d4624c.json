@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "kdmpop.com ransomware"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "保時捷官方資訊來源：完整收錄全部保時捷車輛、服務、您所在地區的經銷商的相關資訊，以及關於保時捷品牌的一切內容。",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "台灣保時捷 | 官方網站",
+        "url": "https://www.porsche.com/taiwan/zh-tw/"
+      },
+      {
+        "category": "general",
+        "content": "在Porsche Finder中快速找到保時捷新車和中古車。體驗我們的高品質標準，並找到您的保時捷認證中古車。",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "新車和中古車 | Porsche Finder Taiwan",
+        "url": "https://finder.porsche.com/tw/zh-TW"
+      },
+      {
+        "category": "general",
+        "content": "Enter your location and browse the best car offers available near you. Welcome to Porsche! The official source for information on all …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Porsche Taiwan | Official Website",
+        "url": "https://www.porsche.com/taiwan/en/"
+      },
+      {
+        "category": "general",
+        "content": "Apr 26, 2021 · 在Yahoo汽車機車，查詢 Porsche 保時捷 歷年完整車系及車款、最新售價、規格、配備、內外裝照片與中古行情，瀏覽 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Porsche 保時捷 | 車系總覽 - Yahoo汽車機車",
+        "url": "https://autos.yahoo.com.tw/new-cars/make/porsche"
+      },
+      {
+        "category": "general",
+        "content": "使用 Porsche Car Configurator 創建您夢想的 Porsche。自訂您的車型和功能,讓您的願景實現。",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "模型開始 | Porsche 汽車配置器 (台灣)",
+        "url": "https://models.porsche.com/zh-TW/model-start"
+      },
+      {
+        "category": "general",
+        "content": "8891汽車Porsche 保時捷頻道為您提供Porsche旗下2025最新車款、車型及其價格、圖片，以及相關最新資訊、專業車評、車友評價等 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Porsche 2026最新車款價格大全| 8891汽車",
+        "url": "https://c.8891.com.tw/Models/porsche"
+      },
+      {
+        "category": "general",
+        "content": "2027年式（含）起之電動車型已扣除最高21萬元貨物稅減免；2027年式前之庫存新車可能未含該優惠，實際售價請洽各保時捷中心。 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "保時捷待售新車和中古車 | Porsche Finder Taiwan 購買新車或中古車 | Porsche …",
+        "url": "https://finder.porsche.com/tw/zh-TW/search"
+      },
+      {
+        "category": "general",
+        "content": "為維護民眾居住生活品質及環境安寧，請配備有「運動/競技模式」等車輛 (含跑車、大型重型機車)之車主，勿於市區及住宅區使用或 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "新車＆中古車 - Porsche",
+        "url": "https://dealer.porsche.com/tw/taipei/zh-TW/New-Cars"
+      },
+      {
+        "category": "general",
+        "content": "2026 Porsche 旗下最新車系，Macan、Cayman、Boxster、Macan Electric、Cayenne、Cayenne Coupe、Taycan、Taycan Cross …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "2026 Porsche 車系 車款 規格 價格資訊 - KingAutos",
+        "url": "https://www.kingautos.net/hot/porsche"
+      },
+      {
+        "category": "general",
+        "content": "斐迪南·保時捷榮譽工學博士股份有限公司 （德語： Dr Ing. h.c. F. Porsche AG），簡稱 保時捷 （德語： Porsche），是 德國 福斯集 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "保時捷 - 維基百科，自由的百科全書",
+        "url": "https://zh.wikipedia.org/zh-tw/%E4%BF%9D%E6%97%B6%E6%8D%B7"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:29Z",
+  "source_url": "http://searxng:8080/search?q=kdmpop.com+ransomware&format=json",
+  "status": "success",
+  "summary": "SearXNG search for kdmpop.com ransomware: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,120 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.bbc.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.244.46.208",
+      "108.160.163.116",
+      "108.160.165.62",
+      "11.23.33.44",
+      "128.242.240.155",
+      "128.242.250.157",
+      "146.75.116.81",
+      "146.75.120.81",
+      "146.75.72.81",
+      "151.101.132.81",
+      "151.101.156.81",
+      "154.83.14.134",
+      "157.240.1.33",
+      "157.240.6.35",
+      "159.65.107.38",
+      "162.125.32.15",
+      "162.125.80.5",
+      "173.244.217.42",
+      "173.252.248.244",
+      "185.45.7.97",
+      "188.43.20.67",
+      "199.16.156.103",
+      "199.232.252.81",
+      "199.59.148.15",
+      "199.59.148.206",
+      "202.160.129.164",
+      "212.58.235.1",
+      "212.58.235.129",
+      "212.58.235.130",
+      "212.58.235.2",
+      "212.58.236.1",
+      "212.58.236.129",
+      "212.58.236.130",
+      "212.58.236.2",
+      "212.58.237.1",
+      "212.58.237.129",
+      "212.58.237.130",
+      "212.58.237.2",
+      "31.13.71.19",
+      "74.86.118.24"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.bbc.com"
+  },
+  "raw": {
+    "malicious_count": 11,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1774611396,
+        "host_name": "www.bbc.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "212.58.235.1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1774611396,
+        "host_name": "www.bbc.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "212.58.237.129",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1774611396,
+        "host_name": "www.bbc.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "212.58.235.129",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1774611396,
+        "host_name": "www.bbc.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "212.58.236.1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1774611396,
+        "host_name": "www.bbc.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "212.58.236.129",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 6,
+    "total_count": 40
+  },
+  "recorded_at": "2026-09-10T12:13:42Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.bbc.com/resolutions?limit=40",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.bbc.com: 40 resolution(s); addresses: 212.58.235.1, 212.58.237.129, 212.58.235.129, 212.58.236.1, 212.58.236.129, 212.58.237.1, 188.43.20.67, 108.160.163.116, 199.16.156.103, 159.65.107.38",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

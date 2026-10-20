@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.newsweek.com/donald-trump-france-closing-airspace-11761983"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Trump Hits Out at France For Closing Airspace to US Military - Newsweek U.S. Global Lifestyle Opinion Rankings Social Extra Subscribe Sign In U.S. Global Lifestyle Opinion Rankings Social Extra News Breaking News Donald Trump France Iran War Iran Israel News Article Trump Hits Out at France for Closing Airspace During Iran War PUBLISHED MAR 31, 2026 AT 07:51 AM EDT UPDATED APR 05, 2026 AT 12:09 PM EDT President Donald Trump walks on the South Lawn upon his arrival to the White House, Sunday, March 29, 2026, in Washington. | AP Photo/Jose Luis Magana/President Donald Trump walks on the South Lawn upon his arrival to the White House, Sunday, March 29, 2026, in Washington. By Ellie Cook and Tob",
+    "javascript_rendered": true,
+    "title": "Trump Hits Out at France For Closing Airspace to US Military - Newsweek",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:21:19Z",
+  "source_url": "https://www.newsweek.com/donald-trump-france-closing-airspace-11761983",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.newsweek.com/donald-trump-france-closing-airspace-11761983. Title: Trump Hits Out at France For Closing Airspace to US Military - Newsweek. Excerpt: Trump Hits Out at France For Closing Airspace to US Military - Newsweek U.S. Global Lifestyle Opinion Rankings Social Extra Subscribe Sign In U.S. Global Lifestyle Opinion Rankings Social Extra News Breaking News Donald Trump France Iran War Iran Israel News Article Trump Hits Out at France for Closing Airspace During Iran War PUBLISHED MAR 31, 2026 AT 07:51 AM EDT UPDATED APR 05, 2026 AT 12:09 PM EDT President Donald Trump walks on the South Lawn upon his arrival to the White House, Sunday, March 29, 2026, in Washington. | AP Photo/Jose Luis Magana/President Donald Trump walks on the South Lawn upon his arrival to the White House, Sunday, March 29, 2026, in Washington. By Ellie Cook and Tob",
+  "tool_type": "WEB_CRAWL"
+}

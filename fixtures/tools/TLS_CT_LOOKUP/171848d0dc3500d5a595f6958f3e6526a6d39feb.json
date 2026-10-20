@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.techgines.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.techgines.com"
+  },
+  "raw": {
+    "count": 18,
+    "issuers": [
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=R12"
+    ],
+    "names": [
+      "www.techgines.com",
+      "www.techgines.com",
+      "www.techgines.com",
+      "www.techgines.com",
+      "www.techgines.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:18:15Z",
+  "source_url": "https://crt.sh/?q=%25.www.techgines.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.techgines.com: 18 certificate row(s); sample names=www.techgines.com, www.techgines.com, www.techgines.com, www.techgines.com, www.techgines.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

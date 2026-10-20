@@ -1,0 +1,201 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "talosintelligence.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "talosintelligence.com"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  ""
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+33.170377661"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abuse@support.gandi.net"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "81",
+        "links": [
+          {
+            "href": "http://www.gandi.net",
+            "rel": "about",
+            "type": "text/html",
+            "value": "https://rdap.gandi.net/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "81",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Gandi SAS"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2014-07-23T19:44:32Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2027-07-23T19:44:32Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-07-13T18:29:04Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-16T05:12:12Z"
+      }
+    ],
+    "handle": "1868134542_DOMAIN_COM-VRSN",
+    "ldhName": "TALOSINTELLIGENCE.COM",
+    "links": [
+      {
+        "href": "https://rdap.verisign.com/com/v1/domain/talosintelligence.com",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/talosintelligence.com"
+      },
+      {
+        "href": "https://rdap.gandi.net/domain/TALOSINTELLIGENCE.COM",
+        "rel": "related",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/talosintelligence.com"
+      }
+    ],
+    "nameservers": [
+      {
+        "ldhName": "FIONA.NS.CLOUDFLARE.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "LAKAS.NS.CLOUDFLARE.COM",
+        "objectClassName": "nameserver"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "Service subject to Terms of Use."
+        ],
+        "links": [
+          {
+            "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/talosintelligence.com"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/talosintelligence.com"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/talosintelligence.com"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_1",
+      "icann_rdap_response_profile_1"
+    ],
+    "secureDNS": {
+      "delegationSigned": false
+    },
+    "status": [
+      "client transfer prohibited"
+    ]
+  },
+  "recorded_at": "2026-09-16T05:12:21Z",
+  "source_url": "https://rdap.verisign.com/com/v1/domain/talosintelligence.com",
+  "status": "success",
+  "summary": "RDAP domain lookup for talosintelligence.com: handle=1868134542_DOMAIN_COM-VRSN; status=client transfer prohibited; nameservers=FIONA.NS.CLOUDFLARE.COM,LAKAS.NS.CLOUDFLARE.COM; events=registration=2014-07-23T19:44:32Z; expiration=2027-07-23T19:44:32Z; last changed=2026-07-13T18:29:04Z; last update of RDAP database=2026-09-16T05:12:12Z; entities=81.",
+  "tool_type": "WHOIS_LOOKUP"
+}

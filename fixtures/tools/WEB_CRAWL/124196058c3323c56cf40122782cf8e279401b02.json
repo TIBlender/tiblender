@@ -1,0 +1,28 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2026-3502",
+      "CVE-2026-76461"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.helpnetsecurity.com/2026/04/02/trueconf-zero-day-vulnerability-cyber-espionage/"
+  },
+  "raw": {
+    "blocked_resource_types": [],
+    "excerpt": "TrueConf zero-day vulnerability exploited to target government networks - Help Net Security Help Net Security newsletters : Daily and weekly news, cybersecurity jobs, open source projects, breaking news – subscribe here! News Features CISO AI Videos Product showcase Industry news Reviews Whitepapers Events Newsletters Please turn on your JavaScript for this page to function normally. Sinisa Markovic , Managing Editor, Help Net Security April 2, 2026 Share TrueConf zero-day vulnerability exploited to target government networks Suspected China-nexus attackers have leveraged a zero-day vulnerability (CVE-2026-3502) in the TrueConf client application to distribute malware within government netwo",
+    "fallback_reason": "Playwright is not installed for JavaScript rendering.",
+    "javascript_rendered": false,
+    "title": "TrueConf zero-day vulnerability exploited to target government networks - Help Net Security"
+  },
+  "recorded_at": "2026-09-16T08:47:37Z",
+  "source_url": "https://www.helpnetsecurity.com/2026/04/02/trueconf-zero-day-vulnerability-cyber-espionage/",
+  "status": "success",
+  "summary": "Static crawl of https://www.helpnetsecurity.com/2026/04/02/trueconf-zero-day-vulnerability-cyber-espionage/. Title: TrueConf zero-day vulnerability exploited to target government networks - Help Net Security. Excerpt: TrueConf zero-day vulnerability exploited to target government networks - Help Net Security Help Net Security newsletters : Daily and weekly news, cybersecurity jobs, open source projects, breaking news – subscribe here! News Features CISO AI Videos Product showcase Industry news Reviews Whitepapers Events Newsletters Please turn on your JavaScript for this page to function normally. Sinisa Markovic , Managing Editor, Help Net Security April 2, 2026 Share TrueConf zero-day vulnerability exploited to target government networks Suspected China-nexus attackers have leveraged a zero-day vulnerability (CVE-2026-3502) in the TrueConf client application to distribute malware within government netwo",
+  "tool_type": "WEB_CRAWL"
+}

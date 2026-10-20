@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "e1f6b7f621a391a9d26e9a196974f3e2cc1ce8b4d8f73a14b2e8cb0f2a40269f malware"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "商品情報詳細 詳細情報 画像はイメージです。 表示されている品番の仕様とは異なる場合があります。 イメージ画像を表示してい …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "品番・商品名検索結果 | TOTO:COM-ET [コメット] 建築専門家 ...",
+        "url": "https://www.com-et.com/jp/item_view_scale/searchStr=SH231BA/isHaiban=1/kensaku_info=2/datatype=1/hinban=SH231BA/isNC=1/"
+      },
+      {
+        "category": "general",
+        "content": "画像はイメージです。 表示されている品番の仕様とは異なる場合があります。 イメージ画像を表示しています 品番 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "品番・商品名検索結果 | TOTO:COM-ET [コメット] 建築専門家 ...",
+        "url": "https://www.com-et.com/jp/item_view_manual/searchStr=SH231BA/isHaiban=1/kensaku_info=2/datatype=1/hinban=SH231BA%20%20%20%20%23NW1/renban=1/isNC=0/s_hinban=SH231BA/"
+      },
+      {
+        "category": "general",
+        "content": "TOTO 温水洗浄便座 ピュアレストQR SH231BA を詳しく知りたいならまずはココから！ 取扱説明書・よくあるご質問をはじめとし …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "TOTO ピュアレストQR SH231BA 取扱説明書・レビュー記事 ...",
+        "url": "https://torisetsu.biz/products/0000122592/"
+      },
+      {
+        "category": "general",
+        "content": "必ず補修品リストで発注品番(色番、メッキ種別など含む)、数量をご確認ください。",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "SH231BA 番 - TOTO株式会社",
+        "url": "https://search.toto.jp/scale_cnv/20_SH231BA.pdf"
+      },
+      {
+        "category": "general",
+        "content": "Aug 11, 2025 · SH231BAの排水弁パッキンの交換方法について解説しています。 便器に水がちょろちょろと漏れ出ているといった …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "SH231BAの排水弁パッキンの交換方法について解説します ...",
+        "url": "https://leon-maintenance.com/2025/08/11/we-will-explain-how-to-replace-the-drain-valve-gasket-of-the-sh231ba-we-will-explain-using-photos-of-the-situation-where-water-is-leaking-into-the-toilet-bowl/"
+      },
+      {
+        "category": "general",
+        "content": "TOTO CS230BP+SH231BA ピュアレストQR [壁排水] [排水芯120㎜] [手洗い付き]が定価の58%引き41,881円の卸価格で販売中。 組 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "CS230BP+SH231BA ピュアレストQR 手洗付き 通販 (卸価格 ...",
+        "url": "https://www.direct-store.net/product/productdetail/30935"
+      },
+      {
+        "category": "general",
+        "content": "ホワイト メーカー TOTO 商品品番 SH231BA#NW1 商品名 ピュアレストQR タンクのみ 廃番品 メーカー取寄 商品についてのお問い …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "TOTO SH231BA#NW1 ピュアレストQR タンクのみ 通販(卸価格 ...",
+        "url": "https://www.direct-store.net/product/productdetail/30378"
+      },
+      {
+        "category": "general",
+        "content": "May 8, 2020 · 豊中市刀根山より【トイレの水が便器からチョロチョロ流れてて (少量)5分ぐらい経つとタンクの方へ吸収されてい …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "トイレの水が便器からチョロチョロ流れてる SH231BA修理 | 街の ...",
+        "url": "https://yamakawasetubi.com/osaka/%e3%83%88%e3%82%a4%e3%83%ac%e6%b0%b4%e6%bc%8f%e3%82%8c-%e5%a4%a7%e9%98%aa/%e3%83%88%e3%82%a4%e3%83%ac%e3%81%ae%e6%b0%b4%e3%81%8c%e4%be%bf%e5%99%a8%e3%81%8b%e3%82%89%e3%83%81%e3%83%a7%e3%83%ad%e3%83%81%e3%83%a7%e3%83%ad%e6%b5%81%e3%82%8c%e3%81%a6%e3%82%8b-%ef%bd%93%ef%bd%88/"
+      },
+      {
+        "category": "general",
+        "content": "特記事項(1/2) ・タンク、便器などの補修品は発注品番に色番を付加してご発注ください。",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "手洗付密結タンク（KQ） SH231BA VR 番 名 - TOTO株式会社",
+        "url": "https://search.toto.jp/scale_cnv/20_SH231BA__VR.pdf"
+      },
+      {
+        "category": "general",
+        "content": "\"toto sh231ba\"の人気商品をご紹介。 価格.comなら今売れている商品やお得な商品を全国のネット通販ショップから探すことができ …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "「toto sh231ba」の人気商品一覧 | 安い商品を通販サイトから ...",
+        "url": "https://search.kakaku.com/toto%20sh231ba/?msockid=0cb0a0e389996f1c23ebb73688cc6ea5"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:16Z",
+  "source_url": "http://searxng:8080/search?q=e1f6b7f621a391a9d26e9a196974f3e2cc1ce8b4d8f73a14b2e8cb0f2a40269f+malware&format=json",
+  "status": "success",
+  "summary": "SearXNG search for e1f6b7f621a391a9d26e9a196974f3e2cc1ce8b4d8f73a14b2e8cb0f2a40269f malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

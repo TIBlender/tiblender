@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.reversinglabs.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.17.127.180",
+      "104.17.128.180",
+      "104.17.129.180",
+      "104.17.130.180",
+      "104.17.131.180",
+      "151.101.0.143",
+      "151.101.128.143",
+      "151.101.192.143",
+      "151.101.193.167",
+      "151.101.64.143",
+      "199.60.103.225",
+      "199.60.103.31",
+      "216.150.1.1",
+      "216.150.1.129",
+      "216.150.1.193",
+      "216.150.1.65",
+      "216.150.16.1",
+      "216.150.16.129",
+      "216.150.16.193",
+      "216.150.16.65"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.reversinglabs.com"
+  },
+  "raw": {
+    "malicious_count": 9,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1754107702,
+        "host_name": "www.reversinglabs.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "216.150.16.193",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1754104306,
+        "host_name": "www.reversinglabs.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "216.150.1.193",
+        "ip_address_malicious": 2,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1754040684,
+        "host_name": "www.reversinglabs.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "216.150.16.65",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1754040684,
+        "host_name": "www.reversinglabs.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "216.150.1.65",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1754030256,
+        "host_name": "www.reversinglabs.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "216.150.16.1",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:16:23Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.reversinglabs.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.reversinglabs.com: 20 resolution(s); addresses: 216.150.16.193, 216.150.1.193, 216.150.16.65, 216.150.1.65, 216.150.16.1, 216.150.1.1, 216.150.1.129, 216.150.16.129, 199.60.103.31, 199.60.103.225",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

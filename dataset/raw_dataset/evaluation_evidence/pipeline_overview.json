@@ -1,0 +1,32 @@
+{
+  "raw_posts_by_platform": {
+    "Telegram": 579300,
+    "Discord": 217249,
+    "X": 48299,
+    "Reddit": 29125
+  },
+  "raw_posts_total": 873973,
+  "unique_clusters": 184240,
+  "step2_low_severity_filtered_clusters": 172683,
+  "step4_skip_clusters": 3269,
+  "actionable_reports": 8288,
+  "runtime": {
+    "compute": "Azure Standard D32as v4, 32 vCPU, 128 GB RAM, Ubuntu 22.04, Docker Compose",
+    "cycle_count": 744,
+    "cycle_interval_hours": 1,
+    "models": {
+      "judges": [
+        "GPT-OSS-120B",
+        "Llama 4 Maverick"
+      ],
+      "main_processing": "Grok 4 Fast Non-Reasoning via Microsoft Foundry",
+      "temperature": 0
+    },
+    "platforms": [
+      "X",
+      "Reddit",
+      "Telegram",
+      "Discord"
+    ]
+  }
+}

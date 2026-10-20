@@ -1,0 +1,3 @@
+# Optional list of X (Twitter) handles to monitor directly, one per line.
+# Lines starting with # are ignored. Format: handle per line
+# The list is empty by default; the collector runs on keyword search alone.

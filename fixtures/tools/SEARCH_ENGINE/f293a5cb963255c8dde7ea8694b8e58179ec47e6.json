@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "bsky.app vulnerability"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Mar 31, 2026 · もし集団攻撃や嫌がらせの標的になった場合、あるいはそのような行為を目撃した場合は、投稿の下部にある3点ア …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Bluesky日本語（公式） (@jp.bsky.app)",
+        "url": "https://bsky.app/profile/jp.bsky.app"
+      },
+      {
+        "category": "general",
+        "content": "Apr 12, 2023 · First Bluesky user to judge the Great British Bake Off! 🍰 Nigella Lawson @nigella.bsky.social",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Bluesky (@bsky.app) — Bluesky",
+        "url": "https://bsky.app/profile/bsky.app"
+      },
+      {
+        "category": "general",
+        "content": "jazco.dev. “ Stats for BlueSky by Jaz（jaz.bsky.social） ”. 2025年1月29日閲覧。 Belanger, Ashley (2023年4月28日). “ Top Twitter …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Bluesky - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/Bluesky"
+      },
+      {
+        "category": "general",
+        "content": "JavaScript Required This is a heavily interactive web application, and JavaScript is required. Simple HTML interfaces are possible, …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Bluesky",
+        "url": "https://redirect.bsky.app/"
+      },
+      {
+        "category": "general",
+        "content": "Mar 1, 2024 · Blueskyでは、アカウント作成時に「 .bsky.social」といった「.bsky.social」がついたハンドルネーム（ユーザー名） …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Bluesky（ブルースカイ）とは？基本の使い方と企業活用事例9選",
+        "url": "https://www.comnico.jp/we-love-social/bluesky"
+      },
+      {
+        "category": "general",
+        "content": "Stay focused on your friend group, keep up-to-date on the latest news, or explore with an algorithm that learns what you like. On …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Welcome to the - Bluesky",
+        "url": "https://bsky.social/about"
+      },
+      {
+        "category": "general",
+        "content": "Feb 27, 2025 · Blueskyは、テキスト中心の新しい分散型SNSです。以前までは招待制でしたが、2021年には招待制が廃止されたた …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "BlueskyとはどんなSNS？始め方や使い方・企業の活用事例も紹介",
+        "url": "https://www.ownly.jp/sslab/bluesky"
+      },
+      {
+        "category": "general",
+        "content": "Dec 26, 2025 · Bluesky の投稿をニュース記事など、別の Web サイトに直接埋め込むことができるようになりました。 埋め込みた …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "次世代SNS「Bluesky（ブルースカイ）」とは？始め方や使い ...",
+        "url": "https://www.sungrove.co.jp/bluesky/"
+      },
+      {
+        "category": "general",
+        "content": "Nov 27, 2019 · Baseball days are here again, and we've got the couch ready and the beer fridge stocked. Join us on Bluesky, and …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Bluesky (@bluesky) / X",
+        "url": "https://x.com/bluesky"
+      },
+      {
+        "category": "general",
+        "content": "ClearSky is a cloud-based app designed to help you manage tasks and projects efficiently.",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "ClearSky",
+        "url": "https://clearsky.app/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:41Z",
+  "source_url": "http://searxng:8080/search?q=bsky.app+vulnerability&format=json",
+  "status": "success",
+  "summary": "SearXNG search for bsky.app vulnerability: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

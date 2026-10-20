@@ -1,0 +1,110 @@
+{
+  "type": "bundle",
+  "spec_version": "2.1",
+  "id": "bundle--c8f90099-4f0c-5654-9ff5-c9a2c1698aac",
+  "objects": [
+    {
+      "type": "report",
+      "spec_version": "2.1",
+      "id": "report--f283076d-383e-5c5d-911e-769114cf6a39",
+      "created": "2026-09-16T08:49:00Z",
+      "modified": "2026-09-16T08:49:00Z",
+      "name": "sfrclak.com malware and command-and-control campaign",
+      "description": "6 post(s) from discord, reddit and x posted on 2026-03-31 were consolidated into one malware and command-and-control cluster across 3 platform(s), rated CRITICAL. The cluster carries 1 domain, 2 file hashes. Matched threat vocabulary: malware, payload, npm. This summary is composed from the cluster's indicators, counts and vocabulary matches; the source posts are quoted under source evidence in the language they were posted in.",
+      "published": "2026-09-16T08:49:00Z",
+      "report_types": [
+        "threat-report"
+      ],
+      "labels": [
+        "malware",
+        "high"
+      ],
+      "object_refs": [
+        "indicator--ea6bc4ba-1075-59d9-9c60-f3a4f77682a4",
+        "indicator--13e4cc9e-0a3a-5326-944a-680a1f9d25a6",
+        "indicator--0a24f030-9a1d-5420-825e-e3fe09aefe7c",
+        "indicator--d120988c-1ca0-51c4-a990-c543310bfadb",
+        "attack-pattern--ed158952-97c2-5a3d-8693-faae7749ed30"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--ea6bc4ba-1075-59d9-9c60-f3a4f77682a4",
+      "created": "2026-09-16T08:49:00Z",
+      "modified": "2026-09-16T08:49:00Z",
+      "name": "Domain indicator: sfrclak.com",
+      "description": "Indicator observed in sfrclak.com malware and command-and-control campaign.",
+      "pattern": "[domain-name:value = 'sfrclak.com']",
+      "pattern_type": "stix",
+      "valid_from": "2026-09-16T08:49:00Z",
+      "labels": [
+        "malware"
+      ],
+      "confidence": 85
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--13e4cc9e-0a3a-5326-944a-680a1f9d25a6",
+      "created": "2026-09-16T08:49:00Z",
+      "modified": "2026-09-16T08:49:00Z",
+      "name": "IP indicator: 142.11.206.73",
+      "description": "Indicator observed in sfrclak.com malware and command-and-control campaign.",
+      "pattern": "[ipv4-addr:value = '142.11.206.73']",
+      "pattern_type": "stix",
+      "valid_from": "2026-09-16T08:49:00Z",
+      "labels": [
+        "malware"
+      ],
+      "confidence": 85
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--0a24f030-9a1d-5420-825e-e3fe09aefe7c",
+      "created": "2026-09-16T08:49:00Z",
+      "modified": "2026-09-16T08:49:00Z",
+      "name": "File hash indicator: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+      "description": "Indicator observed in sfrclak.com malware and command-and-control campaign.",
+      "pattern": "[file:hashes.'SHA-256' = '92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a']",
+      "pattern_type": "stix",
+      "valid_from": "2026-09-16T08:49:00Z",
+      "labels": [
+        "malware"
+      ],
+      "confidence": 85
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "id": "indicator--d120988c-1ca0-51c4-a990-c543310bfadb",
+      "created": "2026-09-16T08:49:00Z",
+      "modified": "2026-09-16T08:49:00Z",
+      "name": "File hash indicator: f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+      "description": "Indicator observed in sfrclak.com malware and command-and-control campaign.",
+      "pattern": "[file:hashes.'SHA-256' = 'f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd']",
+      "pattern_type": "stix",
+      "valid_from": "2026-09-16T08:49:00Z",
+      "labels": [
+        "malware"
+      ],
+      "confidence": 85
+    },
+    {
+      "type": "attack-pattern",
+      "spec_version": "2.1",
+      "id": "attack-pattern--ed158952-97c2-5a3d-8693-faae7749ed30",
+      "created": "2026-09-16T08:49:00Z",
+      "modified": "2026-09-16T08:49:00Z",
+      "name": "Ingress Tool Transfer",
+      "description": "Payload/C2 context appears in the cluster.",
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "external_id": "T1105"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host getbreachflow.co is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://getbreachflow.co"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:22Z",
+  "source_url": "https://getbreachflow.co",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host getbreachflow.co for https://getbreachflow.co",
+  "tool_type": "WEB_CRAWL"
+}

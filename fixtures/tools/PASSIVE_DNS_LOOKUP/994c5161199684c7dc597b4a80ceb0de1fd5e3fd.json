@@ -1,0 +1,95 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "23.254.167.216.nip.io",
+      "cryptorgram.com",
+      "gmailsystems.icu",
+      "gqxcy.xyz",
+      "hwsrv-1253777.hostwindsdns.com",
+      "metricshark.com",
+      "ns1.empoid.top",
+      "ns1.nassogroup.com",
+      "office-owa-outlook.live",
+      "postitraci.co",
+      "shopvester.com",
+      "somirck.com",
+      "unideployer.com",
+      "www.metricshark.com",
+      "www.postitraci.co"
+    ],
+    "hashes": [],
+    "ips": [
+      "23.254.167.216"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "23.254.167.216"
+  },
+  "raw": {
+    "malicious_count": 239,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1775477975,
+        "host_name": "23.254.167.216.nip.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.254.167.216",
+        "ip_address_malicious": 12,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1775010112,
+        "host_name": "hwsrv-1253777.hostwindsdns.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.254.167.216",
+        "ip_address_malicious": 12,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1736887752,
+        "host_name": "a0info.v6.army",
+        "host_name_malicious": 9,
+        "host_name_suspicious": 1,
+        "ip_address": "23.254.167.216",
+        "ip_address_malicious": 12,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1735945393,
+        "host_name": "make-hex-32332e3235342e3136372e323136-rr.1u.ms",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.254.167.216",
+        "ip_address_malicious": 12,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1726413223,
+        "host_name": "ns1.empoid.top",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.254.167.216",
+        "ip_address_malicious": 12,
+        "ip_address_suspicious": 1,
+        "resolver": "Georgia Institute of Technology"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 24,
+    "total_count": 17
+  },
+  "recorded_at": "2026-09-15T01:24:40Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/23.254.167.216/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 23.254.167.216: 17 resolution(s); hosts: 23.254.167.216.nip.io, hwsrv-1253777.hostwindsdns.com, a0info.v6.army, make-hex-32332e3235342e3136372e323136-rr.1u.ms, ns1.empoid.top, ns1.nassogroup.com, unideployer.com, cryptorgram.com, shopvester.com, gqxcy.xyz",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,121 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "021efb3bf2938fc43debf95938c99d92.safeframe.googlesyndication.com",
+      "03b3d42dc170b5000c9e321db1d14b16.safeframe.googlesyndication.com",
+      "0cb2eb2704ac4296baf2d21da995e476.safeframe.googlesyndication.com",
+      "1809f1ab61751c8a11192e18ebddc7ea.safeframe.googlesyndication.com",
+      "26cae3b1597733fe469410fd46b1cda4.safeframe.googlesyndication.com",
+      "27a23618e61d361c2253a6487c3c4ec3.safeframe.googlesyndication.com",
+      "27fa429d5f9683387ee3ce67043c92bb.safeframe.googlesyndication.com",
+      "2cec2e90db5786f20c52f866e3871254.safeframe.googlesyndication.com",
+      "5446024c560bedfb6bf2f40cfd7123fd.safeframe.googlesyndication.com",
+      "6254a4b8d0eb0afee2f667bad797baca.safeframe.googlesyndication.com",
+      "758d3d986d7face2e7dc3e7bdd3bfb01.safeframe.googlesyndication.com",
+      "8d79af961522d0971bc9608bd357b0f3.safeframe.googlesyndication.com",
+      "a7b90f2f893bf43a3cb261a04bbbba24.safeframe.googlesyndication.com",
+      "b0946763e6029bf5167ed2931d85cd66.safeframe.googlesyndication.com",
+      "c052ee43987672954ec14b6b0e2c8dd4.safeframe.googlesyndication.com",
+      "c7282523a728abcefd6855f4bacc7931.safeframe.googlesyndication.com",
+      "cf246e21cc3d75f7f1a6ec596c8933ac.safeframe.googlesyndication.com",
+      "db8a2a5463765ad3ea6b3699d8712def.safeframe.googlesyndication.com",
+      "e63171fdf72aa9b3ae283f638d462059.safeframe.googlesyndication.com",
+      "fad52e4edfbc4e094d321f30ffa13ebe.safeframe.googlesyndication.com"
+    ],
+    "hashes": [
+      "021efb3bf2938fc43debf95938c99d92",
+      "03b3d42dc170b5000c9e321db1d14b16",
+      "0cb2eb2704ac4296baf2d21da995e476",
+      "1809f1ab61751c8a11192e18ebddc7ea",
+      "26cae3b1597733fe469410fd46b1cda4",
+      "27a23618e61d361c2253a6487c3c4ec3",
+      "27fa429d5f9683387ee3ce67043c92bb",
+      "2cec2e90db5786f20c52f866e3871254",
+      "5446024c560bedfb6bf2f40cfd7123fd",
+      "6254a4b8d0eb0afee2f667bad797baca",
+      "758d3d986d7face2e7dc3e7bdd3bfb01",
+      "8d79af961522d0971bc9608bd357b0f3",
+      "a7b90f2f893bf43a3cb261a04bbbba24",
+      "b0946763e6029bf5167ed2931d85cd66",
+      "c052ee43987672954ec14b6b0e2c8dd4",
+      "c7282523a728abcefd6855f4bacc7931",
+      "cf246e21cc3d75f7f1a6ec596c8933ac",
+      "db8a2a5463765ad3ea6b3699d8712def",
+      "e63171fdf72aa9b3ae283f638d462059",
+      "fad52e4edfbc4e094d321f30ffa13ebe"
+    ],
+    "ips": [
+      "142.251.39.193"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "142.251.39.193"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789500350,
+        "host_name": "021efb3bf2938fc43debf95938c99d92.safeframe.googlesyndication.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.251.39.193",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1789492321,
+        "host_name": "2cec2e90db5786f20c52f866e3871254.safeframe.googlesyndication.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.251.39.193",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1789471052,
+        "host_name": "6254a4b8d0eb0afee2f667bad797baca.safeframe.googlesyndication.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.251.39.193",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1789470462,
+        "host_name": "8d79af961522d0971bc9608bd357b0f3.safeframe.googlesyndication.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.251.39.193",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1789470462,
+        "host_name": "758d3d986d7face2e7dc3e7bdd3bfb01.safeframe.googlesyndication.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.251.39.193",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:21:02Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/142.251.39.193/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 142.251.39.193: 20 resolution(s); hosts: 021efb3bf2938fc43debf95938c99d92.safeframe.googlesyndication.com, 2cec2e90db5786f20c52f866e3871254.safeframe.googlesyndication.com, 6254a4b8d0eb0afee2f667bad797baca.safeframe.googlesyndication.com, 8d79af961522d0971bc9608bd357b0f3.safeframe.googlesyndication.com, 758d3d986d7face2e7dc3e7bdd3bfb01.safeframe.googlesyndication.com, fad52e4edfbc4e094d321f30ffa13ebe.safeframe.googlesyndication.com, 27a23618e61d361c2253a6487c3c4ec3.safeframe.googlesyndication.com, 26cae3b1597733fe469410fd46b1cda4.safeframe.googlesyndication.com, b0946763e6029bf5167ed2931d85cd66.safeframe.googlesyndication.com, 0cb2eb2704ac4296baf2d21da995e476.safeframe.googlesyndication.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

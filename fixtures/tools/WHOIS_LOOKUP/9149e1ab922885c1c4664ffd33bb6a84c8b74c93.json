@@ -1,0 +1,367 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "113.10.242.102"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "113.10.242.102"
+  },
+  "raw": {
+    "cidr0_cidrs": [
+      {
+        "length": 24,
+        "v4prefix": "113.10.242.0"
+      }
+    ],
+    "country": "HK",
+    "endAddress": "113.10.242.255",
+    "entities": [
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventDate": "2021-09-08T04:41:55Z"
+          },
+          {
+            "eventAction": "last changed",
+            "eventDate": "2026-03-05T10:02:54Z"
+          }
+        ],
+        "handle": "IRT-HKBNESL-HK",
+        "links": [
+          {
+            "href": "https://rdap.apnic.net/entity/IRT-HKBNESL-HK",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.apnic.net/ip/113.10.242.102"
+          }
+        ],
+        "objectClassName": "entity",
+        "remarks": [
+          {
+            "description": [
+              "esabuse@hkbnes.net was validated on 2026-03-05"
+            ],
+            "title": "remarks"
+          }
+        ],
+        "roles": [
+          "abuse"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "IRT-HKBNESL-HK"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "group"
+            ],
+            [
+              "adr",
+              {
+                "label": "HKBN Enterprise Solutions Limited\n15/F, 18 Kin Hong Street, Trans Asia Centre, Kwai Chung, Kln"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "email",
+              {},
+              "text",
+              "esabuse@hkbnes.net"
+            ],
+            [
+              "email",
+              {
+                "pref": "1"
+              },
+              "text",
+              "esabuse@hkbnes.net"
+            ]
+          ]
+        ]
+      },
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventDate": "2025-10-08T06:43:54Z"
+          },
+          {
+            "eventAction": "last changed",
+            "eventDate": "2025-10-08T06:43:54Z"
+          }
+        ],
+        "handle": "MH1716-AP",
+        "links": [
+          {
+            "href": "https://rdap.apnic.net/entity/MH1716-AP",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.apnic.net/ip/113.10.242.102"
+          }
+        ],
+        "objectClassName": "entity",
+        "roles": [
+          "technical"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Master Host"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "individual"
+            ],
+            [
+              "adr",
+              {
+                "label": "15/F, 18 Kin Hong Street, Trans Asia Centre, Kwai Chung, Kln"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "tel",
+              {
+                "type": "voice"
+              },
+              "text",
+              "+852-3999-3888"
+            ],
+            [
+              "email",
+              {},
+              "text",
+              "hostmaster@hkbn.com.hk"
+            ]
+          ]
+        ]
+      },
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventDate": "2008-09-04T07:54:04Z"
+          },
+          {
+            "eventAction": "last changed",
+            "eventDate": "2021-09-08T05:17:18Z"
+          }
+        ],
+        "handle": "NC315-AP",
+        "links": [
+          {
+            "href": "https://rdap.apnic.net/entity/NC315-AP",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.apnic.net/ip/113.10.242.102"
+          }
+        ],
+        "objectClassName": "entity",
+        "roles": [
+          "administrative"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Network Management Center"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "individual"
+            ],
+            [
+              "adr",
+              {
+                "label": "Hong Kong"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "tel",
+              {
+                "type": "voice"
+              },
+              "text",
+              "+ 852 - 2130-0120"
+            ],
+            [
+              "tel",
+              {
+                "type": "fax"
+              },
+              "text",
+              "+ 852 - 2133 2175"
+            ],
+            [
+              "email",
+              {},
+              "text",
+              "nmcdata@hkbnes.net"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2010-12-13T09:03:39Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2025-10-08T07:44:42Z"
+      }
+    ],
+    "handle": "113.10.242.0 - 113.10.242.255",
+    "ipVersion": "v4",
+    "links": [
+      {
+        "href": "https://rdap.apnic.net/ip/113.10.242.0/24",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.apnic.net/ip/113.10.242.102"
+      }
+    ],
+    "name": "NWTBB-HK",
+    "notices": [
+      {
+        "description": [
+          "Objects returned came from source",
+          "APNIC"
+        ],
+        "title": "Source"
+      },
+      {
+        "description": [
+          "This is the APNIC WHOIS Database query service. The objects are in RDAP format."
+        ],
+        "links": [
+          {
+            "href": "http://www.apnic.net/db/dbcopyright.html",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.apnic.net/ip/113.10.242.102"
+          }
+        ],
+        "title": "Terms and Conditions"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit: "
+        ],
+        "links": [
+          {
+            "href": "https://www.apnic.net/manage-ip/using-whois/abuse-and-spamming/invalid-contact-form",
+            "rel": "inaccuracy-report",
+            "type": "text/html",
+            "value": "https://rdap.apnic.net/ip/113.10.242.102"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      }
+    ],
+    "objectClassName": "ip network",
+    "port43": "whois.apnic.net",
+    "rdapConformance": [
+      "history_version_0",
+      "nro_rdap_profile_0",
+      "cidr0",
+      "rdap_level_0"
+    ],
+    "remarks": [
+      {
+        "description": [
+          "NWT Broadband Service"
+        ],
+        "title": "description"
+      },
+      {
+        "description": [
+          "For network abuse email <esabuse@hkbnes.net>"
+        ],
+        "title": "remarks"
+      }
+    ],
+    "startAddress": "113.10.242.0",
+    "status": [
+      "active"
+    ],
+    "type": "ASSIGNED NON-PORTABLE"
+  },
+  "recorded_at": "2026-09-16T06:34:19Z",
+  "source_url": "https://rdap.apnic.net/ip/113.10.242.102",
+  "status": "success",
+  "summary": "RDAP ip lookup for 113.10.242.102: handle=113.10.242.0 - 113.10.242.255; status=active; nameservers=n/a; events=registration=2010-12-13T09:03:39Z; last changed=2025-10-08T07:44:42Z; entities=IRT-HKBNESL-HK,MH1716-AP,NC315-AP.",
+  "tool_type": "WHOIS_LOOKUP"
+}

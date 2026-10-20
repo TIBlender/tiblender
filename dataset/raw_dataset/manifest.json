@@ -1,0 +1,90 @@
+{
+  "reports": 8288,
+  "files": {
+    "evaluation_evidence/ablation_membership.jsonl": {
+      "sha256": "71e1cf54a10645eb5b1c0d9ed715b61729dad8c25b8573c0abbb3b7cfcb879b3",
+      "bytes": 7596961
+    },
+    "evaluation_evidence/ablation_parameters.json": {
+      "sha256": "c593d8b0b51b86f12900a88bde44cc4f7525db10d33e52ccd13a519c5be62099",
+      "bytes": 1230
+    },
+    "evaluation_evidence/baseline_ioc_records.jsonl": {
+      "sha256": "7207a6a3b397b9959bad21100e9ec5a9d3630861978cc3c35133f7b374fbbfb2",
+      "bytes": 364067
+    },
+    "evaluation_evidence/manual_review_patterns.json": {
+      "sha256": "34bec10492bc0ba36133a931cb7d10e211b30c4e4ff3cfbcc6364d5a6a03565d",
+      "bytes": 2605
+    },
+    "evaluation_evidence/manual_review_records.jsonl": {
+      "sha256": "c3d8fbd0e43873c11f12d79771da70cf43d3a090caeb7bdd1de5acd971ba79d7",
+      "bytes": 788383
+    },
+    "evaluation_evidence/pipeline_overview.json": {
+      "sha256": "8da6e47739fc04fa95b0290fa59d057782b939ca851e16d97a4920b0aedd0550",
+      "bytes": 743
+    },
+    "evaluation_evidence/public_feed_overlap_records.jsonl": {
+      "sha256": "56a29cf55e68ce6508ace7f76f9a16c939a59d2d6a5a260691677e63f8baba49",
+      "bytes": 3636794
+    },
+    "evaluation_evidence/public_feed_timing_records.jsonl": {
+      "sha256": "0a7162f59ac0d83dea61031efee2df538e993487b41d6b94628025f044c6d488",
+      "bytes": 472721
+    },
+    "evaluation_evidence/same_input_direct_records.jsonl": {
+      "sha256": "7b87f85d3fd4252b633a7fdcfec5d011a188485d2371efbebdcd5b2f4322caed",
+      "bytes": 160798
+    },
+    "evaluation_evidence/skip_cluster_units.jsonl": {
+      "sha256": "7cd9c2d364132c251987b9518c954bb14788226d7715a8d8698ad61ed4402331",
+      "bytes": 343245
+    },
+    "reports.jsonl": {
+      "sha256": "54133a7c43080b55353c6ce392d10ce8d61f6e4f45415f2bf576d0b84eedfc9e",
+      "bytes": 59421514
+    }
+  },
+  "record_fields": [
+    "report_id",
+    "report_index",
+    "created_at",
+    "paper_category",
+    "severity",
+    "platforms",
+    "report_text",
+    "iocs",
+    "source_posts"
+  ],
+  "report_text_sections": [
+    "cluster_name",
+    "severity",
+    "summary",
+    "key_findings",
+    "recommendations",
+    "iocs",
+    "cves",
+    "ttps",
+    "threat_actor",
+    "timeline",
+    "sources"
+  ],
+  "ioc_fields": [
+    "type",
+    "value",
+    "extraction_type",
+    "platforms"
+  ],
+  "source_post_fields": [
+    "source_ref",
+    "platform",
+    "timestamp",
+    "text"
+  ],
+  "recommendation_fields": [
+    "horizon",
+    "action",
+    "rationale"
+  ]
+}

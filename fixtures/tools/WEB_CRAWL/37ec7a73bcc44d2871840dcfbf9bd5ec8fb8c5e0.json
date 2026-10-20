@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.sheknows.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.sheknows.com/parenting/articles/1234985832/not-everyone-is-celebrating-metas-landmark-losses/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:26:05Z",
+  "source_url": "https://www.sheknows.com/parenting/articles/1234985832/not-everyone-is-celebrating-metas-landmark-losses/",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.sheknows.com for https://www.sheknows.com/parenting/articles/1234985832/not-everyone-is-celebrating-metas-landmark-losses/",
+  "tool_type": "WEB_CRAWL"
+}

@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.tomsguide.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.tomsguide.com/computing/hardware/ram-prices-are-finally-dropping-but-i-wouldnt-celebrate-just-yet"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:58:35Z",
+  "source_url": "https://www.tomsguide.com/computing/hardware/ram-prices-are-finally-dropping-but-i-wouldnt-celebrate-just-yet",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.tomsguide.com for https://www.tomsguide.com/computing/hardware/ram-prices-are-finally-dropping-but-i-wouldnt-celebrate-just-yet",
+  "tool_type": "WEB_CRAWL"
+}

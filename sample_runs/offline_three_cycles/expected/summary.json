@@ -1,0 +1,426 @@
+{
+  "cycles": {
+    "cycle_001": {
+      "clusters": 11,
+      "dynamic_queries": [
+        "CVE-2024-51482",
+        "CVE-2025-32975",
+        "CVE-2025-8061",
+        "securityaid.co.uk",
+        "sploitus.com"
+      ],
+      "history_size": 11,
+      "iocs_by_report": {
+        "TIBLENDER-RUN-055a9719f9e9": [
+          "142.251.39.129",
+          "142.251.39.193"
+        ],
+        "TIBLENDER-RUN-3d8555df0532": [
+          "104.21.30.58",
+          "104.21.52.21",
+          "CVE-2024-51482",
+          "CVE-2025-8061",
+          "CVE-2026-41242",
+          "https://sploitus.com/exploit?id=2FC53BBC-FEED-522F-8B52-72FBD0BAB2CA",
+          "https://sploitus.com/exploit?id=3A3572A6-D06E-5ED6-A03A-AFD82C98F2FD",
+          "https://sploitus.com/exploit?id=3CFEEF64-C04E-5BBB-8608-5B0A34151752",
+          "https://sploitus.com/exploit?id=D64A63AF-73F1-5E02-BDC8-3EA059D87685",
+          "sploitus.com"
+        ],
+        "TIBLENDER-RUN-ea65e8b1c6c5": [
+          "217.160.0.21",
+          "217.160.0.58",
+          "CVE-2025-32975",
+          "https://securityaid.co.uk/?p=40004",
+          "https://securityaid.co.uk/?p=40004&feed_id=61957",
+          "securityaid.co.uk"
+        ]
+      },
+      "posts_loaded": 28,
+      "report_ids": [
+        "TIBLENDER-RUN-055a9719f9e9",
+        "TIBLENDER-RUN-3d8555df0532",
+        "TIBLENDER-RUN-ea65e8b1c6c5"
+      ],
+      "reports": 3,
+      "services": {
+        "discord": "fixture",
+        "reddit": "fixture",
+        "telegram": "fixture",
+        "x": "fixture"
+      },
+      "threat_related": 23,
+      "tool_recording_replay": {
+        "by_tool": {
+          "GITHUB_SEARCH": {
+            "calls": 3,
+            "hit_rate": 1.0,
+            "hits": 3,
+            "misses": 0
+          },
+          "NVD_CVE_LOOKUP": {
+            "calls": 2,
+            "hit_rate": 1.0,
+            "hits": 2,
+            "misses": 0
+          },
+          "PASSIVE_DNS_LOOKUP": {
+            "calls": 9,
+            "hit_rate": 1.0,
+            "hits": 9,
+            "misses": 0
+          },
+          "SEARCH_ENGINE": {
+            "calls": 12,
+            "hit_rate": 1.0,
+            "hits": 12,
+            "misses": 0
+          },
+          "TLS_CT_LOOKUP": {
+            "calls": 4,
+            "hit_rate": 1.0,
+            "hits": 4,
+            "misses": 0
+          },
+          "WEB_CRAWL": {
+            "calls": 2,
+            "hit_rate": 1.0,
+            "hits": 2,
+            "misses": 0
+          },
+          "WHOIS_LOOKUP": {
+            "calls": 12,
+            "hit_rate": 1.0,
+            "hits": 12,
+            "misses": 0
+          }
+        },
+        "calls": 44,
+        "hit_rate": 1.0,
+        "hits": 44,
+        "misses": 0
+      },
+      "training_status": "bc_only_insufficient_transitions",
+      "trend_counts": {
+        "EARLY_WARNING": 2,
+        "ESCALATION": 0,
+        "PROPAGATION": 0,
+        "VOLUME": 0
+      }
+    },
+    "cycle_002": {
+      "clusters": 14,
+      "dynamic_queries": [
+        "CVE-2026-33032",
+        "CVE-2026-41940"
+      ],
+      "history_size": 25,
+      "iocs_by_report": {
+        "TIBLENDER-RUN-3202072a7830": [
+          "104.18.44.223",
+          "104.18.45.223",
+          "gbhackers.com"
+        ],
+        "TIBLENDER-RUN-376e26388562": [
+          "162.159.143.12",
+          "172.66.3.8",
+          "CVE-2026-3055",
+          "https://www.techgines.com/post/citrixbleed-3-0-active-reconnaissance-targets-citrix-netscaler-cve-2026-3055-as-exploitation-window",
+          "www.techgines.com"
+        ],
+        "TIBLENDER-RUN-748514e232ed": [
+          "104.21.87.75",
+          "109.234.109.84",
+          "factide.com",
+          "https://factide.com/ta416-abused-microsofts-own-oauth-endpoint-to-plant-plugx-in-eu-missions/"
+        ],
+        "TIBLENDER-RUN-7e52ee95fe17": [
+          "8.47.69.0",
+          "8.6.112.6"
+        ],
+        "TIBLENDER-RUN-98480c0315bf": [
+          "104.21.30.58",
+          "104.21.52.21",
+          "CVE-2026-41940",
+          "https://sploitus.com/exploit?id=20D856EB-9DCC-5DA6-BE57-076255B097F7",
+          "https://sploitus.com/exploit?id=2701B38E-308B-578E-A22D-1538782B2A0C",
+          "https://sploitus.com/exploit?id=42BD4D56-3716-5026-B5B8-1F89FF1FA2B8",
+          "https://sploitus.com/exploit?id=53AA1783-10FD-58B9-96E7-87CA0C261C72",
+          "https://sploitus.com/exploit?id=557FA01A-594C-58C2-A26E-F7295CF2C82F",
+          "https://sploitus.com/exploit?id=95614A09-0EE7-5275-B7AD-1DDB231969ED",
+          "https://sploitus.com/exploit?id=PACKETSTORM:220075",
+          "sploitus.com"
+        ],
+        "TIBLENDER-RUN-a271129f65d5": [
+          "162.159.143.12",
+          "172.66.3.8",
+          "CVE-2026-34621",
+          "https://www.techgines.com/post/adobe-reader-zero-day-2026-unpatched-pdf-exploit-fingerprinting](https://www.techgines.com/post/adobe-reader-zero-day-2026-unpatched-pdf-exploit-fingerprinting",
+          "https://www.techgines.com/post/cve-2026-34621-adobe-acrobat-reader-prototype-pollution-zero-day-patch](https://www.techgines.com/post/cve-2026-34621-adobe-acrobat-reader-prototype-pollution-zero-day-patch",
+          "www.techgines.com"
+        ],
+        "TIBLENDER-RUN-c899ea1cfb5f": [
+          "104.21.83.54",
+          "141.8.225.124",
+          "mansfieldpediatrics.com"
+        ],
+        "TIBLENDER-RUN-c8b45c6af7f0": [
+          "CVE-2026-33032"
+        ],
+        "TIBLENDER-RUN-ea29d6cec046": [
+          "8.47.69.6",
+          "8.6.112.0"
+        ],
+        "TIBLENDER-RUN-eeeba3793606": [
+          "CVE-2026-41940"
+        ]
+      },
+      "posts_loaded": 33,
+      "report_ids": [
+        "TIBLENDER-RUN-3202072a7830",
+        "TIBLENDER-RUN-376e26388562",
+        "TIBLENDER-RUN-748514e232ed",
+        "TIBLENDER-RUN-7e52ee95fe17",
+        "TIBLENDER-RUN-98480c0315bf",
+        "TIBLENDER-RUN-a271129f65d5",
+        "TIBLENDER-RUN-c899ea1cfb5f",
+        "TIBLENDER-RUN-c8b45c6af7f0",
+        "TIBLENDER-RUN-ea29d6cec046",
+        "TIBLENDER-RUN-eeeba3793606"
+      ],
+      "reports": 10,
+      "services": {
+        "discord": "fixture",
+        "reddit": "fixture",
+        "telegram": "fixture",
+        "x": "fixture"
+      },
+      "threat_related": 23,
+      "tool_recording_replay": {
+        "by_tool": {
+          "GITHUB_SEARCH": {
+            "calls": 5,
+            "hit_rate": 1.0,
+            "hits": 5,
+            "misses": 0
+          },
+          "NVD_CVE_LOOKUP": {
+            "calls": 5,
+            "hit_rate": 1.0,
+            "hits": 5,
+            "misses": 0
+          },
+          "PASSIVE_DNS_LOOKUP": {
+            "calls": 20,
+            "hit_rate": 1.0,
+            "hits": 20,
+            "misses": 0
+          },
+          "SEARCH_ENGINE": {
+            "calls": 31,
+            "hit_rate": 1.0,
+            "hits": 31,
+            "misses": 0
+          },
+          "TLS_CT_LOOKUP": {
+            "calls": 9,
+            "hit_rate": 1.0,
+            "hits": 9,
+            "misses": 0
+          },
+          "WEB_CRAWL": {
+            "calls": 4,
+            "hit_rate": 1.0,
+            "hits": 4,
+            "misses": 0
+          },
+          "WHOIS_LOOKUP": {
+            "calls": 26,
+            "hit_rate": 1.0,
+            "hits": 26,
+            "misses": 0
+          }
+        },
+        "calls": 100,
+        "hit_rate": 1.0,
+        "hits": 100,
+        "misses": 0
+      },
+      "training_status": "bc_only_insufficient_transitions",
+      "trend_counts": {
+        "EARLY_WARNING": 2,
+        "ESCALATION": 0,
+        "PROPAGATION": 0,
+        "VOLUME": 0
+      }
+    },
+    "cycle_003": {
+      "clusters": 18,
+      "dynamic_queries": [
+        "CVE-2024-30085",
+        "Vulnerability",
+        "exploitreversing.com"
+      ],
+      "history_size": 43,
+      "iocs_by_report": {
+        "TIBLENDER-RUN-0589d5ca2377": [
+          "3.167.138.123",
+          "3.167.138.26",
+          "exploitreversing.com",
+          "https://trend-now.org/",
+          "https://trend-now.org/google-search-trends/au/shelly%20kittleson",
+          "https://trend-now.org/google-search-trends/ca/shelly%20kittleson",
+          "https://trend-now.org/google-search-trends/de/shelly%20kittleson",
+          "https://trend-now.org/google-search-trends/es/shelly%20kittleson",
+          "https://trend-now.org/google-search-trends/fr/shelly%20kittleson",
+          "https://trend-now.org/google-search-trends/gb/shelly%20kittleson",
+          "https://trend-now.org/google-search-trends/in/shelly%20kittleson",
+          "https://trend-now.org/google-search-trends/it/shelly%20kittleson",
+          "https://trend-now.org/google-search-trends/us/shelly%20kittleson",
+          "https://www.al-monitor.com/originals/2026/03/american-journalist-shelly-kittleson-abducted-iraq](https://www.al-monitor.com/originals/2026/03/american-journalist-shelly-kittleson-abducted-iraq",
+          "https://www.newsnationnow.com/world/american-journalist-kidnapped-iraq/](https://www.newsnationnow.com/world/american-journalist-kidnapped-iraq/",
+          "https://www.thenationalnews.com/news/mena/2026/03/31/american-journalist-shelly-kittleson-kidnapped-in-iraq/](https://www.thenationalnews.com/news/mena/2026/03/31/american-journalist-shelly-kittleson-kidnapped-in-iraq/",
+          "trend-now.org",
+          "www.al-monitor.com",
+          "www.newsnationnow.com",
+          "www.thenationalnews.com"
+        ],
+        "TIBLENDER-RUN-09f3381dfc8c": [
+          "22e32bcf113326e366ac480b077067cf",
+          "47.237.15.197",
+          "exploitreversing.com"
+        ],
+        "TIBLENDER-RUN-34e77bbe549c": [
+          "13.58.212.194",
+          "18.216.127.134",
+          "bsky.app",
+          "equitabledemocracy.org",
+          "exploitreversing.com",
+          "http://equitabledemocracy.org/the-future-of-our-former-democracy",
+          "https://bsky.app/profile/atrupar.com/post/3mie6lcfobh2c",
+          "https://open.spotify.com/track/3xAHEcyhPEX2kEVYkmb7Uy",
+          "https://reclaimthenet.org/trump-america-ai-act-section-230-repeal-ai-liability-age-verification",
+          "https://theconversation.com/landmark-lawsuit-finds-that-social-media-addiction-is-a-feature-not-a-bug-279390",
+          "https://vote.webbyawards.com/PublicVoting#/2026/podcasts/shows/public-service-activism",
+          "https://www.eff.org/deeplinks/2025/08/new-documents-show-first-trump-doj-worked-congress-amend-section-230",
+          "https://www.eff.org/deeplinks/2025/09/age-verification-windfall-big-tech-and-death-sentence-smaller-platforms",
+          "https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation",
+          "https://www.sheknows.com/parenting/articles/1234985832/not-everyone-is-celebrating-metas-landmark-losses/",
+          "https://www.spencer-law.com/post/social-media-addiction-lawsuits-2026-kgm-trial-mdl-3047",
+          "https://www.techdirt.com/2026/03/26/everyone-cheering-the-social-media-addiction-verdicts-against-meta-should-understand-what-theyre-actually-cheering-for/",
+          "https://www.therage.co/persona-age-verification/",
+          "https://www.yahoo.com/news/articles/reddit-user-uncovers-behind-meta-154717384.html",
+          "open.spotify.com",
+          "reclaimthenet.org",
+          "theconversation.com",
+          "vote.webbyawards.com",
+          "www.eff.org",
+          "www.lw.com",
+          "www.sheknows.com",
+          "www.spencer-law.com",
+          "www.techdirt.com",
+          "www.therage.co",
+          "www.yahoo.com"
+        ],
+        "TIBLENDER-RUN-a2f115b45a8c": [
+          "CVE-2026-21508",
+          "exploitreversing.com",
+          "https://talosintelligence.com/vulnerability_reports/TALOS-2026-2365",
+          "talosintelligence.com"
+        ],
+        "TIBLENDER-RUN-b91e8fee4bd7": [
+          "192.0.78.24",
+          "192.0.78.25",
+          "CVE-2024-30085",
+          "exploitreversing.com",
+          "https://exploitreversing.com/2026/03/31/exploiting-reversing-er-series-article-08/"
+        ],
+        "TIBLENDER-RUN-c3ce41b2b1b1": [
+          "104.21.50.137",
+          "104.26.2.15",
+          "142.11.206.73",
+          "23.254.167.216",
+          "e1f6b7f621a391a9d26e9a196974f3e2cc1ce8b4d8f73a14b2e8cb0f2a40269f",
+          "https://hunt.io/blog/axios-supply-chain-attack-ta444-bluenoroff](https://hunt.io/blog/axios-supply-chain-attack-ta444-bluenoroff",
+          "hunt.io"
+        ]
+      },
+      "posts_loaded": 45,
+      "report_ids": [
+        "TIBLENDER-RUN-0589d5ca2377",
+        "TIBLENDER-RUN-09f3381dfc8c",
+        "TIBLENDER-RUN-34e77bbe549c",
+        "TIBLENDER-RUN-a2f115b45a8c",
+        "TIBLENDER-RUN-b91e8fee4bd7",
+        "TIBLENDER-RUN-c3ce41b2b1b1"
+      ],
+      "reports": 6,
+      "services": {
+        "discord": "fixture",
+        "reddit": "fixture",
+        "telegram": "fixture",
+        "x": "fixture"
+      },
+      "threat_related": 33,
+      "tool_recording_replay": {
+        "by_tool": {
+          "GITHUB_SEARCH": {
+            "calls": 4,
+            "hit_rate": 1.0,
+            "hits": 4,
+            "misses": 0
+          },
+          "NVD_CVE_LOOKUP": {
+            "calls": 3,
+            "hit_rate": 1.0,
+            "hits": 3,
+            "misses": 0
+          },
+          "PASSIVE_DNS_LOOKUP": {
+            "calls": 17,
+            "hit_rate": 0.9412,
+            "hits": 16,
+            "misses": 1
+          },
+          "SEARCH_ENGINE": {
+            "calls": 40,
+            "hit_rate": 0.975,
+            "hits": 39,
+            "misses": 1
+          },
+          "TLS_CT_LOOKUP": {
+            "calls": 7,
+            "hit_rate": 1.0,
+            "hits": 7,
+            "misses": 0
+          },
+          "WEB_CRAWL": {
+            "calls": 5,
+            "hit_rate": 1.0,
+            "hits": 5,
+            "misses": 0
+          },
+          "WHOIS_LOOKUP": {
+            "calls": 22,
+            "hit_rate": 0.9091,
+            "hits": 20,
+            "misses": 2
+          }
+        },
+        "calls": 98,
+        "hit_rate": 0.9592,
+        "hits": 94,
+        "misses": 4
+      },
+      "training_status": "bc_only_insufficient_transitions",
+      "trend_counts": {
+        "EARLY_WARNING": 2,
+        "ESCALATION": 0,
+        "PROPAGATION": 0,
+        "VOLUME": 0
+      }
+    }
+  },
+  "mode": "offline",
+  "seed": 20260909
+}

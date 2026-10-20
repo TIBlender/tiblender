@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "1iinch.gr.com other"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Jan 22, 2018 · hadis terbagi kepada dua bahagian, yaitu maqbul dan mardud. Hadis maqbul ialah hadis yang dapat dijadikan hujah. …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Hadis Maqbul dan Hadits Mardud - Terjemah Kitab Kuning",
+        "url": "https://www.alkhoirot.org/2018/01/hadis-maqbul-dan-hadits-mardud.html"
+      },
+      {
+        "category": "general",
+        "content": "Apr 9, 2026 · Hadis maqbul adalah hadits yang dapat dijadikan hujjah/dalil, sedangkan hadis mardud adalah hadis yang tertolak atau …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Pengertian Hadis Maqbul dan Mardud, Pembagian Hadis Berdasarkan ...",
+        "url": "https://sumsel.tribunnews.com/lifestyle/1012994/pengertian-hadis-maqbul-dan-mardud-pembagian-hadis-berdasarkan-diterima-atau-tidaknya-sebagai-dalil"
+      },
+      {
+        "category": "general",
+        "content": "syari’at. Makalah ini akan menjelaskan pengertian hadis maqbul dan hadis mardud, bagaimana kedudukan kedua hadis ini dalam …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Kajian Hadis Maqbul dan Mardud: Pemahaman serta Kriterianya",
+        "url": "https://www.studocu.id/id/document/universitas-islam-negeri-sunan-kalijaga-yogyakarta/ulumul-quran/hadis-maqbul-dan-mardud/46889383"
+      },
+      {
+        "category": "general",
+        "content": "Jun 5, 2017 · Para ulama hadits menyebut beberapa syarat diterimanya (maqbul) suatu hadits. Diantara mereka, ada yang menelaah …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Analisa Hukum Hadits Maqbul dan Mardud - PonPes Al-Mursi",
+        "url": "https://www.almursi.com/hadits-maqbul-dan-mardud/"
+      },
+      {
+        "category": "general",
+        "content": "Jan 6, 2025 · Dalam ilmu mustalahul hadis, hadis maqbûl adalah hadis yang memenuhi syarat keshahihan atau hasan, sehingga …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Hadis Maqbûl dan Hadis Mardûd: Pengertian, Pembagian, dan Skema",
+        "url": "https://rimamustajab.blogspot.com/2025/01/hadis-maqbul-dan-hadis-mardud.html"
+      },
+      {
+        "category": "general",
+        "content": "merungkai hadis-hadis dalam kitab Hidayat al-Salikīn. Penulisan buku ini adalah untuk berkongsi dan mengambil manfaat daripada …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "HADIS MAQBUL DAN MARDUD DALAM KITAB HIDAYAT AL …",
+        "url": "https://idr.uin-antasari.ac.id/19027/1/buku%20hadis%20maqbul%20dan%20mardud.pdf"
+      },
+      {
+        "category": "general",
+        "content": "Jul 23, 2019 · Artinya hadis mardud adalah hadis yang tidak jelas kebenaran riwayat yang disampaikan perawi. Secara bahasa, …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Mengenal Hadis Maqbul dan Mardud - Bincang Syariah",
+        "url": "https://bincangsyariah.com/khazanah/hadis-maqbul-dan-mardud/"
+      },
+      {
+        "category": "general",
+        "content": "Apr 21, 2022 · Apa yang dimaksud dengan hadis maqbul? Berikut pengertian beserta contoh dan perbedaannya dengan hadis mardud.",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Hadis Maqbul: Pengertian, Contoh, dan Perbedaannya dengan Hadis Mardud ...",
+        "url": "https://kumparan.com/kabar-harian/hadis-maqbul-pengertian-contoh-dan-perbedaannya-dengan-hadis-mardud-1xvOcJ1yDa6"
+      },
+      {
+        "category": "general",
+        "content": "Definisi di atas, menunjukkan bahwa pengertian al-Sunnah hampir sama dengan pengertian al-Hadits. Karena itu sering dikatakan …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "‘Ulumul Hadits - UIN Sunan Gunung Djati Bandung",
+        "url": "https://digilib.uinsgd.ac.id/29079/1/Ulumul%20Hadits.pdf"
+      },
+      {
+        "category": "general",
+        "content": "Hadis maqbul ditempatkan sebagai fondasi utama dalam penetapan hukum, dengan kriteria ketat terkait kekuatan sanad, kredibilitas …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "journal.zamronedu.co.id",
+        "url": "https://journal.zamronedu.co.id/index.php/mhsjournal/article/download/208/194/1859"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:22:56Z",
+  "source_url": "http://searxng:8080/search?q=1iinch.gr.com+other&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 1iinch.gr.com other: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

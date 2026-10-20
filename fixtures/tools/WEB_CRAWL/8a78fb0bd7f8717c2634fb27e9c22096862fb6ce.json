@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WEB_CRAWL unavailable: timed out",
+  "parameters": {
+    "url": "https://securityonline.info/cpanel-authentication-security-update-2026/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-19T06:29:05Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL unavailable: timed out",
+  "tool_type": "WEB_CRAWL"
+}

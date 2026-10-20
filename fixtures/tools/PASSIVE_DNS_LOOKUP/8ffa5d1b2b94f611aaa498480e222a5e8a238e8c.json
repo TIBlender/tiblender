@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.infoblox.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "107.20.195.137",
+      "107.20.203.187",
+      "140.248.138.253",
+      "146.75.118.253",
+      "151.101.10.253",
+      "151.101.114.253",
+      "151.101.122.253",
+      "151.101.134.253",
+      "151.101.14.253",
+      "151.101.242.253",
+      "151.101.38.253",
+      "161.47.10.70",
+      "199.232.170.253",
+      "199.232.66.253",
+      "23.185.0.3",
+      "23.185.0.4",
+      "50.16.235.193",
+      "50.19.85.84",
+      "54.221.224.208",
+      "54.225.104.29"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.infoblox.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1781972061,
+        "host_name": "www.infoblox.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "140.248.138.253",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1734463102,
+        "host_name": "www.infoblox.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "199.232.66.253",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1708439162,
+        "host_name": "www.infoblox.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.242.253",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Zenbox"
+      },
+      {
+        "date": 1691572609,
+        "host_name": "www.infoblox.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "199.232.170.253",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1671456223,
+        "host_name": "www.infoblox.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "146.75.118.253",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:13:59Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.infoblox.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.infoblox.com: 20 resolution(s); addresses: 140.248.138.253, 199.232.66.253, 151.101.242.253, 199.232.170.253, 146.75.118.253, 151.101.10.253, 151.101.134.253, 151.101.122.253, 151.101.38.253, 151.101.14.253",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

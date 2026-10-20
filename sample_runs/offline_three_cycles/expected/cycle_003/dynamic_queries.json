@@ -1,0 +1,53 @@
+[
+  {
+    "expires_at": "2026-04-09T23:59:59Z",
+    "generated_at": "2026-04-02T23:59:59Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 8,
+    "query": "CVE-2024-30085",
+    "rationale": "EARLY_WARNING trend detected on cluster cluster-b91e8fee4bd7; seeded from CVE 'CVE-2024-30085'.",
+    "source_cluster_id": "cluster-b91e8fee4bd7",
+    "source_report_id": "TIBLENDER-RUN-b91e8fee4bd7",
+    "trend_types": [
+      "EARLY_WARNING"
+    ]
+  },
+  {
+    "expires_at": "2026-04-09T23:59:59Z",
+    "generated_at": "2026-04-02T23:59:59Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 8,
+    "query": "Vulnerability",
+    "rationale": "EARLY_WARNING trend detected on cluster cluster-09f3381dfc8c; seeded from brand/malware token 'Vulnerability'.",
+    "source_cluster_id": "cluster-09f3381dfc8c",
+    "source_report_id": "TIBLENDER-RUN-09f3381dfc8c",
+    "trend_types": [
+      "EARLY_WARNING"
+    ]
+  },
+  {
+    "expires_at": "2026-04-09T23:59:59Z",
+    "generated_at": "2026-04-02T23:59:59Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 8,
+    "query": "exploitreversing.com",
+    "rationale": "EARLY_WARNING trend detected on cluster cluster-b91e8fee4bd7; seeded from domain 'exploitreversing.com'.",
+    "source_cluster_id": "cluster-b91e8fee4bd7",
+    "source_report_id": "TIBLENDER-RUN-b91e8fee4bd7",
+    "trend_types": [
+      "EARLY_WARNING"
+    ]
+  }
+]

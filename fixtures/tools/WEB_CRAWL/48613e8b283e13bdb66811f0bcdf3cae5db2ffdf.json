@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.theguardian.com/technology/2026/mar/24/meta-new-mexico-jury"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Meta ordered to pay $375m after being found liable in child exploitation case | Meta | The Guardian Skip to main content Skip to navigation Print subscriptions Search jobs Sign in Int The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more World US politics UK Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries View image in fullscreen Mark Zuckerberg, the Meta chief executive. Photograph: Kyle Grillot/Bloomberg via Getty Images Meta This article is more than 5 months old Meta ordered to pay $375m after being found liable in child exploitation case This article is more than 5 months old New Mexico hails ‘",
+    "javascript_rendered": true,
+    "title": "Meta ordered to pay $375m after being found liable in child exploitation case | Meta | The Guardian",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:22:18Z",
+  "source_url": "https://www.theguardian.com/technology/2026/mar/24/meta-new-mexico-jury",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.theguardian.com/technology/2026/mar/24/meta-new-mexico-jury. Title: Meta ordered to pay $375m after being found liable in child exploitation case | Meta | The Guardian. Excerpt: Meta ordered to pay $375m after being found liable in child exploitation case | Meta | The Guardian Skip to main content Skip to navigation Print subscriptions Search jobs Sign in Int The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more World US politics UK Climate crisis Middle East Ukraine Environment Science Global development Football Tech Business Obituaries View image in fullscreen Mark Zuckerberg, the Meta chief executive. Photograph: Kyle Grillot/Bloomberg via Getty Images Meta This article is more than 5 months old Meta ordered to pay $375m after being found liable in child exploitation case This article is more than 5 months old New Mexico hails ‘",
+  "tool_type": "WEB_CRAWL"
+}

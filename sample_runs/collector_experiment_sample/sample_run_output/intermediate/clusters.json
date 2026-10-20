@@ -1,0 +1,204 @@
+[
+  {
+    "id": "cluster-252a5d11fa1a",
+    "topic_name": "sfrclak.com malware campaign",
+    "description": "Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com / Malware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com / Malware signal: Axios incident update: the malicious npm postinstall path contacts sfrclak[.]com after users install affected package versions. Hunt for axios@1.14.1, axios@0.30.4, plain-crypto-js@4.2.1, and the two payload hashes already circulating in the thread. IoCs: sfrclak.com",
+    "posts": [
+      {
+        "post": {
+          "id": "sample-discord-axios-0001",
+          "platform": "discord",
+          "content": "Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity.",
+          "timestamp": "2026-03-31T07:54:11Z",
+          "author": "",
+          "url": "",
+          "metadata": {
+            "language": "en"
+          }
+        },
+        "normalized_content": "Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com",
+        "iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "threat_category": "malware",
+        "language": "en",
+        "is_threat_related": true
+      },
+      {
+        "post": {
+          "id": "sample-reddit-axios-0001",
+          "platform": "reddit",
+          "content": "Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign.",
+          "timestamp": "2026-03-31T13:53:00Z",
+          "author": "",
+          "url": "",
+          "metadata": {
+            "language": "en"
+          }
+        },
+        "normalized_content": "Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com",
+        "iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "threat_category": "malware",
+        "language": "en",
+        "is_threat_related": true
+      },
+      {
+        "post": {
+          "id": "sample-reddit-axios-0002",
+          "platform": "reddit",
+          "content": "Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd, and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a.",
+          "timestamp": "2026-03-31T14:56:44Z",
+          "author": "",
+          "url": "",
+          "metadata": {
+            "language": "en"
+          }
+        },
+        "normalized_content": "Other signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd, and 92ff08773995ebc8d55ec4. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com",
+        "iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [
+            "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+            "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+          ],
+          "cves": []
+        },
+        "threat_category": "other",
+        "language": "en",
+        "is_threat_related": true
+      },
+      {
+        "post": {
+          "id": "sample-x-axios-0001",
+          "platform": "x",
+          "content": "Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting.",
+          "timestamp": "2026-03-31T03:20:27Z",
+          "author": "",
+          "url": "",
+          "metadata": {
+            "language": "en"
+          }
+        },
+        "normalized_content": "Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com",
+        "iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "threat_category": "malware",
+        "language": "en",
+        "is_threat_related": true
+      },
+      {
+        "post": {
+          "id": "sample-x-axios-0002",
+          "platform": "x",
+          "content": "Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a.",
+          "timestamp": "2026-03-31T04:22:49Z",
+          "author": "",
+          "url": "",
+          "metadata": {
+            "language": "en"
+          }
+        },
+        "normalized_content": "Malware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com",
+        "iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [
+            "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+            "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+          ],
+          "cves": []
+        },
+        "threat_category": "malware",
+        "language": "en",
+        "is_threat_related": true
+      },
+      {
+        "post": {
+          "id": "sample-x-axios-0003",
+          "platform": "x",
+          "content": "Axios incident update: the malicious npm postinstall path contacts sfrclak[.]com after users install affected package versions. Hunt for axios@1.14.1, axios@0.30.4, plain-crypto-js@4.2.1, and the two payload hashes already circulating in the thread.",
+          "timestamp": "2026-03-31T04:52:56Z",
+          "author": "",
+          "url": "",
+          "metadata": {
+            "language": "en"
+          }
+        },
+        "normalized_content": "Malware signal: Axios incident update: the malicious npm postinstall path contacts sfrclak[.]com after users install affected package versions. Hunt for axios@1.14.1, axios@0.30.4, plain-crypto-js@4.2.1, and the two payload hashes already circulating in the thread. IoCs: sfrclak.com",
+        "iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "threat_category": "malware",
+        "language": "en",
+        "is_threat_related": true
+      }
+    ],
+    "iocs": {
+      "urls": [],
+      "domains": [
+        "sfrclak.com"
+      ],
+      "ips": [],
+      "hashes": [
+        "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+        "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+      ],
+      "cves": []
+    },
+    "severity": "CRITICAL",
+    "threat_category": "malware",
+    "filter_reason": "",
+    "clustering_signals": {
+      "mode": "dual_track",
+      "ioc_track": true,
+      "embedding_backend": "sklearn_hashing_vectorizer",
+      "embedding_model": "BAAI/bge-large-en-v1.5",
+      "embedding_features": 384,
+      "embedding_local_files_only": true,
+      "hdbscan_backend": "not_run",
+      "non_ioc_absorbed": 0,
+      "anchor": "sample-x-axios-0001",
+      "tau_j": 0.25,
+      "tau_abs": 0.75,
+      "min_samples": 2,
+      "cluster_epsilon": 0.08,
+      "tau_merge": 0.92,
+      "merge_max_time_gap_seconds": 21600,
+      "merge_min_context_overlap": 2
+    }
+  }
+]

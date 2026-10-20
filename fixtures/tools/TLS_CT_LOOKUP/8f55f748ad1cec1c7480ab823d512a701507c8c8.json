@@ -1,0 +1,39 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "kdmpop.com",
+      "www.kdmpop.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "kdmpop.com"
+  },
+  "raw": {
+    "count": 716,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YE2"
+    ],
+    "names": [
+      "kdmpop.com",
+      "www.kdmpop.com",
+      "www.kdmpop.com",
+      "www.kdmpop.com",
+      "www.kdmpop.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:07:44Z",
+  "source_url": "https://crt.sh/?q=%25.kdmpop.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for kdmpop.com: 716 certificate row(s); sample names=kdmpop.com, www.kdmpop.com, www.kdmpop.com, www.kdmpop.com, www.kdmpop.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

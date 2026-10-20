@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "jerusalemsolutions.com other"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "「年収900万円」だった夫が59歳で死亡…「頑張って働いたから、老後は年金で悠々自適」のはずが、払った“保険料2500万円”や、 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Yahoo! JAPAN",
+        "url": "https://www.yahoo.co.jp/"
+      },
+      {
+        "category": "general",
+        "content": "Yahoo!路線情報：全国の路線や高速バス、路線バス、飛行機の乗り換え案内サービスです。始発・終電検索、JR・地下鉄・私鉄の …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "乗換案内、時刻表、運行情報 - Yahoo!路線情報",
+        "url": "https://transit.yahoo.co.jp/"
+      },
+      {
+        "category": "general",
+        "content": "Feb 1, 2026 · Yahoo!ニュースは、新聞・通信社が配信するニュースのほか、映像、雑誌や個人の書き手が執筆する記事など多種多 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Yahoo!ニュース",
+        "url": "https://news.yahoo.co.jp/"
+      },
+      {
+        "category": "general",
+        "content": "3月11日に、ヤフーやLINEで「3.11」と検索してみませんか。おひとりにつき10円を、東日本大震災および能登半島地震・豪雨の被 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "3.11 これからも、できること。｜ Yahoo! JAPAN / LINE",
+        "url": "https://bosai.yahoo.co.jp/search311/"
+      },
+      {
+        "category": "general",
+        "content": "X（旧Twitter）に投稿されたポストをリアルタイムに検索できます。テレビを見ながらみんなの反応を見たり、電車遅延の復旧情報 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Yahoo!リアルタイム検索",
+        "url": "https://search.yahoo.co.jp/realtime"
+      },
+      {
+        "category": "general",
+        "content": "現在JavaScriptが無効です。 スポーツナビのすべての機能を利用するためには、JavaScriptの設定を有効にしてください。 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "スポーツナビ",
+        "url": "https://sports.yahoo.co.jp/"
+      },
+      {
+        "category": "general",
+        "content": "レディースファッションの2026年9月最新 9,582,660 件の人気商品一覧。ランキング/カテゴリ別にクチコミ・レビュー・最安値 ...",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "レディースファッション｜ファッション おすすめ人気商品 通販 ...",
+        "url": "https://shopping.yahoo.co.jp/category/2494/list/"
+      },
+      {
+        "category": "general",
+        "content": "ウイルスがメールボックスに届く前にブロックし、さらに広告非表示の特典付きのYahoo!メールの追加サービスをご紹介します。 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "ウイルスチェックサービス - Yahoo!メール",
+        "url": "https://mail.yahoo.co.jp/avscan/"
+      },
+      {
+        "category": "general",
+        "content": "Sep 3, 2020 · 地域に関するニュースを新着順にお届け。Yahoo!ニュースでは、新聞・通信社が配信するニュースのほか、映像、写 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "地域ニュース - Yahoo!ニュース",
+        "url": "https://news.yahoo.co.jp/categories/local"
+      },
+      {
+        "category": "general",
+        "content": "Yahoo!オークション（旧ヤフオク!）は、お店にないものも見つかる買える 日本最大級のネットオークション・フリマアプリです。 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Yahoo!オークション - 日本最大級のネットオークション・フリマ ...",
+        "url": "https://auctions.yahoo.co.jp/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:27Z",
+  "source_url": "http://searxng:8080/search?q=jerusalemsolutions.com+other&format=json",
+  "status": "success",
+  "summary": "SearXNG search for jerusalemsolutions.com other: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

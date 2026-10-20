@@ -1,0 +1,22 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.ncsc.gov.uk"
+  },
+  "raw": {
+    "reason": "non_reportable_domain",
+    "skipped": true
+  },
+  "recorded_at": "2026-09-16T05:15:33Z",
+  "source_url": "",
+  "status": "success",
+  "summary": "WHOIS lookup skipped contextual or non-reportable domain www.ncsc.gov.uk.",
+  "tool_type": "WHOIS_LOOKUP"
+}

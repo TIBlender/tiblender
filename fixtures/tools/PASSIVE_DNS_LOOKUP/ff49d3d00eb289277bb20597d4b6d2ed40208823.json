@@ -1,0 +1,88 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "yvngvualr.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.65.130",
+      "15.197.172.60",
+      "15.197.212.58",
+      "172.65.197.38",
+      "172.65.232.115",
+      "172.67.145.126",
+      "192.237.132.248",
+      "216.120.147.200"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "yvngvualr.com"
+  },
+  "raw": {
+    "malicious_count": 115,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1776038388,
+        "host_name": "yvngvualr.com",
+        "host_name_malicious": 14,
+        "host_name_suspicious": 2,
+        "ip_address": "216.120.147.200",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1744046562,
+        "host_name": "yvngvualr.com",
+        "host_name_malicious": 14,
+        "host_name_suspicious": 2,
+        "ip_address": "172.67.145.126",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1744046560,
+        "host_name": "yvngvualr.com",
+        "host_name_malicious": 14,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.65.130",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1738714797,
+        "host_name": "yvngvualr.com",
+        "host_name_malicious": 14,
+        "host_name_suspicious": 2,
+        "ip_address": "15.197.212.58",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1737530978,
+        "host_name": "yvngvualr.com",
+        "host_name_malicious": 14,
+        "host_name_suspicious": 2,
+        "ip_address": "15.197.172.60",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 17,
+    "total_count": 8
+  },
+  "recorded_at": "2026-09-15T01:24:05Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/yvngvualr.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for yvngvualr.com: 8 resolution(s); addresses: 216.120.147.200, 172.67.145.126, 104.21.65.130, 15.197.212.58, 15.197.172.60, 172.65.197.38, 172.65.232.115, 192.237.132.248",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

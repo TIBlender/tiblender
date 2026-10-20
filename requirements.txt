@@ -1,0 +1,58 @@
+# Pinned runtime dependencies for reproducible installs.
+# Regenerate with:
+#   python3 -m venv /tmp/tib-venv && source /tmp/tib-venv/bin/activate
+#   pip install langgraph==1.0.10 numpy==1.26.4 scikit-learn==1.7.2 telethon==1.42.0
+#   pip freeze > requirements.txt   # then drop pip/setuptools/wheel lines
+#
+# Direct dependencies: langgraph, numpy, scikit-learn, telethon.
+# playwright (browser extra), sentence-transformers/torch (reference extra),
+# and pytesseract/Pillow (ocr extra) are installed separately; see
+# pyproject.toml [project.optional-dependencies].
+annotated-types==0.8.0
+anyio==4.15.1
+certifi==2026.7.22
+charset-normalizer==3.5.1
+cloudpickle==3.1.2
+distro==1.9.0
+h11==0.16.0
+httpcore==1.0.9
+httpcore2==2.12.0
+httpx==0.28.1
+httpx2==2.12.0
+idna==3.19
+joblib==1.6.0
+jsonpatch==1.33
+jsonpointer==3.1.1
+langchain-core==1.6.2
+langchain-protocol==0.0.19
+langgraph==1.0.10
+langgraph-checkpoint==4.2.0
+langgraph-prebuilt==1.0.13
+langgraph-sdk==0.3.15
+langsmith==0.12.2
+numpy==1.26.4
+orjson==3.12.0
+ormsgpack==1.12.2
+packaging==26.3
+pyaes==1.6.1
+pyasn1==0.6.4
+pydantic==2.13.5
+pydantic_core==2.46.5
+PyYAML==6.0.3
+requests==2.34.2
+requests-toolbelt==1.0.0
+rsa==4.9.1
+scikit-learn==1.7.2
+scipy==1.17.1
+sniffio==1.3.1
+Telethon==1.42.0
+tenacity==9.1.4
+threadpoolctl==3.6.0
+truststore==0.10.4
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+urllib3==2.7.0
+uuid_utils==0.17.1
+websockets==17.1
+xxhash==4.0.1
+zstandard==0.25.0

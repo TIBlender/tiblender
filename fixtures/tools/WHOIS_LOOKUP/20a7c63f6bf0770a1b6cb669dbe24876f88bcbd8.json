@@ -1,0 +1,209 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "apnews.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "apnews.com"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  ""
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+1.8777228662"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "domain.operations@web.com"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "2",
+        "links": [
+          {
+            "href": "http://networksolutions.com",
+            "rel": "about",
+            "type": "text/html",
+            "value": "https://rdap.networksolutions.com/rdap/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "2",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Network Solutions, LLC"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "1991-07-12T04:00:00Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2027-07-11T04:00:00Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-05-12T06:23:16Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-10T12:08:50Z"
+      }
+    ],
+    "handle": "2440144_DOMAIN_COM-VRSN",
+    "ldhName": "APNEWS.COM",
+    "links": [
+      {
+        "href": "https://rdap.verisign.com/com/v1/domain/apnews.com",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/apnews.com"
+      },
+      {
+        "href": "https://rdap.networksolutions.com/rdap/domain/APNEWS.COM",
+        "rel": "related",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/apnews.com"
+      }
+    ],
+    "nameservers": [
+      {
+        "ldhName": "BEAU.NS.CLOUDFLARE.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "EDNA.NS.CLOUDFLARE.COM",
+        "objectClassName": "nameserver"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "Service subject to Terms of Use."
+        ],
+        "links": [
+          {
+            "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/apnews.com"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/apnews.com"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/apnews.com"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_1",
+      "icann_rdap_response_profile_1"
+    ],
+    "secureDNS": {
+      "delegationSigned": true,
+      "dsData": [
+        {
+          "algorithm": 13,
+          "digest": "6BF4709F375DB324A746C7A74EAC8B145384C97BCBDBDC11AD7F8DB32FD7B402",
+          "digestType": 2,
+          "keyTag": 2371
+        }
+      ]
+    },
+    "status": [
+      "client transfer prohibited"
+    ]
+  },
+  "recorded_at": "2026-09-10T12:09:07Z",
+  "source_url": "https://rdap.verisign.com/com/v1/domain/apnews.com",
+  "status": "success",
+  "summary": "RDAP domain lookup for apnews.com: handle=2440144_DOMAIN_COM-VRSN; status=client transfer prohibited; nameservers=BEAU.NS.CLOUDFLARE.COM,EDNA.NS.CLOUDFLARE.COM; events=registration=1991-07-12T04:00:00Z; expiration=2027-07-11T04:00:00Z; last changed=2026-05-12T06:23:16Z; last update of RDAP database=2026-09-10T12:08:50Z; entities=2.",
+  "tool_type": "WHOIS_LOOKUP"
+}

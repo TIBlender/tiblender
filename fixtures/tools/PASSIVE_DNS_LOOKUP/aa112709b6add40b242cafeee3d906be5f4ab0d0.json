@@ -1,0 +1,95 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "app.emmi.io",
+      "db-mongodb-nyc3-e2e-71719-9c59b5e3.mongo.ondigitalocean.com",
+      "embedding-app-dev.rollstack.io",
+      "embedding-app-staging.rollstack.io",
+      "embedding-app.rollstack.io",
+      "embedding-app.staging.rollstack.io",
+      "kitei.portal.e2e.stere.io",
+      "mansfieldat90.com",
+      "rkellyraley.com",
+      "rollstack.com",
+      "staging.rollstack.io",
+      "test-1658963023985388399-de287a2d.mongo.ondigitalocean.com",
+      "test.lyvdevelopment.com",
+      "trazo.maytok.com",
+      "yen4photos.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "138.197.188.142"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "138.197.188.142"
+  },
+  "raw": {
+    "malicious_count": 20,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1695823157,
+        "host_name": "embedding-app-dev.rollstack.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "138.197.188.142",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1695820995,
+        "host_name": "embedding-app-staging.rollstack.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "138.197.188.142",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1695820994,
+        "host_name": "staging.rollstack.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "138.197.188.142",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1695820990,
+        "host_name": "embedding-app.staging.rollstack.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "138.197.188.142",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1695820987,
+        "host_name": "embedding-app.rollstack.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "138.197.188.142",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:30:17Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/138.197.188.142/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 138.197.188.142: 20 resolution(s); hosts: embedding-app-dev.rollstack.io, embedding-app-staging.rollstack.io, staging.rollstack.io, embedding-app.staging.rollstack.io, embedding-app.rollstack.io, rollstack.com, tvb.otticacapello.it, db-mongodb-nyc3-e2e-71719-9c59b5e3.mongo.ondigitalocean.com, etasd-etc.co.jp-uindxd.2930.xin, test-1658963023985388399-de287a2d.mongo.ondigitalocean.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

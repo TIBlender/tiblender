@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "ameli-gouv.com phishing"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "« 50 % » : le podcast consacré à la santé des femmes Santé et prévention Sur les réseaux @mes_tips_santé Accédez au forum …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "ameli, le site de l’Assurance Maladie en ligne | ameli.fr | Assuré",
+        "url": "https://www.ameli.fr/"
+      },
+      {
+        "category": "general",
+        "content": "要約説明 : Ameliを代表するカラー 赤黒い薔薇に斬られたように 傷ついた花びら色 ¥1,900 ¥1,900 商品名 : STEP BASIC 244 ヴィン …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Ameli日本公式サイト",
+        "url": "https://amelicosmetic.jp/"
+      },
+      {
+        "category": "general",
+        "content": "Salarié, indépendant, étudiant : en cas de questions sur le compte ameli, trouvez le moyen le plus adapté pour contacter l’Assurance …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Votre compte ameli | ameli.fr | Assuré",
+        "url": "https://www.ameli.fr/assure/adresses-et-contacts/votre-compte-ameli"
+      },
+      {
+        "category": "general",
+        "content": "5 days ago · コスメアプリNo.1！ LIPSでAmeli (アメリ)の人気化粧品・2026年秋の新作コスメを高評価順でチェックしよう。 みん …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Ameli (アメリ) | 定番から新作まで人気おすすめ商品のクチコミを ...",
+        "url": "https://lipscosme.com/brands/38139"
+      },
+      {
+        "category": "general",
+        "content": "Salarié, indépendant, étudiant : trouvez le moyen le plus adapté pour créer un compte ameli et pour contacter l’Assurance Maladie …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Créer votre compte ameli | ameli.fr | Assuré",
+        "url": "https://www.ameli.fr/assure/adresses-et-contacts/votre-compte-ameli/creer-votre-compte-ameli"
+      },
+      {
+        "category": "general",
+        "content": "「Ameli アストラライト ネオンライター」のリアルなクチコミが77件！ 国内最大コスメアプリLIPSで評判をチェック。 カラーバリ …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "【試してみた】Ameli アストラライト ネオンライターの人気色 ...",
+        "url": "https://lipscosme.com/products/631733"
+      },
+      {
+        "category": "general",
+        "content": "【アットコスメ】Ameliの2026年秋のおすすめ新作アイテムやSNSで話題の定番商品をまとめてチェック！ 口コミ情報やランキング …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Ameliのおすすめ最新情報｜美容・化粧品情報はアットコスメ",
+        "url": "https://www.cosme.net/brands/119541/"
+      },
+      {
+        "category": "general",
+        "content": "【アットコスメ】Ameli / SWEET DIA（パウダーアイシャドウ）の商品情報。口コミ（21件）や写真による評判、SWEET DIAに関 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Ameli / SWEET DIAの商品情報｜美容・化粧品情報はアットコスメ",
+        "url": "https://www.cosme.net/products/10221820/"
+      },
+      {
+        "category": "general",
+        "content": "Connexion avec l'identifiant et le mot de passe de l'un des comptes suivants : Impots.gouv, Ameli, L'identite numerique (La Poste), …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Ameli en ligne | Service Public",
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R3049"
+      },
+      {
+        "category": "general",
+        "content": "Qu'est-ce que ameli ? ameli est le site officiel de l’Assurance Maladie pour gérer vos démarches santé en ligne. Avec votre compte …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "ameli - FranceConnect",
+        "url": "https://www.franceconnect.gouv.fr/comptes-disponibles/ameli/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:11Z",
+  "source_url": "http://searxng:8080/search?q=ameli-gouv.com+phishing&format=json",
+  "status": "success",
+  "summary": "SearXNG search for ameli-gouv.com phishing: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

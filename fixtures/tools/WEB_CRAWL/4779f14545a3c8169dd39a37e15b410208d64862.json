@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host securityaid.co.uk is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://securityaid.co.uk/?p=40004&feed_id=61957"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:34Z",
+  "source_url": "https://securityaid.co.uk/?p=40004&feed_id=61957",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host securityaid.co.uk for https://securityaid.co.uk/?p=40004&feed_id=61957",
+  "tool_type": "WEB_CRAWL"
+}

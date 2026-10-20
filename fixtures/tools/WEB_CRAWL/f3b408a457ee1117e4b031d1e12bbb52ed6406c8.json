@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.lw.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:53Z",
+  "source_url": "https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.lw.com for https://www.lw.com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation",
+  "tool_type": "WEB_CRAWL"
+}

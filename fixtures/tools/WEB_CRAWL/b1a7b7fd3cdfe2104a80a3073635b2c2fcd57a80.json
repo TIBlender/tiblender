@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.theguardian.com/world/article/2024/may/30/us-far-right-group-influencing-anti-gay-policy-africa"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Revealed: how a US far-right group is influencing anti-gay policies in Africa | The far right | The Guardian Skip to main content Skip to navigation Print subscriptions Search jobs Sign in Int The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more World Europe US news Americas Asia Australia Middle East Africa Inequality Global development View image in fullscreen People protest against Uganda's anti-homosexuality bill at the Uganda High Commission in Pretoria, South Africa, on 4 April 2023. Photograph: Alet Pretorius/Gallo Images via Getty Images The far right This article is more than 2 years old Revealed: how a US far-right group is influencing anti-gay po",
+    "javascript_rendered": true,
+    "title": "Revealed: how a US far-right group is influencing anti-gay policies in Africa | The far right | The Guardian",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:22:30Z",
+  "source_url": "https://www.theguardian.com/world/article/2024/may/30/us-far-right-group-influencing-anti-gay-policy-africa",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.theguardian.com/world/article/2024/may/30/us-far-right-group-influencing-anti-gay-policy-africa. Title: Revealed: how a US far-right group is influencing anti-gay policies in Africa | The far right | The Guardian. Excerpt: Revealed: how a US far-right group is influencing anti-gay policies in Africa | The far right | The Guardian Skip to main content Skip to navigation Print subscriptions Search jobs Sign in Int The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more World Europe US news Americas Asia Australia Middle East Africa Inequality Global development View image in fullscreen People protest against Uganda's anti-homosexuality bill at the Uganda High Commission in Pretoria, South Africa, on 4 April 2023. Photograph: Alet Pretorius/Gallo Images via Getty Images The far right This article is more than 2 years old Revealed: how a US far-right group is influencing anti-gay po",
+  "tool_type": "WEB_CRAWL"
+}

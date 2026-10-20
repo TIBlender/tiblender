@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.newsnationnow.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.newsnationnow.com/world/american-journalist-kidnapped-iraq/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:58:27Z",
+  "source_url": "https://www.newsnationnow.com/world/american-journalist-kidnapped-iraq/",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.newsnationnow.com for https://www.newsnationnow.com/world/american-journalist-kidnapped-iraq/",
+  "tool_type": "WEB_CRAWL"
+}

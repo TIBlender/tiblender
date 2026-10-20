@@ -1,0 +1,39 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "development.www.yahoo.com",
+      "www.yahoo.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.yahoo.com"
+  },
+  "raw": {
+    "count": 693,
+    "issuers": [
+      "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+      "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+      "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+      "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+      "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+    ],
+    "names": [
+      "www.yahoo.com",
+      "www.yahoo.com",
+      "www.yahoo.com",
+      "www.yahoo.com",
+      "development.www.yahoo.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:20:38Z",
+  "source_url": "https://crt.sh/?q=%25.www.yahoo.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.yahoo.com: 693 certificate row(s); sample names=www.yahoo.com, www.yahoo.com, www.yahoo.com, www.yahoo.com, development.www.yahoo.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

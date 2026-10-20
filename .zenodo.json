@@ -1,0 +1,24 @@
+{
+  "title": "TIBlender: Early-Warning Threat Intelligence from Cross-Platform Social Media Evidence",
+  "upload_type": "software",
+  "description": "<p>Implementation and released dataset of the ACSAC 2026 paper \"TIBlender: Early-Warning Threat Intelligence from Cross-Platform Social Media Evidence\".</p><p>The code (everything outside <code>dataset/</code>) is released under the TIBlender Research and Evaluation License (see <code>LICENSE</code>). The dataset in <code>dataset/</code> is released under CC BY-NC 4.0 (see <code>dataset/LICENSE</code>). Both allow non-commercial research use; no patent rights are granted.</p><p>Project page: <a href=\"https://tiblender.github.io/\">https://tiblender.github.io/</a></p>",
+  "creators": [
+    {"name": "Nakano, Hiroki"},
+    {"name": "Koide, Takashi"},
+    {"name": "Chiba, Daiki"}
+  ],
+  "access_right": "open",
+  "license": "other-nc",
+  "version": "1.0.0",
+  "keywords": [
+    "threat intelligence",
+    "social media",
+    "indicators of compromise",
+    "multi-agent system",
+    "reinforcement learning"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://arxiv.org/abs/2606.04580", "relation": "isSupplementTo", "resource_type": "publication-preprint"},
+    {"identifier": "https://tiblender.github.io/", "relation": "isDocumentedBy", "resource_type": "other"}
+  ]
+}

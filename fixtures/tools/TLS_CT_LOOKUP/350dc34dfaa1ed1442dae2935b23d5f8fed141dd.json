@@ -1,0 +1,35 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "300gorillaz.silverbackplot.com",
+      "www.300gorillaz.silverbackplot.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "300gorillaz.silverbackplot.com"
+  },
+  "raw": {
+    "count": 2,
+    "issuers": [
+      "C=US, ST=TX, L=Houston, O=\"cPanel, Inc.\", CN=\"cPanel, Inc. Certification Authority\"",
+      "C=US, ST=TX, L=Houston, O=\"cPanel, Inc.\", CN=\"cPanel, Inc. Certification Authority\""
+    ],
+    "names": [
+      "300gorillaz.silverbackplot.com",
+      "www.300gorillaz.silverbackplot.com",
+      "300gorillaz.silverbackplot.com",
+      "www.300gorillaz.silverbackplot.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:04:04Z",
+  "source_url": "https://crt.sh/?q=%25.300gorillaz.silverbackplot.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for 300gorillaz.silverbackplot.com: 2 certificate row(s); sample names=300gorillaz.silverbackplot.com, www.300gorillaz.silverbackplot.com, 300gorillaz.silverbackplot.com, www.300gorillaz.silverbackplot.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

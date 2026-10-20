@@ -1,0 +1,620 @@
+{
+ "overview": {
+  "raw_posts_by_platform": {
+   "Telegram": 579300,
+   "Discord": 217249,
+   "X": 48299,
+   "Reddit": 29125
+  },
+  "raw_posts_total": 873973,
+  "unique_clusters": 184240,
+  "step2_low_severity_filtered_clusters": 172683,
+  "step4_skip_clusters": 3269,
+  "actionable_reports": 8288,
+  "runtime": {
+   "compute": "Azure Standard D32as v4, 32 vCPU, 128 GB RAM, Ubuntu 22.04, Docker Compose",
+   "cycle_count": 744,
+   "cycle_interval_hours": 1,
+   "models": {
+    "judges": [
+     "GPT-OSS-120B",
+     "Llama 4 Maverick"
+    ],
+    "main_processing": "Grok 4 Fast Non-Reasoning via Microsoft Foundry",
+    "temperature": 0
+   },
+   "platforms": [
+    "X",
+    "Reddit",
+    "Telegram",
+    "Discord"
+   ]
+  }
+ },
+ "reports": {
+  "reports": 8288,
+  "categories": {
+   "Vulnerability": 4194,
+   "Phishing/Fraud": 1817,
+   "APT/Ransomware": 1420,
+   "Malware/C2": 857
+  },
+  "severity": {
+   "MEDIUM": 5626,
+   "HIGH": 1768,
+   "CRITICAL": 894
+  },
+  "cross_platform_reports": 2003,
+  "cross_platform_pct": 24.2,
+  "ioc_total": 17404,
+  "mean_iocs_per_report": 2.1
+ },
+ "platform_contribution": {
+  "Vulnerability": {
+   "x": 45.5,
+   "reddit": 18.5,
+   "telegram": 3.2,
+   "discord": 45.5,
+   "cross_platform": 11.5,
+   "single_platform_only": {
+    "x": 34.0,
+    "reddit": 9.3,
+    "telegram": 2.7,
+    "discord": 42.5
+   }
+  },
+  "Phishing/Fraud": {
+   "x": 65.5,
+   "reddit": 9.5,
+   "telegram": 34.5,
+   "discord": 9.6,
+   "cross_platform": 18.8,
+   "single_platform_only": {
+    "x": 50.5,
+    "reddit": 1.1,
+    "telegram": 28.5,
+    "discord": 1.1
+   }
+  },
+  "APT/Ransomware": {
+   "x": 47.5,
+   "reddit": 40.5,
+   "telegram": 36.5,
+   "discord": 36.5,
+   "cross_platform": 55.6,
+   "single_platform_only": {
+    "x": 19.9,
+    "reddit": 12.5,
+    "telegram": 10.5,
+    "discord": 1.5
+   }
+  },
+  "Malware/C2": {
+   "x": 48.4,
+   "reddit": 59.4,
+   "telegram": 21.5,
+   "discord": 21.5,
+   "cross_platform": 45.5,
+   "single_platform_only": {
+    "x": 16.0,
+    "reddit": 24.5,
+    "telegram": 10.5,
+    "discord": 3.5
+   }
+  }
+ },
+ "same_input": [
+  {
+   "platform": "x",
+   "system": "TIBlender (D)",
+   "total": 866,
+   "phishing_fraud": 788,
+   "malware_c2": 78,
+   "vt_pct": {
+    "0": 1.6,
+    "1-5": 35.3,
+    "6-10": 36.6,
+    "11+": 26.4
+   },
+   "tranco_pct": 2.3,
+   "novelty_vs_baseline": {
+    "Tweezers": {
+     "Phishing/Fraud": 85.7,
+     "Malware/C2": 92.3
+    },
+    "iocsearcher": {
+     "Phishing/Fraud": 4.9,
+     "Malware/C2": 5.1
+    }
+   },
+   "coverage_of_baseline": null
+  },
+  {
+   "platform": "x",
+   "system": "Tweezers",
+   "total": 422,
+   "phishing_fraud": 392,
+   "malware_c2": 30,
+   "vt_pct": {
+    "0": 74.9,
+    "1-5": 9.2,
+    "6-10": 5.0,
+    "11+": 10.9
+   },
+   "tranco_pct": 10.2,
+   "coverage_of_baseline": 28.2
+  },
+  {
+   "platform": "x",
+   "system": "iocsearcher",
+   "total": 1114,
+   "phishing_fraud": 1026,
+   "malware_c2": 88,
+   "vt_pct": {
+    "0": 25.7,
+    "1-5": 26.4,
+    "6-10": 26.8,
+    "11+": 21.2
+   },
+   "tranco_pct": 15.0,
+   "coverage_of_baseline": 73.9
+  },
+  {
+   "platform": "reddit",
+   "system": "TIBlender (D)",
+   "total": 140,
+   "phishing_fraud": 63,
+   "malware_c2": 77,
+   "vt_pct": {
+    "0": 1.4,
+    "1-5": 30.0,
+    "6-10": 54.3,
+    "11+": 14.3
+   },
+   "tranco_pct": 1.6,
+   "novelty_vs_baseline": {
+    "Reddit2CTI": {
+     "Phishing/Fraud": 93.7,
+     "Malware/C2": 87.0
+    },
+    "iocsearcher": {
+     "Phishing/Fraud": 4.8,
+     "Malware/C2": 5.2
+    }
+   },
+   "coverage_of_baseline": null
+  },
+  {
+   "platform": "reddit",
+   "system": "Reddit2CTI",
+   "total": 277,
+   "phishing_fraud": 85,
+   "malware_c2": 192,
+   "vt_pct": {
+    "0": 94.2,
+    "1-5": 5.1,
+    "6-10": 0.4,
+    "11+": 0.4
+   },
+   "tranco_pct": 17.8,
+   "coverage_of_baseline": 5.1
+  },
+  {
+   "platform": "reddit",
+   "system": "iocsearcher",
+   "total": 161,
+   "phishing_fraud": 74,
+   "malware_c2": 87,
+   "vt_pct": {
+    "0": 17.4,
+    "1-5": 24.2,
+    "6-10": 46.0,
+    "11+": 12.4
+   },
+   "tranco_pct": 15.5,
+   "coverage_of_baseline": 82.6
+  },
+  {
+   "platform": "telegram",
+   "system": "TIBlender (D)",
+   "total": 72,
+   "phishing_fraud": 72,
+   "malware_c2": 0,
+   "vt_pct": {
+    "0": 1.4,
+    "1-5": 18.1,
+    "6-10": 20.8,
+    "11+": 59.7
+   },
+   "tranco_pct": 3.9,
+   "novelty_vs_baseline": {
+    "DarkGram": {
+     "Phishing/Fraud": 86.1
+    },
+    "iocsearcher": {
+     "Phishing/Fraud": 5.6
+    }
+   },
+   "coverage_of_baseline": null
+  },
+  {
+   "platform": "telegram",
+   "system": "DarkGram",
+   "total": 70,
+   "phishing_fraud": 70,
+   "malware_c2": 0,
+   "vt_pct": {
+    "0": 87.1,
+    "1-5": 11.4,
+    "6-10": 1.4,
+    "11+": 0.0
+   },
+   "tranco_pct": 44.0,
+   "coverage_of_baseline": 14.3
+  },
+  {
+   "platform": "telegram",
+   "system": "iocsearcher",
+   "total": 150,
+   "phishing_fraud": 150,
+   "malware_c2": 0,
+   "vt_pct": {
+    "0": 54.7,
+    "1-5": 8.7,
+    "6-10": 8.7,
+    "11+": 28.0
+   },
+   "tranco_pct": 15.5,
+   "coverage_of_baseline": 45.3
+  },
+  {
+   "platform": "discord",
+   "system": "TIBlender (D)",
+   "total": 51,
+   "phishing_fraud": 29,
+   "malware_c2": 22,
+   "vt_pct": {
+    "0": 2.0,
+    "1-5": 31.4,
+    "6-10": 43.1,
+    "11+": 23.5
+   },
+   "tranco_pct": 2.1,
+   "novelty_vs_baseline": {
+    "iocsearcher": {
+     "Phishing/Fraud": 3.4,
+     "Malware/C2": 4.5
+    }
+   },
+   "coverage_of_baseline": null
+  },
+  {
+   "platform": "discord",
+   "system": "iocsearcher",
+   "total": 76,
+   "phishing_fraud": 36,
+   "malware_c2": 40,
+   "vt_pct": {
+    "0": 31.6,
+    "1-5": 23.7,
+    "6-10": 28.9,
+    "11+": 15.8
+   },
+   "tranco_pct": 16.2,
+   "coverage_of_baseline": 64.5
+  }
+ ],
+ "same_input_population_check": {
+  "x": {
+   "reports": 866,
+   "evidence": 866,
+   "reports_only": 0,
+   "evidence_only": 0,
+   "indicators_in_both_categories": 15
+  },
+  "reddit": {
+   "reports": 140,
+   "evidence": 140,
+   "reports_only": 0,
+   "evidence_only": 0,
+   "indicators_in_both_categories": 3
+  },
+  "telegram": {
+   "reports": 72,
+   "evidence": 72,
+   "reports_only": 0,
+   "evidence_only": 0,
+   "indicators_in_both_categories": 2
+  },
+  "discord": {
+   "reports": 51,
+   "evidence": 51,
+   "reports_only": 0,
+   "evidence_only": 0,
+   "indicators_in_both_categories": 5
+  }
+ },
+ "public_feeds": {
+  "PhishTank": {
+   "denominator": 4914,
+   "overlap": 227,
+   "FSA_pct": 95.4,
+   "timed_pairs": 227,
+   "ahead": 71,
+   "ahead_pct": 31.3,
+   "mean_lead_hours": -72.0
+  },
+  "URLhaus": {
+   "denominator": 787,
+   "overlap": 3,
+   "FSA_pct": 99.6,
+   "timed_pairs": 3,
+   "ahead": 1,
+   "ahead_pct": 33.3,
+   "mean_lead_hours": -377.0
+  },
+  "MalwareBazaar": {
+   "denominator": 53,
+   "overlap": 9,
+   "FSA_pct": 83.0,
+   "timed_pairs": 9,
+   "ahead": 8,
+   "ahead_pct": 88.9,
+   "mean_lead_hours": -24.0
+  },
+  "CISA KEV": {
+   "denominator": 301,
+   "overlap": 45,
+   "FSA_pct": 85.0,
+   "timed_pairs": 45,
+   "ahead": 8,
+   "ahead_pct": 17.8,
+   "mean_lead_hours": -94.0
+  },
+  "TweetFeed": {
+   "denominator": 14935,
+   "overlap": 324,
+   "FSA_pct": 97.8,
+   "timed_pairs": 324,
+   "ahead": 52,
+   "ahead_pct": 16.0,
+   "mean_lead_hours": -157.2
+  },
+  "OTX Pulses": {
+   "denominator": 15627,
+   "overlap": 518,
+   "FSA_pct": 96.7,
+   "timed_pairs": 518,
+   "ahead": 71,
+   "ahead_pct": 13.7,
+   "mean_lead_hours": -108.6
+  },
+  "all": {
+   "ahead": 211,
+   "pairs": 1126,
+   "ahead_pct": 18.7
+  }
+ },
+ "ablation": {
+  "A1_without_multi_perspective": {
+   "outcomes": {
+    "yield_reduced_without_component": 8288
+   },
+   "outcome_pct": {
+    "yield_reduced_without_component": 100.0
+   },
+   "parameters": {
+    "baseline_mean_iocs_per_report": 2.1,
+    "without_component_mean_iocs_per_report": 0.4,
+    "mean_ioc_delta_pct": -81,
+    "exclusive_findings_per_report": {
+     "infrastructure_iocs": 1.91,
+     "technical_cves": 0.31,
+     "social_iocs": 2.85,
+     "actor_iocs": 0.31
+    },
+    "perspective_overlap_pct": 2.3
+   }
+  },
+  "A2_without_adaptive_eval": {
+   "outcomes": {
+    "evidence_reduced_without_component": 845,
+    "unchanged": 7443
+   },
+   "outcome_pct": {
+    "evidence_reduced_without_component": 10.2,
+    "unchanged": 89.8
+   },
+   "parameters": {
+    "baseline_mean_iocs_per_report": 2.1,
+    "without_component_mean_iocs_per_report": 1.6,
+    "mean_ioc_delta_pct": -24,
+    "initial_proceed_avg_iocs": 10.0,
+    "followup_rescued_avg_iocs": 7.4,
+    "low_quality_avg_iocs": 0.6
+   },
+   "low_quality_clusters_passing_without_gate": 3269
+  },
+  "A3_without_trend_query": {
+   "outcomes": {
+    "lost_without_component": 668,
+    "evidence_reduced_without_component": 1792,
+    "unchanged": 5828
+   },
+   "outcome_pct": {
+    "lost_without_component": 8.1,
+    "evidence_reduced_without_component": 21.6,
+    "unchanged": 70.3
+   },
+   "parameters": {
+    "dynamic_queries_total": 15965
+   }
+  },
+  "A4_without_rl": {
+   "outcomes": {
+    "yield_reduced_without_component": 5820,
+    "unchanged": 2468
+   },
+   "outcome_pct": {
+    "yield_reduced_without_component": 70.2,
+    "unchanged": 29.8
+   },
+   "parameters": {
+    "baseline_mean_iocs_per_report": 2.1,
+    "without_component_mean_iocs_per_report": 1.6,
+    "mean_ioc_delta_pct": -24,
+    "investigation_iocs_with_rl": 10.0,
+    "investigation_iocs_without_rl": 6.4,
+    "queries_with_rl": 27.1,
+    "queries_without_rl": 19.9
+   }
+  },
+  "A5_without_dual_track_clustering": {
+   "outcomes": {
+    "lost_without_component": 6398,
+    "unchanged": 1890
+   },
+   "outcome_pct": {
+    "lost_without_component": 77.2,
+    "unchanged": 22.8
+   },
+   "parameters": {
+    "dual_track_avg_cluster_size_posts": 20.1,
+    "semantic_only_avg_cluster_size_posts": 52.1,
+    "dual_track_post_coverage_pct": 98.9,
+    "context_posts_missed_by_ioc_only_pct": 77.5
+   }
+  }
+ },
+ "manual": {
+  "quality_audit": {
+   "Feed-overlap": {
+    "sample_n": 500,
+    "report_level_false_positive": 11,
+    "unsupported_ioc_issue": 18,
+    "major_quality_issue": 8
+   },
+   "Feed-absent": {
+    "sample_n": 500,
+    "report_level_false_positive": 9,
+    "unsupported_ioc_issue": 20,
+    "major_quality_issue": 7
+   },
+   "agreement": {
+    "decisions": 3000,
+    "agreed": 2961,
+    "pct": 98.7
+   },
+   "fp_patterns": {
+    "security_media_domain_misidentified_as_ioc": 12,
+    "poc_announcement_misclassified_as_exploitation": 4,
+    "reposted_ti_report_treated_as_new_incident": 1,
+    "news_article_without_direct_attack_confirmation": 3
+   },
+   "major_patterns": {
+    "severity_over_assignment_in_single_source_reports": 9,
+    "other_major_quality_issues": 6
+   }
+  },
+  "false_negative_review": {
+   "LOW clusters": {
+    "sample_n": 1000,
+    "false_negatives": 6,
+    "patterns": {
+     "low_cvss_vulnerability_later_confirmed_exploited": 3,
+     "hacktivist_target_list_minimal_ioc_diversity": 2,
+     "initial_access_broker_listing_insufficient_indicators": 1
+    },
+    "agreement": 993
+   },
+   "Step 4 SKIP clusters": {
+    "sample_n": 1000,
+    "false_negatives": 9,
+    "patterns": {
+     "emerging_threat_with_insufficient_corroborating_evidence": 6,
+     "single_source_regional_threat_report": 3
+    },
+    "agreement": 986
+   }
+  }
+ },
+ "record_consistency": {
+  "reports_missing_created_at": 0,
+  "reports_outside_period": 0,
+  "vulnerability_cves": 301,
+  "kev_denominator": 301,
+  "kev_cves_missing_from_reports": [],
+  "report_cves_missing_from_kev_denominator": [],
+  "kev_referencing_reports": 1357,
+  "reports_before_kev_listing": 95,
+  "early_kev_cves": [
+   {
+    "cve": "CVE-2026-1340",
+    "first_detection": "2026-04-03T02:36:00+00:00",
+    "kev_listed": "2026-04-08T00:00:00+00:00",
+    "lead_days": 4.9,
+    "reports_before_listing": 7
+   },
+   {
+    "cve": "CVE-2026-21643",
+    "first_detection": "2026-03-30T14:36:00+00:00",
+    "kev_listed": "2026-04-13T00:00:00+00:00",
+    "lead_days": 13.4,
+    "reports_before_listing": 24
+   },
+   {
+    "cve": "CVE-2026-33017",
+    "first_detection": "2026-03-23T02:36:00+00:00",
+    "kev_listed": "2026-03-25T00:00:00+00:00",
+    "lead_days": 1.9,
+    "reports_before_listing": 34
+   },
+   {
+    "cve": "CVE-2026-33634",
+    "first_detection": "2026-03-24T19:24:00+00:00",
+    "kev_listed": "2026-03-26T00:00:00+00:00",
+    "lead_days": 1.2,
+    "reports_before_listing": 3
+   },
+   {
+    "cve": "CVE-2026-34197",
+    "first_detection": "2026-04-08T21:48:00+00:00",
+    "kev_listed": "2026-04-16T00:00:00+00:00",
+    "lead_days": 7.1,
+    "reports_before_listing": 12
+   },
+   {
+    "cve": "CVE-2026-34621",
+    "first_detection": "2026-04-11T14:36:00+00:00",
+    "kev_listed": "2026-04-13T00:00:00+00:00",
+    "lead_days": 1.4,
+    "reports_before_listing": 6
+   },
+   {
+    "cve": "CVE-2026-3502",
+    "first_detection": "2026-03-31T21:48:00+00:00",
+    "kev_listed": "2026-04-02T00:00:00+00:00",
+    "lead_days": 1.1,
+    "reports_before_listing": 8
+   },
+   {
+    "cve": "CVE-2026-35616",
+    "first_detection": "2026-04-05T14:36:00+00:00",
+    "kev_listed": "2026-04-06T00:00:00+00:00",
+    "lead_days": 0.4,
+    "reports_before_listing": 1
+   }
+  ],
+  "manual_strata": {
+   "Feed-overlap": {
+    "sample_n": 500,
+    "mismatches": []
+   },
+   "Feed-absent": {
+    "sample_n": 500,
+    "mismatches": []
+   }
+  },
+  "timing_reference_errors": []
+ }
+}

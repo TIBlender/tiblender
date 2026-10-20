@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host equitabledemocracy.org is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "http://equitabledemocracy.org/the-future-of-our-former-democracy"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:24:54Z",
+  "source_url": "http://equitabledemocracy.org/the-future-of-our-former-democracy",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host equitabledemocracy.org for http://equitabledemocracy.org/the-future-of-our-former-democracy",
+  "tool_type": "WEB_CRAWL"
+}

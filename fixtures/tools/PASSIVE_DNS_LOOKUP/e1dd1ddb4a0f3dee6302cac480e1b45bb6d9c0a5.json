@@ -1,0 +1,94 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "hunt.io"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.50.137",
+      "104.26.2.15",
+      "104.26.3.15",
+      "13.248.216.40",
+      "172.66.40.136",
+      "172.66.43.120",
+      "172.67.206.145",
+      "172.67.70.195",
+      "208.94.116.73",
+      "208.94.118.225",
+      "3.64.163.50",
+      "35.71.142.77",
+      "52.223.52.2",
+      "76.223.65.111"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "hunt.io"
+  },
+  "raw": {
+    "malicious_count": 5,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1717683323,
+        "host_name": "hunt.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "52.223.52.2",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1717683323,
+        "host_name": "hunt.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "35.71.142.77",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1715605804,
+        "host_name": "hunt.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.43.120",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1715605804,
+        "host_name": "hunt.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.40.136",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1710238242,
+        "host_name": "hunt.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.67.70.195",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 14
+  },
+  "recorded_at": "2026-09-15T01:17:34Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/hunt.io/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for hunt.io: 14 resolution(s); addresses: 52.223.52.2, 35.71.142.77, 172.66.43.120, 172.66.40.136, 172.67.70.195, 104.26.2.15, 104.26.3.15, 172.67.206.145, 104.21.50.137, 3.64.163.50",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

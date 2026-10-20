@@ -1,0 +1,292 @@
+[
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 1,
+    "perspective": "Infrastructure",
+    "focus_type": "domain_registration_and_whois",
+    "tool_type": "WHOIS_LOOKUP",
+    "parameters": {
+      "domain": "sfrclak.com"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 2,
+    "perspective": "Infrastructure",
+    "focus_type": "dns_and_passive_dns_analysis",
+    "tool_type": "PASSIVE_DNS_LOOKUP",
+    "parameters": {
+      "domain": "sfrclak.com"
+    },
+    "status": "success",
+    "new_iocs": 1,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 3,
+    "perspective": "Infrastructure",
+    "focus_type": "ssl_tls_certificate_analysis",
+    "tool_type": "TLS_CT_LOOKUP",
+    "parameters": {
+      "domain": "sfrclak.com"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 4,
+    "perspective": "Infrastructure",
+    "focus_type": "related_domain_and_infrastructure_pivoting",
+    "tool_type": "WHOIS_LOOKUP",
+    "parameters": {
+      "ip": "142.11.206.73",
+      "pivot": true
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 5,
+    "perspective": "Infrastructure",
+    "focus_type": "related_domain_and_infrastructure_pivoting",
+    "tool_type": "PASSIVE_DNS_LOOKUP",
+    "parameters": {
+      "ip": "142.11.206.73",
+      "pivot": true
+    },
+    "status": "success",
+    "new_iocs": 20,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 6,
+    "perspective": "Technical",
+    "focus_type": "technical_intelligence_and_security_report_collection",
+    "tool_type": "SEARCH_ENGINE",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 7,
+    "perspective": "Technical",
+    "focus_type": "technical_intelligence_and_security_report_collection",
+    "tool_type": "SEARCH_ENGINE",
+    "parameters": {
+      "query": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 8,
+    "perspective": "Social",
+    "focus_type": "sns_account_abuse_and_spread_tracking",
+    "tool_type": "X_SEARCH",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 9,
+    "perspective": "Social",
+    "focus_type": "sns_account_abuse_and_spread_tracking",
+    "tool_type": "DISCORD_SEARCH",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 10,
+    "perspective": "Social",
+    "focus_type": "social_engineering_tactics_analysis",
+    "tool_type": "REDDIT_SEARCH",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 11,
+    "perspective": "Social",
+    "focus_type": "social_engineering_tactics_analysis",
+    "tool_type": "TELEGRAM_SEARCH",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": false,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 12,
+    "perspective": "Actor",
+    "focus_type": "apt_group_and_threat_actor_investigation",
+    "tool_type": "SEARCH_ENGINE",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": true,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 13,
+    "perspective": "Actor",
+    "focus_type": "apt_group_and_threat_actor_investigation",
+    "tool_type": "REDDIT_SEARCH",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": true,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 14,
+    "perspective": "Actor",
+    "focus_type": "cybercrime_group_and_market_analysis",
+    "tool_type": "TELEGRAM_SEARCH",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": true,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 15,
+    "perspective": "Actor",
+    "focus_type": "cybercrime_group_and_market_analysis",
+    "tool_type": "DISCORD_SEARCH",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": true,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  },
+  {
+    "cluster_id": "cluster-252a5d11fa1a",
+    "cluster_name": "sfrclak.com malware campaign",
+    "step": 16,
+    "perspective": "Actor",
+    "focus_type": "campaign_tracking",
+    "tool_type": "X_SEARCH",
+    "parameters": {
+      "query": "sfrclak.com malware"
+    },
+    "status": "success",
+    "new_iocs": 0,
+    "new_cves": 0,
+    "new_ttps": 0,
+    "duplicate": true,
+    "confidence": "MEDIUM",
+    "mode": "rl_guided"
+  }
+]

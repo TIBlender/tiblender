@@ -1,0 +1,99 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.techdirt.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.24.4.18",
+      "104.24.5.18",
+      "104.25.104.28",
+      "104.25.105.28",
+      "104.25.95.73",
+      "104.25.96.73",
+      "162.159.243.199",
+      "162.159.244.199",
+      "172.67.67.98",
+      "208.53.48.129",
+      "208.53.48.13",
+      "208.53.48.153",
+      "208.53.48.33",
+      "208.53.48.36",
+      "209.41.68.26",
+      "209.41.68.27",
+      "209.41.68.28",
+      "209.41.68.33",
+      "209.41.68.34"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.techdirt.com"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1591142159,
+        "host_name": "www.techdirt.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.67.67.98",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1584599192,
+        "host_name": "www.techdirt.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.25.95.73",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1584599192,
+        "host_name": "www.techdirt.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.25.96.73",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1576214069,
+        "host_name": "www.techdirt.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.24.4.18",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1576214069,
+        "host_name": "www.techdirt.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.24.5.18",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 19
+  },
+  "recorded_at": "2026-09-16T05:17:35Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.techdirt.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.techdirt.com: 19 resolution(s); addresses: 172.67.67.98, 104.25.95.73, 104.25.96.73, 104.24.4.18, 104.24.5.18, 104.25.104.28, 104.25.105.28, 162.159.244.199, 162.159.243.199, 209.41.68.26",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

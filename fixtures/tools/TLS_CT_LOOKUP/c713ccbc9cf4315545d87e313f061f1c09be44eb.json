@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.equitabledemocracy.org"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "equitabledemocracy.org"
+  },
+  "raw": {
+    "count": 248,
+    "issuers": [
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1"
+    ],
+    "names": [
+      "www.equitabledemocracy.org",
+      "www.equitabledemocracy.org",
+      "www.equitabledemocracy.org",
+      "www.equitabledemocracy.org",
+      "www.equitabledemocracy.org"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:09:35Z",
+  "source_url": "https://crt.sh/?q=%25.equitabledemocracy.org&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for equitabledemocracy.org: 248 certificate row(s); sample names=www.equitabledemocracy.org, www.equitabledemocracy.org, www.equitabledemocracy.org, www.equitabledemocracy.org, www.equitabledemocracy.org.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

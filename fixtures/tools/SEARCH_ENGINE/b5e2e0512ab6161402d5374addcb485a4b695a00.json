@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "gampangjepehcgk.pages.dev"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "LEEが誇る読者ブロガー組織「LEE100人隊」。 2007年の発足以来、現在は現役メンバー100人と人気の卒業生からなるトップブロ …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "読者ブロガーLEE100人隊 | LEE",
+        "url": "https://lee.hpplus.jp/100nintai/"
+      },
+      {
+        "category": "general",
+        "content": "読者ブロガー LEE100人隊 今日のお買い物 読者ブロガー「LEE100人隊」が購入した、お気に入りアイテムとは？ 毎日更新される素 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "LEE100人隊「今日のお買い物」 | LEE",
+        "url": "https://lee.hpplus.jp/100nintai/hc/shopping/"
+      },
+      {
+        "category": "general",
+        "content": "Lee（リー）の公式ブランドサイト。最新のイベントやニュース情報、採用情報をご案内しております。 FLeeasy ＜フリージー＞ …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "【公式】Lee（リー）ブランドサイト",
+        "url": "https://lee-japan.jp/"
+      },
+      {
+        "category": "general",
+        "content": "LEE100人隊メンバー一覧ページです。 「LEE100人隊」は現役メンバー100人と人気の卒業生からなるトップブロガー（TB）で活 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "LEE100人隊メンバー一覧 | LEE",
+        "url": "https://lee.hpplus.jp/100nintai/member/"
+      },
+      {
+        "category": "general",
+        "content": "2027年度・LEE専属ブロガー「LEE100人隊」の新隊員を大募集します！ 【締め切り：10/6（火）】 10歳からのスキンケアが超重 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "LEE100人隊「今日なに着てる？」 | LEE",
+        "url": "https://lee.hpplus.jp/100nintai/hc/todays-fashion/"
+      },
+      {
+        "category": "general",
+        "content": "Nov 9, 2025 · 2027年度・LEE専属ブロガー「LEE100人隊」の新隊員を大募集します！ 【締め切り：10/6（火）】 10歳からのスキ …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "「LEE（リー）」｜集英社の雑誌「LEE」の公式ウェブメディア ...",
+        "url": "https://lee.hpplus.jp/"
+      },
+      {
+        "category": "general",
+        "content": "Feb 28, 2024 · 毎年売れ続けるニットブーツ＆洗練バックパックでワードローブを更新 2027年度・LEE専属ブロガー「LEE100人隊 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "LEE100人隊まとめNews | LEE",
+        "url": "https://lee.hpplus.jp/column/series/100nintaimatome/"
+      },
+      {
+        "category": "general",
+        "content": "Aug 31, 2026 · チェリーハイツ 膝に乗ってきた猫の重み（翌朝ぎっくり腰に・・）☆2026/09/13腰の調子はだいぶいいです。昨日と …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "チェリーハイツ",
+        "url": "https://cherry-heights.amebaownd.com/"
+      },
+      {
+        "category": "general",
+        "content": "Jul 19, 2026 · 「最新」のLEE100人隊ブログ一覧ページです。 「今日のお買い物」「今日なに着てる？ 」「美容部」「手づくり部 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "「最新」のLEE100人隊ブログ一覧 | LEE",
+        "url": "https://lee.hpplus.jp/100nintai/leetag/%e6%9c%80%e6%96%b0/"
+      },
+      {
+        "category": "general",
+        "content": "Dec 7, 2023 · LEE100人隊とは… (webページより) 「今日のお買い物」「今日なに着てる？ 」「美容部」「手づくり部」「料理部 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "【ご報告】LEE100人隊のメンバーになりました！ | まこみんの ...",
+        "url": "https://ameblo.jp/uchigokochi/entry-12831655161.html"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:20Z",
+  "source_url": "http://searxng:8080/search?q=gampangjepehcgk.pages.dev&format=json",
+  "status": "success",
+  "summary": "SearXNG search for gampangjepehcgk.pages.dev: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

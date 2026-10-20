@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.pbs.org/newshour/nation/whats-next-in-social-media-legal-battles-after-a-new-mexico-jury-finds-meta-platforms-harm-children"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "What's next in social media legal battles after a New Mexico jury finds Meta platforms harm children | PBS News PBS PBS Shows My List Shop Choose station Sign in Full Episode Friday, Sep 18 The Latest Politics Arts Nation World Economy Science Health Education For Teachers About Close Menu PBS News Menu Full Episodes Podcasts Newsletters Live By — Barbara Ortutay, Associated Press By — Kaitlyn Huamani, Associated Press Leave your feedback Share Share on Facebook Share on Twitter What's next in social media legal battles after a New Mexico jury finds Meta platforms harm children Nation Mar 25, 2026 10:52 AM EDT SAN FRANCISCO (AP) — The first jury verdict in a series of social media child safe",
+    "javascript_rendered": true,
+    "title": "What's next in social media legal battles after a New Mexico jury finds Meta platforms harm children | PBS News",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:21:50Z",
+  "source_url": "https://www.pbs.org/newshour/nation/whats-next-in-social-media-legal-battles-after-a-new-mexico-jury-finds-meta-platforms-harm-children",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.pbs.org/newshour/nation/whats-next-in-social-media-legal-battles-after-a-new-mexico-jury-finds-meta-platforms-harm-children. Title: What's next in social media legal battles after a New Mexico jury finds Meta platforms harm children | PBS News. Excerpt: What's next in social media legal battles after a New Mexico jury finds Meta platforms harm children | PBS News PBS PBS Shows My List Shop Choose station Sign in Full Episode Friday, Sep 18 The Latest Politics Arts Nation World Economy Science Health Education For Teachers About Close Menu PBS News Menu Full Episodes Podcasts Newsletters Live By — Barbara Ortutay, Associated Press By — Kaitlyn Huamani, Associated Press Leave your feedback Share Share on Facebook Share on Twitter What's next in social media legal battles after a New Mexico jury finds Meta platforms harm children Nation Mar 25, 2026 10:52 AM EDT SAN FRANCISCO (AP) — The first jury verdict in a series of social media child safe",
+  "tool_type": "WEB_CRAWL"
+}

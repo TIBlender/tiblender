@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "142.11.206.73"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Dec 27, 2019 · ここでは「つきましては」の意味や使い方をご紹介します。 似た場面で使う「なお」や「おかれましては」との違い …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "「つきましては」の意味・使い方（例文）｜「なお」「おかれ ...",
+        "url": "https://bizushiki.com/tukimasiteha"
+      },
+      {
+        "category": "general",
+        "content": "Aug 4, 2026 · ビジネスシーンで使われる「つきましては」の意味と正しい使い方を解説します。 接続詞と連語の使い分け、シーン …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "「つきましては」の意味とは？ビジネスでの使い方や類語表現 ...",
+        "url": "https://jp.indeed.com/career-advice/useful-business-tips/what-is-tsukimashitewa"
+      },
+      {
+        "category": "general",
+        "content": "Mar 25, 2026 · 一見フォーマルで難しそうに見えますが、実は“依頼・報告・提案”など、あらゆるシーンで使える万能表現です。 こ …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "「つきましては」の意味と使い方！ビジネスメールでそのまま ...",
+        "url": "https://gimon-note.com/tukimasiteha/"
+      },
+      {
+        "category": "general",
+        "content": "Jul 13, 2023 · 「つきまして」は、漢字では「就きまして」と表記されます。 「就く」には「～に関しては」という意味があり、「 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "「つきまして」の意味とは？使い方や類語、「ついて」も解説 ...",
+        "url": "https://biz.trans-suite.jp/91604"
+      },
+      {
+        "category": "general",
+        "content": "Sep 6, 2021 · ｢つきましては｣は、｢従って｣や｢～に関しては｣という意味で、ビジネスシーンやビジネスメールで使用される …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "｢つきましては｣の意味とは?目上に失礼? ビジネスでの使い方 ...",
+        "url": "https://news.mynavi.jp/article/20210906-1939725/"
+      },
+      {
+        "category": "general",
+        "content": "Oct 3, 2025 · 「つきましては」の正しい意味を理解せずに、ビジネスで使っていませんか？ 主に2パターンの使い方があるため、状 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "「つきましては」の意味と使い方は？ビジネスでの例文も紹介 ...",
+        "url": "https://mainichi.doda.jp/article/2305011"
+      },
+      {
+        "category": "general",
+        "content": "May 15, 2021 · 「つきましては」は、前に述べた事柄から次に述べようとする事柄が起こるかまたは必要となる旨を示すことを意味 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "【つきましては】と【おかれましては】の意味の違いと使い方 ...",
+        "url": "https://reibuncnt.jp/17256"
+      },
+      {
+        "category": "general",
+        "content": "Feb 28, 2025 · 「つきましては」は丁寧な表現だと分かっていても、上司に使って失礼にならないか不安に感じる方も多いのではな …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "「つきましては」を上司に使うと失礼？正しい意味や使い方を ...",
+        "url": "https://metalife.co.jp/business-words/4692/"
+      },
+      {
+        "category": "general",
+        "content": "Sep 7, 2025 · 「つきましては」は、「ですから」「したがいまして」という意味を持ちます。 当記事では、「つきましては」の意 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "ビジネスメールで使える「つきましては」の意味と例文・注意 ...",
+        "url": "https://oggi.jp/7031332"
+      },
+      {
+        "category": "general",
+        "content": "Aug 20, 2026 · ビジネスシーンでよく耳にすることはあっても、実際に使うとなると、その使い方に迷う人が多いのではないでしょ …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "「つきましては」の使い方｜意味・例文・言い換え表現も ...",
+        "url": "https://tap-biz.jp/business/1022166/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:22:53Z",
+  "source_url": "http://searxng:8080/search?q=142.11.206.73&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 142.11.206.73: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

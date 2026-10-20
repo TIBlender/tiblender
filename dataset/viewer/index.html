@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>TIBlender Report Viewer</title>
+  <link href="styles.css" rel="stylesheet"/>
+  <style>
+    .kv-table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+    .kv-table th, .kv-table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid rgba(120,130,150,0.25); vertical-align: top; }
+    .kv-table th { font-weight: 600; white-space: nowrap; }
+    .timeline-list { list-style: none; padding: 0; margin: 0; }
+    .timeline-list li { padding: 6px 0; border-bottom: 1px dashed rgba(120,130,150,0.25); }
+    .timeline-stamp { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.85rem; opacity: 0.8; margin-right: 8px; }
+    .finding-group-title { font-weight: 600; margin: 10px 0 4px; }
+    .source-ref { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.8rem; opacity: 0.75; }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <div aria-hidden="true" class="header-logo">TI</div>
+      <div>
+        <div class="header-title">TIBlender</div>
+        <div class="header-subtitle">Report browser (raw_dataset/reports.jsonl)</div>
+      </div>
+      <div class="header-spacer"></div>
+    </header>
+    <main class="main report-layout">
+      <section aria-label="Dataset summary" class="summary-strip">
+        <div class="breakdown-card"><div class="breakdown-title">Reports</div><div class="breakdown-count bc-total" id="metricReports">-</div></div>
+        <div class="breakdown-card"><div class="breakdown-title">Created</div><div class="breakdown-count bc-med" id="metricCreated">-</div></div>
+      </section>
+      <section aria-label="Report filters and navigation" class="report-controls section-card">
+        <div class="filter-row">
+          <label class="filter-control" for="threatCategoryFilter"><span>Threat Category</span>
+            <select id="threatCategoryFilter"><option value="">All categories</option></select></label>
+          <label class="filter-control" for="threatSeverityFilter"><span>Threat Severity</span>
+            <select id="threatSeverityFilter"><option value="">All severities</option></select></label>
+          <label class="filter-control" for="platformFilter"><span>Platform</span>
+            <select id="platformFilter"><option value="">All platforms</option></select></label>
+          <label class="filter-control" for="reportIdInput"><span>Report ID</span>
+            <input id="reportIdInput" placeholder="TIBLENDER-..." type="text"/></label>
+          <div class="report-position" id="pageSummary">0 reports</div>
+          <div class="pagination">
+            <button class="page-btn" id="prevPageButton" type="button">Previous Report</button>
+            <button class="page-btn" id="nextPageButton" type="button">Next Report</button>
+          </div>
+        </div>
+      </section>
+      <section aria-label="Report details" class="detail-layout">
+        <div class="report-detail" id="detailPanel"><div class="empty-state">Loading reports...</div></div>
+      </section>
+    </main>
+  </div>
+  <script src="reports_viewer_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

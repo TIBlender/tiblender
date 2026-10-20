@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "airesearchcorp.com",
+      "api.adhelp.io",
+      "app.adhelp.io",
+      "itservices.domainverify.net",
+      "jobs.promotionpix.net",
+      "jolof.com",
+      "occasions.alfa-france.com",
+      "swindoncurtainfitter.co.uk",
+      "www.align-vision.com",
+      "www.alishawongphotography.com",
+      "www.alizeelajeunesse.com",
+      "www.daisyandjackhandmade.com",
+      "www.erosehamilton.com",
+      "www.gmagic360photobooth.com",
+      "www.gmwconstruct.com",
+      "www.goldenkeyinternationalrealty.com",
+      "www.hellocestmarine.com",
+      "www.hermitinvestigations.com",
+      "www.lorongdigital.com",
+      "www.powerplustips.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "142.250.178.147"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "142.250.178.147"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1787451344,
+        "host_name": "airesearchcorp.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.250.178.147",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1777115858,
+        "host_name": "swindoncurtainfitter.co.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.250.178.147",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1772695694,
+        "host_name": "jolof.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.250.178.147",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1769804280,
+        "host_name": "www.powerplustips.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.250.178.147",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1769804078,
+        "host_name": "api.adhelp.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.250.178.147",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:29:32Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/142.250.178.147/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 142.250.178.147: 20 resolution(s); hosts: airesearchcorp.com, swindoncurtainfitter.co.uk, jolof.com, www.powerplustips.com, api.adhelp.io, app.adhelp.io, www.lorongdigital.com, www.daisyandjackhandmade.com, www.gmagic360photobooth.com, www.erosehamilton.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

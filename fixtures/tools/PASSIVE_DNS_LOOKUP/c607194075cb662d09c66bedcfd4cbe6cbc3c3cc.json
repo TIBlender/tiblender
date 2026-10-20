@@ -1,0 +1,99 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "1.bp.blogspot.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "142.250.117.132",
+      "142.250.129.132",
+      "142.250.140.132",
+      "142.250.151.132",
+      "142.251.14.132",
+      "142.251.29.132",
+      "142.251.30.132",
+      "142.251.39.129",
+      "172.217.171.97",
+      "172.217.76.132",
+      "172.253.155.132",
+      "173.194.201.132",
+      "173.194.42.132",
+      "173.194.70.132",
+      "192.178.223.132",
+      "192.178.24.97",
+      "192.178.25.193",
+      "192.179.16.132",
+      "192.179.17.132"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "1.bp.blogspot.com"
+  },
+  "raw": {
+    "malicious_count": 3,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789447962,
+        "host_name": "1.bp.blogspot.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.179.17.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788070677,
+        "host_name": "1.bp.blogspot.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2607:f8b0:400e:c09::84",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1787409009,
+        "host_name": "1.bp.blogspot.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.178.24.97",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1783538251,
+        "host_name": "1.bp.blogspot.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.250.140.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1783100172,
+        "host_name": "1.bp.blogspot.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.250.117.132",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:27:22Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/1.bp.blogspot.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 1.bp.blogspot.com: 20 resolution(s); addresses: 192.179.17.132, 2607:f8b0:400e:c09::84, 192.178.24.97, 142.250.140.132, 142.250.117.132, 192.179.16.132, 142.251.29.132, 192.178.223.132, 142.251.39.129, 172.217.171.97",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

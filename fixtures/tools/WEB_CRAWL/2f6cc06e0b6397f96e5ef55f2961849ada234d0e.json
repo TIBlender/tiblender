@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.spencer-law.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.spencer-law.com/post/social-media-addiction-lawsuits-2026-kgm-trial-mdl-3047"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:26:06Z",
+  "source_url": "https://www.spencer-law.com/post/social-media-addiction-lawsuits-2026-kgm-trial-mdl-3047",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.spencer-law.com for https://www.spencer-law.com/post/social-media-addiction-lawsuits-2026-kgm-trial-mdl-3047",
+  "tool_type": "WEB_CRAWL"
+}

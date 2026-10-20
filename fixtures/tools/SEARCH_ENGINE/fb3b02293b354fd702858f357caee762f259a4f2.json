@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "07fcd5216ceae44965de79a60a4623da microsoft"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Download and use 80,000+ Desktop Wallpaper stock photos for free. Thousands of new images every day Completely Free to Use …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "80,000+ Best Desktop Wallpaper Photos - Pexels",
+        "url": "https://www.pexels.com/search/desktop%20wallpaper/"
+      },
+      {
+        "category": "general",
+        "content": "Download and use 80,000+ 4k Wallpaper stock photos for free. Thousands of new images every day Completely Free to Use High …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Free 4k Wallpaper Photos - Pexels",
+        "url": "https://www.pexels.com/search/4k%20wallpaper/"
+      },
+      {
+        "category": "general",
+        "content": "Download and use 600,000+ Desktop Backgrounds stock photos for free. Thousands of new images every day Completely Free to …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "100,000+ Best Desktop Wallpaper Backgrounds Photos · 100% Free ...",
+        "url": "https://www.pexels.com/search/desktop%20backgrounds/"
+      },
+      {
+        "category": "general",
+        "content": "Download and use 100,000+ Laptop Wallpaper stock photos for free. Thousands of new images every day Completely Free to Use …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Laptop Wallpaper Photos, Download The BEST Free Laptop ... - Pexels",
+        "url": "https://www.pexels.com/search/laptop%20wallpaper/"
+      },
+      {
+        "category": "general",
+        "content": "Download and use 100,000+ Free Wallpaper stock photos for free. Thousands of new images every day Completely Free to Use High …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "40,000+ Best Free Wallpaper Downloads - Pexels",
+        "url": "https://www.pexels.com/search/free%20wallpaper/"
+      },
+      {
+        "category": "general",
+        "content": "Find free HD wallpapers for your desktop, Mac, Windows or Android device. We have a lot of different topics like nature, abstract and …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Hd Wallpaper Photos, Download The BEST Free Hd Wallpaper Stock",
+        "url": "https://www.pexels.com/search/hd%20wallpaper/"
+      },
+      {
+        "category": "general",
+        "content": "Download and use 100,000+ Lock Screen Wallpaper stock photos for free. Thousands of new images every day Completely Free to …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "100,000+ Best Lock Screen Wallpaper Photos - Pexels",
+        "url": "https://www.pexels.com/search/lock%20screen%20wallpaper/"
+      },
+      {
+        "category": "general",
+        "content": "Download and use 100,000+ Car stock photos for free. Thousands of new images every day Completely Free to Use High-quality …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "100,000+ Best Car Photos · 100% Free Download - Pexels",
+        "url": "https://www.pexels.com/search/car/"
+      },
+      {
+        "category": "general",
+        "content": "Download and use 200,000+ Desktop Wallpaper Aesthetic stock photos for free. Thousands of new images every day Completely …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Free Desktop Wallpaper Aesthetic Photos - Pexels",
+        "url": "https://www.pexels.com/search/desktop%20wallpaper%20aesthetic/"
+      },
+      {
+        "category": "general",
+        "content": "Download and use 5,000+ Landscape stock photos for free. Thousands of new images every day Completely Free to Use High …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "100,000+ Best Landscapes Pictures · 100% Royalty-Free Download",
+        "url": "https://www.pexels.com/search/landscape/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:41:45Z",
+  "source_url": "http://searxng:8080/search?q=07fcd5216ceae44965de79a60a4623da+microsoft&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 07fcd5216ceae44965de79a60a4623da microsoft: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WEB_CRAWL unavailable: HTTP 404: <!DOCTYPE html>\n<html lang='en' xmlns='https://www.w3.org/1999/xhtml' xmlns:b='https://www.google.com/2005/gml/b' xmlns:data='https://www.google.com/2005/gml/data' xmlns:expr='https://www.google.com/2005/gml/expr'>\n<head>\n<meta charset='utf-8'/>\n\n<link href='https://blogger.googleusercontent.com' rel='preconnect'/>\n<link href='https://thehackernews.uk' rel='dns-prefetch'/>\n\n<meta content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' name='robots'/>\n<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=6.0' name='viewport'/>\n<meta content='yes' name='mobile-web-app-capable'/>\n<meta content='yes' name='apple-mobile-web-app-capable'/>\n<meta content='#3B35AE' name='theme-color'/>\n<meta content='#3B35AE' name='msapplication-navbutto",
+  "parameters": {
+    "url": "https://thehackernews.com/article/2025/03/cve-2025-32975-quest-kace-sma-rce-vulnerability/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:27Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL unavailable: HTTP 404: <!DOCTYPE html>\n<html lang='en' xmlns='https://www.w3.org/1999/xhtml' xmlns:b='https://www.google.com/2005/gml/b' xmlns:data='https://www.google.com/2005/gml/data' xmlns:expr='https://www.google.com/2005/gml/expr'>\n<head>\n<meta charset='utf-8'/>\n\n<link href='https://blogger.googleusercontent.com' rel='preconnect'/>\n<link href='https://thehackernews.uk' rel='dns-prefetch'/>\n\n<meta content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' name='robots'/>\n<meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=6.0' name='viewport'/>\n<meta content='yes' name='mobile-web-app-capable'/>\n<meta content='yes' name='apple-mobile-web-app-capable'/>\n<meta content='#3B35AE' name='theme-color'/>\n<meta content='#3B35AE' name='msapplication-navbutto",
+  "tool_type": "WEB_CRAWL"
+}

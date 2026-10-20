@@ -1,0 +1,88 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.al-monitor.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.20.67.161",
+      "104.20.68.161",
+      "104.239.246.30",
+      "107.178.244.221",
+      "172.67.17.245",
+      "23.185.0.2",
+      "67.192.6.224",
+      "72.3.169.224"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.al-monitor.com"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1616418421,
+        "host_name": "www.al-monitor.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.185.0.2",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1591421277,
+        "host_name": "www.al-monitor.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.67.17.245",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1575864501,
+        "host_name": "www.al-monitor.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.20.67.161",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1575864501,
+        "host_name": "www.al-monitor.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.20.68.161",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1500940800,
+        "host_name": "www.al-monitor.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.239.246.30",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 8
+  },
+  "recorded_at": "2026-09-15T01:20:56Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.al-monitor.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.al-monitor.com: 8 resolution(s); addresses: 23.185.0.2, 172.67.17.245, 104.20.67.161, 104.20.68.161, 104.239.246.30, 107.178.244.221, 67.192.6.224, 72.3.169.224",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

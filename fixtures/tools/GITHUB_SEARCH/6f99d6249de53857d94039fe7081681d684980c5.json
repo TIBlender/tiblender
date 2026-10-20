@@ -1,0 +1,22 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "CVE-2022-42856"
+  },
+  "raw": {
+    "items": [],
+    "result_count": 0
+  },
+  "recorded_at": "2026-09-15T01:01:07Z",
+  "source_url": "https://api.github.com/search/repositories?q=CVE-2022-42856&sort=updated&order=desc&per_page=5",
+  "status": "success",
+  "summary": "GitHub repository search for CVE-2022-42856: 0 result(s). ",
+  "tool_type": "GITHUB_SEARCH"
+}

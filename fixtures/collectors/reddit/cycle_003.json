@@ -1,0 +1,420 @@
+{
+  "notes": {
+    "noise_post_refs": [
+      "TIBLENDER-2026-03-31-dd31428c29fb57b1-6b97b940:p3",
+      "TIBLENDER-2026-04-01-c25b6c5ad3d61407-b6ad0e62:p7",
+      "TIBLENDER-2026-04-01-c752bcde9c5c00b0-189f0ce1:p6",
+      "TIBLENDER-2026-04-02-0d50f3b2ed0acb22-bf6584cc:p2",
+      "TIBLENDER-2026-04-02-27b035d9cd858b1c-da31741f:p2",
+      "TIBLENDER-2026-04-03-5afe204d9c7c32ef-5c915b80:p1"
+    ]
+  },
+  "platform": "reddit",
+  "posts": [
+    {
+      "kind": "noise",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-31-dd31428c29fb57b1-6b97b940",
+      "source_ref": "TIBLENDER-2026-03-31-dd31428c29fb57b1-6b97b940:p3",
+      "timestamp": "2026-03-31T11:05:00Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-01-c752bcde9c5c00b0-189f0ce1",
+      "source_ref": "TIBLENDER-2026-04-01-c752bcde9c5c00b0-189f0ce1:p6",
+      "timestamp": "2026-03-31T15:34:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+      "source_ref": "TIBLENDER-2026-04-01-fc0a8caba63d0dc7-e5f525e9:p1",
+      "timestamp": "2026-03-31T19:08:29Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+      "source_ref": "TIBLENDER-2026-04-01-fc0a8caba63d0dc7-e5f525e9:p2",
+      "timestamp": "2026-03-31T19:08:29Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-31-c25b6c5ad3d61407-b6ad0e62",
+      "source_ref": "TIBLENDER-2026-04-01-c25b6c5ad3d61407-b6ad0e62:p7",
+      "timestamp": "2026-03-31T19:08:36Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+      "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p4",
+      "timestamp": "2026-04-01T03:02:21Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+      "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p1",
+      "timestamp": "2026-04-01T03:02:42Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+      "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p2",
+      "timestamp": "2026-04-01T03:02:42Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+      "source_ref": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed:p2",
+      "timestamp": "2026-04-01T03:03:59Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+      "source_ref": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed:p4",
+      "timestamp": "2026-04-01T03:03:59Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd",
+      "source_ref": "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd:p1",
+      "timestamp": "2026-04-01T03:13:04Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+      "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p3",
+      "timestamp": "2026-04-01T05:33:16Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea",
+      "source_ref": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea:p4",
+      "timestamp": "2026-04-01T16:25:50Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+      "source_ref": "TIBLENDER-2026-04-03-c25b6c5ad3d61407-e988eafd:p32",
+      "timestamp": "2026-04-02T08:03:11Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+      "source_ref": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd:p8",
+      "timestamp": "2026-04-02T21:13:42Z"
+    }
+  ],
+  "provenance": "anonymized_dataset_excerpt",
+  "responses": [
+    {
+      "payload": {
+        "data": {
+          "after": null,
+          "children": [
+            {
+              "data": {
+                "author": "ubb569c66",
+                "created_utc": 1775116991,
+                "id": "771478o",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/Malware/comments/771478o/",
+                "score": 0,
+                "selftext": "se. The popular **Axios npm HTTP client** was targeted on March 31, 2026, with Malicious code was injected into versions 1.7.0 through 1.7.3 of the axios package. This attack was attributed to DPRK actors, including groups known as STARDUST CHOLLIMA, Sapphire Sleet, and TA444/BlueNoroff. **What happened:** On March 31, 2026, the axios package versions 1.7.0 through 1.7.0 was compromised with a remote access trojan called ZshBucket, which has cross-platform variants. The attackers used stolen npm credentials to publish these compromised versions. **Key Indicators:** - C2 IP: 142.11.206.73 **Mitigation Steps:** 1. **Immediately update** axios to the latest version (1.7.4 or higher). 2. **Scan your systems** for signs of compromise, especially if using compromised versions. 3. **Review access** to npm accounts and rotate credentials. 4. **Monitor** network traffic for connections to suspicious IPs like 142.11.206.73. 5. **Audit** your dependencies and use tools to detect compromised packages. Stay sharp and update promptly.",
+                "stickied": false,
+                "subreddit": "Malware",
+                "title": "Mitigating the Axios npm supply chain compromise Hey team, just wanted to flag a recent, impactful supply chain compromi"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u5d49eb85",
+                "created_utc": 1775164422,
+                "id": "k5i5avf",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/Malware/comments/k5i5avf/",
+                "score": 0,
+                "selftext": "The attribution case is built on multiple independent signals, not a single IOC. → The C2 at 142.11.206.73 shares a unique HTTP ETag with 23.254.167.216, a server documented as active TA444/BlueNoroff infrastructure hosting a JustJoin macOS lure page → Both sit on Hostwinds AS54290, within a /18 subnet containing at least 3 other confirmed Lazarus IPs → The macOS Mach-O binary was classified as NukeSped, a malware family exclusive to the Lazarus Group → Internal binary naming references \"macWebT,\" which matches TA444/BlueNoroff macOS tooling documented by SentinelOne in 2023 → Three servers share SSH key fingerprint e1f6b7f621a391a9d26e9a196974f3e2cc1ce8b4d8f73a14b2e8cb0f2a40269f, indicating coordinated infrastructure management The npm account registration also used Proton Mail addresses, consistent with DPRK operational patterns across multiple Lazarus campaigns. Full infrastructure pivot methodology and confidence assessment: [hxxps://hunt[.]io/blog/axios-supply-chain-attack-ta444-bluenoroff](hxxps://hunt[.]io/blog/axios-supply-chain-attack-ta444-bluenoroff)",
+                "stickied": false,
+                "subreddit": "Malware",
+                "title": "🇰🇵 The Axios supply chain attack ties back to TA444/BlueNoroff. Here's the evidence layers. This wasn't a random attack."
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "ua27b6560",
+                "created_utc": 1774984116,
+                "id": "34la5kj",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/Malware/comments/34la5kj/",
+                "score": 0,
+                "selftext": "cause what failed wasn't axios. The attacker staged a clean decoy package 1leaned on PyPI, `axios-cli-1.0.1`, to gain access to an axios maintainer account. They published malicious versions 1.14.1 and 0.30.4 on March 30, 2026, with backdoors that fired during post-install to download and run payloads. What failed was npm's maintainer security model. No 2FA enforcement, account hijack via a decoy package exploit. The window was only 3 hours before takedown, but with 100M+ weekly downloads, that's plenty of time for installs. The decoy hid the malice—legit code plus a sneaky postinstall script. Check your deps: ```bash npm ls axios@1.14.1 || npm ls axios@0.30.4 ``` Remediate: bump to safe versions, audit your pipelines. Supply chain attacks like this expose how brittle open source is when trust is in accounts, not code.",
+                "stickied": false,
+                "subreddit": "Malware",
+                "title": "Supply-Chain Compromise of axios npm Package The axios compromise from last night is worth sitting with for a minute, be"
+              },
+              "kind": "t3"
+            }
+          ]
+        },
+        "kind": "Listing"
+      },
+      "request": {
+        "endpoint": "r/{sub}/new",
+        "subreddit": "Malware"
+      }
+    },
+    {
+      "payload": {
+        "data": {
+          "after": null,
+          "children": [
+            {
+              "data": {
+                "author": "u08c93036",
+                "created_utc": 1775060750,
+                "id": "o0zaono",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/o0zaono/",
+                "score": 0,
+                "selftext": "aghdad **Tehran Threatens U.S. Firms as U.S. Signals Possible End to Iran War:** [President Donald Trump and Secretary of State Marco Rubio stated](hxxps://www[.]reuters[.]com/world/asia-pacific/trump-says-us-could-end-iran-war-two-three-weeks-2026-03-31/) the war with Iran could be nearing an end. Washington is signaling possible direct talks with Tehran while also indicating the conflict could wind down without a formal deal. The comments come amid growing domestic pressure from higher energy prices and public support for a faster exit, while Iran said recent U.S. messages were not negotiations. Iran's Revolutionary Guards issued a new threat against U.S. companies operating in the region from 8:00 p.m. Tehran time on Wednesday, April 1. The threat highlighted 18 businesses, including Microsoft, Google, Apple, Intel, IBM, Tesla, and Boeing. **U.S. Journalist Kidnapped in Baghdad:** [American journalist Shelly Kittleson was kidnapped](hxxps://edition[.]cnn[.]com/2026/03/31/politics/shelly-kittleson-us-journalist-kidnapped-iraq) in central Baghdad on Tuesday. U.S. and Iraqi officials are working to secure her release after prior warnings about threats against her. Iraqi authorities say one suspect linked to the abduction has been detained. Attention has focused on possible involvement by the Iranian-backed militia Kataib Hezbollah, though responsibility remains unconfirmed. **Belgrade Students Clash With Police:** [Hundreds of students in Belgrade clashed](hxxps://www[.]reuters[.]com/world/serbian-students-protesters-clash-with-police-belgrade-2026-03-31/) with police on Tuesday after a police search of University of Belgrade offices intensified tensions between authorities and anti-government demonstrators. Police said the raid was ordered as part of an investigation into the death of a 25-year-old student who fell from a faculty building. University officials and demonstrators said officers entered without a proper explanation and seized computers. **France, Italy, and Spain Resist Some U.S.-Israeli War Operations:** [France, Italy, and Spain have resisted some U.S.-Israeli military operations](hxxps://www[.]reuters[.]com/world/europe/europe-pushes-back-us-military-operations-concerns-over-iran-war-mount-2026-03-31/) linked to the Iran war, exposing growing strains between Washington and several European NATO allies. France reportedly barred overflights for weapons transfers to Israel, Italy denied a landing request for U.S. aircraft at Sigonella, and Spain said its bases and airspace would only be used for NATO collective defense. President Trump publicly [criticized](hxxps://apnews[.]com/article/iran-us-israel-trump-lebanon-march-31-2026-07fcd5216ceae44965de79a60a4623da) European partners. **Russian Military Plane Crash in Crimea:** [A Russian An-26 military transport plane crashed](hxxps://www[.]bbc[.]com/news/articles/cly6387xgqxo) during a routine flight in Crimea, killing all 29 people on board after reportedly suffering a technical failure and striking a cliff. Russia’s Defense Ministry said there was no sign of external damage. The crash drew renewed attention to the aircraft’s long record of deadly incidents and to the wider military tensions surrounding the Russian-occupied peninsula.",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "4/1 Morning Brief - Tehran Threatens U.S. Firms as U.S. Signals Possible End to Iran War, U.S. Journalist Kidnapped in B"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u26217cd8",
+                "created_utc": 1775012639,
+                "id": "njnrao8",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/njnrao8/",
+                "score": 0,
+                "selftext": "q On March 31, 2026, American freelance journalist Shelly Kittleson was kidnapped in Baghdad, the capital of Iraq. The incident was rapidly picked up by major international news outlets and has drawn significant global attention, generating over 20,000 searches in the United States alone. # Search Volume by Country The story has attracted widespread interest across the globe, particularly in English-speaking countries. |Country|Search Volume| |:-|:-| |United States (US)|20,000+ searches| |Germany (DE)|2,000+ searches| |United Kingdom (GB)|2,000+ searches| |Canada (CA)|1,000+ searches| |Spain (ES)|1,000+ searches| |France (FR)|1,000+ searches| |Italy (IT)|1,000+ searches| |Australia (AU)|500+ searches| |India (IN)|500+ searches| The notably high search volume in the United States is directly tied to the fact that Kittleson is an American citizen. The considerable interest from Italy also stands out, which is likely connected to her being based in Rome for much of her reporting career. # What Happened: An Abduction in Central Baghdad Iraq's Interior Ministry officially announced on Tuesday, March 31, 2026, that a foreign female journalist had been abducted in Baghdad by \"unknown people.\" Al-Monitor, a Washington, D.C.-based media organization specializing in Middle East coverage, subsequently confirmed that the victim was its contributor Shelly Kittleson. The kidnapping reportedly took place near the Palestine Hotel on Saadoun Street in central Baghdad. According to Iraqi authorities, two vehicles were used in the operation. During a pursuit, one of the suspect vehicles flipped over while attempting to flee, and one suspect was arrested. However, Kittleson was not in that vehicle, and the search for her and the remaining suspects remains ongoing. # Who Is Shelly Kittleson? Shelly Kittleson is a freelance journalist specializing in the Middle East and Afghanistan. Her work has appeared in a wide range of internationally respected publications, including the BBC, Politico, Foreign Policy, New Lines Magazine, and Al-Monitor. Currently based in Rome, she has spent years conducting on-the-ground reporting from conflict zones including Iraq, Syria, and Afghanistan. At the time of her abduction, she had recently returned from reporting in Syria and was staying in Iraq. Reporters Without Borders (RSF) described her as someone who is \"very familiar with Iraq, where she stays for extended periods\" to conduct in-depth reporting. # The Threat from an Iran-Backed Militia U.S. Assistant Secretary of State for Global Public Affairs Dylan Johnson stated on social media that \"an individual with ties to the Iranian-aligned militia group Kataib Hezbollah believed to be involved in the kidnapping has been taken into custody by Iraqi authorities.\" Kataib Hezbollah is an Iran-backed armed group operating in Iraq that has repeatedly targeted Americans and other foreign nationals. Prior to the abduction, the U.S. government had warned Kittleson multiple times about the group's threats to kidnap or kill her. The most recent warning was delivered as late as the night of March 30 — the evening before she was taken. \"The State Department previously fulfilled our duty to warn this individual of threats against them and we will continue to coordinate with the FBI to ensure their release as quickly as possible,\" Johnson stated. # International Response Al-Monitor released an official statement expressing that it is \"deeply alarmed\" by the kidnapping and called for Kittleson's \"safe and immediate release,\" adding: \"We stand by her vital reporting from the region and call for her swift return to continue her important work.\" The Committee to Protect Journalists (CPJ) urged Iraqi authorities to \"do everything in their power to locate Shelly Kittleson, ensure her immediate and safe release, and hold those responsible to account.\" Separately, the U.S. State Department has advised all American citizens, including members of the press, to leave Iraq immediately. The U.S. Embassy has also issued a security alert strongly urging Americans currently in Iraq to depart the country without delay. # A Parallel Case: The Elizabeth Tsurkov Kidnapping This incident recalls the March 2023 abduction of Elizabeth Tsurkov, a Russian-Israeli dual national and researcher who was seized by Kataib Hezbollah at a Baghdad cafe. Tsurkov was held captive for 903 days before being freed through a deal brokered by the United States. That precedent is now being closely referenced by observers assessing the prospects for Kittleson's release. # Related Trend Links You can explore country-specific search trend data for this story through the links below. * [TrendNow - United States (US)](hxxps://trend-now[.]org/google-search-trends/us/shelly%20kittleson) * [TrendNow - United Kingdom (GB)](hxxps://trend-now[.]org/google-search-trends/gb/shelly%20kittleson) * [TrendNow - Canada (CA)](hxxps://trend-now[.]org/google-search-trends/ca/shelly%20kittleson) * [TrendNow - Germany (DE)](hxxps://trend-now[.]org/google-search-trends/de/shelly%20kittleson) * [TrendNow - Italy (IT)](hxxps://trend-now[.]org/google-search-trends/it/shelly%20kittleson) * [TrendNow - France (FR)](hxxps://trend-now[.]org/google-search-trends/fr/shelly%20kittleson) * [TrendNow - Spain (ES)](hxxps://trend-now[.]org/google-search-trends/es/shelly%20kittleson) * [TrendNow - Australia (AU)](hxxps://trend-now[.]org/google-search-trends/au/shelly%20kittleson) * [TrendNow - India (IN)](hxxps://trend-now[.]org/google-search-trends/in/shelly%20kittleson) Full trend overview: [TrendNow - Shelly Kittleson](hxxps://trend-now[.]org/) # Sources * CNN Politics: [hxxps://www[.]cnn[.]com/2026/03/31/politics/shelly-kittleson-us-journalist-kidnapped-iraq](hxxps://www[.]cnn[.]com/2026/03/31/politics/shelly-kittleson-us-journalist-kidnapped-iraq) * NPR: [hxxps://www[.]npr[.]org/2026/03/31/nx-s1-5766991/iran-war-lebanon-israel-dubai-trump-oil-europe](hxxps://www[.]npr[.]org/2026/03/31/nx-s1-5766991/iran-war-lebanon-israel-dubai-trump-oil-europe) * Al-Monitor: [hxxps://www[.]al-monitor[.]com/originals/2026/03/american-journalist-shelly-kittleson-abducted-iraq](hxxps://www[.]al-monitor[.]com/originals/2026/03/american-journalist-shelly-kittleson-abducted-iraq) * The National: [hxxps://www[.]thenationalnews[.]com/news/mena/2026/03/31/american-journalist-shelly-kittleson-kidnapped-in-iraq/](hxxps://www[.]thenationalnews[.]com/news/mena/2026/03/31/american-journalist-shelly-kittleson-kidnapped-in-iraq/) * Newsweek: [hxxps://www[.]newsweek[.]com/shelly-kittleson-us-journalist-kidnapped-iraq-baghdad-citizenship-11764954](hxxps://www[.]newsweek[.]com/shelly-kittleson-us-journalist-kidnapped-iraq-baghdad-citizenship-11764954) * NewsNation: [hxxps://www[.]newsnationnow[.]com/world/american-journalist-kidnapped-iraq/](hxxps://www[.]newsnationnow[.]com/world/american-journalist-kidnapped-iraq/)",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "American Journalist Shelly Kittleson Kidnapped in Baghdad # A Story the World Is Watching: U.S. Reporter Abducted in Ira"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u2189d082",
+                "created_utc": 1775012639,
+                "id": "w4jpi7e",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/w4jpi7e/",
+                "score": 0,
+                "selftext": "]( are joined by co-host of [**The Future of Our Former Democracy**](hxxp://equitabledemocracy[.]org/the-future-of-our-former-democracy), [**Colin Cole**]( to discuss… Ruh Roh - Aint Nobody F**kin With The US-Israel War? Those Social Media Verdicts Are Bad, Actually... and more! [**footNOTES**](hxxps://omny[.]fm/shows/the-daily-zeitgeist/no-allies-is-good-big-tech-wins-even-when-they-lose-04-01-26) * [**VOTE IN THE WEBBY AWARDS for 'WE THE UNHOUSED' for Public Service &amp; Activism**](hxxps://vote[.]webbyawards[.]com/PublicVoting#/2026/podcasts/shows/public-service-activism) * [**Hegseth: \"The president was clear this morning in his Truth that there are countries around the world who ought to be prepared to step up on this critical waterway as well.\"**](hxxps://bsky[.]app/profile/atrupar[.]com/post/3mie6lcfobh2c) * [**Trump Hits Out at France for Closing Airspace During Iran War**](hxxps://www[.]newsweek[.]com/donald-trump-france-closing-airspace-11761983) * [**Spain closes airspace to US military over Iran war, widening rift with US**](hxxps://www[.]theguardian[.]com/world/2026/mar/30/spain-closes-airspace-to-us-military-over-iran-war-widening-rift-with-us) * [**Trump Tells Aides He’s Willing to End War Without Reopening Hormuz**](hxxps://www[.]wsj[.]com/world/middle-east/trump-iran-war-strait-of-hormuz-ee950ad4?st=JqTwqz&amp;amp;reflink=article_copyURL_share) * [**The Big Tech Verdict Everyone Got Wrong: Social Media Addiction Trial**]( * [**Everyone Cheering The Social Media Addiction Verdicts Against Meta Should Understand What They’re Actually Cheering For**](hxxps://www[.]techdirt[.]com/2026/03/26/everyone-cheering-the-social-media-addiction-verdicts-against-meta-should-understand-what-theyre-actually-cheering-for/) * [**Section 230 is the best protection we have from Trump’s censorship**](hxxps://www[.]ms[.]now/opinion/section-230-trump-free-speech) * [**What is Section 230 and why does Donald Trump want to change it?**](hxxps://www[.]technologyreview[.]com/2019/08/13/610/section-230-law-moderation-social-media-content-bias/) * [**Social Media Addiction Lawsuits (2026): KGM Trial, MDL 3047, and TikTok &amp; Snapchat Settlements Explained**](hxxps://www[.]spencer-law[.]com/post/social-media-addiction-lawsuits-2026-kgm-trial-mdl-3047) * [**Reddit User Uncovers Who Is Behind Meta’s $2B Lobbying for Invasive Age Verification Tech**](hxxps://www[.]yahoo[.]com/news/articles/reddit-user-uncovers-behind-meta-154717384.html) * [**Age Verification Is A Windfall for Big Tech—And A Death Sentence For Smaller Platforms**](hxxps://www[.]eff[.]org/deeplinks/2025/09/age-verification-windfall-big-tech-and-death-sentence-smaller-platforms) * [**What's next in social media legal battles after a New Mexico jury finds Meta platforms harm children**](hxxps://www[.]pbs[.]org/newshour/nation/whats-next-in-social-media-legal-battles-after-a-new-mexico-jury-finds-meta-platforms-harm-children) * [**Hackers Expose Age-Verification Software Powering Surveillance Web**](hxxps://www[.]therage[.]co/persona-age-verification/) * [**Blackburn’s TRUMP AMERICA AI Act Repeals Section 230, Expands AI Liability, and Mandates Age Verification**](hxxps://reclaimthenet[.]org/trump-america-ai-act-section-230-repeal-ai-liability-age-verification) * [**New Documents Show First Trump DOJ Worked With Congress to Amend Section 230**](hxxps://www[.]eff[.]org/deeplinks/2025/08/new-documents-show-first-trump-doj-worked-congress-amend-section-230) * [**Meta, Google lose US case over social media harm to kids**](hxxps://www[.]reuters[.]com/legal/litigation/jury-reaches-verdict-meta-google-trial-social-media-addiction-2026-03-25/) * [**Landmark lawsuit finds that social media addiction is a feature, not a bug**](hxxps://theconversation[.]com/landmark-lawsuit-finds-that-social-media-addiction-is-a-feature-not-a-bug-279390) * [**Meta ordered to pay $375m after being found liable in child exploitation case**](hxxps://www[.]theguardian[.]com/technology/2026/mar/24/meta-new-mexico-jury) * [**Jury finds Meta liable in case over child sexual exploitation on its platforms**](hxxps://www[.]cnn[.]com/2026/03/24/tech/meta-new-mexico-trial-jury-deliberation) * [**AI &amp; Tech Brief: Forecasting an AI deal**](hxxps://www[.]washingtonpost[.]com/wp-intelligence/ai-tech-brief/2026/03/30/ai-tech-brief-forecasting-an-ai-deal/) * [**Walmart Pulls Cosmo From Checkout. Plus! Guess Who’s Claiming Victory.**](hxxps://www[.]nytimes[.]com/2018/03/28/business/media/walmart-cosmo.html) * [**Revealed: how a US far-right group is influencing anti-gay policies in Africa**](hxxps://www[.]theguardian[.]com/world/article/2024/may/30/us-far-right-group-influencing-anti-gay-policy-africa) * [**Here’s Why Not Everyone Is Celebrating Meta’s Landmark Losses: ‘The Legal Precedent Being Set Is Terrifying’**](hxxps://www[.]sheknows[.]com/parenting/articles/1234985832/not-everyone-is-celebrating-metas-landmark-losses/) * [**This Bill Purports to Protect Kids from Big Tech. For LGBTQ+ Youth, It’s a Grave Danger**](hxxps://www[.]them[.]us/story/kids-online-safety-act-kosa-youth-lgbtq-content) * [**Addictive potential of social media, explained**](hxxps://med[.]stanford[.]edu/news/insights/2021/10/addictive-potential-of-social-media-explained.html) * [**Trump Administration Takes Major Steps Toward Comprehensive Federal AI Regulation**](hxxps://www[.]lw[.]com/en/insights/trump-administration-takes-major-steps-toward-comprehensive-federal-ai-regulation) * [**Vapour by Mildlife**](hxxps://open[.]spotify[.]com/track/3xAHEcyhPEX2kEVYkmb7Uy)",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "No Allies Is Good! Big Tech Wins Even When They Lose 04.01.26 In episode 2033, Miles and guest co-host [**Jamie Loftus**"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u1622f6d1",
+                "created_utc": 1774971240,
+                "id": "6z9wy05",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/6z9wy05/",
+                "score": 0,
+                "selftext": "s hard, like 4GB RAM setups at 50k IDR. Kinda makes you wonder what's behind the aggressive pricing.",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "Saw some wild RDP/VPS offers from Digital Ocean configs going for cheap in IDR and dollars. Someone's pushing those spec"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u499d0627",
+                "created_utc": 1774955100,
+                "id": "6m5fh3g",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/6m5fh3g/",
+                "score": 0,
+                "selftext": "oasts, zero official statements from the FBI or companies involved. Without tech details or confirmations, it all feels like posturing until proven otherwise.",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "SaltTyphoon claims FBI and telecom hacks – but where's the evidence? Just seeing a bunch of Reddit chatter about their b"
+              },
+              "kind": "t3"
+            }
+          ]
+        },
+        "kind": "Listing"
+      },
+      "request": {
+        "endpoint": "r/{sub}/new",
+        "subreddit": "cybersecurity"
+      }
+    },
+    {
+      "payload": {
+        "data": {
+          "after": null,
+          "children": [
+            {
+              "data": {
+                "author": "u506d3b95",
+                "created_utc": 1774984109,
+                "id": "3d92qyx",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/3d92qyx/",
+                "score": 0,
+                "selftext": "nt breach](https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-container-image-scanning-tool-leak/) - [News] [TrueConf zero-day exploited in attacks on Southeast Asian government networks](https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks-on-southeast-asian-government-networks.html) - [Malware] Malicious executable disguised as TrueConf client update - [IP] 47.237.15.197 Check your endpoints for signs of compromise.",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "SecOpsDaily - 2026-03-31 Roundup Highlights from today: - [News] [Cisco source code stolen in Trivy-linked dev environme"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "uad38af19",
+                "created_utc": 1774984109,
+                "id": "k63pait",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/k63pait/",
+                "score": 0,
+                "selftext": "nt breach](https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-dev-environment-breach/) – Attackers accessed Cisco's internal repos via a misconfigured Trivy scanner in their dev setup. - [Alert] TrueConf zero-day exploited against SE Asian gov networks. Malicious update drops trueconf_windows_update.exe (SHA256: 22e32bcf113326e366ac480b077067cf) from 47.237.15.197. C2 via that IP. - [Intel] ReversingLabs analysis flags ongoing campaigns mimicking legit software updates. Stay tuned for IOC dumps tomorrow.",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "SecOpsDaily - 2026-03-31 Roundup Highlights from today: - [News] [Cisco source code stolen in Trivy-linked dev environme"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u706bbd64",
+                "created_utc": 1775013184,
+                "id": "uw29huz",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/uw29huz/",
+                "score": 0,
+                "selftext": "of the **Exploiting Reversing Series (ERS)** is now live. Titled **“Exploitation Techniques: CVE-2024-30085 (part 02)”**, it dives deep into advanced exploitation methods using I/O Ring primitives on Windows. This comprehensive 91-page guide details **two reliable privilege escalation paths**: 1. **Pipe attribute sprays** to replace traditional ALPC dependencies. 2. **Pure WNF overflows** for heap buffer overflow exploitation. From userland to SYSTEM-level access, these adaptable techniques equip skilled developers with cutting-edge research material. Check it out on **exploitreversing[.]com** for the full breakdown! #ExploitingReversing #CVE202430085 #KernelExploitation #ERSeries #WindowsExploits",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "Exploiting Reversing (ER) series: article 08 | Exploitation Techniques: CVE-2024-30085 (part 02) The **eighth article** "
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "ue02ac928",
+                "created_utc": 1775012541,
+                "id": "00blawc",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/00blawc/",
+                "score": 0,
+                "selftext": "environment, leading to the theft of source code from both the company and its customers. This incident leveraged **credentials stolen from a recent supply chain attack** targeting the **Trivy vulnerability scanner**. ### Technical Breakdown * **Initial Access:** Threat actors utilized **stolen credentials** originating from a supply chain compromise related to Trivy. * **Targeted Environment:** The attack focused on **Cisco's internal development environment**, a critical area for intellectual property and potential future product vulnerabilities. * **Impact:** Successful exfiltration of **source code** belonging to Cisco and its customers. ### Defense Prioritize robust **supply chain security practices**, stringent **credential hygiene**, and enhanced **segmentation and access controls** for critical development infrastructure to detect and prevent similar breaches. **Source:** https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "Cisco source code stolen in Trivy-linked dev environment breach Cisco has confirmed a breach of its internal development"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u32be97c1",
+                "created_utc": 1775012562,
+                "id": "2kyow60",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/2kyow60/",
+                "score": 0,
+                "selftext": "nt breach](https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/) - [News] [TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks](https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html) - [Threat Intel] [Fake Installers to Monero: A Multi-Tool Mining Operation](hxxps://www[.]elastic[.]co/security-labs/fake-installers-to-monero) - [Cloud Security] [WhatsApp malware campaign delivers VBS payloads and MSI backdoors](https://www.microsoft.com/en-us/security/blog/2026/03/31/whatsapp-malware-campaign-delivers-vbs-payloads-msi-backdoors/) - [Advisory] [NCSC warns of messaging app targeting](hxxps://www[.]ncsc[.]gov[.]uk/news/ncsc-warns-of-messaging-app-targeting) - [Vulnerability] [Foxit Reader List Box Calculate Array Use-After-Free Vulnerability](hxxps://talosintelligence[.]com/vulnerability_reports/TALOS-2026-2365) - [Red Team] [JamfHound v1.1 Update: SSO Attack Paths and Okta Additions](hxxps://specterops[.]io/blog/2026/03/31/jamfhound-v1-1-update-sso-attack-paths-and-okta-additions/) - [Threat Intel] [Patterns, Pirates, and Provider Action: What We Learned Working with Keitaro](hxxps://www[.]infoblox[.]com/blog/threat-intelligence/patterns-pirates-and-provider-action-what-we-learned-working-with-keitaro/) - [Patching] [Micropatches released for Windows Storage Elevation of Privilege Vulnerability (CVE-2026-21508)](hxxps://blog[.]0patch[.]com/2026/03/micropatches-released-for-windows.html) - [Threat Intel] [Axios supply chain attack chops away at npm trust](hxxps://www[.]malwarebytes[.]com/blog/news/2026/03/axios-supply-chain-attack-chops-away-at-npm-trust) - [News] [How to Categorize AI Agents and Prioritize Risk](https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/) - [Supply Chain] [OWASP GenAI Security Project ramps up guidance](hxxps://www[.]reversinglabs[.]com/owasp-genai-security-project-updates) #SecOpsDaily",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "SecOpsDaily - 2026-03-31 Roundup Highlights from today: - [News] [Cisco source code stolen in Trivy-linked dev environme"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u4771441f",
+                "created_utc": 1775012562,
+                "id": "hhauqzl",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/hhauqzl/",
+                "score": 0,
+                "selftext": "nt breach](https://www.bleepingcomputer.com/news/security/cisco-source-code-sto",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "SecOpsDaily - 2026-03-31 Roundup Highlights from today: - [News] [Cisco source code stolen in Trivy-linked dev environme"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u28a03fdb",
+                "created_utc": 1775021596,
+                "id": "pfg40w1",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/pfg40w1/",
+                "score": 0,
+                "selftext": "",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "CISCO SOURCE CODE STOLEN IN TRIVY-LINKED DEVELOPMENT ENVIRONMENT BREACH - per BLEEPINGCOMPUTER [SOCIAL_URL_REDACTED]"
+              },
+              "kind": "t3"
+            }
+          ]
+        },
+        "kind": "Listing"
+      },
+      "request": {
+        "endpoint": "r/{sub}/new",
+        "subreddit": "netsec"
+      }
+    }
+  ],
+  "source_reports": [
+    "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+    "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+    "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd",
+    "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+    "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+    "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+    "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea"
+  ],
+  "window": {
+    "cycle_index": 3,
+    "end": "2026-04-02T23:59:59Z",
+    "label": "cycle_003",
+    "start": "2026-03-30T00:00:00Z"
+  }
+}

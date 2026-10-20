@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.esentire.com/blog/stx-rat-a-new-rat-in-2026-with-infostealer-capabilities"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Blog | eSentire What We Do How We Do It Resources Company Partners Login GET STARTED HOME RESOURCES BLOG The eSentire Blog Sep 18, 2026 AI Attacks Now Move With Little Human Involvement. Controlled Autonomy Is How Defense Moves Just As Fast. The attack begins with a person initiating a prompt and plan. Someone picks the target, approves the plan, and… READ NOW → TRU POSITIVE/BULLETIN 18 M GhostCode: Dissecting a Novel Device Code Phishing Kit READ NOW → GENERATIVE AI 3 M eSentire Wins 2026 Global AI Award for AI in Cybersecurity READ NOW → COMPANY NEWS 4 M eSentire Wins 5 G2 Badges in the Fall 2026 Grid® Reports READ NOW → Posts from TRU Intelligence Center GhostCode: Dissecting a Novel Devi",
+    "javascript_rendered": true,
+    "title": "Blog | eSentire",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:20:45Z",
+  "source_url": "https://www.esentire.com/resources/blog",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.esentire.com/resources/blog. Title: Blog | eSentire. Excerpt: Blog | eSentire What We Do How We Do It Resources Company Partners Login GET STARTED HOME RESOURCES BLOG The eSentire Blog Sep 18, 2026 AI Attacks Now Move With Little Human Involvement. Controlled Autonomy Is How Defense Moves Just As Fast. The attack begins with a person initiating a prompt and plan. Someone picks the target, approves the plan, and… READ NOW → TRU POSITIVE/BULLETIN 18 M GhostCode: Dissecting a Novel Device Code Phishing Kit READ NOW → GENERATIVE AI 3 M eSentire Wins 2026 Global AI Award for AI in Cybersecurity READ NOW → COMPANY NEWS 4 M eSentire Wins 5 G2 Badges in the Fall 2026 Grid® Reports READ NOW → Posts from TRU Intelligence Center GhostCode: Dissecting a Novel Devi",
+  "tool_type": "WEB_CRAWL"
+}

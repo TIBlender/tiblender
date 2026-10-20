@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host gampangjepehcgk.pages.dev is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://gampangjepehcgk.pages.dev"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:21Z",
+  "source_url": "https://gampangjepehcgk.pages.dev",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host gampangjepehcgk.pages.dev for https://gampangjepehcgk.pages.dev",
+  "tool_type": "WEB_CRAWL"
+}

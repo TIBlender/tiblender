@@ -1,0 +1,94 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "atrupar.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.247.82.174",
+      "192.187.111.219",
+      "192.187.111.220",
+      "192.187.111.221",
+      "192.187.111.222",
+      "192.64.119.150",
+      "5.79.68.101",
+      "63.141.242.43",
+      "63.141.242.44",
+      "63.141.242.46",
+      "81.17.18.195",
+      "81.17.18.196",
+      "81.17.18.197",
+      "81.17.29.148"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "atrupar.com"
+  },
+  "raw": {
+    "malicious_count": 19,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1731946505,
+        "host_name": "atrupar.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.64.119.150",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1677831522,
+        "host_name": "atrupar.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.247.82.174",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1663437672,
+        "host_name": "atrupar.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "81.17.29.148",
+        "ip_address_malicious": 2,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1663392674,
+        "host_name": "atrupar.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "63.141.242.43",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1657047824,
+        "host_name": "atrupar.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "63.141.242.44",
+        "ip_address_malicious": 2,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 4,
+    "total_count": 14
+  },
+  "recorded_at": "2026-09-16T05:07:31Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/atrupar.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for atrupar.com: 14 resolution(s); addresses: 192.64.119.150, 104.247.82.174, 81.17.29.148, 63.141.242.43, 63.141.242.44, 81.17.18.197, 63.141.242.46, 192.187.111.220, 192.187.111.222, 192.187.111.219",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.newsweek.com/shelly-kittleson-us-journalist-kidnapped-iraq-baghdad-citizenship-11764954"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "American Journalist Shelly Kittleson Kidnapped in Baghdad as Iraqi Forces Hunt Suspects - Newsweek U.S. Global Lifestyle Opinion Rankings Social Extra Subscribe Sign In U.S. Global Lifestyle Opinion Rankings Social Extra World Iraq Breaking News Middle East Journalist Iran War Baghdad More News Article American Journalist Kidnapped in Baghdad as Iraqi Forces Hunt Suspects PUBLISHED MAR 31, 2026 AT 02:23 PM EDT UPDATED MAR 31, 2026 AT 07:11 PM EDT By Gabe Whisnant News Editor 3 Share Newsweek is a Trust Project member Prefer Newsweek on Google to see more of our trusted coverage when you search. An American journalist was kidnapped Tuesday in Baghdad, prompting Iraqi security forces to launch",
+    "javascript_rendered": true,
+    "title": "American Journalist Shelly Kittleson Kidnapped in Baghdad as Iraqi Forces Hunt Suspects - Newsweek",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:21:27Z",
+  "source_url": "https://www.newsweek.com/shelly-kittleson-us-journalist-kidnapped-iraq-baghdad-citizenship-11764954",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.newsweek.com/shelly-kittleson-us-journalist-kidnapped-iraq-baghdad-citizenship-11764954. Title: American Journalist Shelly Kittleson Kidnapped in Baghdad as Iraqi Forces Hunt Suspects - Newsweek. Excerpt: American Journalist Shelly Kittleson Kidnapped in Baghdad as Iraqi Forces Hunt Suspects - Newsweek U.S. Global Lifestyle Opinion Rankings Social Extra Subscribe Sign In U.S. Global Lifestyle Opinion Rankings Social Extra World Iraq Breaking News Middle East Journalist Iran War Baghdad More News Article American Journalist Kidnapped in Baghdad as Iraqi Forces Hunt Suspects PUBLISHED MAR 31, 2026 AT 02:23 PM EDT UPDATED MAR 31, 2026 AT 07:11 PM EDT By Gabe Whisnant News Editor 3 Share Newsweek is a Trust Project member Prefer Newsweek on Google to see more of our trusted coverage when you search. An American journalist was kidnapped Tuesday in Baghdad, prompting Iraqi security forces to launch",
+  "tool_type": "WEB_CRAWL"
+}

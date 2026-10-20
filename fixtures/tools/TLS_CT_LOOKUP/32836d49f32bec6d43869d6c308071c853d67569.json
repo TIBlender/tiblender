@@ -1,0 +1,44 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "newwww.crowdstrike.com",
+      "www.crowdstrike.com",
+      "wwww.crowdstrike.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.crowdstrike.com"
+  },
+  "raw": {
+    "count": 24,
+    "issuers": [
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+      "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M02",
+      "C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+    ],
+    "names": [
+      "www.crowdstrike.com",
+      "wwww.crowdstrike.com",
+      "newwww.crowdstrike.com",
+      "www.crowdstrike.com",
+      "www.crowdstrike.com",
+      "wwww.crowdstrike.com",
+      "www.crowdstrike.com",
+      "wwww.crowdstrike.com",
+      "www.crowdstrike.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:09:42Z",
+  "source_url": "https://crt.sh/?q=%25.www.crowdstrike.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.crowdstrike.com: 24 certificate row(s); sample names=www.crowdstrike.com, wwww.crowdstrike.com, newwww.crowdstrike.com, www.crowdstrike.com, www.crowdstrike.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

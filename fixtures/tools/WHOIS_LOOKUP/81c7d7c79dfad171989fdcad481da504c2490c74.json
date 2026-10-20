@@ -1,0 +1,697 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "109.234.109.84"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "109.234.109.84"
+  },
+  "raw": {
+    "cidr0_cidrs": [
+      {
+        "length": 21,
+        "v4prefix": "109.234.104.0"
+      }
+    ],
+    "country": "DE",
+    "endAddress": "109.234.111.255",
+    "entities": [
+      {
+        "handle": "KEY-SYSTEMS-MNT",
+        "links": [
+          {
+            "href": "https://rdap.db.ripe.net/entity/KEY-SYSTEMS-MNT",
+            "rel": "self",
+            "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+          },
+          {
+            "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+            "rel": "copyright",
+            "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+          }
+        ],
+        "objectClassName": "entity",
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "KEY-SYSTEMS-MNT"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "individual"
+            ]
+          ]
+        ]
+      },
+      {
+        "handle": "KEYS-RIPE",
+        "links": [
+          {
+            "href": "https://rdap.db.ripe.net/entity/KEYS-RIPE",
+            "rel": "self",
+            "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+          },
+          {
+            "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+            "rel": "copyright",
+            "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+          }
+        ],
+        "objectClassName": "entity",
+        "roles": [
+          "administrative",
+          "technical"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Key-Systems GmbH Hostmaster"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "group"
+            ],
+            [
+              "adr",
+              {
+                "label": "Key-Systems GmbH\nKaiserstrasse 172-174\n66386 St. Ingbert\nGermany"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "tel",
+              {
+                "type": "voice"
+              },
+              "text",
+              "+49-6894-9396-850"
+            ],
+            [
+              "tel",
+              {
+                "type": "fax"
+              },
+              "text",
+              "+49-6894-9396-851"
+            ],
+            [
+              "email",
+              {
+                "type": "abuse"
+              },
+              "text",
+              "abuse@key-systems.net"
+            ]
+          ]
+        ]
+      },
+      {
+        "handle": "ORG-KG13-RIPE",
+        "links": [
+          {
+            "href": "https://rdap.db.ripe.net/entity/ORG-KG13-RIPE",
+            "rel": "self",
+            "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+          },
+          {
+            "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+            "rel": "copyright",
+            "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+          }
+        ],
+        "objectClassName": "entity",
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Key-Systems GmbH"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "org"
+            ],
+            [
+              "adr",
+              {
+                "label": "Kaiserstraße 172-174\n66386\nSt. Ingbert\nGERMANY"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "tel",
+              {
+                "type": "voice"
+              },
+              "text",
+              "+4968949396850"
+            ],
+            [
+              "tel",
+              {
+                "type": "fax"
+              },
+              "text",
+              "+4968949396851"
+            ]
+          ]
+        ]
+      },
+      {
+        "handle": "RIPE-NCC-HM-MNT",
+        "links": [
+          {
+            "href": "https://rdap.db.ripe.net/entity/RIPE-NCC-HM-MNT",
+            "rel": "self",
+            "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+          },
+          {
+            "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+            "rel": "copyright",
+            "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+          }
+        ],
+        "objectClassName": "entity",
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "RIPE-NCC-HM-MNT"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "individual"
+            ],
+            [
+              "org",
+              {},
+              "text",
+              "ORG-NCC1-RIPE"
+            ]
+          ]
+        ]
+      },
+      {
+        "entities": [
+          {
+            "handle": "ADZ-RIPE",
+            "links": [
+              {
+                "href": "https://rdap.db.ripe.net/entity/ADZ-RIPE",
+                "rel": "self",
+                "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+              },
+              {
+                "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+                "rel": "copyright",
+                "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+              }
+            ],
+            "objectClassName": "entity",
+            "roles": [
+              "administrative",
+              "technical"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Andreas Danzer"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "individual"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "Key-Systems GmbH / PartnerGate\nLiebherrstr. 22\n80538 Muenchen\nGermany"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "text",
+                  "+49 89 550610"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "fax"
+                  },
+                  "text",
+                  "+49 89 55061199"
+                ]
+              ]
+            ]
+          },
+          {
+            "handle": "CH3108-RIPE",
+            "links": [
+              {
+                "href": "https://rdap.db.ripe.net/entity/CH3108-RIPE",
+                "rel": "self",
+                "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+              },
+              {
+                "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+                "rel": "copyright",
+                "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+              }
+            ],
+            "objectClassName": "entity",
+            "roles": [
+              "administrative",
+              "technical"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Christian Hertel"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "individual"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "Key-Systems GmbH\nIm Oberen Werk 1\n66386 St. Ingbert\nGermany"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "text",
+                  "+49-6894-9396-850"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "fax"
+                  },
+                  "text",
+                  "+49-6894-9396-851"
+                ]
+              ]
+            ]
+          },
+          {
+            "handle": "KEY-SYSTEMS-MNT",
+            "links": [
+              {
+                "href": "https://rdap.db.ripe.net/entity/KEY-SYSTEMS-MNT",
+                "rel": "self",
+                "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+              },
+              {
+                "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+                "rel": "copyright",
+                "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+              }
+            ],
+            "objectClassName": "entity",
+            "roles": [
+              "registrant"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "KEY-SYSTEMS-MNT"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "individual"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "KEYS-RIPE",
+        "objectClassName": "entity",
+        "roles": [
+          "abuse"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Key-Systems GmbH Hostmaster"
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "group"
+            ],
+            [
+              "adr",
+              {
+                "label": "Key-Systems GmbH\nKaiserstrasse 172-174\n66386 St. Ingbert\nGermany"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "tel",
+              {
+                "type": "voice"
+              },
+              "text",
+              "+49-6894-9396-850"
+            ],
+            [
+              "tel",
+              {
+                "type": "fax"
+              },
+              "text",
+              "+49-6894-9396-851"
+            ],
+            [
+              "email",
+              {
+                "type": "abuse"
+              },
+              "text",
+              "abuse@key-systems.net"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2010-01-13T16:21:50Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2016-05-31T14:12:07Z"
+      }
+    ],
+    "handle": "109.234.104.0 - 109.234.111.255",
+    "ipVersion": "v4",
+    "links": [
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/109.234.104.0%20-%20109.234.111.255",
+        "rel": "rdap-up",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-up/109.234.104.0%20-%20109.234.111.255?status=active",
+        "rel": "rdap-up rdap-active",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-down/109.234.104.0%20-%20109.234.111.255",
+        "rel": "rdap-down",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/109.234.104.0%20-%20109.234.111.255",
+        "rel": "rdap-top",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-top/109.234.104.0%20-%20109.234.111.255?status=active",
+        "rel": "rdap-top rdap-active",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ips/rirSearch1/rdap-bottom/109.234.104.0%20-%20109.234.111.255",
+        "rel": "rdap-bottom",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+      },
+      {
+        "href": "https://rdap.db.ripe.net/ip/109.234.109.84",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+      },
+      {
+        "href": "http://www.ripe.net/data-tools/support/documentation/terms",
+        "rel": "copyright",
+        "value": "http://www.ripe.net/data-tools/support/documentation/terms"
+      }
+    ],
+    "name": "DE-KEY-SYSTEMS-20100113",
+    "notices": [
+      {
+        "description": [
+          "This output has been filtered."
+        ],
+        "title": "Filtered"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit:"
+        ],
+        "links": [
+          {
+            "href": "https://www.ripe.net/contact-form?topic=ripe_dbm&show_form=true",
+            "rel": "inaccuracy-report",
+            "type": "text/html",
+            "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      },
+      {
+        "description": [
+          "Objects returned came from source",
+          "RIPE"
+        ],
+        "title": "Source"
+      },
+      {
+        "description": [
+          "This is the RIPE Database query service. The objects are in RDAP format."
+        ],
+        "links": [
+          {
+            "href": "http://www.ripe.net/db/support/db-terms-conditions.pdf",
+            "rel": "terms-of-service",
+            "type": "application/pdf",
+            "value": "https://rdap.db.ripe.net/ip/109.234.109.84"
+          }
+        ],
+        "title": "Terms and Conditions"
+      }
+    ],
+    "objectClassName": "ip network",
+    "parentHandle": "0.0.0.0 - 255.255.255.255",
+    "port43": "whois.ripe.net",
+    "rdapConformance": [
+      "geofeed1",
+      "rirSearch1",
+      "ips",
+      "cidr0",
+      "rdap_level_0",
+      "nro_rdap_profile_0",
+      "redacted"
+    ],
+    "redacted": [
+      {
+        "method": "removal",
+        "name": {
+          "description": "Personal e-mail information"
+        },
+        "prePath": "$.entities[?(@.handle=='KEYS-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+        "reason": {
+          "description": "Personal data"
+        }
+      },
+      {
+        "method": "removal",
+        "name": {
+          "description": "Personal e-mail information"
+        },
+        "prePath": "$.entities[?(@.handle=='ORG-KG13-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+        "reason": {
+          "description": "Personal data"
+        }
+      },
+      {
+        "method": "removal",
+        "name": {
+          "description": "Personal e-mail information"
+        },
+        "prePath": "$.entities[?(@.handle=='KEYS-RIPE')].vcardArray[1][?(@[0]=='e-mail')]",
+        "reason": {
+          "description": "Personal data"
+        }
+      }
+    ],
+    "startAddress": "109.234.104.0",
+    "status": [
+      "active"
+    ],
+    "type": "ALLOCATED PA"
+  },
+  "recorded_at": "2026-09-15T01:26:21Z",
+  "source_url": "https://rdap.db.ripe.net/ip/109.234.109.84",
+  "status": "success",
+  "summary": "RDAP ip lookup for 109.234.109.84: handle=109.234.104.0 - 109.234.111.255; status=active; nameservers=n/a; events=registration=2010-01-13T16:21:50Z; last changed=2016-05-31T14:12:07Z; entities=KEY-SYSTEMS-MNT,KEYS-RIPE,ORG-KG13-RIPE,RIPE-NCC-HM-MNT.",
+  "tool_type": "WHOIS_LOOKUP"
+}

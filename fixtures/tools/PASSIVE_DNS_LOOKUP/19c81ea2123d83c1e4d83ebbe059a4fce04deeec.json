@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.thenationalnews.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "184.25.113.60",
+      "2.20.178.21",
+      "2.20.178.61",
+      "23.195.81.106",
+      "23.195.81.121",
+      "23.195.81.18",
+      "23.195.81.25",
+      "23.200.156.134",
+      "23.200.156.151",
+      "23.46.23.16",
+      "23.46.23.31",
+      "23.46.23.47",
+      "23.46.23.62",
+      "23.46.30.54",
+      "23.46.30.68",
+      "23.47.72.190",
+      "23.47.72.193",
+      "23.55.236.130",
+      "23.55.236.142",
+      "92.123.239.10"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.thenationalnews.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789298713,
+        "host_name": "www.thenationalnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.46.23.62",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789298711,
+        "host_name": "www.thenationalnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.46.23.16",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789009824,
+        "host_name": "www.thenationalnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.46.23.31",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789009824,
+        "host_name": "www.thenationalnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.46.23.47",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789004728,
+        "host_name": "www.thenationalnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.46.30.54",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:23:31Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.thenationalnews.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.thenationalnews.com: 20 resolution(s); addresses: 23.46.23.62, 23.46.23.16, 23.46.23.31, 23.46.23.47, 23.46.30.54, 23.46.30.68, 184.25.113.60, 23.195.81.106, 23.195.81.121, 92.123.239.10",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

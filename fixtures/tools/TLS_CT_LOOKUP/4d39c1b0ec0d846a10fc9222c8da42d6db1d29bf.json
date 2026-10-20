@@ -1,0 +1,31 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "1sou.top",
+      "www.1sou.top"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "1sou.top"
+  },
+  "raw": {
+    "count": 3,
+    "issuers": [],
+    "names": [
+      "1sou.top",
+      "www.1sou.top",
+      "www.1sou.top"
+    ],
+    "provider": "certspotter"
+  },
+  "recorded_at": "2026-09-16T06:31:58Z",
+  "source_url": "https://api.certspotter.com/v1/issuances?domain=1sou.top&include_subdomains=true&expand=dns_names",
+  "status": "success",
+  "summary": "Certificate transparency lookup for 1sou.top: 3 certificate row(s); sample names=1sou.top, www.1sou.top, www.1sou.top.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

@@ -1,0 +1,295 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "107.189.17.124"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "107.189.17.124"
+  },
+  "raw": {
+    "arin_originas0_originautnums": [],
+    "cidr0_cidrs": [
+      {
+        "length": 21,
+        "v4prefix": "107.189.16.0"
+      }
+    ],
+    "endAddress": "107.189.23.255",
+    "entities": [
+      {
+        "entities": [
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-08-04T04:46:52-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2022-05-28T10:01:07-04:00"
+              }
+            ],
+            "handle": "ABUSE8459-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/ABUSE8459-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/ABUSE8459-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "abuse",
+              "technical",
+              "administrative"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "1110 Palms Airport Drive\nLas Vegas\nNV\n89119\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "abuse"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "RouterHosting"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abuse-reports@cloudzy.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-778-977-8246"
+                ]
+              ]
+            ]
+          }
+        ],
+        "events": [
+          {
+            "eventAction": "last changed",
+            "eventDate": "2023-09-19T02:46:59-04:00"
+          },
+          {
+            "eventAction": "registration",
+            "eventDate": "2023-03-24T03:45:13-04:00"
+          }
+        ],
+        "handle": "RL-896",
+        "links": [
+          {
+            "href": "https://rdap.arin.net/registry/entity/RL-896",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+          },
+          {
+            "href": "https://whois.arin.net/rest/org/RL-896",
+            "rel": "alternate",
+            "type": "application/xml",
+            "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+          }
+        ],
+        "objectClassName": "entity",
+        "port43": "whois.arin.net",
+        "remarks": [
+          {
+            "description": [
+              "geofeed: https://api.cloudzy.com/geofeed.csv"
+            ],
+            "title": "Registration Comments"
+          }
+        ],
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "RouterHosting LLC"
+            ],
+            [
+              "adr",
+              {
+                "label": "1309 Coffeen Avenue STE 1200\nSheridan, WY 82801\nSheridan\nWY\n82801\nUnited States"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "org"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "last changed",
+        "eventDate": "2024-03-02T12:39:52-05:00"
+      },
+      {
+        "eventAction": "registration",
+        "eventDate": "2024-03-02T12:39:52-05:00"
+      }
+    ],
+    "handle": "NET-107-189-16-0-1",
+    "ipVersion": "v4",
+    "links": [
+      {
+        "href": "https://rdap.arin.net/registry/ip/107.189.16.0",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+      },
+      {
+        "href": "https://whois.arin.net/rest/net/NET-107-189-16-0-1",
+        "rel": "alternate",
+        "type": "application/xml",
+        "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+      },
+      {
+        "href": "https://rdap.arin.net/registry/ip/107.189.0.0/19",
+        "rel": "up",
+        "type": "application/rdap+json",
+        "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+      }
+    ],
+    "name": "ROUTERHOSTING",
+    "notices": [
+      {
+        "description": [
+          "By using the ARIN RDAP/Whois service, you are agreeing to the RDAP/Whois Terms of Use"
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/tou/",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit: "
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/inaccuracy_reporting/",
+            "rel": "inaccuracy-report",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/107.189.17.124"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      },
+      {
+        "description": [
+          "Copyright 1997-2026, American Registry for Internet Numbers, Ltd."
+        ],
+        "title": "Copyright Notice"
+      }
+    ],
+    "objectClassName": "ip network",
+    "parentHandle": "NET-107-189-0-0-1",
+    "port43": "whois.arin.net",
+    "rdapConformance": [
+      "nro_rdap_profile_0",
+      "rdap_level_0",
+      "cidr0",
+      "arin_originas0"
+    ],
+    "startAddress": "107.189.16.0",
+    "status": [
+      "active"
+    ],
+    "type": "ALLOCATION"
+  },
+  "recorded_at": "2026-09-16T05:29:11Z",
+  "source_url": "https://rdap.arin.net/registry/ip/107.189.17.124",
+  "status": "success",
+  "summary": "RDAP ip lookup for 107.189.17.124: handle=NET-107-189-16-0-1; status=active; nameservers=n/a; events=last changed=2024-03-02T12:39:52-05:00; registration=2024-03-02T12:39:52-05:00; entities=RL-896.",
+  "tool_type": "WHOIS_LOOKUP"
+}

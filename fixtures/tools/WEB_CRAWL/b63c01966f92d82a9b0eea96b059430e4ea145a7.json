@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.theguardian.com/world/2026/mar/30/spain-closes-airspace-to-us-military-over-iran-war-widening-rift-with-us"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Spain closes airspace to US military over Iran war, widening rift with US | US-Israel war on Iran | The Guardian Skip to main content Skip to navigation Print subscriptions Search jobs Sign in Int The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more World Europe US news Americas Asia Australia Middle East Africa Inequality Global development View image in fullscreen A US tanker plane at the Morón de la Frontera base in Spain. Photograph: Marcelo del Pozo/Reuters US-Israel war on Iran This article is more than 5 months old Spain closes airspace to US military over Iran war, widening rift with US This article is more than 5 months old Spain’s defence minister",
+    "javascript_rendered": true,
+    "title": "Spain closes airspace to US military over Iran war, widening rift with US | US-Israel war on Iran | The Guardian",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:22:24Z",
+  "source_url": "https://www.theguardian.com/world/2026/mar/30/spain-closes-airspace-to-us-military-over-iran-war-widening-rift-with-us",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.theguardian.com/world/2026/mar/30/spain-closes-airspace-to-us-military-over-iran-war-widening-rift-with-us. Title: Spain closes airspace to US military over Iran war, widening rift with US | US-Israel war on Iran | The Guardian. Excerpt: Spain closes airspace to US military over Iran war, widening rift with US | US-Israel war on Iran | The Guardian Skip to main content Skip to navigation Print subscriptions Search jobs Sign in Int The Guardian - Back to home The Guardian News Opinion Sport Culture Lifestyle Show more World Europe US news Americas Asia Australia Middle East Africa Inequality Global development View image in fullscreen A US tanker plane at the Morón de la Frontera base in Spain. Photograph: Marcelo del Pozo/Reuters US-Israel war on Iran This article is more than 5 months old Spain closes airspace to US military over Iran war, widening rift with US This article is more than 5 months old Spain’s defence minister",
+  "tool_type": "WEB_CRAWL"
+}

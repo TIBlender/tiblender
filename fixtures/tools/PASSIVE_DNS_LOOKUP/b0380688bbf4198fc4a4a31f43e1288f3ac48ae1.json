@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "brand.crowdstrike.com",
+      "brs-staging.crowdstrike.com",
+      "brs.crowdstrike.com",
+      "cc.crowdstrike.com",
+      "commerce-prod.crowdstrike.com",
+      "dev-nero.crowdstrike.com",
+      "employee-dev.crowdstrike.com",
+      "eta.crowdstrike.com",
+      "govsummit.crowdstrike.com",
+      "invent.crowdstrike.com",
+      "lambda-dev.crowdstrike.com",
+      "lambda.crowdstrike.com",
+      "partnermcp.crowdstrike.com",
+      "pf.crowdstrike.com",
+      "qa-marketplace.crowdstrike.com",
+      "quahog.crowdstrike.com",
+      "rho.crowdstrike.com",
+      "stage-marketplace.crowdstrike.com",
+      "trademarks.crowdstrike.com",
+      "zeta.crowdstrike.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.16.180.118"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.16.180.118"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789008124,
+        "host_name": "brand.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.180.118",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789004507,
+        "host_name": "govsummit.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.180.118",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789004245,
+        "host_name": "cc.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.180.118",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1788319143,
+        "host_name": "partnermcp.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.180.118",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1787900594,
+        "host_name": "trademarks.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.180.118",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:27:26Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/104.16.180.118/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 104.16.180.118: 20 resolution(s); hosts: brand.crowdstrike.com, govsummit.crowdstrike.com, cc.crowdstrike.com, partnermcp.crowdstrike.com, trademarks.crowdstrike.com, invent.crowdstrike.com, lambda.crowdstrike.com, rho.crowdstrike.com, eta.crowdstrike.com, employee-dev.crowdstrike.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

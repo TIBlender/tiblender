@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "api.hearthstonejson.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "api.hearthstonejson.com"
+  },
+  "raw": {
+    "count": 7,
+    "issuers": [
+      "C=US, O=Amazon, OU=Server CA 1B, CN=Amazon",
+      "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+      "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+      "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X3",
+      "C=US, O=Let's Encrypt, CN=Let's Encrypt Authority X1"
+    ],
+    "names": [
+      "api.hearthstonejson.com",
+      "api.hearthstonejson.com",
+      "api.hearthstonejson.com",
+      "api.hearthstonejson.com",
+      "api.hearthstonejson.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:28:26Z",
+  "source_url": "https://crt.sh/?q=%25.api.hearthstonejson.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for api.hearthstonejson.com: 7 certificate row(s); sample names=api.hearthstonejson.com, api.hearthstonejson.com, api.hearthstonejson.com, api.hearthstonejson.com, api.hearthstonejson.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

@@ -1,0 +1,44 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "mansfieldpediatrics.com",
+      "www.mansfieldpediatrics.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "mansfieldpediatrics.com"
+  },
+  "raw": {
+    "count": 12,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=E8",
+      "C=US, O=Let's Encrypt, CN=E8",
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV E36",
+      "C=GB, O=Sectigo Limited, CN=Sectigo Public Server Authentication CA DV E36",
+      "C=US, O=Let's Encrypt, CN=R13"
+    ],
+    "names": [
+      "*.mansfieldpediatrics.com",
+      "mansfieldpediatrics.com",
+      "*.mansfieldpediatrics.com",
+      "mansfieldpediatrics.com",
+      "*.mansfieldpediatrics.com",
+      "mansfieldpediatrics.com",
+      "*.mansfieldpediatrics.com",
+      "mansfieldpediatrics.com",
+      "mansfieldpediatrics.com",
+      "www.mansfieldpediatrics.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:07:53Z",
+  "source_url": "https://crt.sh/?q=%25.mansfieldpediatrics.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for mansfieldpediatrics.com: 12 certificate row(s); sample names=*.mansfieldpediatrics.com, mansfieldpediatrics.com, *.mansfieldpediatrics.com, mansfieldpediatrics.com, *.mansfieldpediatrics.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2026-3502"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "47.237.15.197"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html"
+  },
+  "raw": {
+    "blocked_resource_types": [],
+    "excerpt": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks #1 Trusted Cybersecurity News Platform Followed by 5.70+ million       Get the Latest News Home Newsletter Webinars Home Threat Intelligence Vulnerabilities Cyber Attacks Webinars Expert Insights Awards    Resources Webinars Awards Free eBooks About Site About THN Jobs Advertise with us Contact/Tip Us  Reach out to get featured—contact us to send your exclusive story idea, research, hacks, or ask us a question or leave a comment/feedback! Follow Us On Social Media       RSS Feeds  Email Alerts TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks  Ravie Lakshmanan  Mar 31,",
+    "fallback_reason": "Playwright is not installed for JavaScript rendering.",
+    "javascript_rendered": false,
+    "title": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks"
+  },
+  "recorded_at": "2026-09-16T05:25:24Z",
+  "source_url": "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html",
+  "status": "success",
+  "summary": "Static crawl of https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html. Title: TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks. Excerpt: TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks #1 Trusted Cybersecurity News Platform Followed by 5.70+ million       Get the Latest News Home Newsletter Webinars Home Threat Intelligence Vulnerabilities Cyber Attacks Webinars Expert Insights Awards    Resources Webinars Awards Free eBooks About Site About THN Jobs Advertise with us Contact/Tip Us  Reach out to get featured—contact us to send your exclusive story idea, research, hacks, or ask us a question or leave a comment/feedback! Follow Us On Social Media       RSS Feeds  Email Alerts TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks  Ravie Lakshmanan  Mar 31,",
+  "tool_type": "WEB_CRAWL"
+}

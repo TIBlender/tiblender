@@ -1,0 +1,92 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.wsj.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "13.227.249.101",
+      "13.227.249.105",
+      "13.227.249.127",
+      "13.227.249.30",
+      "18.245.31.29",
+      "52.222.154.56",
+      "54.192.100.32",
+      "54.192.100.42",
+      "65.9.46.111",
+      "65.9.46.21",
+      "65.9.46.52",
+      "99.86.101.34"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.wsj.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789385169,
+        "host_name": "www.wsj.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.245.31.29",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789174184,
+        "host_name": "www.wsj.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "99.86.101.34",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1781011028,
+        "host_name": "www.wsj.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2600:9000:2162:cc00:3:4b0:de80:93a1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1781011028,
+        "host_name": "www.wsj.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2600:9000:2162:8c00:3:4b0:de80:93a1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1781011028,
+        "host_name": "www.wsj.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2600:9000:2162:e400:3:4b0:de80:93a1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:19:54Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.wsj.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.wsj.com: 20 resolution(s); addresses: 18.245.31.29, 99.86.101.34, 2600:9000:2162:cc00:3:4b0:de80:93a1, 2600:9000:2162:8c00:3:4b0:de80:93a1, 2600:9000:2162:e400:3:4b0:de80:93a1, 2600:9000:2162:ae00:3:4b0:de80:93a1, 2600:9000:2162:6e00:3:4b0:de80:93a1, 2600:9000:2162:ac00:3:4b0:de80:93a1, 2600:9000:2162:1a00:3:4b0:de80:93a1, 2600:9000:2162:d200:3:4b0:de80:93a1",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

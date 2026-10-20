@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "gbhackers.com"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Family available on Classic Crusts only. Family pizzas are 50% bigger in surface size post-bake, and have 50% more toppings, than …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Domino's | Order Pizza Delivery Online | Food Delivery & Takeaway",
+        "url": "https://www.dominos.com.au/"
+      },
+      {
+        "category": "general",
+        "content": "Order pizza & sides online from Domino's Perth WA, fast food delivery or pick up.",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Domino's Pizza Perth WA | Order Pizza Delivery & Takeaway",
+        "url": "https://www.dominos.com.au/stores/western-australia/perth"
+      },
+      {
+        "category": "general",
+        "content": "View our delicious range of pizzas to takeaway or be delivered, hot & fresh, to your door. Vouchers, deals & coupons available.",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Pizza Delivery & Takeaway - Order Now - Online Or In-Store",
+        "url": "https://www.pizzahut.com.au/"
+      },
+      {
+        "category": "general",
+        "content": "Jul 14, 2025 · Make your way to Mount Hawthorn for more of chef Paul Bentley’s pizza magic. The little sister to neighbouring wine …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Perth’s best pizza places",
+        "url": "https://perthisok.com/eat-drink/the-best-pizza-in-perth/"
+      },
+      {
+        "category": "general",
+        "content": "Jul 29, 2026 · Perth has seen a burst of new-age pizzerias of late, where the drinks list and vibes slap just as hard as the pizza on …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Perth's Best Pizza Places - Urban List",
+        "url": "https://www.theurbanlist.com/perth/a-list/perths-best-pizza"
+      },
+      {
+        "category": "general",
+        "content": "Here, in no particular order, are some of the best pizzas in Perth, as chosen by our local dough experts. 1. Monsterella Pizza. Even …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "The 20 Best Pizzas in Perth [2026] - Time Out",
+        "url": "https://www.timeout.com/perth/restaurants/the-best-pizzerias-in-perth"
+      },
+      {
+        "category": "general",
+        "content": "Restaurants ranked by how well they match your selections and traveller reviews. Establishment type. Restaurants. Quick Bites. Bars …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "THE 10 BEST Pizza Places in Perth (Updated 2026) - Tripadvisor",
+        "url": "https://www.tripadvisor.com.au/Restaurants-g255103-c31-Perth_Greater_Perth_Western_Australia.html"
+      },
+      {
+        "category": "general",
+        "content": "Order online from top Pizza restaurants in Perth.",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "THE 10 BEST Pizza Delivery and Takeaway in Perth | Uber Eats",
+        "url": "https://www.ubereats.com/au/category/perth-wa/pizza?msockid=1c478c21b7696ed016ff9bf7b6116f47"
+      },
+      {
+        "category": "general",
+        "content": "Order Pizza Hut online now. Choose from our delicious menu, all delivered hot & fresh to your door, or takeaway. Coupons & deals …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Perth - Pizza Hut",
+        "url": "https://www.pizzahut.com.au/stores/pizza-hut-perth"
+      },
+      {
+        "category": "general",
+        "content": "House Cooked Chicken, Roasted Capsicum, Caramelised Onions, Mozzarella, Fresh Shallots, Green Capsicum, Bocconcini on a …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Crust Pizza | Order Online | Delivery & Pick Up",
+        "url": "https://www.crust.com.au/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:46Z",
+  "source_url": "http://searxng:8080/search?q=gbhackers.com&format=json",
+  "status": "success",
+  "summary": "SearXNG search for gbhackers.com: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

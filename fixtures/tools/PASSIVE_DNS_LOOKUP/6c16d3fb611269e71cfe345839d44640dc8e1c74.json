@@ -1,0 +1,96 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "api.hearthstonejson.com",
+      "cdn.gtranslate.net",
+      "derbenev33.ru",
+      "download5.operacdn.com",
+      "javcl.com",
+      "nvutigame.com",
+      "polygon-public.nodies.app",
+      "pub-4c182737706e41d29aee6cc5517f834d.r2.dev",
+      "static.addtoany.com",
+      "www.nvutigame.com",
+      "ye1.c.lencr.org",
+      "ye2.c.lencr.org",
+      "yr1.c.lencr.org",
+      "yr2.c.lencr.org"
+    ],
+    "hashes": [
+      "4c182737706e41d29aee6cc5517f834d"
+    ],
+    "ips": [
+      "8.47.69.6"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "8.47.69.6"
+  },
+  "raw": {
+    "malicious_count": 18,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1788772082,
+        "host_name": "derbenev33.ru",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.6",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1783139223,
+        "host_name": "a.xcase.website",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.6",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782620889,
+        "host_name": "www.xcase.website",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.6",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782620783,
+        "host_name": "www.nvutigame.website",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.6",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782620764,
+        "host_name": "www.nvutigame.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.6",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 5,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:21:58Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/8.47.69.6/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 8.47.69.6: 20 resolution(s); hosts: derbenev33.ru, a.xcase.website, www.xcase.website, www.nvutigame.website, www.nvutigame.com, xcase.website, ns2.zabidat.ir, pub-4c182737706e41d29aee6cc5517f834d.r2.dev, ye1.c.lencr.org, cdn.gtranslate.net",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

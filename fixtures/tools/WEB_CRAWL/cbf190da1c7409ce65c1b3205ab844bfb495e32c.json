@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://edition.cnn.com/2026/03/31/politics/shelly-kittleson-us-journalist-kidnapped-iraq"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "American journalist Shelly Kittleson kidnapped in Baghdad | CNN Politics Ad Feedback Politics Elections 2026 Trump Facts First CNN Polls Redistricting Tracker More Watch Listen Sign in POLITICS 2 MIN READ American journalist Shelly Kittleson kidnapped in Baghdad By Jennifer Hansler , Mohammed Tawfeeq and Jeremy Diamond UPDATED MAR 31, 2026 Shelly Kittleson is seen in this image posted to her Instagram account. from Shelly Kittleson/Instagram American journalist Shelly Kittleson was kidnapped in Baghdad, Iraq, on Tuesday, sources and her media outlet said. The US government is tracking her kidnapping and working with the Iraqis to secure her release, a US official said. It is unclear who is r",
+    "javascript_rendered": true,
+    "title": "American journalist Shelly Kittleson kidnapped in Baghdad | CNN Politics",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-10T12:19:20Z",
+  "source_url": "https://edition.cnn.com/2026/03/31/politics/shelly-kittleson-us-journalist-kidnapped-iraq",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://edition.cnn.com/2026/03/31/politics/shelly-kittleson-us-journalist-kidnapped-iraq. Title: American journalist Shelly Kittleson kidnapped in Baghdad | CNN Politics. Excerpt: American journalist Shelly Kittleson kidnapped in Baghdad | CNN Politics Ad Feedback Politics Elections 2026 Trump Facts First CNN Polls Redistricting Tracker More Watch Listen Sign in POLITICS 2 MIN READ American journalist Shelly Kittleson kidnapped in Baghdad By Jennifer Hansler , Mohammed Tawfeeq and Jeremy Diamond UPDATED MAR 31, 2026 Shelly Kittleson is seen in this image posted to her Instagram account. from Shelly Kittleson/Instagram American journalist Shelly Kittleson was kidnapped in Baghdad, Iraq, on Tuesday, sources and her media outlet said. The US government is tracking her kidnapping and working with the Iraqis to secure her release, a US official said. It is unclear who is r",
+  "tool_type": "WEB_CRAWL"
+}

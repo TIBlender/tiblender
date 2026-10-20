@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "intel.threadlinqs.com exploitation"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "インテル® Xeon® 6+ プロセッサー 未来のネットワーク・パフォーマンスをその手に AI 対応のネットワーキングと 5G コア向けの …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "インテル、はいってる - AI を活かせ",
+        "url": "https://www.intel.co.jp/content/www/jp/ja/homepage.html"
+      },
+      {
+        "category": "general",
+        "content": "Intel named one of America's Most Innovative Companies Fortune recognizes Intel's industry-leading innovations that are advancing …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Intel Inside - Built for AI",
+        "url": "https://www.intel.com/content/www/us/en/homepage.html"
+      },
+      {
+        "category": "general",
+        "content": "Download new and previously released drivers including support software, bios, utilities, firmware and patches for Intel products.",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Download Intel Drivers and Software",
+        "url": "https://www.intel.co.jp/content/www/jp/ja/download-center/home.html"
+      },
+      {
+        "category": "general",
+        "content": "Download new and previously released drivers including support software, bios, utilities, firmware and patches for Intel products.",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Download Intel Drivers and Software",
+        "url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+      },
+      {
+        "category": "general",
+        "content": "カリフォルニア 州 サンノゼ 市にある 半導体 製造工場には、インテルの歴史を紹介するインテル博物館が併設されている。 日本法 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "インテル - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%A4%E3%83%B3%E3%83%86%E3%83%AB"
+      },
+      {
+        "category": "general",
+        "content": "Although Intel created the world's first commercial microprocessor chip—the Intel 4004 —in 1971, it was not until the success of the …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Intel - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Intel"
+      },
+      {
+        "category": "general",
+        "content": "初代のIntel Coreは、後継プロセッサとの区別などから、開発コードネーム Yonah の名称で呼ばれることがある。 Coreはインテル …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Intel Core - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/Intel_Core"
+      },
+      {
+        "category": "general",
+        "content": "Jun 9, 2024 · 企業情報 インテル（Intel Corp）は、半導体製品のグローバルな設計及び製造を行う会社である。 【事業内容】 セグ …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "インテル【INTC】：株価・株式情報 - Yahoo!ファイナンス",
+        "url": "https://finance.yahoo.co.jp/quote/INTC"
+      },
+      {
+        "category": "general",
+        "content": "Aug 21, 2026 · CPU性能比較のページです。Intel・AMD最新モデルをドスパラの独自検証でスコア化し、グラフとスコアで性能比較 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "CPU性能比較【2026年8月更新】 - ドスパラ",
+        "url": "https://www.dospara.co.jp/cpu/cpu-comparison.html?msockid=0a58132272fe6b41179104f773086a3c"
+      },
+      {
+        "category": "general",
+        "content": "2 days ago · CoreシリーズはIntelのミドルスペック以上のCPUブランド名であるが、i3,i5,i7,i9といったグレード分けや世代、用途の …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Coreシリーズ比較表【2026年最新】世代や用途別にIntelの ...",
+        "url": "https://pcrecommend.com/cpu/core-i/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:26Z",
+  "source_url": "http://searxng:8080/search?q=intel.threadlinqs.com+exploitation&format=json",
+  "status": "success",
+  "summary": "SearXNG search for intel.threadlinqs.com exploitation: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

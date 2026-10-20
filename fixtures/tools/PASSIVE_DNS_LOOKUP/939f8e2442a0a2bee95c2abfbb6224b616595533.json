@@ -1,0 +1,93 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "csmoney.gr.com",
+      "debank.gr.com",
+      "dextools.gr.com",
+      "dydx-swap.gr.com",
+      "lido-staking.gr.com",
+      "raydium-dex.gr.com",
+      "raydium-swap.co.com",
+      "raydium-swap.gr.com",
+      "rbcdashboard.com",
+      "skin-port.gr.com",
+      "sui.co.com",
+      "synthetix.gr.com",
+      "v-sushuswap.gr.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.207.76.72"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.207.76.72"
+  },
+  "raw": {
+    "malicious_count": 188,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1779668599,
+        "host_name": "rbcdashboard.com",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 2,
+        "ip_address": "104.207.76.72",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1779504982,
+        "host_name": "sui.co.com",
+        "host_name_malicious": 4,
+        "host_name_suspicious": 1,
+        "ip_address": "104.207.76.72",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1779504857,
+        "host_name": "synthetix.gr.com",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 2,
+        "ip_address": "104.207.76.72",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1779504652,
+        "host_name": "pumpfun.at",
+        "host_name_malicious": 12,
+        "host_name_suspicious": 1,
+        "ip_address": "104.207.76.72",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1779504046,
+        "host_name": "v2-dydx.at",
+        "host_name_malicious": 12,
+        "host_name_suspicious": 3,
+        "ip_address": "104.207.76.72",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 30,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:28:53Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/104.207.76.72/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 104.207.76.72: 20 resolution(s); hosts: rbcdashboard.com, sui.co.com, synthetix.gr.com, pumpfun.at, v2-dydx.at, lido-staking.gr.com, defilllama.at, curve-finance.at, skin-port.gr.com, v-sushuswap.gr.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

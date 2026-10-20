@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "0c0fc7a0c23cdb5e1c8f66b208053ed6 malware"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Jul 10, 2026 · account@jjhuili88.comえきねっと【JR東日本事務局】と名乗るところから、以下のメールが来ました。これは、本物 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "account@jjhuili88.comえきねっと【JR東日本事務局】と名 ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13329616788"
+      },
+      {
+        "category": "general",
+        "content": "Jan 8, 2026 · 事前予約と早期予約の違い 【事前受付】 1か月7日前～1か月前までの予約が対象。 JR東日本、JR北海道、JR西日本 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "えきねっとでの事前予約サービスについてです。 - 申し込む際 ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12324067602"
+      },
+      {
+        "category": "general",
+        "content": "Aug 21, 2023 · えきねっとで成田エクスプレスを予約しました。 チケットレス35%オフの指定席券を買ったのですが、 購入案内 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "えきねっとで成田エクスプレスを予約しました。チケットレス35 ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14284778904"
+      },
+      {
+        "category": "general",
+        "content": "Nov 13, 2025 · えきねっとから、特急きぬがわ3号を予約しました。 切符の発券が必要ですがどこで発券できますか？ 名古屋駅のえ …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "えきねっとから、特急きぬがわ3号を予約しました。切符の発券 ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10322203145"
+      },
+      {
+        "category": "general",
+        "content": "Mar 25, 2024 · 「えきねっと」の領収書の出し方です。当方「iPhone」利用で、今回JR北海道の「えきねっと」を利用しました。 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "「えきねっと」の領収書の出し方です。当方「iPhone」利用 ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q10295503740"
+      },
+      {
+        "category": "general",
+        "content": "May 7, 2024 · 「えきねっと」で「大人の休日ジパング割引」を使って東海道新幹線を予約したいのですが、割引き対象外と表示さ …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "「えきねっと」で「大人の休日ジパング割引」を使って東海道 ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12297670782"
+      },
+      {
+        "category": "general",
+        "content": "Apr 4, 2026 · えきねっと で 往復の切符の申し込みは できなくなりましたか？ 行きと 帰りの 片道ずつの申し込みで 大丈夫でしょう …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "えきねっとで往復の切符の申し込みはできなくなりましたか ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13326920828"
+      },
+      {
+        "category": "general",
+        "content": "えきねっとの予約について お世話様です。はじめてえきねっとを利用したいと思っています。 そこで14日前の割引予約をしたいと …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "えきねっとの予約についてお世話様です。はじめてえきねっと ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12319147862"
+      },
+      {
+        "category": "general",
+        "content": "Sep 25, 2025 · 新幹線のきっぷ購入について東京→金沢のきっぷをえきねっとで購入しようとしたところ、発券できませんみたいな …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "新幹線のきっぷ購入について東京→金沢のきっぷをえきねっと ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13320384513"
+      },
+      {
+        "category": "general",
+        "content": "May 12, 2025 · えきねっと利用について教えてください。ほかの質問への回答で＞なお他の方も言っていますが、利用する新幹線に …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "えきねっと利用について教えてください。ほかの質問への回答 ...",
+        "url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q11314919716"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:41:48Z",
+  "source_url": "http://searxng:8080/search?q=0c0fc7a0c23cdb5e1c8f66b208053ed6+malware&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 0c0fc7a0c23cdb5e1c8f66b208053ed6 malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

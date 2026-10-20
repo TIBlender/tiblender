@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host trend-now.org is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://trend-now.org/google-search-trends/ca/shelly%20kittleson"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:55Z",
+  "source_url": "https://trend-now.org/google-search-trends/ca/shelly%20kittleson",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host trend-now.org for https://trend-now.org/google-search-trends/ca/shelly%20kittleson",
+  "tool_type": "WEB_CRAWL"
+}

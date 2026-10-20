@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "1iinch.gr.com"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Dec 28, 2017 · 我曾经以为，需要创造力的工作，比如创意绘画、作曲家、编剧这些创意工作，最不容易被AI取代，但是，这几年AI在 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "未来有什么工作绝对不会被人工智能（AI）取代？ - 知乎",
+        "url": "https://www.zhihu.com/question/41253586"
+      },
+      {
+        "category": "general",
+        "content": "Apr 19, 2026 · 同事们都反应，用了claude code 等AI agent写代码之后，工作反而越来越累了。 那么问题来了， 你他妈的是不是已经 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "为什么用AI写代码之后，人反而越来越累了？ - 知乎",
+        "url": "https://www.zhihu.com/question/2028513149784011736"
+      },
+      {
+        "category": "general",
+        "content": "J'ai = I have. Je suis = I am. That said, not always when you would say \"I am\" in English, is the French translation Je suis. The …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Je suis vs. J'ai - French Q & A | KwizIQ French",
+        "url": "https://french.kwiziq.com/questions/view/je-suis-vs-j-ai"
+      },
+      {
+        "category": "general",
+        "content": "人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "AI技术 - 知乎",
+        "url": "https://www.zhihu.com/topic/20106982/hot"
+      },
+      {
+        "category": "general",
+        "content": "Aug 24, 2025 · 这个故事大概就是当下AI替代程序员的最真实切面： 它替代了很多，但它漏掉的那些东西，恰恰是最要命的。 已经被 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "ai代替程序员已经代替到什么程度了？ - 知乎",
+        "url": "https://www.zhihu.com/question/1943057024997913208"
+      },
+      {
+        "category": "general",
+        "content": "Mar 22, 2022 · 我这里收集整理有一个免费的Illustrator下载安装包合集，包含了Illustrator 2022到Illustrator 2026多个版本的安装包， …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "AI软件免费下载哪里可以下载? - 知乎",
+        "url": "https://www.zhihu.com/question/523376297/answers/updated"
+      },
+      {
+        "category": "general",
+        "content": "Oct 26, 2022 · AI绘画因发展路线和对艺术创作的影响引发争议，部分人抵制其使用。",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "AI 绘画为什么被抵制？ - 知乎",
+        "url": "https://www.zhihu.com/question/558312476"
+      },
+      {
+        "category": "general",
+        "content": "Nov 13, 2024 · 三者共同构成 “计算 - 通信 - 存储” 一体化硬件体系，直接决定 AI Infra 的综合能力上限。 1.2 软件层 软件层是 AI Infra …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "有没有大佬帮我解释一下AI infra到底是干啥的？ - 知乎",
+        "url": "https://www.zhihu.com/question/4023337465"
+      },
+      {
+        "category": "general",
+        "content": "人工智能（Artificial Intelligence），英文缩写为AI。它是研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统的 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "人工智能 - 知乎",
+        "url": "https://www.zhihu.com/topic/19551275"
+      },
+      {
+        "category": "general",
+        "content": "Jun 26, 2023 · 国内AI大模型已近80个，讨论其前途和潜力，帮助用户选择关注或尝试使用。",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "国内AI大模型已近80个，哪个最有前途？ - 知乎",
+        "url": "https://www.zhihu.com/question/608763410"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:22:57Z",
+  "source_url": "http://searxng:8080/search?q=1iinch.gr.com&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 1iinch.gr.com: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

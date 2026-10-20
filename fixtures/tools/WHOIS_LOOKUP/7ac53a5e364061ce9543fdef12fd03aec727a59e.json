@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WHOIS_LOOKUP unavailable: HTTP 404: {\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https://icann.org/epp\"],\"links\":[{\"value\":\"https://rdap.zdnsgtld.com/top/domain/1sou.top\",\"rel\":\"glossary\",\"href\":\"https://icann.org/epp\",\"title\":\"More information on domain status codes\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on domain status codes, please visit https://icann.org/epp\",\"\",\"NOTICE: The expiration date displayed in this record is the date the\",\"registrar's sponsorship of the domain name registration in the registry is\",\"currently set to expire. This date does not necessarily reflect the expiration\",\"date o",
+  "parameters": {
+    "domain": "1sou.top"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T06:32:02Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WHOIS_LOOKUP unavailable: HTTP 404: {\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https://icann.org/epp\"],\"links\":[{\"value\":\"https://rdap.zdnsgtld.com/top/domain/1sou.top\",\"rel\":\"glossary\",\"href\":\"https://icann.org/epp\",\"title\":\"More information on domain status codes\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on domain status codes, please visit https://icann.org/epp\",\"\",\"NOTICE: The expiration date displayed in this record is the date the\",\"registrar's sponsorship of the domain name registration in the registry is\",\"currently set to expire. This date does not necessarily reflect the expiration\",\"date o",
+  "tool_type": "WHOIS_LOOKUP"
+}

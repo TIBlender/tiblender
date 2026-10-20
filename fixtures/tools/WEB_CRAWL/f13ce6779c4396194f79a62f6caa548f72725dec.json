@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host talosintelligence.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://talosintelligence.com/vulnerability_reports/TALOS-2026-2365"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:16Z",
+  "source_url": "https://talosintelligence.com/vulnerability_reports/TALOS-2026-2365",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host talosintelligence.com for https://talosintelligence.com/vulnerability_reports/TALOS-2026-2365",
+  "tool_type": "WEB_CRAWL"
+}

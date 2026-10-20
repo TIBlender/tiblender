@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.eff.org"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.eff.org"
+  },
+  "raw": {
+    "count": 80,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=R13",
+      "C=US, O=Let's Encrypt, CN=R13",
+      "C=US, O=Let's Encrypt, CN=E8",
+      "C=US, O=Let's Encrypt, CN=E8",
+      "C=US, O=Let's Encrypt, CN=R13"
+    ],
+    "names": [
+      "www.eff.org",
+      "www.eff.org",
+      "www.eff.org",
+      "www.eff.org",
+      "www.eff.org"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:13:29Z",
+  "source_url": "https://crt.sh/?q=%25.www.eff.org&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.eff.org: 80 certificate row(s); sample names=www.eff.org, www.eff.org, www.eff.org, www.eff.org, www.eff.org.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

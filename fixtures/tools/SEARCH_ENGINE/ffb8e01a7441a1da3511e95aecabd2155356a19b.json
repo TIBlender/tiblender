@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "supply chain"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Jan 26, 2026 · サプライチェーンとは、原材料の調達から始まり、製造、在庫管理、配送、販売を経て、最終的に消費者の手元に製 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "サプライチェーンとは？意味や仕組みを図解でわかりやすく ...",
+        "url": "https://www.cloud-erp-guide.com/blog/what-is-supply-chain"
+      },
+      {
+        "category": "general",
+        "content": "Feb 16, 2023 · サプライチェーン（Supply Chain）とは、原材料や部品の調達から販売に至るまでの一連の流れを指します。 日本語 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "サプライチェーンとは？用語の意味や具体例、重要性をわかり ...",
+        "url": "https://products.sint.co.jp/blog/supply-chain"
+      },
+      {
+        "category": "general",
+        "content": "自動車や電子部品、食品など、今や多くの業界でサプライチェーンが構成されています。 しかし、サプライチェーンを取り巻く環 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "よく聞く「サプライチェーン」って何？マネジメントの業務 ...",
+        "url": "https://www.keyence.co.jp/ss/general/manufacture-tips/supply-chain.jsp?msockid=3aab31f0f30868e13a382625f21c693e"
+      },
+      {
+        "category": "general",
+        "content": "A supply chain is a complex logistics system that consists of facilities that convert raw materials into finished products and distribute …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Supply chain - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Supply_chain"
+      },
+      {
+        "category": "general",
+        "content": "サプライチェーンがどのような産業上にあるか、例えば、素材産業、組立産業、流通小売業などの産業別で、サプライチェーンの一 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "サプライチェーン・マネジメント - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88"
+      },
+      {
+        "category": "general",
+        "content": "May 26, 2026 · サプライチェーン（SC）とは調達〜消費者までの流れ全体。 EC事業者がSCMを最適化すれば物流コスト削減・ …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "サプライチェーンとは？EC物流における管理の仕組みと最適化の ...",
+        "url": "https://stockcrew.co.jp/insights/article_supply-chain-ec-management_2026-05-26"
+      },
+      {
+        "category": "general",
+        "content": "Jun 19, 2026 · サプライチェーンとは、商品やサービスが作られてから買う人に届くまでの流れのことです。 意味、日本語での言い …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "サプライチェーンとは？意味や仕組みを初心者向けにわかり ...",
+        "url": "https://nabutan.com/what-is-supply-chain/"
+      },
+      {
+        "category": "general",
+        "content": "Sep 16, 2025 · サプライチェーンとは、商品が原材料の調達や製造、加工、在庫管理、流通などをへて顧客のもとに届くまでのプロ …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "サプライチェーンとバリューチェーンの違いとは ... - LEAPT",
+        "url": "https://blog.bizboost.co.jp/difference-between-sub-chain-and-value-chain"
+      },
+      {
+        "category": "general",
+        "content": "サプライチェーン（supply chain）とは、商品が消費者に届くまでの「原料調達」に始まり「製造」「在庫管理」「物流」「販売」 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "サプライチェーンの意味や定義 わかりやすく解説 Weblio辞書",
+        "url": "https://www.weblio.jp/content/%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3"
+      },
+      {
+        "category": "general",
+        "content": "「サプライチェーンのための設計（DFSC）」プロセスを調査したインダストリアルエンジニアリングの研究によれば、製品設計は …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "サプライチェーン - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%97%E3%83%A9%E3%82%A4%E3%83%81%E3%82%A7%E3%83%BC%E3%83%B3"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:42:00Z",
+  "source_url": "http://searxng:8080/search?q=supply+chain&format=json",
+  "status": "success",
+  "summary": "SearXNG search for supply chain: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "open.spotify.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "open.spotify.com"
+  },
+  "raw": {
+    "count": 100,
+    "issuers": [
+      "C=US, O=Certainly, CN=Certainly Intermediate R1",
+      "C=US, O=Certainly, CN=Certainly Intermediate R1",
+      "C=US, O=Certainly, CN=Certainly Intermediate R1",
+      "C=US, O=Certainly, CN=Certainly Intermediate R1",
+      "C=US, O=Certainly, CN=Certainly Intermediate R1"
+    ],
+    "names": [
+      "open.spotify.com",
+      "open.spotify.com",
+      "open.spotify.com",
+      "open.spotify.com",
+      "open.spotify.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:11:09Z",
+  "source_url": "https://crt.sh/?q=%25.open.spotify.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for open.spotify.com: 100 certificate row(s); sample names=open.spotify.com, open.spotify.com, open.spotify.com, open.spotify.com, open.spotify.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

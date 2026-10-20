@@ -1,0 +1,73 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "account.bbc.co.uk",
+      "account.bbc.com",
+      "av-media-sslgate.live.bbc.co.uk",
+      "bbc.co.uk",
+      "bbc.com",
+      "bbcrussian.com",
+      "cdnedge.bbc.co.uk",
+      "news.bbc.co.uk",
+      "news.bbcimg.co.uk",
+      "newsimg.bbc.co.uk",
+      "newsrss.bbc.co.uk",
+      "newsvote.bbc.co.uk",
+      "node1.bbcimg.co.uk",
+      "open.live.bbc.co.uk",
+      "playlists.bbc.co.uk",
+      "r.bbci.co.uk",
+      "samsung.iplayer.bbc.co.uk",
+      "search.bbc.co.uk",
+      "secure.iplayer.bbc.co.uk",
+      "securegate.iplayer.bbc.co.uk",
+      "session.bbc.co.uk",
+      "session.bbc.com",
+      "www.bbc.co.uk",
+      "www.bbc.com",
+      "www.bbcrussian.com",
+      "www.live.bbc.co.uk",
+      "wwwnews.live.bbc.co.uk"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.bbc.com"
+  },
+  "raw": {
+    "count": 6,
+    "issuers": [],
+    "names": [
+      "account.bbc.com",
+      "bbc.co.uk",
+      "bbc.com",
+      "bbcrussian.com",
+      "cdnedge.bbc.co.uk",
+      "news.bbc.co.uk",
+      "news.bbcimg.co.uk",
+      "newsimg.bbc.co.uk",
+      "newsrss.bbc.co.uk",
+      "newsvote.bbc.co.uk",
+      "node1.bbcimg.co.uk",
+      "open.live.bbc.co.uk",
+      "playlists.bbc.co.uk",
+      "r.bbci.co.uk",
+      "search.bbc.co.uk",
+      "session.bbc.co.uk",
+      "session.bbc.com",
+      "www.bbc.co.uk",
+      "www.bbc.com",
+      "www.bbcrussian.com"
+    ],
+    "provider": "certspotter"
+  },
+  "recorded_at": "2026-09-10T12:14:00Z",
+  "source_url": "https://api.certspotter.com/v1/issuances?domain=www.bbc.com&include_subdomains=true&expand=dns_names",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.bbc.com: 6 certificate row(s); sample names=account.bbc.com, bbc.co.uk, bbc.com, bbcrussian.com, cdnedge.bbc.co.uk.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

@@ -1,0 +1,229 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "theconversation.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "theconversation.com"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  ""
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+49.68949396850"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abuse@1api.net"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "1387",
+        "links": [
+          {
+            "href": "http://www.1api.net",
+            "rel": "about",
+            "type": "text/html",
+            "value": "https://rdap.1api.net/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "1387",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "1API GmbH"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2003-05-29T18:14:49Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2027-05-29T18:14:49Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-06-11T21:47:22Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-16T05:12:27Z"
+      }
+    ],
+    "handle": "98514650_DOMAIN_COM-VRSN",
+    "ldhName": "THECONVERSATION.COM",
+    "links": [
+      {
+        "href": "https://rdap.verisign.com/com/v1/domain/theconversation.com",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/theconversation.com"
+      },
+      {
+        "href": "https://rdap.1api.net/domain/THECONVERSATION.COM",
+        "rel": "related",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/theconversation.com"
+      }
+    ],
+    "nameservers": [
+      {
+        "ldhName": "NS1.DNSIMPLE-EDGE.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS1.DNSUNLIMITED.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS2.DNSIMPLE-EDGE.NET",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS2.DNSUNLIMITED.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS3.DNSIMPLE-EDGE.IO",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS3.DNSUNLIMITED.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS4.DNSIMPLE-EDGE.ORG",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS4.DNSUNLIMITED.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS5.DNSUNLIMITED.COM",
+        "objectClassName": "nameserver"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "Service subject to Terms of Use."
+        ],
+        "links": [
+          {
+            "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/theconversation.com"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/theconversation.com"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/theconversation.com"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_1",
+      "icann_rdap_response_profile_1"
+    ],
+    "secureDNS": {
+      "delegationSigned": false
+    },
+    "status": [
+      "client transfer prohibited"
+    ]
+  },
+  "recorded_at": "2026-09-16T05:12:46Z",
+  "source_url": "https://rdap.verisign.com/com/v1/domain/theconversation.com",
+  "status": "success",
+  "summary": "RDAP domain lookup for theconversation.com: handle=98514650_DOMAIN_COM-VRSN; status=client transfer prohibited; nameservers=NS1.DNSIMPLE-EDGE.COM,NS1.DNSUNLIMITED.COM,NS2.DNSIMPLE-EDGE.NET,NS2.DNSUNLIMITED.COM; events=registration=2003-05-29T18:14:49Z; expiration=2027-05-29T18:14:49Z; last changed=2026-06-11T21:47:22Z; last update of RDAP database=2026-09-16T05:12:27Z; entities=1387.",
+  "tool_type": "WHOIS_LOOKUP"
+}

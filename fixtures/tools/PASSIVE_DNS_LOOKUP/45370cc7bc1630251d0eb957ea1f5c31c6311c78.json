@@ -1,0 +1,97 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "aiobc.cn",
+      "backup.mibaoart.com",
+      "beesou.cn",
+      "boka.wqixiu.cn",
+      "cftyg.cn",
+      "duozk.com",
+      "erdcy.cn",
+      "mibaoart.com",
+      "soplm.cn",
+      "sxfty.cn",
+      "tyopl.cn",
+      "wqixiu.cn",
+      "wsxty.cn",
+      "www.beesou.cn",
+      "www.obayule.com",
+      "www.wqixiu.cn",
+      "zxyot.cn"
+    ],
+    "hashes": [],
+    "ips": [
+      "113.10.242.102"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "113.10.242.102"
+  },
+  "raw": {
+    "malicious_count": 2,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1617696814,
+        "host_name": "backup.mibaoart.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "113.10.242.102",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1595697013,
+        "host_name": "mibaoart.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "113.10.242.102",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1566948948,
+        "host_name": "wsxty.cn",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "113.10.242.102",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1566351592,
+        "host_name": "cftyg.cn",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "113.10.242.102",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1540174555,
+        "host_name": "tyopl.cn",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "113.10.242.102",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T06:34:03Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/113.10.242.102/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 113.10.242.102: 20 resolution(s); hosts: backup.mibaoart.com, mibaoart.com, wsxty.cn, cftyg.cn, tyopl.cn, erdcy.cn, aiobc.cn, sxfty.cn, soplm.cn, zxyot.cn",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

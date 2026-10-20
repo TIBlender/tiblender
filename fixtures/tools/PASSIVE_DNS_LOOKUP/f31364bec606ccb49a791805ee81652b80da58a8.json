@@ -1,0 +1,104 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "2d2f72a2ef04.w.hcaptcha.com",
+      "2e939235b387.w.hcaptcha.com",
+      "5a482b53ac11.w.hcaptcha.com",
+      "a9ee976acfc4.w.hcaptcha.com",
+      "gaming-sdk.com",
+      "ptqgesmtzwdmeiknncqc.supabase.co",
+      "pub-021d30c7f5dd41ab9f48c3646bf1e306.r2.dev",
+      "pub-18e8112f561e46578c414fbc8e0b45b9.r2.dev",
+      "pub-6413c03d644d47abb59179a7730a9a2c.r2.dev",
+      "pub-7b4e90e32c1042e3a29792970dc186e1.r2.dev",
+      "pub-814de71aba7d4258ae0ca369fdb8002f.r2.dev",
+      "pub-86cc5b1d786144dcb24eecf62bbc7958.r2.dev",
+      "pub-94ce83980c9548b8af915f11774ec247.r2.dev",
+      "qmakxvjizskwbtwxwlxk.supabase.co",
+      "widget.tagembed.com",
+      "wlmhtrrpmhgsfllrsbao.supabase.co"
+    ],
+    "hashes": [
+      "021d30c7f5dd41ab9f48c3646bf1e306",
+      "18e8112f561e46578c414fbc8e0b45b9",
+      "6413c03d644d47abb59179a7730a9a2c",
+      "7b4e90e32c1042e3a29792970dc186e1",
+      "814de71aba7d4258ae0ca369fdb8002f",
+      "86cc5b1d786144dcb24eecf62bbc7958",
+      "94ce83980c9548b8af915f11774ec247"
+    ],
+    "ips": [
+      "8.47.69.0"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "8.47.69.0"
+  },
+  "raw": {
+    "malicious_count": 9,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789420605,
+        "host_name": "pub-021d30c7f5dd41ab9f48c3646bf1e306.r2.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.0",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1789409898,
+        "host_name": "www.mstar.com.my",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.0",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1789398909,
+        "host_name": "pub-86cc5b1d786144dcb24eecf62bbc7958.r2.dev",
+        "host_name_malicious": 6,
+        "host_name_suspicious": 1,
+        "ip_address": "8.47.69.0",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1789397131,
+        "host_name": "pub-7b4e90e32c1042e3a29792970dc186e1.r2.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.0",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1789395096,
+        "host_name": "pub-6413c03d644d47abb59179a7730a9a2c.r2.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.0",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 2,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:21:39Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/8.47.69.0/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 8.47.69.0: 20 resolution(s); hosts: pub-021d30c7f5dd41ab9f48c3646bf1e306.r2.dev, www.mstar.com.my, pub-86cc5b1d786144dcb24eecf62bbc7958.r2.dev, pub-7b4e90e32c1042e3a29792970dc186e1.r2.dev, pub-6413c03d644d47abb59179a7730a9a2c.r2.dev, qmakxvjizskwbtwxwlxk.supabase.co, pub-18e8112f561e46578c414fbc8e0b45b9.r2.dev, cdn3.cdnme.se, wlmhtrrpmhgsfllrsbao.supabase.co, widget.tagembed.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

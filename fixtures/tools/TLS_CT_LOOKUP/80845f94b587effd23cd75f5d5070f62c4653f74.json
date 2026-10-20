@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "api.erssegd.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "api.erssegd.com"
+  },
+  "raw": {
+    "count": 6,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=R12",
+      "C=US, O=Let's Encrypt, CN=R12",
+      "C=US, O=Let's Encrypt, CN=R13",
+      "C=US, O=Let's Encrypt, CN=R13",
+      "C=US, O=Let's Encrypt, CN=R12"
+    ],
+    "names": [
+      "api.erssegd.com",
+      "api.erssegd.com",
+      "api.erssegd.com",
+      "api.erssegd.com",
+      "api.erssegd.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:04:22Z",
+  "source_url": "https://crt.sh/?q=%25.api.erssegd.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for api.erssegd.com: 6 certificate row(s); sample names=api.erssegd.com, api.erssegd.com, api.erssegd.com, api.erssegd.com, api.erssegd.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

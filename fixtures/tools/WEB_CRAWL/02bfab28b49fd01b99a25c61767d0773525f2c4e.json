@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.wsj.com/world/middle-east/trump-iran-war-strait-of-hormuz-ee950ad4?st=JqTwqz&amp;amp;reflink=article_copyURL_share"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "wsj.com",
+    "javascript_rendered": true,
+    "title": "wsj.com",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:23:48Z",
+  "source_url": "https://www.wsj.com/world/middle-east/trump-iran-war-strait-of-hormuz-ee950ad4?st=JqTwqz&amp;amp;reflink=article_copyURL_share",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.wsj.com/world/middle-east/trump-iran-war-strait-of-hormuz-ee950ad4?st=JqTwqz&amp;amp;reflink=article_copyURL_share. Title: wsj.com. Excerpt: wsj.com",
+  "tool_type": "WEB_CRAWL"
+}

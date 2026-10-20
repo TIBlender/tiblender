@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "socketusercontent.com malware"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Oct 10, 2019 · N、S、E、W分别代表北方、南方、东方、西方四个方位。 N、S、E、W是北方、南方、东方、西方四个方向的英文简 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "N、S、E、W分别代表什么方位？_百度知道",
+        "url": "https://zhidao.baidu.com/question/500516860.html"
+      },
+      {
+        "category": "general",
+        "content": "Sep 5, 2013 · 愿为西南风小说txt全集免费下载愿为西南风 txt全集小说附件已上传到百度网盘，点击免费下载：内容预览：早在知莹出 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "愿为西南风小说txt全集免费下载 - 百度知道",
+        "url": "https://zhidao.baidu.com/question/491458548.html"
+      },
+      {
+        "category": "general",
+        "content": "May 11, 2018 · “风向玫瑰”图也叫风向频率玫瑰图 （2）风向玫瑰图的广泛应用。 风向玫瑰图在气象统计、城市规划、工业布局等方面 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "风向玫瑰图该怎么看？ - 知乎",
+        "url": "https://www.zhihu.com/question/36765935"
+      },
+      {
+        "category": "general",
+        "content": "为什么最近20年，中国西南崛起了，而东北却衰弱了？ 新闻链接： 20年经济西南东北易位 西南城市群崛起 其中很重要一点就是，四 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "为什么最近20年，中国西南崛起了，而东北却衰弱了？",
+        "url": "https://www.zhihu.com/question/320610750"
+      },
+      {
+        "category": "general",
+        "content": "Nov 11, 2019 · 北与土耳其接壤，东同伊拉克交界，南与约旦毗连，西南与黎巴嫩、以色列为邻，西与塞浦路斯隔地中海相望，首都大 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "中东包括哪些国家？ - 百度知道",
+        "url": "https://zhidao.baidu.com/question/31610801.html"
+      },
+      {
+        "category": "general",
+        "content": "Oct 15, 2021 · 西南等轴测视图： 将形体放置成使它的三条坐标轴与轴测投影面具有相同的 (约35°16′)夹角，然后向轴测投影面作正投 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "什么是西南等轴测视图 - 百度知道",
+        "url": "https://zhidao.baidu.com/question/50132165.html"
+      },
+      {
+        "category": "general",
+        "content": "Jan 23, 2026 · 成立背景与筹备 CCF（中国计算机学会）西南办事处是继首个地方办事处后成立的第二个区域分支机构，筹备历时半年 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "CCF成立西南办事处 - 百度知道",
+        "url": "https://zhidao.baidu.com/question/1124583476510935379.html"
+      },
+      {
+        "category": "general",
+        "content": "Aug 26, 2025 · 几内亚湾季风的成因主要有以下几点： 一、气压带风带的季节性移动 北半球夏季，随着太阳直射点的北移，气压带和 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "几内亚湾季风成因_百度知道",
+        "url": "https://zhidao.baidu.com/question/660775232595032045.html"
+      },
+      {
+        "category": "general",
+        "content": "Oct 30, 2014 · 三国 魏 曹植 《七哀》 明月照高楼，流光正徘徊。 上有愁思妇，悲叹有余哀。 借问叹者谁？云是宕子妻。 君行逾十 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "愿为西南风 长逝入君怀意境相似的句子有_百度知道",
+        "url": "https://zhidao.baidu.com/question/624910248862500524.html"
+      },
+      {
+        "category": "general",
+        "content": "Nov 25, 2023 · 西南石油大学校训和精神西南石油大学校训和精神如下：西南石油大学校训为“明德笃志，博学创新”。西南石油大学精 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "西南石油大学校训和精神_百度知道",
+        "url": "https://zhidao.baidu.com/question/1958068516576820788.html"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:41:58Z",
+  "source_url": "http://searxng:8080/search?q=socketusercontent.com+malware&format=json",
+  "status": "success",
+  "summary": "SearXNG search for socketusercontent.com malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

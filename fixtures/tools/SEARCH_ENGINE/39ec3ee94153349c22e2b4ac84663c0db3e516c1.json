@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "mansfieldpediatrics.com"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "카카오톡 채널 문의 카카오톡 상단 검색 > “다음 고객센터\" 채널 추가 365일 24시간 챗봇 운영 평일 오전 10:00 ~ 18:30 상담톡 운영 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Daum 고객센터",
+        "url": "https://cs.daum.net/"
+      },
+      {
+        "category": "general",
+        "content": "메일 도움말 53 더보기 메일보내기 메일수신 메일읽기 IMAP/POP3/SMTP 외부메일 가져오기 환경설정 Daum 스마트 워크 프리미엄 메일 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "메일 도움말 - Daum 고객센터",
+        "url": "https://cs.daum.net/faq/43/9234.html"
+      },
+      {
+        "category": "general",
+        "content": "Jun 3, 2016 · 1. 메일 목록의 메일을 드래그하여 이동할 수 있습니다.u2028 2. 메일 목록의 메일을 선택하여 상단 툴바의 이동 메뉴를 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "메일_메일수신 도움말 | Daum 고객센터",
+        "url": "https://cs.daum.net/faq/43/4589.html?faqId=35901"
+      },
+      {
+        "category": "general",
+        "content": "캡처 방법 안내 ① 캡쳐할 화면을 맨 앞으로 합니다. ② 키보드 우측 상단의 Print Screen 버튼을 누릅니다. ③ 시작 > 프로그램 > …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "문의하기 | Daum 고객센터",
+        "url": "https://cs.daum.net/question/43.html"
+      },
+      {
+        "category": "general",
+        "content": "Q Daum 아이디 (이메일) 생성하기가 뭔가요? Q Daum 아이디 (이메일) 생성 시 이미 사용된 Daum 메일 주소라고 나와요. Q 사망자의 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "회원정보 도움말 | Daum 고객센터",
+        "url": "https://cs.daum.net/faq/59.html"
+      },
+      {
+        "category": "general",
+        "content": "Q 이전/다음 메일을 쉽게 확인하는 방법은? Q 메일 검색시, PC웹메일에서와 검색결과가 다르게 나옵니다. Q 글자와 본문 화면 크기 설정이 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "메일 도움말 | Daum 고객센터",
+        "url": "https://cs.daum.net/faq/service/266/category/14495"
+      },
+      {
+        "category": "general",
+        "content": "Daum 제목, 다음 커뮤니티 월드컵 이벤트 유의사항 안내 메일 제목, [안내] 네이트 외부메일 추가 기능 지원 종료에 대한 안내 카페 제목, …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "공지사항 | Daum 고객센터",
+        "url": "https://cs.daum.net/notice"
+      },
+      {
+        "category": "general",
+        "content": "Jul 24, 2014 · 2025년 1월 2일 부로 IMAP/POP3 로그인에 2단계 인증이 필수 적용되어, IMAP/POP3를 통해 연결 시 기존 비밀번호가 아닌 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "메일_IMAP/POP3/SMTP 도움말 | Daum 고객센터",
+        "url": "https://cs.daum.net/faq/43/9234.html?faqId=31143"
+      },
+      {
+        "category": "general",
+        "content": "카카오톡 상단 검색 > “다음 고객센터\" 채널 추가 365일 24시간 챗봇 운영 평일 오전 10:00 ~ 18:30 상담톡 운영 카카오톡 문의하기",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Daum 고객센터",
+        "url": "https://cs.daum.net/?q=%EB%A9%94%EC%9D%BC"
+      },
+      {
+        "category": "general",
+        "content": "카페 만들기 카페 관리 (운영자) 카페 꾸미기 카페탑 카페 가입/탈퇴 카페 검색 글쓰기 카페 쪽지 카페 이용 (회원) 일반이용문의 카페 랭킹 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "카페 도움말 | Daum 고객센터",
+        "url": "https://cs.daum.net/faq/36.html"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:32Z",
+  "source_url": "http://searxng:8080/search?q=mansfieldpediatrics.com&format=json",
+  "status": "success",
+  "summary": "SearXNG search for mansfieldpediatrics.com: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

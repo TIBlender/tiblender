@@ -1,0 +1,71 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "Microsoft zero-day exploitation"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Log in to WhatsApp Web for simple, reliable and private messaging on your desktop. Send and receive messages and files with …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "WhatsApp Web",
+        "url": "https://web.whatsapp.com/"
+      },
+      {
+        "category": "general",
+        "content": "Download WhatsApp on your mobile device, tablet or desktop and stay connected with reliable private messaging and calling. …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Download WhatsApp",
+        "url": "https://www.whatsapp.com/download"
+      },
+      {
+        "category": "general",
+        "content": "Use WhatsApp Messenger to stay in touch with friends and family. WhatsApp is free and offers simple, secure, reliable messaging …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "WhatsApp | Secure and Reliable Free Private Messaging and Calling",
+        "url": "https://www.whatsapp.com/"
+      },
+      {
+        "category": "general",
+        "content": "WhatsApp Hosted by WhatsApp 2026 © WhatsApp LLC Privacy & Terms",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "HOUSAB - WhatsApp",
+        "url": "https://wa.me/"
+      },
+      {
+        "category": "general",
+        "content": "On WhatsApp, conversations can be expressive, fun and entirely you. Messaging on any device is protected by end-to-end …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "WhatsApp Messaging",
+        "url": "https://www.whatsapp.com/messaging"
+      },
+      {
+        "category": "general",
+        "content": "WhatsApp Web is accessed through web.WhatsApp.com and access is granted after the user scans their personal QR code through …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "WhatsApp - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/WhatsApp"
+      }
+    ],
+    "result_count": 6
+  },
+  "recorded_at": "2026-09-16T05:24:37Z",
+  "source_url": "http://searxng:8080/search?q=Microsoft+zero-day+exploitation&format=json",
+  "status": "success",
+  "summary": "SearXNG search for Microsoft zero-day exploitation: 6 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

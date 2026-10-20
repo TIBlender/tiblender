@@ -1,0 +1,97 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.npr.org"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.70.121.74",
+      "104.70.121.81",
+      "184.30.42.21",
+      "2.21.22.17",
+      "2.21.22.18",
+      "2.21.22.27",
+      "23.0.162.50",
+      "23.220.144.74",
+      "23.3.68.135",
+      "23.33.29.143",
+      "23.34.62.162",
+      "23.34.62.175",
+      "23.50.131.151",
+      "23.61.250.43",
+      "23.62.226.165",
+      "23.62.226.174",
+      "23.64.114.4"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.npr.org"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789285979,
+        "host_name": "www.npr.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.64.114.4",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789238923,
+        "host_name": "www.npr.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.3.68.135",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1789159791,
+        "host_name": "www.npr.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.62.226.174",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789159791,
+        "host_name": "www.npr.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.62.226.165",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789041884,
+        "host_name": "www.npr.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2600:1402:9800:21::17cb:3139",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:22:56Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.npr.org/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.npr.org: 20 resolution(s); addresses: 23.64.114.4, 23.3.68.135, 23.62.226.174, 23.62.226.165, 2600:1402:9800:21::17cb:3139, 23.0.162.50, 23.61.250.43, 2.21.22.27, 23.33.29.143, 23.50.131.151",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

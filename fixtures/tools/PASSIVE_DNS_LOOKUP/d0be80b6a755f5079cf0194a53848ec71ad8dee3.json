@@ -1,0 +1,90 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "sploitus.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.30.58",
+      "104.21.52.21",
+      "104.21.75.67",
+      "104.21.95.161",
+      "104.24.104.129",
+      "104.24.105.129",
+      "172.67.145.237",
+      "172.67.172.46",
+      "172.67.194.76",
+      "172.67.215.254"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "sploitus.com"
+  },
+  "raw": {
+    "malicious_count": 11,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1641432198,
+        "host_name": "sploitus.com",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 2,
+        "ip_address": "172.67.172.46",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1641432191,
+        "host_name": "sploitus.com",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.30.58",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1639617535,
+        "host_name": "sploitus.com",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.95.161",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1639617533,
+        "host_name": "sploitus.com",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 2,
+        "ip_address": "172.67.145.237",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1635157164,
+        "host_name": "sploitus.com",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 2,
+        "ip_address": "172.67.215.254",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 20,
+    "total_count": 10
+  },
+  "recorded_at": "2026-09-15T01:20:06Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/sploitus.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for sploitus.com: 10 resolution(s); addresses: 172.67.172.46, 104.21.30.58, 104.21.95.161, 172.67.145.237, 172.67.215.254, 104.21.75.67, 104.21.52.21, 172.67.194.76, 104.24.105.129, 104.24.104.129",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

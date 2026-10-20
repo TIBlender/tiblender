@@ -1,0 +1,92 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.spencer-law.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.16.108.239",
+      "104.16.109.239",
+      "104.16.110.239",
+      "104.16.111.239",
+      "104.16.112.239",
+      "162.159.143.12",
+      "162.241.226.16",
+      "172.66.3.8",
+      "192.124.249.27",
+      "206.188.192.222",
+      "34.149.87.45",
+      "45.56.67.190"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.spencer-law.com"
+  },
+  "raw": {
+    "malicious_count": 3,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1787744077,
+        "host_name": "www.spencer-law.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "162.159.143.12",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1787744077,
+        "host_name": "www.spencer-law.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.3.8",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1726089985,
+        "host_name": "www.spencer-law.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "34.149.87.45",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1681504141,
+        "host_name": "www.spencer-law.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.124.249.27",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1612263609,
+        "host_name": "www.spencer-law.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.111.239",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 12
+  },
+  "recorded_at": "2026-09-16T05:17:11Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.spencer-law.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.spencer-law.com: 12 resolution(s); addresses: 162.159.143.12, 172.66.3.8, 34.149.87.45, 192.124.249.27, 104.16.111.239, 104.16.109.239, 104.16.112.239, 104.16.108.239, 104.16.110.239, 162.241.226.16",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

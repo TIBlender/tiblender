@@ -1,0 +1,99 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "answeradept.com",
+      "candofinance.com",
+      "craftinghome.com",
+      "discoveryanswers247.com",
+      "esplorarisposta.com",
+      "festivebar.com",
+      "holidayshoppingsearch.com",
+      "infotobrowse.com",
+      "justfindinfo.com",
+      "khumphb.net",
+      "mywebsearch.com",
+      "premiumanswerfinder.com",
+      "quickqueryfinds.com",
+      "search-answer.com",
+      "searchfindshop.com",
+      "solvosphere.co",
+      "speedyresultsnow.com",
+      "szukamznajduje.com",
+      "websearch101.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "151.101.14.114"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "151.101.14.114"
+  },
+  "raw": {
+    "malicious_count": 4,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1777514113,
+        "host_name": "solvosphere.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.14.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1777164163,
+        "host_name": "holidayshoppingsearch.com",
+        "host_name_malicious": 3,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.14.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1777002947,
+        "host_name": "websearch101.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.14.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1776232393,
+        "host_name": "answeradept.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.14.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      },
+      {
+        "date": 1775179980,
+        "host_name": "candofinance.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.14.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Georgia Institute of Technology"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 2,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:31:07Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/151.101.14.114/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 151.101.14.114: 20 resolution(s); hosts: solvosphere.co, holidayshoppingsearch.com, websearch101.com, answeradept.com, candofinance.com, search-answer.com, justfindinfo.com, teoma.us, mywebsearch.com, szukamznajduje.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

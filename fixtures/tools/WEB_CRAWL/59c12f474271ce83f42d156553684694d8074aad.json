@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host theconversation.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://theconversation.com/landmark-lawsuit-finds-that-social-media-addiction-is-a-feature-not-a-bug-279390"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:17Z",
+  "source_url": "https://theconversation.com/landmark-lawsuit-finds-that-social-media-addiction-is-a-feature-not-a-bug-279390",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host theconversation.com for https://theconversation.com/landmark-lawsuit-finds-that-social-media-addiction-is-a-feature-not-a-bug-279390",
+  "tool_type": "WEB_CRAWL"
+}

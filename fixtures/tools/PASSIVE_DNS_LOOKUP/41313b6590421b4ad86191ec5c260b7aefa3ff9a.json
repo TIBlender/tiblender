@@ -1,0 +1,99 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "en.darlingbabestoowoomba.com",
+      "en.purpleglimmerbudgets.com",
+      "en.tintfellasatl.com",
+      "fa.tjmassagega.com",
+      "pt.hojeplay.com.br",
+      "pt.pubcopilot.com",
+      "www.acro-duet-u06--68.s2artistry.com",
+      "www.beaumont-aviron.com",
+      "www.erasig.com",
+      "www.isabelsmindsetcoaching.com",
+      "www.latitudenaturalhealth.co.uk",
+      "www.lmblyon.com",
+      "www.lxdworld.com",
+      "www.mountbethelbc.org",
+      "www.pats4boston.com",
+      "www.phippsracetrack.com",
+      "www.strifewear.com",
+      "www.virgini-lovinglife.com",
+      "www.young-apostle-retrea.stmyouth.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "162.159.143.12"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "162.159.143.12"
+  },
+  "raw": {
+    "malicious_count": 20,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789536587,
+        "host_name": "www.lmblyon.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "162.159.143.12",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789536585,
+        "host_name": "www.phippsracetrack.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "162.159.143.12",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789536580,
+        "host_name": "www.isabelsmindsetcoaching.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "162.159.143.12",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789536578,
+        "host_name": "fa.tjmassagega.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "162.159.143.12",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789536575,
+        "host_name": "www.mountbethelbc.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "162.159.143.12",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:29:51Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/162.159.143.12/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 162.159.143.12: 20 resolution(s); hosts: www.lmblyon.com, www.phippsracetrack.com, www.isabelsmindsetcoaching.com, fa.tjmassagega.com, www.mountbethelbc.org, www.strifewear.com, www.latitudenaturalhealth.co.uk, www.virgini-lovinglife.com, www.lxdworld.com, en.tintfellasatl.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.tomsguide.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "151.101.14.114",
+      "151.101.22.114",
+      "151.139.128.11",
+      "199.232.194.114",
+      "199.232.198.114",
+      "34.208.20.53",
+      "34.211.118.231",
+      "34.214.215.42",
+      "34.215.247.219",
+      "35.160.100.193",
+      "44.235.164.153",
+      "44.235.22.215",
+      "44.235.228.52",
+      "44.236.115.91",
+      "52.25.161.78",
+      "52.35.221.163",
+      "52.35.71.129",
+      "52.37.172.224",
+      "52.42.159.223",
+      "54.69.201.118"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.tomsguide.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1682094369,
+        "host_name": "www.tomsguide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.22.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Microsoft Sysinternals"
+      },
+      {
+        "date": 1659160361,
+        "host_name": "www.tomsguide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.14.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "SecneurX"
+      },
+      {
+        "date": 1621377399,
+        "host_name": "www.tomsguide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "199.232.198.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1621375497,
+        "host_name": "www.tomsguide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "199.232.194.114",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1620963550,
+        "host_name": "www.tomsguide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "34.211.118.231",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:23:49Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.tomsguide.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.tomsguide.com: 20 resolution(s); addresses: 151.101.22.114, 151.101.14.114, 199.232.198.114, 199.232.194.114, 34.211.118.231, 52.35.71.129, 44.235.228.52, 34.215.247.219, 54.69.201.118, 151.139.128.11",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,42 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "reclaimthenet.org",
+      "video.reclaimthenet.org"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "reclaimthenet.org"
+  },
+  "raw": {
+    "count": 669,
+    "issuers": [
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR1"
+    ],
+    "names": [
+      "*.reclaimthenet.org",
+      "reclaimthenet.org",
+      "*.reclaimthenet.org",
+      "reclaimthenet.org",
+      "*.reclaimthenet.org",
+      "reclaimthenet.org",
+      "video.reclaimthenet.org",
+      "video.reclaimthenet.org"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:11:34Z",
+  "source_url": "https://crt.sh/?q=%25.reclaimthenet.org&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for reclaimthenet.org: 669 certificate row(s); sample names=*.reclaimthenet.org, reclaimthenet.org, *.reclaimthenet.org, reclaimthenet.org, *.reclaimthenet.org.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

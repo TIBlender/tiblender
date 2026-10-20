@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host venmo.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://venmo.com/user/eolnmsuk"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:58:03Z",
+  "source_url": "https://venmo.com/user/eolnmsuk",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host venmo.com for https://venmo.com/user/eolnmsuk",
+  "tool_type": "WEB_CRAWL"
+}

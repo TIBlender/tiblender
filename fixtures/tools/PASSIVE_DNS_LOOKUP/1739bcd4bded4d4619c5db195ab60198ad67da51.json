@@ -1,0 +1,99 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "akauricries-co-nz.pages.dev",
+      "app.archiveintelligence.io",
+      "ar-vidmint.pages.dev",
+      "business-chamber.pages.dev",
+      "cerrajerorafaelocanalabuhaira.pages.dev",
+      "evvnreport.pages.dev",
+      "fishing-7007.pages.dev",
+      "lifeslicer.pages.dev",
+      "millcreekmall.pages.dev",
+      "miniapp-30y.pages.dev",
+      "musang110.pages.dev",
+      "okabdt-admin.pages.dev",
+      "omni-productions-redux.pages.dev",
+      "perfect-hunting-junction.pages.dev",
+      "rival55-featured-point.pages.dev",
+      "root-drgeorgeangus-com.pages.dev",
+      "www-instagrm-com-reel-dxcprccjgrjadvoynprzdzmzg5wklc.pages.dev",
+      "www.lifeelevatedmanagement.com",
+      "yuimaru-line-harness-admin-d1c89002.pages.dev"
+    ],
+    "hashes": [],
+    "ips": [
+      "172.66.44.79"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "172.66.44.79"
+  },
+  "raw": {
+    "malicious_count": 20,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789435432,
+        "host_name": "www-instagrm-com-reel-dxcprccjgrjadvoynprzdzmzg5wklc.pages.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.44.79",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789435343,
+        "host_name": "business-chamber.pages.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.44.79",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789435284,
+        "host_name": "evvnreport.pages.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.44.79",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789435227,
+        "host_name": "perfect-hunting-junction.pages.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.44.79",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789435128,
+        "host_name": "lifeslicer.pages.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.66.44.79",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 20,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:31:24Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/172.66.44.79/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 172.66.44.79: 20 resolution(s); hosts: www-instagrm-com-reel-dxcprccjgrjadvoynprzdzmzg5wklc.pages.dev, business-chamber.pages.dev, evvnreport.pages.dev, perfect-hunting-junction.pages.dev, lifeslicer.pages.dev, akauricries-co-nz.pages.dev, root-drgeorgeangus-com.pages.dev, millcreekmall.pages.dev, app.archiveintelligence.io, omni-productions-redux.pages.dev",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

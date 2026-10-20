@@ -1,0 +1,64 @@
+{
+  "dataset_name": "collector_experiment_sample",
+  "experiment_period": {
+    "days": 31,
+    "end_exclusive": "2026-04-17T00:00:00Z",
+    "start": "2026-03-16T00:00:00Z"
+  },
+  "input_posts": 6,
+  "input_posts_by_platform": {
+    "discord": 1,
+    "reddit": 2,
+    "x": 3
+  },
+  "platform_scope": [
+    "discord",
+    "reddit",
+    "x"
+  ],
+  "sample_run": {
+    "clusters_generated": 1,
+    "clusters_investigated": 1,
+    "generation_mode": "offline_deterministic",
+    "input_file": "sample_run_posts.jsonl",
+    "llm_model": "",
+    "llm_provider": "azure_openai",
+    "llm_used": false,
+    "mode": "offline",
+    "output_dir": "sample_run_output",
+    "posts_loaded": 6,
+    "real_tools_enabled": true,
+    "report_id": "TIBLENDER-RUN-252a5d11fa1a",
+    "reports_generated": 1,
+    "search_engine_provider": "searxng",
+    "tool_result_types_invoked": {
+      "DISCORD_SEARCH": 2,
+      "PASSIVE_DNS_LOOKUP": 2,
+      "REDDIT_SEARCH": 1,
+      "SEARCH_ENGINE": 3,
+      "TELEGRAM_SEARCH": 2,
+      "TLS_CT_LOOKUP": 1,
+      "WHOIS_LOOKUP": 2,
+      "X_SEARCH": 2
+    },
+    "runtime_profile": {
+      "embedding_backend": "hashing",
+      "embedding_features": 384,
+      "embedding_local_files_only": true,
+      "rl_policy_backend": "multiaction_dqn",
+      "reference_rl_hidden_dim": 256,
+      "reference_rl_training_min_transitions": 1000
+    },
+    "web_crawl_render_js": true
+  },
+  "sample_selection": {
+    "content_length_range": "210-325 characters",
+    "input_posts": 6,
+    "indicator_grounding": "visible domain, package versions, and hashes are present in the source-post text used for the runtime sample",
+    "source_scope": "single npm supply-chain cluster",
+    "source_identifiers": "omitted",
+    "topic": "Axios npm supply-chain compromise",
+    "translation": "English-rendered deidentified source-post text"
+  },
+  "sample_topic": "Axios npm supply-chain compromise"
+}

@@ -1,0 +1,98 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "104.18.14.35",
+      "104.18.15.35",
+      "13.249.182.101",
+      "18.238.96.107",
+      "18.238.96.74",
+      "18.238.96.77",
+      "18.238.96.97",
+      "18.245.104.110",
+      "18.245.104.113",
+      "18.245.104.15",
+      "18.245.104.29",
+      "3.168.132.89",
+      "3.168.132.95",
+      "3.170.42.121",
+      "3.170.42.83",
+      "52.84.127.42",
+      "52.84.127.58",
+      "52.84.127.63",
+      "52.84.127.84",
+      "52.84.174.57"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.ncsc.gov.uk"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1772476952,
+        "host_name": "www.ncsc.gov.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.18.15.35",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1772476952,
+        "host_name": "www.ncsc.gov.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.18.14.35",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1771929378,
+        "host_name": "www.ncsc.gov.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.249.182.101",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1771534995,
+        "host_name": "www.ncsc.gov.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.238.96.74",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1771534995,
+        "host_name": "www.ncsc.gov.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.238.96.107",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:15:14Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.ncsc.gov.uk/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.ncsc.gov.uk: 20 resolution(s); addresses: 104.18.15.35, 104.18.14.35, 13.249.182.101, 18.238.96.74, 18.238.96.107, 18.238.96.77, 18.238.96.97, 52.84.174.57, 52.84.127.58, 52.84.127.42",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

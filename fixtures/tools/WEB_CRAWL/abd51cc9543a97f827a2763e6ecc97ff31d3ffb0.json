@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.drupal.org is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.drupal.org/sa-contrib-2026-002"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:58:21Z",
+  "source_url": "https://www.drupal.org/sa-contrib-2026-002",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.drupal.org for https://www.drupal.org/sa-contrib-2026-002",
+  "tool_type": "WEB_CRAWL"
+}

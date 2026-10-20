@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.thenationalnews.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.thenationalnews.com/news/mena/2026/03/31/american-journalist-shelly-kittleson-kidnapped-in-iraq/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:58:34Z",
+  "source_url": "https://www.thenationalnews.com/news/mena/2026/03/31/american-journalist-shelly-kittleson-kidnapped-in-iraq/",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.thenationalnews.com for https://www.thenationalnews.com/news/mena/2026/03/31/american-journalist-shelly-kittleson-kidnapped-in-iraq/",
+  "tool_type": "WEB_CRAWL"
+}

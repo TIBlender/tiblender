@@ -1,0 +1,233 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "phishstats.info"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "phishstats.info"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  ""
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+1.9854014545"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abuse@namecheap.com"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "1068",
+        "links": [
+          {
+            "href": "https://rdap.identitydigital.services/rdap/entity/1068",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.identitydigital.services/rdap/entity/1068"
+          },
+          {
+            "href": "https://rdap.namecheap.com/",
+            "rel": "about",
+            "type": "application/rdap+json",
+            "value": "https://rdap.namecheap.com/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "1068",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "NameCheap, Inc."
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "transfer",
+        "eventDate": "2020-07-13T19:20:06.157Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2027-07-18T01:41:07.864Z"
+      },
+      {
+        "eventAction": "registration",
+        "eventDate": "2017-07-18T01:41:07.864Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-08-13T20:08:43.645Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-15T00:56:20.467Z"
+      }
+    ],
+    "ldhName": "phishstats.info",
+    "links": [
+      {
+        "href": "https://rdap.namecheap.com/domain/phishstats.info",
+        "rel": "related",
+        "type": "application/rdap+json",
+        "value": "https://rdap.identitydigital.services/rdap/domain/phishstats.info"
+      },
+      {
+        "href": "https://rdap.identitydigital.services/rdap/domain/phishstats.info",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.identitydigital.services/rdap/domain/phishstats.info"
+      }
+    ],
+    "nameservers": [
+      {
+        "handle": "b7a1e53384184b49ad5e5829c7b82082-DONUTS",
+        "ldhName": "karl.ns.cloudflare.com",
+        "objectClassName": "nameserver",
+        "status": [
+          "associated"
+        ],
+        "unicodeName": "karl.ns.cloudflare.com"
+      },
+      {
+        "handle": "ba373cfd30684d9693983643720b1fa0-DONUTS",
+        "ldhName": "venus.ns.cloudflare.com",
+        "objectClassName": "nameserver",
+        "status": [
+          "associated"
+        ],
+        "unicodeName": "venus.ns.cloudflare.com"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "Access to RDAP information is provided to assist persons in determining the contents of a domain name registration record in the registry database. The data in this record is provided by Identity Digital or, if the record pertains to a TLD not operated by Identity Digital, then the corresponding primary Registry Operator for informational purposes only, and neither Identity Digital nor the Registry Operator guarantee its accuracy. This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to (a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Identity Digital, a Registrar, or Registry Operator except as reasonably necessary to register domain names or modify existing registrations. When using the RDAP service, please consider the following: the RDAP service is not a replacement for standard EPP commands to the SRS service. RDAP is not considered authoritative for registered domain objects. The RDAP service may be scheduled for downtime during production or OT&E maintenance periods. Queries to the RDAP services are throttled. If too many queries are received from a single IP address within a specified time, the service will begin to reject further queries for a period of time to prevent disruption of RDAP service access. Abuse of the RDAP system through data mining is mitigated by detecting and limiting bulk query access from single sources. Where applicable, the presence of a [Non-Public Data] tag indicates that such data is not made publicly available due to applicable data privacy laws or requirements. Should you wish to contact the registrant, please refer to the RDAP records available through the registrar URL listed above. Access to non-public data may be provided, upon request, where it can be reasonably confirmed that the requester holds a specific legitimate interest and a proper legal basis for accessing the withheld data. Access to the data provided by Identity Digital can be requested by submitting a request via the form found at https://www.identity.digital/about/policies/whois-layered-access/ Identity Digital Inc. and, if applicable, the primary Registry Operators reserve the right to modify these terms at any time. By submitting this query, you agree to abide by this policy."
+        ],
+        "links": [
+          {
+            "href": "https://www.identity.digital/policies/rdds-access-policy",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.identitydigital.services/rdap/domain/phishstats.info"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "application/rdap+json",
+            "value": "https://rdap.identitydigital.services/rdap/domain/phishstats.info"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "type": "application/rdap+json",
+            "value": "https://rdap.identitydigital.services/rdap/domain/phishstats.info"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_response_profile_1",
+      "icann_rdap_technical_implementation_guide_1",
+      "redacted"
+    ],
+    "redacted": [
+      {
+        "method": "removal",
+        "name": {
+          "type": "Registry Domain ID"
+        },
+        "pathLang": "jsonpath",
+        "prePath": "$.handle"
+      }
+    ],
+    "secureDNS": {
+      "delegationSigned": false,
+      "maxSigLife": 1
+    },
+    "status": [
+      "client transfer prohibited"
+    ],
+    "unicodeName": "phishstats.info"
+  },
+  "recorded_at": "2026-09-15T00:56:20Z",
+  "source_url": "https://rdap.identitydigital.services/rdap/domain/phishstats.info",
+  "status": "success",
+  "summary": "RDAP domain lookup for phishstats.info: handle=n/a; status=client transfer prohibited; nameservers=karl.ns.cloudflare.com,venus.ns.cloudflare.com; events=transfer=2020-07-13T19:20:06.157Z; expiration=2027-07-18T01:41:07.864Z; registration=2017-07-18T01:41:07.864Z; last changed=2026-08-13T20:08:43.645Z; entities=1068.",
+  "tool_type": "WHOIS_LOOKUP"
+}

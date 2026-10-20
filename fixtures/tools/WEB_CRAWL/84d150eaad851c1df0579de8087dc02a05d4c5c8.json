@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.them.us is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.them.us/story/kids-online-safety-act-kosa-youth-lgbtq-content"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:26:16Z",
+  "source_url": "https://www.them.us/story/kids-online-safety-act-kosa-youth-lgbtq-content",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.them.us for https://www.them.us/story/kids-online-safety-act-kosa-youth-lgbtq-content",
+  "tool_type": "WEB_CRAWL"
+}

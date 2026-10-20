@@ -1,0 +1,488 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "securityaid.co.uk"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "securityaid.co.uk"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Abuse contact"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "legal@ionos.co.uk"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "1AND1",
+        "links": [
+          {
+            "href": "https://rdap.nominet.uk/uk/entity/1AND1",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.nominet.uk/uk/entity/1AND1"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "1AND1",
+            "type": "Registry Identifier"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Ionos SE"
+            ],
+            [
+              "tel",
+              {
+                "type": "voice"
+              },
+              "text",
+              "0800-021-1693-and-03333-365-691"
+            ],
+            [
+              "url",
+              {},
+              "uri",
+              "https://ionos.com"
+            ]
+          ]
+        ]
+      },
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventDate": "2021-10-14T19:12:28Z"
+          }
+        ],
+        "objectClassName": "entity",
+        "remarks": [
+          {
+            "description": [
+              "Some of the data in this object has been removed"
+            ],
+            "title": "REDACTED FOR PRIVACY",
+            "type": "object redacted due to authorization"
+          },
+          {
+            "description": [
+              "This data is not generally available, if you have legitimate reason to request access please review Nominets data release process."
+            ],
+            "title": "EMAIL REDACTED FOR PRIVACY",
+            "type": "object redacted due to authorization"
+          },
+          {
+            "description": [
+              "Name validated.",
+              "Address validated.",
+              "Nominet responsible for validation."
+            ],
+            "title": "Data Quality"
+          }
+        ],
+        "roles": [
+          "registrant"
+        ],
+        "status": [
+          "validated"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              ""
+            ],
+            [
+              "email",
+              {},
+              "text",
+              "redacted@nominet.uk"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventActor": "1AND1",
+        "eventDate": "2021-10-14T19:12:31Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2025-10-13T19:16:12.902416Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2026-10-14T19:12:31Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-15T00:56:22.872Z"
+      }
+    ],
+    "handle": "D_75512713-UK",
+    "ldhName": "securityaid.co.uk",
+    "links": [
+      {
+        "href": "https://rdap.nominet.uk/uk/domain/securityaid.co.uk",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.nominet.uk/uk/domain/securityaid.co.uk"
+      }
+    ],
+    "nameservers": [
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventActor": "1AND1",
+            "eventDate": "2016-11-01T15:54:23Z"
+          }
+        ],
+        "handle": "H_932486-UK",
+        "ldhName": "ns1028.ui-dns.de.",
+        "links": [
+          {
+            "href": "https://rdap.nominet.uk/uk/nameserver/ns1028.ui-dns.de.",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.nominet.uk/uk/nameserver/ns1028.ui-dns.de."
+          }
+        ],
+        "objectClassName": "nameserver",
+        "status": [
+          "active",
+          "associated"
+        ],
+        "unicodeName": "ns1028.ui-dns.de."
+      },
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventActor": "1AND1",
+            "eventDate": "2016-11-01T15:33:12Z"
+          }
+        ],
+        "handle": "H_940253-UK",
+        "ldhName": "ns1051.ui-dns.biz.",
+        "links": [
+          {
+            "href": "https://rdap.nominet.uk/uk/nameserver/ns1051.ui-dns.biz.",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.nominet.uk/uk/nameserver/ns1051.ui-dns.biz."
+          }
+        ],
+        "objectClassName": "nameserver",
+        "status": [
+          "active",
+          "associated"
+        ],
+        "unicodeName": "ns1051.ui-dns.biz."
+      },
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventActor": "1AND1",
+            "eventDate": "2016-11-01T14:32:34Z"
+          }
+        ],
+        "handle": "H_932479-UK",
+        "ldhName": "ns1072.ui-dns.com.",
+        "links": [
+          {
+            "href": "https://rdap.nominet.uk/uk/nameserver/ns1072.ui-dns.com.",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.nominet.uk/uk/nameserver/ns1072.ui-dns.com."
+          }
+        ],
+        "objectClassName": "nameserver",
+        "status": [
+          "active",
+          "associated"
+        ],
+        "unicodeName": "ns1072.ui-dns.com."
+      },
+      {
+        "events": [
+          {
+            "eventAction": "registration",
+            "eventActor": "1AND1",
+            "eventDate": "2016-11-01T17:01:08Z"
+          }
+        ],
+        "handle": "H_939565-UK",
+        "ldhName": "ns1082.ui-dns.org.",
+        "links": [
+          {
+            "href": "https://rdap.nominet.uk/uk/nameserver/ns1082.ui-dns.org.",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.nominet.uk/uk/nameserver/ns1082.ui-dns.org."
+          }
+        ],
+        "objectClassName": "nameserver",
+        "status": [
+          "active",
+          "associated"
+        ],
+        "unicodeName": "ns1082.ui-dns.org."
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "The Registry Operator, offers this Registration Data Access Protocol (RDAP) service and provides access to the records in the RDAP database for information purposes only, to assist you in obtaining information about the registration records of existing domain names. The stored information in the RDAP database is provided as is. We do not guarantee its accuracy or completeness, and cannot be held liable if the stored information in the RDAP database is wrong, incomplete, or inaccurate in any way. By querying the RDAP database in any way, you agree that you will not use this data: (i) to allow, enable or otherwise support the transmission of unsolicited, commercial advertising or other solicitations in any form or by any means; (ii) to enable high volume, automated, electronic processes that query or send data to the Registry Operator or any registrar or registrant; (iii) for target advertising; (iv) to cause nuisance to registrants by sending (by any means) messages to or contacting them; (v) to violate any law, rule, regulation or statute; and/or (vi) in violation of applicable data and privacy protection acts. You are explicitly prohibited from extracting, copying and/or using or re-using in any form and by any means (electronically or not) all or part (quantitatively or qualitatively) of the contents of the RDAP database without prior and explicit permission from the Registry Operator. Any copying or transmission of data for commercial purposes violates this prohibition. You agree that we can take measures to limit the use of the RDAP service to protect the privacy of registrants or the integrity of the database. We reserve the right to make changes to this website, the RDAP service, and these Terms and Conditions at any time without prior notice to you. You should review these Terms and Conditions each time you access or use the RDAP database and the RDAP service to learn of any changes. If you do not agree to the changes we have made, your only remedy is to stop your use of the RDAP database and the RDAP service. By executing a query, in any means whatsoever, you agree to these Terms of Service."
+        ],
+        "links": [
+          {
+            "href": "https://nominet.uk/rdap-tos",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.nominet.uk/uk/domain/securityaid.co.uk"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "text/html",
+            "value": "https://rdap.nominet.uk/uk/domain/securityaid.co.uk"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the Nominet WHOIS data complaint process: https://www.nominet.uk/complaints/#complaining-about-incorrect-whois-data"
+        ],
+        "links": [
+          {
+            "href": "https://www.nominet.uk/complaints/#complaining-about-incorrect-whois-data",
+            "rel": "help",
+            "type": "text/html",
+            "value": "https://rdap.nominet.uk/uk/domain/securityaid.co.uk"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "publicIds": [
+      {
+        "identifier": "D_75512713-UK",
+        "type": "Registry Identifier"
+      }
+    ],
+    "rdapConformance": [
+      "redacted",
+      "rdap_level_0"
+    ],
+    "redacted": [
+      {
+        "method": "emptyValue",
+        "name": {
+          "type": "Registrant Name"
+        },
+        "pathLang": "jsonpath",
+        "postPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='fn')][3]",
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "removal",
+        "name": {
+          "type": "Registrant Organization"
+        },
+        "pathLang": "jsonpath",
+        "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='org')]",
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "removal",
+        "name": {
+          "description": "Registrant Organisation Type"
+        },
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "removal",
+        "name": {
+          "description": "Registrant Identifier Label"
+        },
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "removal",
+        "name": {
+          "description": "Registrant Organisation Identifier"
+        },
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "emptyValue",
+        "name": {
+          "type": "Registrant Street"
+        },
+        "pathLang": "jsonpath",
+        "postPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='adr')][3][:3]",
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "emptyValue",
+        "name": {
+          "type": "Registrant Postal Code"
+        },
+        "pathLang": "jsonpath",
+        "postPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='adr')][3][5]",
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "emptyValue",
+        "name": {
+          "type": "Registrant City"
+        },
+        "pathLang": "jsonpath",
+        "postPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='adr')][3][3]",
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "emptyValue",
+        "name": {
+          "description": "Registrant Country"
+        },
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "emptyValue",
+        "name": {
+          "description": "Registrant Region"
+        },
+        "reason": {
+          "description": "Server policy"
+        }
+      },
+      {
+        "method": "replacementValue",
+        "name": {
+          "type": "Registrant Email"
+        },
+        "pathLang": "jsonpath",
+        "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='email')]",
+        "reason": {
+          "description": "Server policy"
+        },
+        "replacementPath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[0]=='email')][3]"
+      },
+      {
+        "method": "removal",
+        "name": {
+          "type": "Registrant Phone"
+        },
+        "pathLang": "jsonpath",
+        "prePath": "$.entities[?(@.roles[0]=='registrant')].vcardArray[1][?(@[1].type=='voice')]",
+        "reason": {
+          "description": "Server policy"
+        }
+      }
+    ],
+    "secureDNS": {
+      "delegationSigned": false,
+      "maxSigLife": 3024000
+    },
+    "status": [
+      "active"
+    ],
+    "unicodeName": "securityaid.co.uk"
+  },
+  "recorded_at": "2026-09-15T00:56:23Z",
+  "source_url": "https://rdap.nominet.uk/uk/domain/securityaid.co.uk",
+  "status": "success",
+  "summary": "RDAP domain lookup for securityaid.co.uk: handle=D_75512713-UK; status=active; nameservers=ns1028.ui-dns.de.,ns1051.ui-dns.biz.,ns1072.ui-dns.com.,ns1082.ui-dns.org.; events=registration=2021-10-14T19:12:31Z; last changed=2025-10-13T19:16:12.902416Z; expiration=2026-10-14T19:12:31Z; last update of RDAP database=2026-09-15T00:56:22.872Z; entities=1AND1,.",
+  "tool_type": "WHOIS_LOOKUP"
+}

@@ -1,0 +1,92 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "talosintelligence.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.16.218.84",
+      "104.16.219.84",
+      "104.16.25.54",
+      "104.16.250.239",
+      "104.16.251.239",
+      "104.16.26.54",
+      "104.16.27.54",
+      "104.16.28.54",
+      "104.16.29.54",
+      "104.17.59.76",
+      "104.18.199.58",
+      "198.148.79.59"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "talosintelligence.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1779300028,
+        "host_name": "talosintelligence.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2606:4700::6810:db54",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Zenbox Linux"
+      },
+      {
+        "date": 1779300028,
+        "host_name": "talosintelligence.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2606:4700::6810:da54",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Zenbox Linux"
+      },
+      {
+        "date": 1738989815,
+        "host_name": "talosintelligence.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.218.84",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1738989813,
+        "host_name": "talosintelligence.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.219.84",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1711859929,
+        "host_name": "talosintelligence.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.250.239",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 14
+  },
+  "recorded_at": "2026-09-16T05:12:01Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/talosintelligence.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for talosintelligence.com: 14 resolution(s); addresses: 2606:4700::6810:db54, 2606:4700::6810:da54, 104.16.218.84, 104.16.219.84, 104.16.250.239, 104.16.251.239, 104.18.199.58, 104.17.59.76, 104.16.25.54, 104.16.29.54",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

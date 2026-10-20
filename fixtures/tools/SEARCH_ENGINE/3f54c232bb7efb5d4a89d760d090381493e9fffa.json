@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "node-45-177-137-248.nxtv.com.br"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Node.js — Run JavaScript Everywhere",
+        "url": "https://nodejs.org/"
+      },
+      {
+        "category": "general",
+        "content": "Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Download Node.js®",
+        "url": "https://nodejs.org/en/download"
+      },
+      {
+        "category": "general",
+        "content": "Oct 15, 2020 · Node.jsはサーバサイドのJavaScript実行環境？ Node.jsに関する記事などで、Node.jsは「サーバサイドのJavaScript …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Node.jsとはなにか？なぜみんな使っているのか？ - Qiita",
+        "url": "https://qiita.com/non_cal/items/a8fee0b7ad96e67713eb"
+      },
+      {
+        "category": "general",
+        "content": "Nov 6, 2025 · はじめにIT分野でよく使われる用語のひとつに「ノード（Node）」があります。 ネットワーク、プログラミング、ブ …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "ノードとは？ITの基礎からネットワーク・データ構造まで解説 ...",
+        "url": "https://everplay.jp/column/9367"
+      },
+      {
+        "category": "general",
+        "content": "Jul 3, 2026 · 【初心者〜現場SEまで】Nodeとは？ 意味・使い方・Node.jsとの違いをわかりやすく徹底解説 プログラマーやSEとし …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "【初心者〜現場SEまで】Nodeとは？意味・使い方・Node.jsと ...",
+        "url": "https://pgse.jp/node/"
+      },
+      {
+        "category": "general",
+        "content": "Unless you are working in an environment where only the Node.js image will be deployed and you have space constraints, we highly …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Node.js - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/Nodejs"
+      },
+      {
+        "category": "general",
+        "content": "Apr 23, 2024 · Node.js JavaScript runtime 🐢🚀 . Contribute to nodejs/node development by creating an account on GitHub.",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "GitHub - nodejs/node: Node.js JavaScript runtime · GitHub",
+        "url": "https://github.com/nodejs/node"
+      },
+      {
+        "category": "general",
+        "content": "ITの分野ではネットワーク構造の構成要素などをこのように呼ぶ。 ネットワーク構造や木構造 (ツリー)、グラフなど、複数の要素 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "ノードとは - IT用語辞典 e-Words",
+        "url": "https://e-words.jp/w/%E3%83%8E%E3%83%BC%E3%83%89.html"
+      },
+      {
+        "category": "general",
+        "content": "(electronics) A region of an electric circuit connected only by (ideal) wires (i.e. the voltage between any two points on the same node …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "英語「node」の意味・使い方・読み方 | Weblio英和辞書",
+        "url": "https://ejje.weblio.jp/content/node"
+      },
+      {
+        "category": "general",
+        "content": "May 6, 2026 · こんにちは、阿久梨絵です！ 今回は、ネットワークやデータ構造の説明で突然出てくる 「 ノード （node）」 という …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "“ ノード ”を理解するとITが全部つながる──最強の基礎概念 ...",
+        "url": "https://aqlier.com/2026/05/06/node/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:50Z",
+  "source_url": "http://searxng:8080/search?q=node-45-177-137-248.nxtv.com.br&format=json",
+  "status": "success",
+  "summary": "SearXNG search for node-45-177-137-248.nxtv.com.br: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

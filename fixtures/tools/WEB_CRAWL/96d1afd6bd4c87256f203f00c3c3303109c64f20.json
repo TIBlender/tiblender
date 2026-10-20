@@ -1,0 +1,37 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "sfrclak.com"
+    ],
+    "hashes": [
+      "07d889e2dadce6f3910dcbc253317d28ca61c766",
+      "2553649f2322049666871cea80a5d0d6adc700ca",
+      "d6f3f62fd3b9f5432f5782b62d8cfd5247d5ee71"
+    ],
+    "ips": [
+      "142.11.206.73"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.malwarebytes.com/blog/news/2026/03/axios-supply-chain-attack-chops-away-at-npm-trust"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Axios supply chain attack chops away at npm trust | Malwarebytes Skip to content Search SIGN IN Products Pricing Partners About Resources Help Free Download NEWS Axios supply chain attack chops away at npm trust by Pieter Arntz | March 31, 2026 Researchers found that compromised Axios versions installed a Remote Access Trojan. Axios is a promise-based HTTP Client for node.js, basically a helper tool that developers use behind the scenes to let apps talk to the internet. For example, Axios makes requests such as “get my messages from the server” or “send this form to the website” easier and more reliable for programmers and it saves them from having to write a lot of low‑level networking code",
+    "javascript_rendered": true,
+    "title": "Axios supply chain attack chops away at npm trust | Malwarebytes",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:21:03Z",
+  "source_url": "https://www.malwarebytes.com/blog/news/2026/03/axios-supply-chain-attack-chops-away-at-npm-trust",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.malwarebytes.com/blog/news/2026/03/axios-supply-chain-attack-chops-away-at-npm-trust. Title: Axios supply chain attack chops away at npm trust | Malwarebytes. Excerpt: Axios supply chain attack chops away at npm trust | Malwarebytes Skip to content Search SIGN IN Products Pricing Partners About Resources Help Free Download NEWS Axios supply chain attack chops away at npm trust by Pieter Arntz | March 31, 2026 Researchers found that compromised Axios versions installed a Remote Access Trojan. Axios is a promise-based HTTP Client for node.js, basically a helper tool that developers use behind the scenes to let apps talk to the internet. For example, Axios makes requests such as “get my messages from the server” or “send this form to the website” easier and more reliable for programmers and it saves them from having to write a lot of low‑level networking code",
+  "tool_type": "WEB_CRAWL"
+}

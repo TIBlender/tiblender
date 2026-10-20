@@ -1,0 +1,74 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "api.japfc.top"
+    ],
+    "hashes": [],
+    "ips": [
+      "112.213.101.69",
+      "156.254.5.40",
+      "34.150.85.92",
+      "34.92.197.148"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "api.japfc.top"
+  },
+  "raw": {
+    "malicious_count": 63,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1782221998,
+        "host_name": "api.japfc.top",
+        "host_name_malicious": 12,
+        "host_name_suspicious": 1,
+        "ip_address": "34.92.197.148",
+        "ip_address_malicious": 2,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1778896974,
+        "host_name": "api.japfc.top",
+        "host_name_malicious": 12,
+        "host_name_suspicious": 1,
+        "ip_address": "156.254.5.40",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1773303390,
+        "host_name": "api.japfc.top",
+        "host_name_malicious": 12,
+        "host_name_suspicious": 1,
+        "ip_address": "34.150.85.92",
+        "ip_address_malicious": 4,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1770874068,
+        "host_name": "api.japfc.top",
+        "host_name_malicious": 12,
+        "host_name_suspicious": 1,
+        "ip_address": "112.213.101.69",
+        "ip_address_malicious": 8,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 4,
+    "total_count": 4
+  },
+  "recorded_at": "2026-09-15T01:13:06Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/api.japfc.top/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for api.japfc.top: 4 resolution(s); addresses: 34.92.197.148, 156.254.5.40, 34.150.85.92, 112.213.101.69",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

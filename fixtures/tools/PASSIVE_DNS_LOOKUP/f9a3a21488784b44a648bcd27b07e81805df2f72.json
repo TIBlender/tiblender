@@ -1,0 +1,41 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "300gorillaz.silverbackplot.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "142.11.206.73"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "300gorillaz.silverbackplot.com"
+  },
+  "raw": {
+    "malicious_count": 19,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1624859127,
+        "host_name": "300gorillaz.silverbackplot.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.11.206.73",
+        "ip_address_malicious": 19,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 1,
+    "total_count": 1
+  },
+  "recorded_at": "2026-09-15T01:12:00Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/300gorillaz.silverbackplot.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 300gorillaz.silverbackplot.com: 1 resolution(s); addresses: 142.11.206.73",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

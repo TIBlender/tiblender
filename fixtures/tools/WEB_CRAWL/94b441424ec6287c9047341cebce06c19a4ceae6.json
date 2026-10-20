@@ -1,0 +1,27 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2026-41242"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://github.com/4chech/CVE-2026-41242"
+  },
+  "raw": {
+    "blocked_resource_types": [],
+    "excerpt": "GitHub - 4chech/CVE-2026-41242: some simple node.js web app with PoC code for CVE-2026-41242 · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentatio",
+    "fallback_reason": "Playwright is not installed for JavaScript rendering.",
+    "javascript_rendered": false,
+    "title": "GitHub - 4chech/CVE-2026-41242: some simple node.js web app with PoC code for CVE-2026-41242 · GitHub"
+  },
+  "recorded_at": "2026-09-16T05:24:59Z",
+  "source_url": "https://github.com/4chech/CVE-2026-41242",
+  "status": "success",
+  "summary": "Static crawl of https://github.com/4chech/CVE-2026-41242. Title: GitHub - 4chech/CVE-2026-41242: some simple node.js web app with PoC code for CVE-2026-41242 · GitHub. Excerpt: GitHub - 4chech/CVE-2026-41242: some simple node.js web app with PoC code for CVE-2026-41242 · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentatio",
+  "tool_type": "WEB_CRAWL"
+}

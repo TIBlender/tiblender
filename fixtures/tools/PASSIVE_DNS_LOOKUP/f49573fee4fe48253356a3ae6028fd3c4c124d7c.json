@@ -1,0 +1,41 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "sfrclak.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "142.11.206.73"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "sfrclak.com"
+  },
+  "raw": {
+    "malicious_count": 42,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1774917276,
+        "host_name": "sfrclak.com",
+        "host_name_malicious": 23,
+        "host_name_suspicious": 1,
+        "ip_address": "142.11.206.73",
+        "ip_address_malicious": 19,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 2,
+    "total_count": 1
+  },
+  "recorded_at": "2026-09-10T02:32:32Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/sfrclak.com/resolutions?limit=40",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for sfrclak.com: 1 resolution(s); addresses: 142.11.206.73",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

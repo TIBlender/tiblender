@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "securityaid.co.uk exploitation"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "r/AITAH: this is a community like r/AmITheAsshole except unlike that subreddit here you can post interpersonal conflicts, anything …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "r/AITAH - Reddit",
+        "url": "https://www.reddit.com/r/AITAH/"
+      },
+      {
+        "category": "general",
+        "content": "r/VinylReleases There is a search function enabled at the top of the page. Sort by new and make sure you aren't posting something …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "VinylReleases: a place for announcements of releases and pressings",
+        "url": "https://www.reddit.com/r/VinylReleases/"
+      },
+      {
+        "category": "general",
+        "content": "Jan 8, 2009 · The WalMart in Hudson, NH has long guns for sale. Just how willing they are to sell to Massachusetts residents …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "What WalMart still sells guns???? - Northeastshooters.com Forums",
+        "url": "https://www.northeastshooters.com/xen/threads/what-walmart-still-sells-guns.52528/"
+      },
+      {
+        "category": "general",
+        "content": "Jan 9, 2009 · Walmart firearm are the same as those from any other place - firearm companies aren't going to lessen thier products …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Walmart Ruger 10/22 vs. Gunshop Ruger 10/22",
+        "url": "https://www.northeastshooters.com/xen/threads/walmart-ruger-10-22-vs-gunshop-ruger-10-22.52707/"
+      },
+      {
+        "category": "general",
+        "content": "Dec 9, 2010 · Don't publish private/identifying information about an associate without their knowledge or permission. (Store number, …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "/r/publix : where posting is a pleasure! - Reddit",
+        "url": "https://www.reddit.com/r/publix/"
+      },
+      {
+        "category": "general",
+        "content": "Mostly just Walmart stuff.",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Wal-Mart - Reddit",
+        "url": "https://www.reddit.com/r/walmart/top/"
+      },
+      {
+        "category": "general",
+        "content": "A community for Walmart delivery drivers - Unofficial and not affiliated with Walmart in any way. Please see our FAQ in the Useful …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Seriously? This is what it’s all about? : r/Sparkdriver - Reddit",
+        "url": "https://www.reddit.com/r/Sparkdriver/comments/17rlv9h/seriously_this_is_what_its_all_about/"
+      },
+      {
+        "category": "general",
+        "content": "Sep 2, 2017 · WIRE: The Web portal that Walmart store level associates use for various things such as accessing TMAT, ETA, GTA …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Common Walmart Terms : r/walmart - Reddit",
+        "url": "https://www.reddit.com/r/walmart/comments/6xo5ag/common_walmart_terms/"
+      },
+      {
+        "category": "general",
+        "content": "210 votes, 95 comments. 267K subscribers in the walmart community. Mostly just Walmart stuff.",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Updated PPTO policy. : r/walmart - Reddit",
+        "url": "https://www.reddit.com/r/walmart/comments/sn6ru6/updated_ppto_policy/"
+      },
+      {
+        "category": "general",
+        "content": "Aug 17, 2023 · are they prepaid bank cards? might want to call the bank and see if the problem is with them or call walmart and ask …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Walmart app : r/walmart - Reddit",
+        "url": "https://www.reddit.com/r/walmart/comments/15tbqwr/walmart_app/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:34Z",
+  "source_url": "http://searxng:8080/search?q=securityaid.co.uk+exploitation&format=json",
+  "status": "success",
+  "summary": "SearXNG search for securityaid.co.uk exploitation: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

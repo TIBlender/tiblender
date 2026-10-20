@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.stepsecurity.io"
+    ],
+    "hashes": [],
+    "ips": [
+      "138.197.188.142",
+      "15.160.106.203",
+      "18.211.166.153",
+      "184.73.183.75",
+      "198.202.211.1",
+      "3.125.252.47",
+      "3.224.141.128",
+      "3.233.126.24",
+      "34.197.10.15",
+      "34.202.203.47",
+      "34.205.248.193",
+      "34.234.52.18",
+      "44.207.21.146",
+      "44.207.78.112",
+      "52.206.163.162",
+      "52.55.54.43",
+      "54.164.4.68",
+      "54.243.86.28",
+      "63.35.51.142",
+      "64.227.12.111"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.stepsecurity.io"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1761003954,
+        "host_name": "www.stepsecurity.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "198.202.211.1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 2,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1745597894,
+        "host_name": "www.stepsecurity.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "15.160.106.203",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1738866247,
+        "host_name": "www.stepsecurity.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "54.243.86.28",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1738866247,
+        "host_name": "www.stepsecurity.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.211.166.153",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1738866247,
+        "host_name": "www.stepsecurity.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "34.202.203.47",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 4,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:23:14Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.stepsecurity.io/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.stepsecurity.io: 20 resolution(s); addresses: 198.202.211.1, 15.160.106.203, 54.243.86.28, 18.211.166.153, 34.202.203.47, 63.35.51.142, 34.234.52.18, 3.233.126.24, 52.206.163.162, 44.207.21.146",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

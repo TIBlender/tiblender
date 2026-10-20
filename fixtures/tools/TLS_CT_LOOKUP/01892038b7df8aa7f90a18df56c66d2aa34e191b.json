@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.theguardian.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.theguardian.com"
+  },
+  "raw": {
+    "count": 21,
+    "issuers": [
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance CA-3",
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance CA-3",
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance CA-3",
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance CA-3",
+      "C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert High Assurance CA-3"
+    ],
+    "names": [
+      "www.theguardian.com",
+      "www.theguardian.com",
+      "www.theguardian.com",
+      "www.theguardian.com",
+      "www.theguardian.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:19:03Z",
+  "source_url": "https://crt.sh/?q=%25.www.theguardian.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.theguardian.com: 21 certificate row(s); sample names=www.theguardian.com, www.theguardian.com, www.theguardian.com, www.theguardian.com, www.theguardian.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

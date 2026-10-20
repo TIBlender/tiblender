@@ -1,0 +1,862 @@
+{
+  "collection_band": {
+    "end": "2026-04-02T23:59:59Z",
+    "start": "2026-03-22T00:00:00Z"
+  },
+  "cycle_days": 4,
+  "cycles": [
+    {
+      "counts": {
+        "discord": 4,
+        "reddit": 8,
+        "telegram": 6,
+        "x": 11
+      },
+      "cycle_index": 1,
+      "label": "cycle_001",
+      "posts": [
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+          "source_ref": "TIBLENDER-2026-03-23-10a9a091f0e6f2f6-7e283510:p2",
+          "timestamp": "2026-03-22T22:07:03Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+          "source_ref": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f:p2",
+          "timestamp": "2026-03-23T00:14:56Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+          "source_ref": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f:p3",
+          "timestamp": "2026-03-22T13:38:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+          "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p4",
+          "timestamp": "2026-03-23T08:59:44Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+          "source_ref": "TIBLENDER-2026-03-23-10a9a091f0e6f2f6-7e283510:p1",
+          "timestamp": "2026-03-22T20:58:40Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+          "source_ref": "TIBLENDER-2026-03-23-10a9a091f0e6f2f6-7e283510:p3",
+          "timestamp": "2026-03-22T21:15:17Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+          "source_ref": "TIBLENDER-2026-03-23-10a9a091f0e6f2f6-7e283510:p4",
+          "timestamp": "2026-03-22T20:54:46Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+          "source_ref": "TIBLENDER-2026-03-23-10a9a091f0e6f2f6-7e283510:p6",
+          "timestamp": "2026-03-22T17:46:43Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+          "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p2",
+          "timestamp": "2026-03-23T09:28:34Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-24-246cfd1ef79abfb6-4ca6d994",
+          "source_ref": "TIBLENDER-2026-03-24-3d70e4de4dfc5998-c199ac38:p3",
+          "timestamp": "2026-03-23T14:59:48Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+          "source_ref": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5:p3",
+          "timestamp": "2026-03-24T17:21:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b",
+          "source_ref": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b:p4",
+          "timestamp": "2026-03-25T10:33:00Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-17-76f8cab684e42e71-35db711f",
+          "source_ref": "TIBLENDER-2026-03-17-76f8cab684e42e71-35db711f:p3",
+          "timestamp": "2026-03-25T13:06:00Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-25-3b6f1dfa94696319-069df8a7",
+          "source_ref": "TIBLENDER-2026-03-25-3b6f1dfa94696319-069df8a7:p5",
+          "timestamp": "2026-03-22T22:15:00Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-12-e97a5df62a933274-0f15a0cc",
+          "source_ref": "TIBLENDER-2026-04-12-e97a5df62a933274-0f15a0cc:p2",
+          "timestamp": "2026-03-22T08:24:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+          "source_ref": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5:p1",
+          "timestamp": "2026-03-25T20:40:04Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b",
+          "source_ref": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b:p1",
+          "timestamp": "2026-03-25T19:00:13Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b",
+          "source_ref": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b:p2",
+          "timestamp": "2026-03-25T20:40:04Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+          "source_ref": "TIBLENDER-2026-03-23-10a9a091f0e6f2f6-7e283510:p5",
+          "timestamp": "2026-03-22T18:02:52Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+          "source_ref": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f:p1",
+          "timestamp": "2026-03-23T05:39:22Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+          "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p1",
+          "timestamp": "2026-03-23T07:51:44Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+          "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p3",
+          "timestamp": "2026-03-23T09:04:36Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+          "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p5",
+          "timestamp": "2026-03-23T09:10:51Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+          "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p6",
+          "timestamp": "2026-03-23T08:53:28Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+          "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p7",
+          "timestamp": "2026-03-23T07:59:24Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-23-08b4ffb2df969e47-0b8bc1d7",
+          "source_ref": "TIBLENDER-2026-03-24-08b4ffb2df969e47-0b8bc1d7:p5",
+          "timestamp": "2026-03-23T16:10:03Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-24-57a16249db9a4247-226e7f0f",
+          "source_ref": "TIBLENDER-2026-03-25-57a16249db9a4247-226e7f0f:p11",
+          "timestamp": "2026-03-24T19:42:49Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+          "source_ref": "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5:p2",
+          "timestamp": "2026-03-24T22:52:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b",
+          "source_ref": "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b:p3",
+          "timestamp": "2026-03-25T03:40:00Z"
+        }
+      ],
+      "report_ids": [
+        "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+        "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+        "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+        "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+        "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b"
+      ],
+      "total_posts": 29,
+      "window": {
+        "end": "2026-03-25T23:59:59Z",
+        "start": "2026-03-22T00:00:00Z"
+      }
+    },
+    {
+      "counts": {
+        "discord": 6,
+        "reddit": 13,
+        "telegram": 7,
+        "x": 7
+      },
+      "cycle_index": 2,
+      "label": "cycle_002",
+      "posts": [
+        {
+          "kind": "noise",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-28-4b5f1a17c7005bd8-0edb7129",
+          "source_ref": "TIBLENDER-2026-03-28-4b5f1a17c7005bd8-0edb7129:p8",
+          "timestamp": "2026-03-27T11:32:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+          "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p3",
+          "timestamp": "2026-03-29T11:22:58Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-30-c7e8bfab614eff7a-08096cfb",
+          "source_ref": "TIBLENDER-2026-03-30-c7e8bfab614eff7a-08096cfb:p6",
+          "timestamp": "2026-03-29T03:30:00Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-10-fa9aa422386fff92-df2f8281",
+          "source_ref": "TIBLENDER-2026-04-10-fa9aa422386fff92-df2f8281:p8",
+          "timestamp": "2026-03-26T03:42:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+          "source_ref": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889:p14",
+          "timestamp": "2026-03-26T08:11:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+          "source_ref": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889:p17",
+          "timestamp": "2026-03-26T01:12:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+          "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p10",
+          "timestamp": "2026-03-26T08:20:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+          "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p11",
+          "timestamp": "2026-03-26T20:39:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+          "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p5",
+          "timestamp": "2026-03-27T01:01:43Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+          "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p9",
+          "timestamp": "2026-03-26T10:08:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+          "source_ref": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36:p5",
+          "timestamp": "2026-03-28T18:03:05Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+          "source_ref": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36:p8",
+          "timestamp": "2026-03-28T18:03:05Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-29-600e1c7bf257e2c7-d780a30e",
+          "source_ref": "TIBLENDER-2026-03-29-600e1c7bf257e2c7-d780a30e:p6",
+          "timestamp": "2026-03-28T06:14:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+          "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p1",
+          "timestamp": "2026-03-29T11:59:39Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+          "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p2",
+          "timestamp": "2026-03-29T11:59:39Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+          "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p4",
+          "timestamp": "2026-03-29T11:59:39Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+          "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p5",
+          "timestamp": "2026-03-29T11:59:39Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+          "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p6",
+          "timestamp": "2026-03-29T11:59:39Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c",
+          "source_ref": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c:p1",
+          "timestamp": "2026-03-28T17:20:21Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-27-6597190d37e84a14-8b93dc7f",
+          "source_ref": "TIBLENDER-2026-03-27-6597190d37e84a14-8b93dc7f:p3",
+          "timestamp": "2026-03-27T02:27:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+          "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p3",
+          "timestamp": "2026-03-26T21:55:19Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-28-4b57ecc577560559-ba3d7a89",
+          "source_ref": "TIBLENDER-2026-03-28-4b57ecc577560559-ba3d7a89:p3",
+          "timestamp": "2026-03-28T20:29:09Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+          "source_ref": "TIBLENDER-2026-03-29-2365876c516c5fbe-3c41bc36:p2",
+          "timestamp": "2026-03-28T17:20:48Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+          "source_ref": "TIBLENDER-2026-03-29-2365876c516c5fbe-3c41bc36:p3",
+          "timestamp": "2026-03-28T17:20:48Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+          "source_ref": "TIBLENDER-2026-03-29-2365876c516c5fbe-3c41bc36:p9",
+          "timestamp": "2026-03-28T17:20:48Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c",
+          "source_ref": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c:p2",
+          "timestamp": "2026-03-28T18:40:08Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+          "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p1",
+          "timestamp": "2026-03-27T00:57:23Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+          "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p4",
+          "timestamp": "2026-03-27T01:01:43Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+          "source_ref": "TIBLENDER-2026-03-29-2365876c516c5fbe-3c41bc36:p5",
+          "timestamp": "2026-03-28T17:20:48Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+          "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p7",
+          "timestamp": "2026-03-29T01:54:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+          "source_ref": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889:p5",
+          "timestamp": "2026-03-26T12:46:54Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+          "source_ref": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889:p6",
+          "timestamp": "2026-03-26T12:46:54Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c",
+          "source_ref": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c:p3",
+          "timestamp": "2026-03-28T18:40:08Z"
+        }
+      ],
+      "report_ids": [
+        "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+        "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+        "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+        "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+        "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c"
+      ],
+      "total_posts": 33,
+      "window": {
+        "end": "2026-03-29T23:59:59Z",
+        "start": "2026-03-26T00:00:00Z"
+      }
+    },
+    {
+      "counts": {
+        "discord": 13,
+        "reddit": 15,
+        "telegram": 5,
+        "x": 12
+      },
+      "cycle_index": 3,
+      "label": "cycle_003",
+      "posts": [
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+          "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p10",
+          "timestamp": "2026-03-30T18:37:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+          "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p4",
+          "timestamp": "2026-03-30T13:28:03Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+          "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p5",
+          "timestamp": "2026-03-30T02:34:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+          "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p6",
+          "timestamp": "2026-03-30T14:36:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+          "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p7",
+          "timestamp": "2026-03-30T19:39:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+          "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p9",
+          "timestamp": "2026-03-30T08:23:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd",
+          "source_ref": "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd:p2",
+          "timestamp": "2026-03-31T18:06:56Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+          "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p5",
+          "timestamp": "2026-04-01T09:18:27Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+          "source_ref": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed:p11",
+          "timestamp": "2026-03-31T14:18:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+          "source_ref": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed:p3",
+          "timestamp": "2026-04-01T03:03:59Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+          "source_ref": "TIBLENDER-2026-04-01-fc0a8caba63d0dc7-e5f525e9:p3",
+          "timestamp": "2026-03-31T17:59:46Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+          "source_ref": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd:p10",
+          "timestamp": "2026-03-31T03:19:22Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "discord",
+          "report_id": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea",
+          "source_ref": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea:p3",
+          "timestamp": "2026-04-01T09:23:10Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-31-dd31428c29fb57b1-6b97b940",
+          "source_ref": "TIBLENDER-2026-03-31-dd31428c29fb57b1-6b97b940:p3",
+          "timestamp": "2026-03-31T11:05:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd",
+          "source_ref": "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd:p1",
+          "timestamp": "2026-04-01T03:13:04Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+          "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p1",
+          "timestamp": "2026-04-01T03:02:42Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+          "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p2",
+          "timestamp": "2026-04-01T03:02:42Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+          "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p3",
+          "timestamp": "2026-04-01T05:33:16Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+          "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p4",
+          "timestamp": "2026-04-01T03:02:21Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+          "source_ref": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed:p2",
+          "timestamp": "2026-04-01T03:03:59Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+          "source_ref": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed:p4",
+          "timestamp": "2026-04-01T03:03:59Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-31-c25b6c5ad3d61407-b6ad0e62",
+          "source_ref": "TIBLENDER-2026-04-01-c25b6c5ad3d61407-b6ad0e62:p7",
+          "timestamp": "2026-03-31T19:08:36Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-01-c752bcde9c5c00b0-189f0ce1",
+          "source_ref": "TIBLENDER-2026-04-01-c752bcde9c5c00b0-189f0ce1:p6",
+          "timestamp": "2026-03-31T15:34:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+          "source_ref": "TIBLENDER-2026-04-01-fc0a8caba63d0dc7-e5f525e9:p1",
+          "timestamp": "2026-03-31T19:08:29Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+          "source_ref": "TIBLENDER-2026-04-01-fc0a8caba63d0dc7-e5f525e9:p2",
+          "timestamp": "2026-03-31T19:08:29Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+          "source_ref": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd:p8",
+          "timestamp": "2026-04-02T21:13:42Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+          "source_ref": "TIBLENDER-2026-04-03-c25b6c5ad3d61407-e988eafd:p32",
+          "timestamp": "2026-04-02T08:03:11Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "reddit",
+          "report_id": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea",
+          "source_ref": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea:p4",
+          "timestamp": "2026-04-01T16:25:50Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+          "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p33",
+          "timestamp": "2026-03-31T11:15:24Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-02-0d50f3b2ed0acb22-bf6584cc",
+          "source_ref": "TIBLENDER-2026-04-02-0d50f3b2ed0acb22-bf6584cc:p2",
+          "timestamp": "2026-04-02T12:20:00Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-02-27b035d9cd858b1c-da31741f",
+          "source_ref": "TIBLENDER-2026-04-02-27b035d9cd858b1c-da31741f:p2",
+          "timestamp": "2026-03-30T20:14:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea",
+          "source_ref": "TIBLENDER-2026-04-02-41323e4452b44e62-09575e22:bulk:p0",
+          "timestamp": "2026-04-01T14:20:52Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "telegram",
+          "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+          "source_ref": "TIBLENDER-2026-04-03-c25b6c5ad3d61407-e988eafd:p28",
+          "timestamp": "2026-04-02T19:39:27Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+          "source_ref": "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe:p21",
+          "timestamp": "2026-03-31T11:25:25Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd",
+          "source_ref": "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd:p3",
+          "timestamp": "2026-03-30T17:48:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+          "source_ref": "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b:p6",
+          "timestamp": "2026-03-31T21:46:00Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+          "source_ref": "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed:p1",
+          "timestamp": "2026-04-01T02:13:23Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+          "source_ref": "TIBLENDER-2026-04-01-fc0a8caba63d0dc7-e5f525e9:p4",
+          "timestamp": "2026-03-31T17:28:11Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea",
+          "source_ref": "TIBLENDER-2026-04-02-41323e4452b44e62-09575e22:bulk:p1",
+          "timestamp": "2026-04-01T14:20:52Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+          "source_ref": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd:p9",
+          "timestamp": "2026-04-02T21:13:42Z"
+        },
+        {
+          "kind": "noise",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-02-5afe204d9c7c32ef-5c915b80",
+          "source_ref": "TIBLENDER-2026-04-03-5afe204d9c7c32ef-5c915b80:p1",
+          "timestamp": "2026-04-02T17:56:52Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+          "source_ref": "TIBLENDER-2026-04-03-c25b6c5ad3d61407-e988eafd:p11",
+          "timestamp": "2026-04-02T20:38:43Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+          "source_ref": "TIBLENDER-2026-04-03-c25b6c5ad3d61407-e988eafd:p26",
+          "timestamp": "2026-04-02T19:39:27Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+          "source_ref": "TIBLENDER-2026-04-03-c25b6c5ad3d61407-e988eafd:p27",
+          "timestamp": "2026-04-02T19:39:27Z"
+        },
+        {
+          "kind": "primary",
+          "platform": "x",
+          "report_id": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea",
+          "source_ref": "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea:p5",
+          "timestamp": "2026-04-01T16:25:50Z"
+        }
+      ],
+      "report_ids": [
+        "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+        "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+        "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd",
+        "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+        "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+        "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+        "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea"
+      ],
+      "total_posts": 45,
+      "window": {
+        "end": "2026-04-02T23:59:59Z",
+        "start": "2026-03-30T00:00:00Z"
+      }
+    }
+  ],
+  "cycles_requested": 3,
+  "dataset_source": {
+    "file": "reports.jsonl",
+    "reports_with_dated_posts": 8288,
+    "sha256": "54133a7c43080b55353c6ce392d10ce8d61f6e4f45415f2bf576d0b84eedfc9e"
+  },
+  "generated_by": "tools/build_fixtures.py",
+  "noise_post_count": 18,
+  "primary_post_count": 89,
+  "seed": 20260909,
+  "selected_report_ids": [
+    "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+    "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+    "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+    "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+    "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+    "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+    "TIBLENDER-2026-03-31-62eda443036f17b1-b01f3bfe",
+    "TIBLENDER-2026-03-31-fc0a8caba63d0dc7-e5f525e9",
+    "TIBLENDER-2026-04-01-273fca97a2b71109-198f68fd",
+    "TIBLENDER-2026-04-01-3cfa66ab719fda14-5fd20b0b",
+    "TIBLENDER-2026-04-01-8be4baeae44b348d-f65214ed",
+    "TIBLENDER-2026-04-02-c25b6c5ad3d61407-e988eafd",
+    "TIBLENDER-2026-04-06-4ddc5602bb994be7-5389c8ea",
+    "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+    "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b",
+    "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+    "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c"
+  ],
+  "total_posts": 107
+}

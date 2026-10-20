@@ -1,0 +1,27 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2025-8061"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://github.com/vxqs/Lenovo-CVE-2025-8061"
+  },
+  "raw": {
+    "blocked_resource_types": [],
+    "excerpt": "GitHub - vxqs/Lenovo-CVE-2025-8061: My PoC of Lenovo-CVE-2025-8061 · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketpla",
+    "fallback_reason": "Playwright is not installed for JavaScript rendering.",
+    "javascript_rendered": false,
+    "title": "GitHub - vxqs/Lenovo-CVE-2025-8061: My PoC of Lenovo-CVE-2025-8061 · GitHub"
+  },
+  "recorded_at": "2026-09-16T05:25:03Z",
+  "source_url": "https://github.com/vxqs/Lenovo-CVE-2025-8061",
+  "status": "success",
+  "summary": "Static crawl of https://github.com/vxqs/Lenovo-CVE-2025-8061. Title: GitHub - vxqs/Lenovo-CVE-2025-8061: My PoC of Lenovo-CVE-2025-8061 · GitHub. Excerpt: GitHub - vxqs/Lenovo-CVE-2025-8061: My PoC of Lenovo-CVE-2025-8061 · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketpla",
+  "tool_type": "WEB_CRAWL"
+}

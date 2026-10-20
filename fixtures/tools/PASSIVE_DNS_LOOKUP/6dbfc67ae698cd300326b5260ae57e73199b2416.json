@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "venmo.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "18.165.9.43",
+      "18.205.137.245",
+      "18.65.229.100",
+      "18.65.229.37",
+      "3.161.188.102",
+      "3.161.188.46",
+      "3.211.11.97",
+      "3.215.140.249",
+      "34.195.203.48",
+      "34.237.73.156",
+      "35.153.22.116",
+      "52.2.61.221",
+      "52.54.100.120",
+      "52.6.106.24",
+      "52.84.150.34",
+      "52.84.150.38",
+      "52.84.150.50",
+      "52.84.150.58",
+      "54.225.209.222",
+      "98.85.180.121"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "venmo.com"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1746152396,
+        "host_name": "venmo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.205.137.245",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1746152396,
+        "host_name": "venmo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "35.153.22.116",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1746152396,
+        "host_name": "venmo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "52.54.100.120",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1746148960,
+        "host_name": "venmo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "54.225.209.222",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1746148960,
+        "host_name": "venmo.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.211.11.97",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:20:40Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/venmo.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for venmo.com: 20 resolution(s); addresses: 18.205.137.245, 35.153.22.116, 52.54.100.120, 54.225.209.222, 3.211.11.97, 3.215.140.249, 34.195.203.48, 98.85.180.121, 34.237.73.156, 52.6.106.24",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

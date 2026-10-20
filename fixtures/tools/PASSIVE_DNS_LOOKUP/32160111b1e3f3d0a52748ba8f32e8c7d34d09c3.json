@@ -1,0 +1,88 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "kdmpop.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.67.210",
+      "104.24.114.174",
+      "104.24.115.174",
+      "172.67.181.33",
+      "205.220.161.10",
+      "209.41.186.157",
+      "209.41.186.158",
+      "76.12.61.252"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "kdmpop.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1637128211,
+        "host_name": "kdmpop.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "205.220.161.10",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Microsoft Sysinternals"
+      },
+      {
+        "date": 1613873779,
+        "host_name": "kdmpop.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.67.210",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1590775678,
+        "host_name": "kdmpop.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.67.181.33",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1576153685,
+        "host_name": "kdmpop.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.24.115.174",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1576153685,
+        "host_name": "kdmpop.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.24.114.174",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 8
+  },
+  "recorded_at": "2026-09-15T01:18:40Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/kdmpop.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for kdmpop.com: 8 resolution(s); addresses: 205.220.161.10, 104.21.67.210, 172.67.181.33, 104.24.115.174, 104.24.114.174, 209.41.186.157, 209.41.186.158, 76.12.61.252",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

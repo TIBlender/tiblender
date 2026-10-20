@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "account-helpdesk.icu apt"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "すべて Microsoft アカウントで実現 Microsoft アカウントは、すべての Microsoft アプリとサービスに接続します。 サインインしてア …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Microsoft account | 今すぐサインインするか、アカウントを作成して ...",
+        "url": "https://account.microsoft.com/account/Account?mkt=ja-JP"
+      },
+      {
+        "category": "general",
+        "content": "Dec 15, 2023 · 「account」の意味・翻訳・日本語 - (金銭上の)計算、勘定、会計、計算書、勘定書、 (銀行などとの)取引、 (預金)口 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "英語「account」の意味・使い方・読み方 | Weblio英和辞書",
+        "url": "https://ejje.weblio.jp/content/account"
+      },
+      {
+        "category": "general",
+        "content": "Mar 28, 2025 · 今回の記事では、 “account（アカウント）”の意味 や使い方を紹介します。 ビジネス用語や会計用語として登場する …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "【account】の意味とは？基本的な使い方・ビジネスや会計用語 ...",
+        "url": "https://kimini.online/blog/archives/77748"
+      },
+      {
+        "category": "general",
+        "content": "Feb 17, 2026 · アカウントって何？ スマホ初心者向けに意味をくわしく解説。 アカウントはWebサービスやアプリで利用する場合 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "アカウントとは？意味がわからない初心者に解説。SNSでの登録 ...",
+        "url": "https://hep.eiz.jp/tech/what-is-account/"
+      },
+      {
+        "category": "general",
+        "content": "Feb 11, 2026 · インターネットやビジネスシステムを利用する際、必ず耳にする「アカウント」という言葉。 メールを使うにも …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "アカウントとは何か？意味・役割からIDやパスワードとの違い ...",
+        "url": "https://factism.jp/what-is-an-account/"
+      },
+      {
+        "category": "general",
+        "content": "価値観に捉われず、すべての人がおしゃれに 手の届く贅沢な海外セレブファッション。Account Paris (アカウント パリ)公式オンラ …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Account 公式オンラインショップ",
+        "url": "https://www.account-paris.shop/"
+      },
+      {
+        "category": "general",
+        "content": "Apr 5, 2024 · 「自分のアカウントって何？ 」「アカウントの意味がわからない」そんなスマホ初心者の方でも理解しやすいように …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "アカウントとは？初心者でも意味がわかるように解説【とは ...",
+        "url": "https://www.toha-search.com/it/account.htm"
+      },
+      {
+        "category": "general",
+        "content": "Google アカウントにログインして、すべての Google サービスを利用できます。",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "ログイン - Google アカウント",
+        "url": "https://accounts.google.com/login?hl=ja"
+      },
+      {
+        "category": "general",
+        "content": "Aug 18, 2026 · Accountとは アカウント (Account) とは、「計算」「勘定書」「説明」などの意味を持つ英語で、IT分野では特定の …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "アカウントとは？意味・用語説明｜IT用語集｜KDDI株式会社",
+        "url": "https://biz.kddi.com/content/glossary/a/account/"
+      },
+      {
+        "category": "general",
+        "content": "Oct 1, 2020 · account for~の形で使われることが多く、今回は全てaccount forの形を紹介していきたい と思います。 ~を占める 「~ …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "【イメージ/語源で理解】accountの意味まとめ -account for ...",
+        "url": "https://shinuwakaeng.com/account-matome"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:08Z",
+  "source_url": "http://searxng:8080/search?q=account-helpdesk.icu+apt&format=json",
+  "status": "success",
+  "summary": "SearXNG search for account-helpdesk.icu apt: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

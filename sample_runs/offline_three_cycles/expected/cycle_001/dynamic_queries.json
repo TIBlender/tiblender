@@ -1,0 +1,87 @@
+[
+  {
+    "expires_at": "2026-04-01T23:59:59Z",
+    "generated_at": "2026-03-25T23:59:59Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 8,
+    "query": "CVE-2024-51482",
+    "rationale": "EARLY_WARNING trend detected on cluster cluster-3d8555df0532; seeded from CVE 'CVE-2024-51482'.",
+    "source_cluster_id": "cluster-3d8555df0532",
+    "source_report_id": "TIBLENDER-RUN-3d8555df0532",
+    "trend_types": [
+      "EARLY_WARNING"
+    ]
+  },
+  {
+    "expires_at": "2026-04-01T23:59:59Z",
+    "generated_at": "2026-03-25T23:59:59Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 8,
+    "query": "CVE-2025-32975",
+    "rationale": "EARLY_WARNING trend detected on cluster cluster-ea65e8b1c6c5; seeded from CVE 'CVE-2025-32975'.",
+    "source_cluster_id": "cluster-ea65e8b1c6c5",
+    "source_report_id": "TIBLENDER-RUN-ea65e8b1c6c5",
+    "trend_types": [
+      "EARLY_WARNING"
+    ]
+  },
+  {
+    "expires_at": "2026-04-01T23:59:59Z",
+    "generated_at": "2026-03-25T23:59:59Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 8,
+    "query": "CVE-2025-8061",
+    "rationale": "EARLY_WARNING trend detected on cluster cluster-3d8555df0532; seeded from CVE 'CVE-2025-8061'.",
+    "source_cluster_id": "cluster-3d8555df0532",
+    "source_report_id": "TIBLENDER-RUN-3d8555df0532",
+    "trend_types": [
+      "EARLY_WARNING"
+    ]
+  },
+  {
+    "expires_at": "2026-04-01T23:59:59Z",
+    "generated_at": "2026-03-25T23:59:59Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 8,
+    "query": "securityaid.co.uk",
+    "rationale": "EARLY_WARNING trend detected on cluster cluster-ea65e8b1c6c5; seeded from domain 'securityaid.co.uk'.",
+    "source_cluster_id": "cluster-ea65e8b1c6c5",
+    "source_report_id": "TIBLENDER-RUN-ea65e8b1c6c5",
+    "trend_types": [
+      "EARLY_WARNING"
+    ]
+  },
+  {
+    "expires_at": "2026-04-01T23:59:59Z",
+    "generated_at": "2026-03-25T23:59:59Z",
+    "language": "en",
+    "platforms": [
+      "x",
+      "reddit"
+    ],
+    "priority": 8,
+    "query": "sploitus.com",
+    "rationale": "EARLY_WARNING trend detected on cluster cluster-3d8555df0532; seeded from domain 'sploitus.com'.",
+    "source_cluster_id": "cluster-3d8555df0532",
+    "source_report_id": "TIBLENDER-RUN-3d8555df0532",
+    "trend_types": [
+      "EARLY_WARNING"
+    ]
+  }
+]

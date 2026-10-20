@@ -1,0 +1,102 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "1.bp.blogspot.com",
+      "15ad292f9feb404a13ff4981f7fe891a.safeframe.googlesyndication.com",
+      "2.bp.blogspot.com",
+      "2706c0fbb9dea391018e9b571f61f038.safeframe.googlesyndication.com",
+      "3.bp.blogspot.com",
+      "4.bp.blogspot.com",
+      "49dd4b5082cfa7ee4492ba215b8f9402.safeframe.googlesyndication.com",
+      "ap2.googleusercontent.com",
+      "blogger.googleusercontent.com",
+      "borislivshitc.blogspot.com",
+      "carlosperezcardenas.blogspot.com",
+      "ci3.googleusercontent.com",
+      "dodoplans.com",
+      "hoteljune2026.blogspot.com",
+      "lh3.googleusercontent.com",
+      "mineiicancry10june2026.blogspot.com",
+      "script.googleusercontent.com",
+      "themes.googleusercontent.com"
+    ],
+    "hashes": [
+      "15ad292f9feb404a13ff4981f7fe891a",
+      "2706c0fbb9dea391018e9b571f61f038",
+      "49dd4b5082cfa7ee4492ba215b8f9402"
+    ],
+    "ips": [
+      "142.251.39.129"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "142.251.39.129"
+  },
+  "raw": {
+    "malicious_count": 11,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1787194112,
+        "host_name": "hoteljune2026.blogspot.com",
+        "host_name_malicious": 10,
+        "host_name_suspicious": 2,
+        "ip_address": "142.251.39.129",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1787194112,
+        "host_name": "mineiicancry10june2026.blogspot.com",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 1,
+        "ip_address": "142.251.39.129",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1783824310,
+        "host_name": "script.googleusercontent.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.251.39.129",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1782850892,
+        "host_name": "1.bp.blogspot.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.251.39.129",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1782789021,
+        "host_name": "themes.googleusercontent.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "142.251.39.129",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 4,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:20:43Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/142.251.39.129/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 142.251.39.129: 20 resolution(s); hosts: hoteljune2026.blogspot.com, mineiicancry10june2026.blogspot.com, script.googleusercontent.com, 1.bp.blogspot.com, themes.googleusercontent.com, 3.bp.blogspot.com, 2.bp.blogspot.com, 4.bp.blogspot.com, drive.usercontent.google.com, lh3.googleusercontent.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

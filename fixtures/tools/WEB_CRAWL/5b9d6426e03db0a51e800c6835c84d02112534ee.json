@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.techgines.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.techgines.com/post/cve-2026-34621-adobe-acrobat-reader-prototype-pollution-zero-day-patch"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:26:11Z",
+  "source_url": "https://www.techgines.com/post/cve-2026-34621-adobe-acrobat-reader-prototype-pollution-zero-day-patch",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.techgines.com for https://www.techgines.com/post/cve-2026-34621-adobe-acrobat-reader-prototype-pollution-zero-day-patch",
+  "tool_type": "WEB_CRAWL"
+}

@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.techgines.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.techgines.com/post/adobe-reader-zero-day-2026-unpatched-pdf-exploit-fingerprinting"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:26:08Z",
+  "source_url": "https://www.techgines.com/post/adobe-reader-zero-day-2026-unpatched-pdf-exploit-fingerprinting",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.techgines.com for https://www.techgines.com/post/adobe-reader-zero-day-2026-unpatched-pdf-exploit-fingerprinting",
+  "tool_type": "WEB_CRAWL"
+}

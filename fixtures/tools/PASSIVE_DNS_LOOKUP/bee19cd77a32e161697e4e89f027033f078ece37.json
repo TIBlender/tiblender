@@ -1,0 +1,95 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.theguardian.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "146.75.117.111",
+      "146.75.121.111",
+      "146.75.49.111",
+      "146.75.73.111",
+      "151.101.209.111",
+      "151.101.21.111",
+      "151.101.237.111",
+      "151.101.241.111",
+      "151.101.61.111",
+      "151.101.85.111",
+      "199.232.145.111",
+      "199.232.189.111",
+      "199.232.93.111",
+      "31.13.82.169",
+      "31.13.95.18"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.theguardian.com"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1777393419,
+        "host_name": "www.theguardian.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:600::367",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1777393419,
+        "host_name": "www.theguardian.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42::367",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1777393419,
+        "host_name": "www.theguardian.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:200::367",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1777393419,
+        "host_name": "www.theguardian.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:400::367",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1756015268,
+        "host_name": "www.theguardian.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:7c::367",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "C2AE"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:18:46Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.theguardian.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.theguardian.com: 20 resolution(s); addresses: 2a04:4e42:600::367, 2a04:4e42::367, 2a04:4e42:200::367, 2a04:4e42:400::367, 2a04:4e42:7c::367, 31.13.82.169, 31.13.95.18, 199.232.145.111, 199.232.189.111, 146.75.73.111",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

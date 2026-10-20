@@ -1,0 +1,277 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "account-helpdesk.icu"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "account-helpdesk.icu"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "handle": "not applicable",
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Abuse Contact"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Global Domain Group LLC"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abuse@globaldomaingroup.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+1.8053943992"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "3956",
+        "links": [
+          {
+            "href": "https://rdap.centralnic.com/icu/entity/3956",
+            "rel": "self",
+            "title": "Authoritative URL for this resource",
+            "type": "application/rdap+json",
+            "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+          },
+          {
+            "href": "https://www.globaldomaingroup.com",
+            "rel": "about",
+            "title": "Registrar's Website",
+            "value": "https://rdap.globaldomaingroup.com/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "3956",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Global Domain Group LLC"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2026-02-10T12:28:52.0Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2027-02-10T23:59:59.0Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-15T00:55:37.0Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-03-02T17:48:53.0Z"
+      }
+    ],
+    "handle": "D626430601-CNIC",
+    "lang": "en",
+    "ldhName": "account-helpdesk.icu",
+    "links": [
+      {
+        "href": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu",
+        "rel": "self",
+        "title": "Authoritative URL for this resource",
+        "type": "application/rdap+json",
+        "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+      },
+      {
+        "href": "https://whois.nic.icu/rdap",
+        "rel": "help",
+        "title": "RDAP Service Help",
+        "type": "text/html",
+        "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+      },
+      {
+        "href": "https://rdap.globaldomaingroup.com/domain/account-helpdesk.icu",
+        "rel": "related",
+        "title": "URL of Sponsoring Registrar's RDAP Record",
+        "type": "application/rdap+json",
+        "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+      }
+    ],
+    "nameservers": [
+      {
+        "handle": "H116606-CNIC",
+        "ldhName": "a.dnspod.com",
+        "links": [
+          {
+            "href": "https://rdap.centralnic.com/icu/nameserver/a.dnspod.com",
+            "rel": "self",
+            "title": "Authoritative URL for this resource",
+            "type": "application/rdap+json",
+            "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+          }
+        ],
+        "objectClassName": "nameserver"
+      },
+      {
+        "handle": "H116607-CNIC",
+        "ldhName": "b.dnspod.com",
+        "links": [
+          {
+            "href": "https://rdap.centralnic.com/icu/nameserver/b.dnspod.com",
+            "rel": "self",
+            "title": "Authoritative URL for this resource",
+            "type": "application/rdap+json",
+            "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+          }
+        ],
+        "objectClassName": "nameserver"
+      },
+      {
+        "handle": "H116811-CNIC",
+        "ldhName": "c.dnspod.com",
+        "links": [
+          {
+            "href": "https://rdap.centralnic.com/icu/nameserver/c.dnspod.com",
+            "rel": "self",
+            "title": "Authoritative URL for this resource",
+            "type": "application/rdap+json",
+            "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+          }
+        ],
+        "objectClassName": "nameserver"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "title": "More information on domain status codes",
+            "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "For more information on Whois status codes, please visit https://icann.org/epp",
+          "",
+          "The registration data available in this service is limited. Additional",
+          "data may be available at https://lookup.icann.org",
+          "",
+          "The Whois and RDAP services are provided by CentralNic, and contain",
+          "information pertaining to Internet domain names registered by our",
+          "our customers. By using this service you are agreeing (1) not to use any",
+          "information presented here for any purpose other than determining",
+          "ownership of domain names, (2) not to store or reproduce this data in",
+          "any way, (3) not to use any high-volume, automated, electronic processes",
+          "to obtain data from this service. Abuse of this service is monitored and",
+          "actions in contravention of these terms will result in being permanently",
+          "blacklisted. All data is (c) CentralNic Ltd (https://www.centralnicregistry.com)",
+          "",
+          "Access to the Whois and RDAP services is rate limited. For more",
+          "information, visit https://centralnicregistry.com/policies/whois-guidance."
+        ],
+        "links": [
+          {
+            "href": "https://www.centralnicregistry.com/",
+            "rel": "terms-of-service",
+            "title": "Terms of Use",
+            "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+          }
+        ],
+        "title": "Terms of Use"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "title": "ICANN RDDS Inaccuracy Complaint Form",
+            "value": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "port43": "whois.nic.icu",
+    "rdapConformance": [
+      "icann_rdap_response_profile_1",
+      "icann_rdap_technical_implementation_guide_1",
+      "rdap_level_0"
+    ],
+    "secureDNS": {
+      "delegationSigned": false
+    },
+    "status": [
+      "server hold",
+      "client transfer prohibited"
+    ]
+  },
+  "recorded_at": "2026-09-15T00:55:37Z",
+  "source_url": "https://rdap.centralnic.com/icu/domain/account-helpdesk.icu",
+  "status": "success",
+  "summary": "RDAP domain lookup for account-helpdesk.icu: handle=D626430601-CNIC; status=server hold,client transfer prohibited; nameservers=a.dnspod.com,b.dnspod.com,c.dnspod.com; events=registration=2026-02-10T12:28:52.0Z; expiration=2027-02-10T23:59:59.0Z; last update of RDAP database=2026-09-15T00:55:37.0Z; last changed=2026-03-02T17:48:53.0Z; entities=3956.",
+  "tool_type": "WHOIS_LOOKUP"
+}

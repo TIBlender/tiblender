@@ -1,0 +1,74 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "2d2f72a2ef04.w.hcaptcha.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.18.12.205",
+      "104.18.13.205",
+      "8.47.69.0",
+      "8.6.112.0"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "2d2f72a2ef04.w.hcaptcha.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789090736,
+        "host_name": "2d2f72a2ef04.w.hcaptcha.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.18.12.205",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789090736,
+        "host_name": "2d2f72a2ef04.w.hcaptcha.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.18.13.205",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789090435,
+        "host_name": "2d2f72a2ef04.w.hcaptcha.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.6.112.0",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      },
+      {
+        "date": 1789090435,
+        "host_name": "2d2f72a2ef04.w.hcaptcha.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "8.47.69.0",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Dr.Web vxCube"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 0,
+    "total_count": 4
+  },
+  "recorded_at": "2026-09-16T05:27:45Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/2d2f72a2ef04.w.hcaptcha.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 2d2f72a2ef04.w.hcaptcha.com: 4 resolution(s); addresses: 104.18.12.205, 104.18.13.205, 8.6.112.0, 8.47.69.0",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

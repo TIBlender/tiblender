@@ -1,0 +1,88 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "mansfieldpediatrics.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.83.54",
+      "141.8.225.124",
+      "172.67.214.208",
+      "207.148.248.143",
+      "207.148.248.145",
+      "209.99.64.43",
+      "44.232.173.249",
+      "52.40.42.113"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "mansfieldpediatrics.com"
+  },
+  "raw": {
+    "malicious_count": 142,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1773777904,
+        "host_name": "mansfieldpediatrics.com",
+        "host_name_malicious": 17,
+        "host_name_suspicious": 2,
+        "ip_address": "104.21.83.54",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1773777592,
+        "host_name": "mansfieldpediatrics.com",
+        "host_name_malicious": 17,
+        "host_name_suspicious": 2,
+        "ip_address": "172.67.214.208",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1759162903,
+        "host_name": "mansfieldpediatrics.com",
+        "host_name_malicious": 17,
+        "host_name_suspicious": 2,
+        "ip_address": "44.232.173.249",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1759162903,
+        "host_name": "mansfieldpediatrics.com",
+        "host_name_malicious": 17,
+        "host_name_suspicious": 2,
+        "ip_address": "52.40.42.113",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1574449045,
+        "host_name": "mansfieldpediatrics.com",
+        "host_name_malicious": 17,
+        "host_name_suspicious": 2,
+        "ip_address": "207.148.248.143",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 16,
+    "total_count": 8
+  },
+  "recorded_at": "2026-09-15T01:18:57Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/mansfieldpediatrics.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for mansfieldpediatrics.com: 8 resolution(s); addresses: 104.21.83.54, 172.67.214.208, 44.232.173.249, 52.40.42.113, 207.148.248.143, 209.99.64.43, 207.148.248.145, 141.8.225.124",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,88 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.therage.co"
+    ],
+    "hashes": [],
+    "ips": [
+      "151.101.131.7",
+      "151.101.195.7",
+      "151.101.3.7",
+      "151.101.67.7",
+      "3.64.163.50",
+      "45.88.202.115",
+      "52.20.84.62",
+      "52.58.78.16"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.therage.co"
+  },
+  "raw": {
+    "malicious_count": 11,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1714751094,
+        "host_name": "www.therage.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "151.101.195.7",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1714751094,
+        "host_name": "www.therage.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "151.101.67.7",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1714751094,
+        "host_name": "www.therage.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "151.101.3.7",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1714751091,
+        "host_name": "www.therage.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "151.101.131.7",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1655004796,
+        "host_name": "www.therage.co",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 1,
+        "ip_address": "52.20.84.62",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 9,
+    "total_count": 8
+  },
+  "recorded_at": "2026-09-16T05:19:08Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.therage.co/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.therage.co: 8 resolution(s); addresses: 151.101.195.7, 151.101.67.7, 151.101.3.7, 151.101.131.7, 52.20.84.62, 3.64.163.50, 45.88.202.115, 52.58.78.16",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

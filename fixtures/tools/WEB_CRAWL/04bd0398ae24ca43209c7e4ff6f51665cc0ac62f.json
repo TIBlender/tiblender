@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WEB_CRAWL unavailable: HTTP 404: <!doctype html>\n<html lang=\"en-us\">\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n<!-- Fonts -->\n<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&display=swap' rel='stylesheet preload' type='text/css' as=\"style\">\n\n<!-- Style sheet -->\n<link href=\"https://www.bleepstatic.com/js/redesign/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet preload\" type=\"text/css\" media=\"all\" as=\"style\">\n\n<link href=\"https://www.bleepstatic.com/css/redesign/main.css?v=12.03.25.1\" rel=\"stylesheet preload\" type=\"text/css\" media=\"all\" as=\"style\">\n<link href=\"https://www.bleepstatic.com/css/redesign/home.css\" rel=\"stylesheet\"",
+  "parameters": {
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-container-image-scanning-tool-leak/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:37Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL unavailable: HTTP 404: <!doctype html>\n<html lang=\"en-us\">\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n\n<!-- Fonts -->\n<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900&display=swap' rel='stylesheet preload' type='text/css' as=\"style\">\n\n<!-- Style sheet -->\n<link href=\"https://www.bleepstatic.com/js/redesign/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet preload\" type=\"text/css\" media=\"all\" as=\"style\">\n\n<link href=\"https://www.bleepstatic.com/css/redesign/main.css?v=12.03.25.1\" rel=\"stylesheet preload\" type=\"text/css\" media=\"all\" as=\"style\">\n<link href=\"https://www.bleepstatic.com/css/redesign/home.css\" rel=\"stylesheet\"",
+  "tool_type": "WEB_CRAWL"
+}

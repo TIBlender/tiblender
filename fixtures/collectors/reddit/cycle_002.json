@@ -1,0 +1,372 @@
+{
+  "notes": {
+    "noise_post_refs": [
+      "TIBLENDER-2026-03-27-6597190d37e84a14-8b93dc7f:p3",
+      "TIBLENDER-2026-03-28-4b57ecc577560559-ba3d7a89:p3",
+      "TIBLENDER-2026-03-28-4b5f1a17c7005bd8-0edb7129:p8",
+      "TIBLENDER-2026-03-29-600e1c7bf257e2c7-d780a30e:p6",
+      "TIBLENDER-2026-03-30-c7e8bfab614eff7a-08096cfb:p6",
+      "TIBLENDER-2026-04-10-fa9aa422386fff92-df2f8281:p8"
+    ]
+  },
+  "platform": "reddit",
+  "posts": [
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+      "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p10",
+      "timestamp": "2026-03-26T08:20:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+      "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p9",
+      "timestamp": "2026-03-26T10:08:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+      "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p11",
+      "timestamp": "2026-03-26T20:39:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+      "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p5",
+      "timestamp": "2026-03-27T01:01:43Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-29-600e1c7bf257e2c7-d780a30e",
+      "source_ref": "TIBLENDER-2026-03-29-600e1c7bf257e2c7-d780a30e:p6",
+      "timestamp": "2026-03-28T06:14:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c",
+      "source_ref": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c:p1",
+      "timestamp": "2026-03-28T17:20:21Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+      "source_ref": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36:p5",
+      "timestamp": "2026-03-28T18:03:05Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+      "source_ref": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36:p8",
+      "timestamp": "2026-03-28T18:03:05Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+      "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p1",
+      "timestamp": "2026-03-29T11:59:39Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+      "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p2",
+      "timestamp": "2026-03-29T11:59:39Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+      "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p4",
+      "timestamp": "2026-03-29T11:59:39Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+      "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p5",
+      "timestamp": "2026-03-29T11:59:39Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "reddit",
+      "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+      "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p6",
+      "timestamp": "2026-03-29T11:59:39Z"
+    }
+  ],
+  "provenance": "anonymized_dataset_excerpt",
+  "responses": [
+    {
+      "payload": {
+        "data": {
+          "after": null,
+          "children": [
+            {
+              "data": {
+                "author": "uc60d3609",
+                "created_utc": 1774678440,
+                "id": "0nobotw",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/Malware/comments/0nobotw/",
+                "score": 0,
+                "selftext": "aims before panicking.",
+                "stickied": false,
+                "subreddit": "Malware",
+                "title": "Infinity Stealer called out, but is it really new or just repackaged Python? Need samples to verify Gatekeeper bypass cl"
+              },
+              "kind": "t3"
+            }
+          ]
+        },
+        "kind": "Listing"
+      },
+      "request": {
+        "endpoint": "r/{sub}/new",
+        "subreddit": "Malware"
+      }
+    },
+    {
+      "payload": {
+        "data": {
+          "after": null,
+          "children": [
+            {
+              "data": {
+                "author": "udf26a021",
+                "created_utc": 1774513200,
+                "id": "xxinrqb",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/xxinrqb/",
+                "score": 0,
+                "selftext": "ver 126,000 U.S. devices. Manufacturers now have to beg DoD or DHS for conditional approval with relocation blueprints if production stays overseas. Defenders should grep their NetScaler access logs for probes hitting CVE-2026-3055 endpoints.",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "FCC's router ban hits right at China's 60% market grip after Volt Typhoon, Flax Typhoon, and Salt Typhoon tore through o"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u7963d973",
+                "created_utc": 1774519680,
+                "id": "o5q86m8",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/o5q86m8/",
+                "score": 0,
+                "selftext": "ivot point in posts, yet no one pins it directly to router exploits. Feels like the full picture's still fuzzy despite the hype.",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "FCC router ban sounds big but how solid is the Typhoon link to 126k devices? People keep mentioning 142.11.206.73 as a p"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u3cc9938a",
+                "created_utc": 1774557540,
+                "id": "acmqg45",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/acmqg45/",
+                "score": 0,
+                "selftext": "but exceptions could still let risks slip through—gbhackers[.]com linked below.",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "FCC Chair Carr: Foreign Routers Enable Surveillance and Botnets from Volt Typhoon Crews. Spot on about the 126k devices "
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u8eb07c38",
+                "created_utc": 1774573303,
+                "id": "acixtwg",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/acixtwg/",
+                "score": 0,
+                "selftext": "2025 [Technical Breakdown + Patch Checklist] \\*\\*TL;DR:\\*\\* Adobe shipped emergency bulletin APSB26-43 yesterday addressing CVE-2026-34621 — a prototype pollution flaw (CWE-1321) in Acrobat Reader's JS engine that enables arbitrary code execution when a victim opens a crafted PDF. CVSS 8.6. Active exploitation confirmed since December 2025. Priority 1 patch — 72 hours. \\--- \\*\\*The Vulnerability — How It Actually Works\\*\\* CVE-2026-34621 exploits JavaScript prototype pollution inside Adobe Reader's embedded JS engine. The attack chain: 1. Attacker crafts a PDF containing malicious JS that targets Object.prototype property injection 2. Victim opens file in unpatched Acrobat / Reader 3. Prototype pollution tampers with the application's object inheritance chain 4. Privileged JS APIs become accessible outside their trust boundary 5. Stage 1: System fingerprinting (OS, software stack, locale) → exfil to C2 via HTTPS 6. Stage 2 (conditional): Full arbitrary code execution if target criteria met The C2 IOC: look for \\`\"Adobe Synchronizer\"\\` in your proxy/firewall User-Agent logs. If you see it, you may already be in their target selection pipeline. \\--- \\*\\*Why It Went Undetected So Long\\*\\* The first EXPMON submission came in on March 26, 2026. Evidence of exploitation goes back to December 2025. The exploit's stealth design is key — Stage 1 is fingerprinting only, no files written, no registry modifications, a single HTTPS beacon. VirusTotal detection on initial submission: 13/64. EXPMON founder Haifei Li flagged it to Adobe. Within days, a second related sample arrived. Adobe then determined the bug extends beyond info-leak to full ACE. \\--- \\*\\*Affected Versions\\*\\* | Product | Vulnerable | Fixed | |---------|-----------|-------| | Acrobat DC / Reader DC (Win+macOS) | ≤ 7 | 1 | | Acrobat 2024 (Windows) | ≤ 6 | 2 | | Acrobat 2024 (macOS) | ≤ 6 | 0 | \\--- \\*\\*Immediate Mitigations (if can't patch right now)\\*\\* \\- Block HTTP/HTTPS with \\`Adobe Synchronizer\\` User-Agent at proxy/firewall \\- Disable Acrobat JavaScript: Edit → Preferences → JavaScript → uncheck \"Enable Acrobat JavaScript\" \\- User advisory: do not open PDFs from unverified senders \\--- \\*\\*Full technical breakdown + patch checklist at TechGines:\\*\\* [hxxps://www[.]techgines[.]com/post/cve-2026-34621-adobe-acrobat-reader-prototype-pollution-zero-day-patch](hxxps://www[.]techgines[.]com/post/cve-2026-34621-adobe-acrobat-reader-prototype-pollution-zero-day-patch) Previous coverage (before the patch existed — the fingerprinting campaign analysis): [hxxps://www[.]techgines[.]com/post/adobe-reader-zero-day-2026-unpatched-pdf-exploit-fingerprinting](hxxps://www[.]techgines[.]com/post/adobe-reader-zero-day-2026-unpatched-pdf-exploit-fingerprinting) Happy to answer technical questions in comments. What's your org's patch SLA for Priority 1 Adobe bulletins?",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "CVE-2026-34621 Adobe Acrobat Reader — Emergency Patch Released for Prototype Pollution Zero-Day Exploited Since December"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "ufcd0b1a1",
+                "created_utc": 1774720985,
+                "id": "xx87p31",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/xx87p31/",
+                "score": 0,
+                "selftext": "its sights on European government and diplomatic organizations since mid-2025, following a two-year period of minimal targeting in the region. The campaign has been attributed to [TA416](hxxps://factide[.]com/ta416-abused-microsofts-own-oauth-endpoint-to-plant-plugx-in-eu-missions/), a cluster of activity that overlaps with DarkPeony, RedDelta, Red Lich, SmugX, UNC6384, and Vertigo Panda.",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing A China-aligned threat actor has set"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "ucfc81f91",
+                "created_utc": 1774720985,
+                "id": "fo59sbk",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/cybersecurity/comments/fo59sbk/",
+                "score": 0,
+                "selftext": "",
+                "stickied": false,
+                "subreddit": "cybersecurity",
+                "title": "mansfieldpediatrics[.]com has 17 malicious verdicts on VirusTotal. That's enough to flag for closer inspection."
+              },
+              "kind": "t3"
+            }
+          ]
+        },
+        "kind": "Listing"
+      },
+      "request": {
+        "endpoint": "r/{sub}/new",
+        "subreddit": "cybersecurity"
+      }
+    },
+    {
+      "payload": {
+        "data": {
+          "after": null,
+          "children": [
+            {
+              "data": {
+                "author": "u8c2577f6",
+                "created_utc": 1774718421,
+                "id": "51x4090",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/51x4090/",
+                "score": 0,
+                "selftext": "Labs",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "The Internet Is Falling Down, Falling Down, Falling Down (cPanel & WHM Authentication Bypass CVE-2026-41940) - watchTowr"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u5754ccdc",
+                "created_utc": 1774785579,
+                "id": "k4uhp6l",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/k4uhp6l/",
+                "score": 0,
+                "selftext": "itizens participating in the illegal ground invasion of Lebanon in the same army that’s committing war crimes. Is it patriotism or treason? Especially when they’re dying for an illegal ground invasion. Check the IPs tied to their ops: 8.47.69.6 and 8.6.112.0—coordinated from US soil? Thoughts?",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "New Haven, CT resident killed serving the IDF in invasion of Lebanon Curious to hear what AB has to say about American c"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u1c8baff4",
+                "created_utc": 1774785579,
+                "id": "26cet8i",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/26cet8i/",
+                "score": 0,
+                "selftext": "",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "US-born IDF soldier killed while fighting in Lebanon, military announces"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "ue4199680",
+                "created_utc": 1774785579,
+                "id": "iytyq2u",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/iytyq2u/",
+                "score": 0,
+                "selftext": "",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "POV: You’re an IDF officer in Lebanon."
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u5f61816e",
+                "created_utc": 1774785579,
+                "id": "ka878vu",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/ka878vu/",
+                "score": 0,
+                "selftext": "of Lebanon. The soldier was originally from New Haven, Connecticut and decided",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "The IDF has announced that a soldier from the Paratroopers Brigade’s 890th Battalion was killed during Israel’s invasion"
+              },
+              "kind": "t3"
+            },
+            {
+              "data": {
+                "author": "u7854bc99",
+                "created_utc": 1774785579,
+                "id": "el2si0p",
+                "is_self": true,
+                "num_comments": 0,
+                "permalink": "/r/netsec/comments/el2si0p/",
+                "score": 0,
+                "selftext": "but I want your opinion on people like him because there’re many like him in the US who go fight in foreign wars like Israel's invasion of Lebanon. This guy, Moshe Katz, was a US-born soldier in the Paratroopers Brigade’s 890th Battalion, killed there recently. People like him leave their comfy lives in places like New Haven to join what many call an illegal ground invasion. Is it patriotism or terrorism? From 8.47.69.0, ops like 8.6.112.6 show the networks these dual-citizen fighters might tie into. Thoughts? Are Americans like him heroes or just mercenaries for genocide?",
+                "stickied": false,
+                "subreddit": "netsec",
+                "title": "What’s your opinion on American terrorist Moshe Katz from Haven, Connecticut? I know most of you won’t know who this is,"
+              },
+              "kind": "t3"
+            }
+          ]
+        },
+        "kind": "Listing"
+      },
+      "request": {
+        "endpoint": "r/{sub}/new",
+        "subreddit": "netsec"
+      }
+    }
+  ],
+  "source_reports": [
+    "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+    "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+    "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+    "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+    "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c"
+  ],
+  "window": {
+    "cycle_index": 2,
+    "end": "2026-03-29T23:59:59Z",
+    "label": "cycle_002",
+    "start": "2026-03-26T00:00:00Z"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "sfrclak.com"
+    ],
+    "hashes": [
+      "c373706b3456c36e8baa0a3ee5aed358c1fe07cba04f65790c90f029971e378a"
+    ],
+    "ips": [
+      "142.11.206.73",
+      "23.254.167.216",
+      "23.254.203.244"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.crowdstrike.com/en-us/blog/stardust-chollima-likely-compromises-axios-npm-package/"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "STARDUST CHOLLIMA Likely Compromises Axios npm Package Blog Featured Recent Video Category Start Free Trial STARDUST CHOLLIMA Likely Compromises Axios npm Package April 01, 2026 • Counter Adversary Operations • Threat Hunting & Intel On March 31, 2026, a threat actor used stolen maintainer credentials to compromise the widely used HTTP client library Axios Node Package Manager (npm) package and deploy platform-specific ZshBucket variants. CrowdStrike Counter Adversary Operations attributes this activity to STARDUST CHOLLIMA with moderate confidence based on the adversary’s deployment of updated variants of ZshBucket (malware uniquely attributed to STARDUST CHOLLIMA) and overlaps with known S",
+    "javascript_rendered": true,
+    "title": "STARDUST CHOLLIMA Likely Compromises Axios npm Package",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:20:24Z",
+  "source_url": "https://www.crowdstrike.com/en-us/blog/stardust-chollima-likely-compromises-axios-npm-package/",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.crowdstrike.com/en-us/blog/stardust-chollima-likely-compromises-axios-npm-package/. Title: STARDUST CHOLLIMA Likely Compromises Axios npm Package. Excerpt: STARDUST CHOLLIMA Likely Compromises Axios npm Package Blog Featured Recent Video Category Start Free Trial STARDUST CHOLLIMA Likely Compromises Axios npm Package April 01, 2026 • Counter Adversary Operations • Threat Hunting & Intel On March 31, 2026, a threat actor used stolen maintainer credentials to compromise the widely used HTTP client library Axios Node Package Manager (npm) package and deploy platform-specific ZshBucket variants. CrowdStrike Counter Adversary Operations attributes this activity to STARDUST CHOLLIMA with moderate confidence based on the adversary’s deployment of updated variants of ZshBucket (malware uniquely attributed to STARDUST CHOLLIMA) and overlaps with known S",
+  "tool_type": "WEB_CRAWL"
+}

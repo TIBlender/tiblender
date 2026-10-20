@@ -1,0 +1,95 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "open.spotify.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.97.85.5",
+      "146.75.51.42",
+      "146.75.55.42",
+      "146.75.63.42",
+      "146.75.95.42",
+      "151.101.207.42",
+      "151.101.239.42",
+      "151.101.243.42",
+      "151.101.87.42",
+      "199.232.147.42",
+      "199.232.19.42",
+      "199.232.43.42",
+      "23.35.68.162",
+      "23.35.68.224",
+      "23.55.220.42"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "open.spotify.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789050499,
+        "host_name": "open.spotify.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "146.75.63.42",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Yomi Hunter"
+      },
+      {
+        "date": 1772809777,
+        "host_name": "open.spotify.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42::810",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1772809777,
+        "host_name": "open.spotify.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:200::810",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1772809777,
+        "host_name": "open.spotify.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:600::810",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      },
+      {
+        "date": 1772809777,
+        "host_name": "open.spotify.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:400::810",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Linux"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:10:49Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/open.spotify.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for open.spotify.com: 20 resolution(s); addresses: 146.75.63.42, 2a04:4e42::810, 2a04:4e42:200::810, 2a04:4e42:600::810, 2a04:4e42:400::810, 151.101.243.42, 146.75.55.42, 151.101.207.42, 2a04:4e42:7c::810, 146.75.51.42",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

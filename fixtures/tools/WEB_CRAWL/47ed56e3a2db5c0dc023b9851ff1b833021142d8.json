@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host open.spotify.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://open.spotify.com/track/3xAHEcyhPEX2kEVYkmb7Uy"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:06Z",
+  "source_url": "https://open.spotify.com/track/3xAHEcyhPEX2kEVYkmb7Uy",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host open.spotify.com for https://open.spotify.com/track/3xAHEcyhPEX2kEVYkmb7Uy",
+  "tool_type": "WEB_CRAWL"
+}

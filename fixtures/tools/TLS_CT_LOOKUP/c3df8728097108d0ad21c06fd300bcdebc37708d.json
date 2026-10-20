@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "ameli-gouv.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "ameli-gouv.com"
+  },
+  "raw": {
+    "count": 39,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=E7",
+      "C=US, O=Let's Encrypt, CN=E7",
+      "C=US, O=Let's Encrypt, CN=R12"
+    ],
+    "names": [
+      "ameli-gouv.com",
+      "ameli-gouv.com",
+      "ameli-gouv.com",
+      "ameli-gouv.com",
+      "ameli-gouv.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:04:12Z",
+  "source_url": "https://crt.sh/?q=%25.ameli-gouv.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for ameli-gouv.com: 39 certificate row(s); sample names=ameli-gouv.com, ameli-gouv.com, ameli-gouv.com, ameli-gouv.com, ameli-gouv.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

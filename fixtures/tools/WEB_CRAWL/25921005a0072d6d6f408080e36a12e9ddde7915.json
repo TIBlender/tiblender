@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.techdirt.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.techdirt.com/2026/03/26/everyone-cheering-the-social-media-addiction-verdicts-against-meta-should-understand-what-theyre-actually-cheering-for/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:26:07Z",
+  "source_url": "https://www.techdirt.com/2026/03/26/everyone-cheering-the-social-media-addiction-verdicts-against-meta-should-understand-what-theyre-actually-cheering-for/",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.techdirt.com for https://www.techdirt.com/2026/03/26/everyone-cheering-the-social-media-addiction-verdicts-against-meta-should-understand-what-theyre-actually-cheering-for/",
+  "tool_type": "WEB_CRAWL"
+}

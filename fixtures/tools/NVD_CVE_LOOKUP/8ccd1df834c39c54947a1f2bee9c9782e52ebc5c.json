@@ -1,0 +1,134 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2026-41242"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "cve": "CVE-2026-41242"
+  },
+  "raw": {
+    "description": "protobufjs compiles protobuf definitions into JavaScript (JS) functions. In versions prior to 8.0.1 and 7.5.5, attackers can inject arbitrary code in the \"type\" fields of protobuf definitions, which will then execute during object decoding using that definition. Versions 8.0.1 and 7.5.5 patch the issue.",
+    "id": "CVE-2026-41242",
+    "metrics": {
+      "cvssMetricV31": [
+        {
+          "cvssData": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "exploitabilityScore": 3.9,
+          "impactScore": 5.9,
+          "source": "nvd@nist.gov",
+          "type": "Primary"
+        },
+        {
+          "cvssData": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 8.8,
+            "baseSeverity": "HIGH",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "LOW",
+            "scope": "UNCHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "exploitabilityScore": 2.8,
+          "impactScore": 5.9,
+          "source": "0b0ca135-0b70-47e7-9f44-1890c2a1c46c",
+          "type": "Secondary"
+        }
+      ],
+      "cvssMetricV40": [
+        {
+          "cvssData": {
+            "Automatable": "NOT_DEFINED",
+            "Recovery": "NOT_DEFINED",
+            "Safety": "NOT_DEFINED",
+            "attackComplexity": "LOW",
+            "attackRequirements": "NONE",
+            "attackVector": "NETWORK",
+            "availabilityRequirement": "NOT_DEFINED",
+            "baseScore": 9.4,
+            "baseSeverity": "CRITICAL",
+            "confidentialityRequirement": "NOT_DEFINED",
+            "exploitMaturity": "NOT_DEFINED",
+            "integrityRequirement": "NOT_DEFINED",
+            "modifiedAttackComplexity": "NOT_DEFINED",
+            "modifiedAttackRequirements": "NOT_DEFINED",
+            "modifiedAttackVector": "NOT_DEFINED",
+            "modifiedPrivilegesRequired": "NOT_DEFINED",
+            "modifiedSubAvailabilityImpact": "NOT_DEFINED",
+            "modifiedSubConfidentialityImpact": "NOT_DEFINED",
+            "modifiedSubIntegrityImpact": "NOT_DEFINED",
+            "modifiedUserInteraction": "NOT_DEFINED",
+            "modifiedVulnAvailabilityImpact": "NOT_DEFINED",
+            "modifiedVulnConfidentialityImpact": "NOT_DEFINED",
+            "modifiedVulnIntegrityImpact": "NOT_DEFINED",
+            "privilegesRequired": "LOW",
+            "providerUrgency": "NOT_DEFINED",
+            "subAvailabilityImpact": "HIGH",
+            "subConfidentialityImpact": "HIGH",
+            "subIntegrityImpact": "HIGH",
+            "userInteraction": "NONE",
+            "valueDensity": "NOT_DEFINED",
+            "vectorString": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:H/VA:H/SC:H/SI:H/SA:H/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X",
+            "version": "4.0",
+            "vulnAvailabilityImpact": "HIGH",
+            "vulnConfidentialityImpact": "HIGH",
+            "vulnIntegrityImpact": "HIGH",
+            "vulnerabilityResponseEffort": "NOT_DEFINED"
+          },
+          "source": "security-advisories@github.com",
+          "type": "Secondary"
+        }
+      ],
+      "ssvcV203": [
+        {
+          "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "ssvcData": {
+            "id": "CVE-2026-41242",
+            "options": [
+              {
+                "exploitation": "poc"
+              },
+              {
+                "automatable": "yes"
+              },
+              {
+                "technicalImpact": "total"
+              }
+            ],
+            "role": "CISA Coordinator",
+            "timestamp": "2026-04-20T16:03:39.054181Z",
+            "version": "2.0.3"
+          }
+        }
+      ]
+    }
+  },
+  "recorded_at": "2026-09-16T05:07:00Z",
+  "source_url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2026-41242",
+  "status": "success",
+  "summary": "NVD lookup for CVE-2026-41242: protobufjs compiles protobuf definitions into JavaScript (JS) functions. In versions prior to 8.0.1 and 7.5.5, attackers can inject arbitrary code in the \"type\" fields of protobuf definitions, which will then execute during object decoding using that definition. Versions 8.0.1 and 7.5.5 patch the issue.",
+  "tool_type": "NVD_CVE_LOOKUP"
+}

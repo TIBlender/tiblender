@@ -1,0 +1,91 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "007.top",
+      "188.top",
+      "288.top",
+      "777377.com",
+      "8056.net",
+      "whtgj.com",
+      "www.188.top",
+      "www.777377.com",
+      "www.8056.net",
+      "www.8056yl.com",
+      "www.whtgj.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "112.213.101.63"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "112.213.101.63"
+  },
+  "raw": {
+    "malicious_count": 60,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789299036,
+        "host_name": "deepapp.sharkpoker.ai",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "112.213.101.63",
+        "ip_address_malicious": 3,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789148375,
+        "host_name": "dpsk.deepshark.vip",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "112.213.101.63",
+        "ip_address_malicious": 3,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789148347,
+        "host_name": "xai.deepshark.vip",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "112.213.101.63",
+        "ip_address_malicious": 3,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789024956,
+        "host_name": "wht.cc",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "112.213.101.63",
+        "ip_address_malicious": 3,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789024697,
+        "host_name": "www.wht.cc",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "112.213.101.63",
+        "ip_address_malicious": 3,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 22,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:30:00Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/112.213.101.63/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 112.213.101.63: 20 resolution(s); hosts: deepapp.sharkpoker.ai, dpsk.deepshark.vip, xai.deepshark.vip, wht.cc, www.wht.cc, wht.vip, 007.top, 777377.com, www.777377.com, 288.top",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

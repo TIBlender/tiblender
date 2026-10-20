@@ -1,0 +1,1653 @@
+{
+  "report_id": "TIBLENDER-RUN-252a5d11fa1a",
+  "title": "sfrclak.com malware and command-and-control campaign",
+  "generated_at": "2026-09-16T08:49:00Z",
+  "cluster_id": "cluster-252a5d11fa1a",
+  "cluster_name": "sfrclak.com malware and command-and-control campaign",
+  "contains_threat_info": true,
+  "content_type": "ACTIONABLE_THREAT",
+  "threat_category": "malware",
+  "threat_severity": "HIGH",
+  "executive_summary": "6 post(s) from discord, reddit and x posted on 2026-03-31 were consolidated into one malware and command-and-control cluster across 3 platform(s), rated CRITICAL. The cluster carries 1 domain, 2 file hashes. Matched threat vocabulary: malware, payload, npm. This summary is composed from the cluster's indicators, counts and vocabulary matches; the source posts are quoted under source evidence in the language they were posted in.",
+  "iocs": {
+    "urls": [],
+    "domains": [
+      "sfrclak.com"
+    ],
+    "ips": [
+      "142.11.206.73"
+    ],
+    "hashes": [
+      "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+      "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+    ],
+    "cves": []
+  },
+  "ioc_validation": {
+    "source_observed": [
+      "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+      "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+      "sfrclak.com"
+    ],
+    "tool_discovered": [
+      "142.11.206.73",
+      "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+      "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+      "sfrclak.com"
+    ],
+    "tool_disqualified": []
+  },
+  "ttps": [
+    {
+      "mitre_id": "T1105",
+      "tactic": "Command and Control",
+      "technique": "Ingress Tool Transfer",
+      "evidence": "Payload/C2 context appears in the cluster."
+    }
+  ],
+  "cves": [],
+  "sources": {
+    "social_media_posts": [
+      {
+        "id": "sample-discord-axios-0001",
+        "platform": "discord",
+        "timestamp": "2026-03-31T07:54:11Z",
+        "text": "Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com",
+        "summary": "Discord post from 2026-03-31 naming 1 indicator(s)."
+      },
+      {
+        "id": "sample-reddit-axios-0001",
+        "platform": "reddit",
+        "timestamp": "2026-03-31T13:53:00Z",
+        "text": "Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com",
+        "summary": "Reddit post from 2026-03-31 naming 1 indicator(s)."
+      },
+      {
+        "id": "sample-reddit-axios-0002",
+        "platform": "reddit",
+        "timestamp": "2026-03-31T14:56:44Z",
+        "text": "Other signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd, and 92ff08773995ebc8d55ec4. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com",
+        "summary": "Reddit post from 2026-03-31 naming 3 indicator(s)."
+      },
+      {
+        "id": "sample-x-axios-0001",
+        "platform": "x",
+        "timestamp": "2026-03-31T03:20:27Z",
+        "text": "Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com",
+        "summary": "X post from 2026-03-31 naming 1 indicator(s)."
+      },
+      {
+        "id": "sample-x-axios-0002",
+        "platform": "x",
+        "timestamp": "2026-03-31T04:22:49Z",
+        "text": "Malware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com",
+        "summary": "X post from 2026-03-31 naming 3 indicator(s)."
+      },
+      {
+        "id": "sample-x-axios-0003",
+        "platform": "x",
+        "timestamp": "2026-03-31T04:52:56Z",
+        "text": "Malware signal: Axios incident update: the malicious npm postinstall path contacts sfrclak[.]com after users install affected package versions. Hunt for axios@1.14.1, axios@0.30.4, plain-crypto-js@4.2.1, and the two payload hashes already circulating in the thread. IoCs: sfrclak.com",
+        "summary": "X post from 2026-03-31 naming 1 indicator(s)."
+      }
+    ],
+    "tool_results": [
+      {
+        "tool_type": "WHOIS_LOOKUP",
+        "query_params": {
+          "domain": "sfrclak.com"
+        },
+        "summary": "RDAP domain lookup for sfrclak.com: handle=3082352565_DOMAIN_COM-VRSN; status=client hold,client transfer prohibited; nameservers=DNS1.REGISTRAR-SERVERS.COM,DNS2.REGISTRAR-SERVERS.COM; events=registration=2026-03-30T16:03:46Z; expiration=2027-03-30T16:03:46Z; last changed=2026-03-31T15:30:56Z; last update of RDAP database=2026-09-09T11:36:49Z; entities=1068.",
+        "result_url": "https://rdap.verisign.com/com/v1/domain/sfrclak.com",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "PASSIVE_DNS_LOOKUP",
+        "query_params": {
+          "domain": "sfrclak.com"
+        },
+        "summary": "VirusTotal passive DNS for sfrclak.com: 1 resolution(s); addresses: 142.11.206.73",
+        "result_url": "https://www.virustotal.com/api/v3/domains/sfrclak.com/resolutions?limit=40",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [
+            "142.11.206.73"
+          ],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "TLS_CT_LOOKUP",
+        "query_params": {
+          "domain": "sfrclak.com"
+        },
+        "summary": "Certificate transparency lookup for sfrclak.com: 0 certificate row(s); sample names=n/a.",
+        "result_url": "https://crt.sh/?q=%25.sfrclak.com&output=json",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "WHOIS_LOOKUP",
+        "query_params": {
+          "ip": "142.11.206.73",
+          "pivot": true
+        },
+        "summary": "RDAP ip lookup for 142.11.206.73: handle=NET-142-11-192-0-1; status=active; nameservers=n/a; events=last changed=2026-05-13T09:37:07-04:00; registration=2012-06-22T17:54:30-04:00; entities=HOSTP-7.",
+        "result_url": "https://rdap.arin.net/registry/ip/142.11.206.73",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [],
+          "ips": [
+            "142.11.206.73"
+          ],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "PASSIVE_DNS_LOOKUP",
+        "query_params": {
+          "ip": "142.11.206.73",
+          "pivot": true
+        },
+        "summary": "VirusTotal passive DNS for 142.11.206.73: 40 resolution(s); hosts: hwsrv-679276.hostwindsdns.com, send16.gladipageuous.com, callnrwise.com, hwsrv-1320779.hostwindsdns.com, sfrclak.com, pbp9f0.asia, flowersforthenewgen.com, www.flowersforthenewgen.com, mail.flowersforthenewgen.com, mec8.fun",
+        "result_url": "https://www.virustotal.com/api/v3/ip_addresses/142.11.206.73/resolutions?limit=40",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "300gorillaz.silverbackplot.com",
+            "aceshiba.coingorillas.com",
+            "aceshiba.com",
+            "callnrwise.com",
+            "coingorillas.com",
+            "cpanel.aceshiba.com",
+            "cpanel.coingorillas.com",
+            "cpcalendars.aceshiba.com",
+            "cpcalendars.coingorillas.com",
+            "cpcalendars.thedailygrindsxm.com",
+            "cpcontacts.aceshiba.com",
+            "cpcontacts.coingorillas.com",
+            "flowersforthenewgen.com",
+            "hwsrv-1320779.hostwindsdns.com",
+            "hwsrv-679276.hostwindsdns.com",
+            "hwsrv-888963.hostwindsdns.com",
+            "lefacteurh.com",
+            "mail.aceshiba.com",
+            "mail.coingorillas.com",
+            "mail.flowersforthenewgen.com"
+          ],
+          "ips": [
+            "142.11.206.73"
+          ],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "SEARCH_ENGINE",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "SearXNG search for sfrclak.com malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+        "result_url": "http://searxng:8080/search?q=sfrclak.com+malware&format=json",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "SEARCH_ENGINE",
+        "query_params": {
+          "query": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware"
+        },
+        "summary": "SearXNG search for 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+        "result_url": "http://searxng:8080/search?q=92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a+malware&format=json",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "X_SEARCH",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "X collected corpus search for sfrclak.com malware: 3 collected post(s). Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com\nMalware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef8",
+        "result_url": "",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [
+            "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+            "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+          ],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "DISCORD_SEARCH",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "Discord internal corpus search for sfrclak.com malware: 1 matching collected post(s). Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com",
+        "result_url": "",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "REDDIT_SEARCH",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "Reddit collected corpus search for sfrclak.com malware: 2 collected post(s). Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com\nOther signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7",
+        "result_url": "",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [
+            "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+            "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+          ],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "TELEGRAM_SEARCH",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "Telegram internal corpus search for sfrclak.com malware: 0 matching collected post(s). ",
+        "result_url": "",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "SEARCH_ENGINE",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "SearXNG search for sfrclak.com malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+        "result_url": "http://searxng:8080/search?q=sfrclak.com+malware&format=json",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "REDDIT_SEARCH",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "Reddit collected corpus search for sfrclak.com malware: 2 collected post(s). Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com\nOther signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7",
+        "result_url": "",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [
+            "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+            "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+          ],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "TELEGRAM_SEARCH",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "Telegram internal corpus search for sfrclak.com malware: 0 matching collected post(s). ",
+        "result_url": "",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "DISCORD_SEARCH",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "Discord internal corpus search for sfrclak.com malware: 1 matching collected post(s). Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com",
+        "result_url": "",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      },
+      {
+        "tool_type": "X_SEARCH",
+        "query_params": {
+          "query": "sfrclak.com malware"
+        },
+        "summary": "X collected corpus search for sfrclak.com malware: 3 collected post(s). Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com\nMalware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef8",
+        "result_url": "",
+        "timestamp": "2026-09-16T08:48:59Z",
+        "discovered_iocs": {
+          "urls": [],
+          "domains": [
+            "sfrclak.com"
+          ],
+          "ips": [],
+          "hashes": [
+            "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+            "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+          ],
+          "cves": []
+        },
+        "confidence": "MEDIUM",
+        "status": "success",
+        "error": ""
+      }
+    ],
+    "total_sources_count": 22
+  },
+  "source_posts": {
+    "count": 6,
+    "items": [
+      {
+        "source_ref": "sample-discord-axios-0001",
+        "platform": "discord",
+        "timestamp": "2026-03-31T07:54:11Z",
+        "text": "Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com"
+      },
+      {
+        "source_ref": "sample-reddit-axios-0001",
+        "platform": "reddit",
+        "timestamp": "2026-03-31T13:53:00Z",
+        "text": "Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com"
+      },
+      {
+        "source_ref": "sample-reddit-axios-0002",
+        "platform": "reddit",
+        "timestamp": "2026-03-31T14:56:44Z",
+        "text": "Other signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd, and 92ff08773995ebc8d55ec4. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com"
+      },
+      {
+        "source_ref": "sample-x-axios-0001",
+        "platform": "x",
+        "timestamp": "2026-03-31T03:20:27Z",
+        "text": "Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com"
+      },
+      {
+        "source_ref": "sample-x-axios-0002",
+        "platform": "x",
+        "timestamp": "2026-03-31T04:22:49Z",
+        "text": "Malware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com"
+      },
+      {
+        "source_ref": "sample-x-axios-0003",
+        "platform": "x",
+        "timestamp": "2026-03-31T04:52:56Z",
+        "text": "Malware signal: Axios incident update: the malicious npm postinstall path contacts sfrclak[.]com after users install affected package versions. Hunt for axios@1.14.1, axios@0.30.4, plain-crypto-js@4.2.1, and the two payload hashes already circulating in the thread. IoCs: sfrclak.com"
+      }
+    ]
+  },
+  "perspective_findings": [
+    {
+      "perspective": "Infrastructure",
+      "focus_types": [
+        "domain_registration_and_whois",
+        "dns_and_passive_dns_analysis",
+        "ssl_tls_certificate_analysis"
+      ],
+      "queries": [
+        {
+          "perspective": "Infrastructure",
+          "tool_type": "WHOIS_LOOKUP",
+          "parameters": {
+            "domain": "sfrclak.com"
+          },
+          "priority": 9,
+          "timeout_seconds": 30,
+          "focus_type": "domain_registration_and_whois"
+        },
+        {
+          "perspective": "Infrastructure",
+          "tool_type": "PASSIVE_DNS_LOOKUP",
+          "parameters": {
+            "domain": "sfrclak.com"
+          },
+          "priority": 8,
+          "timeout_seconds": 30,
+          "focus_type": "dns_and_passive_dns_analysis"
+        },
+        {
+          "perspective": "Infrastructure",
+          "tool_type": "TLS_CT_LOOKUP",
+          "parameters": {
+            "domain": "sfrclak.com"
+          },
+          "priority": 7,
+          "timeout_seconds": 30,
+          "focus_type": "ssl_tls_certificate_analysis"
+        },
+        {
+          "perspective": "Infrastructure",
+          "tool_type": "WHOIS_LOOKUP",
+          "parameters": {
+            "ip": "142.11.206.73",
+            "pivot": true
+          },
+          "priority": 4,
+          "timeout_seconds": 30,
+          "focus_type": "related_domain_and_infrastructure_pivoting"
+        },
+        {
+          "perspective": "Infrastructure",
+          "tool_type": "PASSIVE_DNS_LOOKUP",
+          "parameters": {
+            "ip": "142.11.206.73",
+            "pivot": true
+          },
+          "priority": 4,
+          "timeout_seconds": 30,
+          "focus_type": "related_domain_and_infrastructure_pivoting"
+        }
+      ],
+      "tool_results": [
+        {
+          "tool_type": "WHOIS_LOOKUP",
+          "query_params": {
+            "domain": "sfrclak.com"
+          },
+          "summary": "RDAP domain lookup for sfrclak.com: handle=3082352565_DOMAIN_COM-VRSN; status=client hold,client transfer prohibited; nameservers=DNS1.REGISTRAR-SERVERS.COM,DNS2.REGISTRAR-SERVERS.COM; events=registration=2026-03-30T16:03:46Z; expiration=2027-03-30T16:03:46Z; last changed=2026-03-31T15:30:56Z; last update of RDAP database=2026-09-09T11:36:49Z; entities=1068.",
+          "result_url": "https://rdap.verisign.com/com/v1/domain/sfrclak.com",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "sfrclak.com"
+            ],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "PASSIVE_DNS_LOOKUP",
+          "query_params": {
+            "domain": "sfrclak.com"
+          },
+          "summary": "VirusTotal passive DNS for sfrclak.com: 1 resolution(s); addresses: 142.11.206.73",
+          "result_url": "https://www.virustotal.com/api/v3/domains/sfrclak.com/resolutions?limit=40",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "sfrclak.com"
+            ],
+            "ips": [
+              "142.11.206.73"
+            ],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "TLS_CT_LOOKUP",
+          "query_params": {
+            "domain": "sfrclak.com"
+          },
+          "summary": "Certificate transparency lookup for sfrclak.com: 0 certificate row(s); sample names=n/a.",
+          "result_url": "https://crt.sh/?q=%25.sfrclak.com&output=json",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "WHOIS_LOOKUP",
+          "query_params": {
+            "ip": "142.11.206.73",
+            "pivot": true
+          },
+          "summary": "RDAP ip lookup for 142.11.206.73: handle=NET-142-11-192-0-1; status=active; nameservers=n/a; events=last changed=2026-05-13T09:37:07-04:00; registration=2012-06-22T17:54:30-04:00; entities=HOSTP-7.",
+          "result_url": "https://rdap.arin.net/registry/ip/142.11.206.73",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [],
+            "ips": [
+              "142.11.206.73"
+            ],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "PASSIVE_DNS_LOOKUP",
+          "query_params": {
+            "ip": "142.11.206.73",
+            "pivot": true
+          },
+          "summary": "VirusTotal passive DNS for 142.11.206.73: 40 resolution(s); hosts: hwsrv-679276.hostwindsdns.com, send16.gladipageuous.com, callnrwise.com, hwsrv-1320779.hostwindsdns.com, sfrclak.com, pbp9f0.asia, flowersforthenewgen.com, www.flowersforthenewgen.com, mail.flowersforthenewgen.com, mec8.fun",
+          "result_url": "https://www.virustotal.com/api/v3/ip_addresses/142.11.206.73/resolutions?limit=40",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "300gorillaz.silverbackplot.com",
+              "aceshiba.coingorillas.com",
+              "aceshiba.com",
+              "callnrwise.com",
+              "coingorillas.com",
+              "cpanel.aceshiba.com",
+              "cpanel.coingorillas.com",
+              "cpcalendars.aceshiba.com",
+              "cpcalendars.coingorillas.com",
+              "cpcalendars.thedailygrindsxm.com",
+              "cpcontacts.aceshiba.com",
+              "cpcontacts.coingorillas.com",
+              "flowersforthenewgen.com",
+              "hwsrv-1320779.hostwindsdns.com",
+              "hwsrv-679276.hostwindsdns.com",
+              "hwsrv-888963.hostwindsdns.com",
+              "lefacteurh.com",
+              "mail.aceshiba.com",
+              "mail.coingorillas.com",
+              "mail.flowersforthenewgen.com"
+            ],
+            "ips": [
+              "142.11.206.73"
+            ],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        }
+      ],
+      "insights": [
+        "Infrastructure focus selection used the heuristic planner (no LLM agent configured).",
+        "Infrastructure agent investigated domain_registration_and_whois, dns_and_passive_dns_analysis, ssl_tls_certificate_analysis with 5 tool query/queries (5 successful).",
+        "Infrastructure agent pivoted one level into 2 newly discovered indicator query/queries."
+      ],
+      "confidence": 0.9,
+      "mode": "rl_guided"
+    },
+    {
+      "perspective": "Technical",
+      "focus_types": [
+        "technical_intelligence_and_security_report_collection",
+        "cve_exploitation_analysis"
+      ],
+      "queries": [
+        {
+          "perspective": "Technical",
+          "tool_type": "SEARCH_ENGINE",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 9,
+          "timeout_seconds": 30,
+          "focus_type": "technical_intelligence_and_security_report_collection"
+        },
+        {
+          "perspective": "Technical",
+          "tool_type": "SEARCH_ENGINE",
+          "parameters": {
+            "query": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware"
+          },
+          "priority": 9,
+          "timeout_seconds": 30,
+          "focus_type": "technical_intelligence_and_security_report_collection"
+        }
+      ],
+      "tool_results": [
+        {
+          "tool_type": "SEARCH_ENGINE",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "SearXNG search for sfrclak.com malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+          "result_url": "http://searxng:8080/search?q=sfrclak.com+malware&format=json",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "SEARCH_ENGINE",
+          "query_params": {
+            "query": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware"
+          },
+          "summary": "SearXNG search for 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+          "result_url": "http://searxng:8080/search?q=92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a+malware&format=json",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        }
+      ],
+      "insights": [
+        "Technical focus selection used the heuristic planner (no LLM agent configured).",
+        "Technical agent investigated technical_intelligence_and_security_report_collection, cve_exploitation_analysis with 2 tool query/queries (2 successful)."
+      ],
+      "confidence": 0.65,
+      "mode": "rl_guided"
+    },
+    {
+      "perspective": "Social",
+      "focus_types": [
+        "sns_account_abuse_and_spread_tracking",
+        "social_engineering_tactics_analysis"
+      ],
+      "queries": [
+        {
+          "perspective": "Social",
+          "tool_type": "X_SEARCH",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 9,
+          "timeout_seconds": 30,
+          "focus_type": "sns_account_abuse_and_spread_tracking"
+        },
+        {
+          "perspective": "Social",
+          "tool_type": "DISCORD_SEARCH",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 9,
+          "timeout_seconds": 30,
+          "focus_type": "sns_account_abuse_and_spread_tracking"
+        },
+        {
+          "perspective": "Social",
+          "tool_type": "REDDIT_SEARCH",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 8,
+          "timeout_seconds": 30,
+          "focus_type": "social_engineering_tactics_analysis"
+        },
+        {
+          "perspective": "Social",
+          "tool_type": "TELEGRAM_SEARCH",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 8,
+          "timeout_seconds": 30,
+          "focus_type": "social_engineering_tactics_analysis"
+        }
+      ],
+      "tool_results": [
+        {
+          "tool_type": "X_SEARCH",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "X collected corpus search for sfrclak.com malware: 3 collected post(s). Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com\nMalware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef8",
+          "result_url": "",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "sfrclak.com"
+            ],
+            "ips": [],
+            "hashes": [
+              "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+              "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+            ],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "DISCORD_SEARCH",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "Discord internal corpus search for sfrclak.com malware: 1 matching collected post(s). Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com",
+          "result_url": "",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "sfrclak.com"
+            ],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "REDDIT_SEARCH",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "Reddit collected corpus search for sfrclak.com malware: 2 collected post(s). Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com\nOther signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7",
+          "result_url": "",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "sfrclak.com"
+            ],
+            "ips": [],
+            "hashes": [
+              "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+              "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+            ],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "TELEGRAM_SEARCH",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "Telegram internal corpus search for sfrclak.com malware: 0 matching collected post(s). ",
+          "result_url": "",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        }
+      ],
+      "insights": [
+        "Social focus selection used the heuristic planner (no LLM agent configured).",
+        "Social agent investigated sns_account_abuse_and_spread_tracking, social_engineering_tactics_analysis with 4 tool query/queries (4 successful)."
+      ],
+      "confidence": 0.85,
+      "mode": "rl_guided"
+    },
+    {
+      "perspective": "Actor",
+      "focus_types": [
+        "apt_group_and_threat_actor_investigation",
+        "cybercrime_group_and_market_analysis",
+        "campaign_tracking"
+      ],
+      "queries": [
+        {
+          "perspective": "Actor",
+          "tool_type": "SEARCH_ENGINE",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 9,
+          "timeout_seconds": 30,
+          "focus_type": "apt_group_and_threat_actor_investigation"
+        },
+        {
+          "perspective": "Actor",
+          "tool_type": "REDDIT_SEARCH",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 9,
+          "timeout_seconds": 30,
+          "focus_type": "apt_group_and_threat_actor_investigation"
+        },
+        {
+          "perspective": "Actor",
+          "tool_type": "TELEGRAM_SEARCH",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 8,
+          "timeout_seconds": 30,
+          "focus_type": "cybercrime_group_and_market_analysis"
+        },
+        {
+          "perspective": "Actor",
+          "tool_type": "DISCORD_SEARCH",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 8,
+          "timeout_seconds": 30,
+          "focus_type": "cybercrime_group_and_market_analysis"
+        },
+        {
+          "perspective": "Actor",
+          "tool_type": "X_SEARCH",
+          "parameters": {
+            "query": "sfrclak.com malware"
+          },
+          "priority": 7,
+          "timeout_seconds": 30,
+          "focus_type": "campaign_tracking"
+        }
+      ],
+      "tool_results": [
+        {
+          "tool_type": "SEARCH_ENGINE",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "SearXNG search for sfrclak.com malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+          "result_url": "http://searxng:8080/search?q=sfrclak.com+malware&format=json",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "REDDIT_SEARCH",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "Reddit collected corpus search for sfrclak.com malware: 2 collected post(s). Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com\nOther signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7",
+          "result_url": "",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "sfrclak.com"
+            ],
+            "ips": [],
+            "hashes": [
+              "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+              "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+            ],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "TELEGRAM_SEARCH",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "Telegram internal corpus search for sfrclak.com malware: 0 matching collected post(s). ",
+          "result_url": "",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "DISCORD_SEARCH",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "Discord internal corpus search for sfrclak.com malware: 1 matching collected post(s). Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com",
+          "result_url": "",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "sfrclak.com"
+            ],
+            "ips": [],
+            "hashes": [],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        },
+        {
+          "tool_type": "X_SEARCH",
+          "query_params": {
+            "query": "sfrclak.com malware"
+          },
+          "summary": "X collected corpus search for sfrclak.com malware: 3 collected post(s). Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com\nMalware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef8",
+          "result_url": "",
+          "timestamp": "2026-09-16T08:48:59Z",
+          "discovered_iocs": {
+            "urls": [],
+            "domains": [
+              "sfrclak.com"
+            ],
+            "ips": [],
+            "hashes": [
+              "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+              "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd"
+            ],
+            "cves": []
+          },
+          "confidence": "MEDIUM",
+          "status": "success",
+          "error": ""
+        }
+      ],
+      "insights": [
+        "Actor focus selection used the heuristic planner (no LLM agent configured).",
+        "Actor agent investigated apt_group_and_threat_actor_investigation, cybercrime_group_and_market_analysis, campaign_tracking with 5 tool query/queries (5 successful)."
+      ],
+      "confidence": 0.9,
+      "mode": "rl_guided"
+    }
+  ],
+  "platform_unique_contributions": {
+    "discord": "Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com",
+    "reddit": "Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com / Other signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8",
+    "x": "Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com / Malware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4e"
+  },
+  "evidence_assessment": {
+    "confidence_level": "HIGH",
+    "quality_score": 1.0,
+    "decision": "PROCEED",
+    "reason": "Independent source, IoC, and perspective evidence are sufficient for a structured TI report."
+  },
+  "judgement_trace": [
+    {
+      "decision": "severity",
+      "value": "HIGH",
+      "reason": "Severity is calibrated from actionable IoCs, active-threat language, victim or scope evidence, and independent platform coverage.",
+      "supporting_evidence_ids": [
+        "sample-discord-axios-0001",
+        "sample-reddit-axios-0001",
+        "sample-reddit-axios-0002",
+        "sample-x-axios-0001",
+        "sample-x-axios-0002",
+        "sample-x-axios-0003"
+      ]
+    },
+    {
+      "decision": "publish",
+      "value": "PROCEED",
+      "reason": "Independent source, IoC, and perspective evidence are sufficient for a structured TI report.",
+      "supporting_evidence_ids": [
+        "round-1"
+      ]
+    }
+  ],
+  "evaluation_rounds": [
+    {
+      "round_index": 1,
+      "judge": "rule-judge-a",
+      "verdict": "PROCEED",
+      "quality_score": 1.0,
+      "reason": "Independent source, IoC, and perspective evidence are sufficient for a structured TI report.",
+      "requested_followups": [],
+      "sufficiency": {
+        "score": 1.0,
+        "rationale": "Source and indicator volume were scored with the local smoke-test rubric."
+      },
+      "consistency": {
+        "score": 1.0,
+        "rationale": "Smoke-test consistency is estimated from platform count and available perspective evidence."
+      },
+      "evidence_quality": {
+        "score": 0.95,
+        "rationale": "Smoke-test evidence quality is estimated from IoC count and successful perspective coverage."
+      },
+      "follow_up_actions": []
+    }
+  ],
+  "recommendations": {
+    "immediate_actions": [
+      "Block or monitor the listed domains, URLs and IP addresses according to local policy.",
+      "Add the listed file hashes to endpoint blocklists and hunt for prior executions.",
+      "Search SIEM and EDR telemetry for the listed indicators and the associated campaign terms.",
+      "Preserve the source evidence and re-run enrichment if new platform posts appear in the next cycle."
+    ],
+    "mitigation_priority": "HIGH"
+  },
+  "analyst_notes": "Independent source, IoC, and perspective evidence are sufficient for a structured TI report.",
+  "metadata": {
+    "generated_by": "TIBlender Pipeline",
+    "report_version": "runtime-0.1",
+    "generation_mode": "offline_deterministic",
+    "llm_used": false,
+    "llm_provider": "azure_openai",
+    "llm_model": "",
+    "llm_stage_fallbacks": [],
+    "services": {
+      "discord": "fixture",
+      "embedding": "heuristic",
+      "github": "fixture",
+      "judge_a": "heuristic",
+      "judge_b": "heuristic",
+      "llm": "heuristic",
+      "nvd": "fixture",
+      "ocr": "unavailable",
+      "passive_dns": "fixture",
+      "reddit": "fixture",
+      "search_engine": "fixture",
+      "telegram": "fixture",
+      "tls_ct": "fixture",
+      "web_crawl": "fixture",
+      "whois": "fixture",
+      "x": "fixture"
+    },
+    "runtime_version": "1.0.0",
+    "clock_fixed": false
+  },
+  "report_schema": {
+    "cluster_name": "sfrclak.com malware and command-and-control campaign",
+    "severity": "HIGH",
+    "summary": "6 post(s) from discord, reddit and x posted on 2026-03-31 were consolidated into one malware and command-and-control cluster across 3 platform(s), rated CRITICAL. The cluster carries 1 domain, 2 file hashes. Matched threat vocabulary: malware, payload, npm. This summary is composed from the cluster's indicators, counts and vocabulary matches; the source posts are quoted under source evidence in the language they were posted in.",
+    "key_findings": [
+      {
+        "heading": "Infrastructure",
+        "items": [
+          "Infrastructure focus selection used the heuristic planner (no LLM agent configured).",
+          "Infrastructure agent investigated domain_registration_and_whois, dns_and_passive_dns_analysis, ssl_tls_certificate_analysis with 5 tool query/queries (5 successful).",
+          "Infrastructure agent pivoted one level into 2 newly discovered indicator query/queries."
+        ]
+      },
+      {
+        "heading": "Technical",
+        "items": [
+          "Technical focus selection used the heuristic planner (no LLM agent configured).",
+          "Technical agent investigated technical_intelligence_and_security_report_collection, cve_exploitation_analysis with 2 tool query/queries (2 successful)."
+        ]
+      },
+      {
+        "heading": "Social",
+        "items": [
+          "Social focus selection used the heuristic planner (no LLM agent configured).",
+          "Social agent investigated sns_account_abuse_and_spread_tracking, social_engineering_tactics_analysis with 4 tool query/queries (4 successful)."
+        ]
+      },
+      {
+        "heading": "Actor",
+        "items": [
+          "Actor focus selection used the heuristic planner (no LLM agent configured).",
+          "Actor agent investigated apt_group_and_threat_actor_investigation, cybercrime_group_and_market_analysis, campaign_tracking with 5 tool query/queries (5 successful)."
+        ]
+      },
+      {
+        "heading": "Indicators",
+        "items": [
+          "Extracted from the cluster's posts: 1 domain, 2 file hashes.",
+          "Severity CRITICAL across 3 platform(s)."
+        ]
+      }
+    ],
+    "recommendations": [
+      {
+        "action": "Block or monitor the listed domains, URLs and IP addresses according to local policy.",
+        "rationale": "The cluster carries network indicators that can be actioned directly.",
+        "horizon": "immediate"
+      },
+      {
+        "action": "Add the listed file hashes to endpoint blocklists and hunt for prior executions.",
+        "rationale": "File hashes in the cluster identify the delivered sample.",
+        "horizon": "immediate"
+      },
+      {
+        "action": "Search SIEM and EDR telemetry for the listed indicators and the associated campaign terms.",
+        "rationale": "Retrospective search establishes whether the campaign already reached the estate.",
+        "horizon": "immediate"
+      },
+      {
+        "action": "Preserve the source evidence and re-run enrichment if new platform posts appear in the next cycle.",
+        "rationale": "Evidence is credible but the cluster is still developing.",
+        "horizon": "short_term"
+      }
+    ],
+    "iocs": [
+      {
+        "type": "domain",
+        "value": "sfrclak.com",
+        "extraction_type": "Direct",
+        "platforms": [
+          "discord",
+          "reddit",
+          "x"
+        ]
+      },
+      {
+        "type": "ip",
+        "value": "142.11.206.73",
+        "extraction_type": "Pivot",
+        "platforms": []
+      },
+      {
+        "type": "hash",
+        "value": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+        "extraction_type": "Direct",
+        "platforms": [
+          "reddit",
+          "x"
+        ]
+      },
+      {
+        "type": "hash",
+        "value": "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+        "extraction_type": "Direct",
+        "platforms": [
+          "reddit",
+          "x"
+        ]
+      }
+    ],
+    "cves": [],
+    "ttps": [
+      "T1105"
+    ],
+    "threat_actor": "Unknown",
+    "timeline": [
+      {
+        "timestamp": "2026-03-31T03:20:27Z",
+        "event": "x source post sample-x-axios-0001",
+        "significance": "Primary source evidence used for clustering and report generation."
+      },
+      {
+        "timestamp": "2026-03-31T04:22:49Z",
+        "event": "x source post sample-x-axios-0002",
+        "significance": "Primary source evidence used for clustering and report generation."
+      },
+      {
+        "timestamp": "2026-03-31T04:52:56Z",
+        "event": "x source post sample-x-axios-0003",
+        "significance": "Primary source evidence used for clustering and report generation."
+      },
+      {
+        "timestamp": "2026-03-31T07:54:11Z",
+        "event": "discord source post sample-discord-axios-0001",
+        "significance": "Primary source evidence used for clustering and report generation."
+      },
+      {
+        "timestamp": "2026-03-31T13:53:00Z",
+        "event": "reddit source post sample-reddit-axios-0001",
+        "significance": "Primary source evidence used for clustering and report generation."
+      },
+      {
+        "timestamp": "2026-03-31T14:56:44Z",
+        "event": "reddit source post sample-reddit-axios-0002",
+        "significance": "Primary source evidence used for clustering and report generation."
+      }
+    ],
+    "sources": [
+      {
+        "source_number": 1,
+        "source_ref": "sample-discord-axios-0001",
+        "summary": "Discord post from 2026-03-31 naming 1 indicator(s)."
+      },
+      {
+        "source_number": 2,
+        "source_ref": "sample-reddit-axios-0001",
+        "summary": "Reddit post from 2026-03-31 naming 1 indicator(s)."
+      },
+      {
+        "source_number": 3,
+        "source_ref": "sample-reddit-axios-0002",
+        "summary": "Reddit post from 2026-03-31 naming 3 indicator(s)."
+      },
+      {
+        "source_number": 4,
+        "source_ref": "sample-x-axios-0001",
+        "summary": "X post from 2026-03-31 naming 1 indicator(s)."
+      },
+      {
+        "source_number": 5,
+        "source_ref": "sample-x-axios-0002",
+        "summary": "X post from 2026-03-31 naming 3 indicator(s)."
+      },
+      {
+        "source_number": 6,
+        "source_ref": "sample-x-axios-0003",
+        "summary": "X post from 2026-03-31 naming 1 indicator(s)."
+      }
+    ]
+  },
+  "key_findings": [
+    {
+      "heading": "Infrastructure",
+      "items": [
+        "Infrastructure focus selection used the heuristic planner (no LLM agent configured).",
+        "Infrastructure agent investigated domain_registration_and_whois, dns_and_passive_dns_analysis, ssl_tls_certificate_analysis with 5 tool query/queries (5 successful).",
+        "Infrastructure agent pivoted one level into 2 newly discovered indicator query/queries."
+      ]
+    },
+    {
+      "heading": "Technical",
+      "items": [
+        "Technical focus selection used the heuristic planner (no LLM agent configured).",
+        "Technical agent investigated technical_intelligence_and_security_report_collection, cve_exploitation_analysis with 2 tool query/queries (2 successful)."
+      ]
+    },
+    {
+      "heading": "Social",
+      "items": [
+        "Social focus selection used the heuristic planner (no LLM agent configured).",
+        "Social agent investigated sns_account_abuse_and_spread_tracking, social_engineering_tactics_analysis with 4 tool query/queries (4 successful)."
+      ]
+    },
+    {
+      "heading": "Actor",
+      "items": [
+        "Actor focus selection used the heuristic planner (no LLM agent configured).",
+        "Actor agent investigated apt_group_and_threat_actor_investigation, cybercrime_group_and_market_analysis, campaign_tracking with 5 tool query/queries (5 successful)."
+      ]
+    },
+    {
+      "heading": "Indicators",
+      "items": [
+        "Extracted from the cluster's posts: 1 domain, 2 file hashes.",
+        "Severity CRITICAL across 3 platform(s)."
+      ]
+    }
+  ],
+  "threat_actor": "Unknown",
+  "timeline": [
+    {
+      "timestamp": "2026-03-31T03:20:27Z",
+      "event": "x source post sample-x-axios-0001",
+      "significance": "Primary source evidence used for clustering and report generation."
+    },
+    {
+      "timestamp": "2026-03-31T04:22:49Z",
+      "event": "x source post sample-x-axios-0002",
+      "significance": "Primary source evidence used for clustering and report generation."
+    },
+    {
+      "timestamp": "2026-03-31T04:52:56Z",
+      "event": "x source post sample-x-axios-0003",
+      "significance": "Primary source evidence used for clustering and report generation."
+    },
+    {
+      "timestamp": "2026-03-31T07:54:11Z",
+      "event": "discord source post sample-discord-axios-0001",
+      "significance": "Primary source evidence used for clustering and report generation."
+    },
+    {
+      "timestamp": "2026-03-31T13:53:00Z",
+      "event": "reddit source post sample-reddit-axios-0001",
+      "significance": "Primary source evidence used for clustering and report generation."
+    },
+    {
+      "timestamp": "2026-03-31T14:56:44Z",
+      "event": "reddit source post sample-reddit-axios-0002",
+      "significance": "Primary source evidence used for clustering and report generation."
+    }
+  ],
+  "english_report": {
+    "summary_en": "6 post(s) from discord, reddit and x posted on 2026-03-31 were consolidated into one malware and command-and-control cluster across 3 platform(s), rated CRITICAL. The cluster carries 1 domain, 2 file hashes. Matched threat vocabulary: malware, payload, npm. This summary is composed from the cluster's indicators, counts and vocabulary matches; the source posts are quoted under source evidence in the language they were posted in.",
+    "key_findings_en": [
+      "Infrastructure focus selection used the heuristic planner (no LLM agent configured).",
+      "Infrastructure agent investigated domain_registration_and_whois, dns_and_passive_dns_analysis, ssl_tls_certificate_analysis with 5 tool query/queries (5 successful).",
+      "Infrastructure agent pivoted one level into 2 newly discovered indicator query/queries.",
+      "RDAP domain lookup for sfrclak.com: handle=3082352565_DOMAIN_COM-VRSN; status=client hold,client transfer prohibited; nameservers=DNS1.REGISTRAR-SERVERS.COM,DNS2.REGISTRAR-SERVERS.COM; events=registration=2026-03-30T16:03:46Z; expiration=2027-03-30T16:03:46Z; last changed=2026-03-31T15:30:56Z; last update of RDAP database=2026-09-09T11:36:49Z; entities=1068.",
+      "VirusTotal passive DNS for sfrclak.com: 1 resolution(s); addresses: 142.11.206.73",
+      "Certificate transparency lookup for sfrclak.com: 0 certificate row(s); sample names=n/a.",
+      "RDAP ip lookup for 142.11.206.73: handle=NET-142-11-192-0-1; status=active; nameservers=n/a; events=last changed=2026-05-13T09:37:07-04:00; registration=2012-06-22T17:54:30-04:00; entities=HOSTP-7.",
+      "VirusTotal passive DNS for 142.11.206.73: 40 resolution(s); hosts: hwsrv-679276.hostwindsdns.com, send16.gladipageuous.com, callnrwise.com, hwsrv-1320779.hostwindsdns.com, sfrclak.com, pbp9f0.asia, flowersforthenewgen.com, www.flowersforthenewgen.com, mail.flowersforthenewgen.com, mec8.fun"
+    ]
+  },
+  "markdown_report": "# sfrclak.com malware and command-and-control campaign\n\n**Report ID**: TIBLENDER-RUN-252a5d11fa1a\n**Generated At**: 2026-09-16T08:49:00Z\n**Severity**: HIGH\n**Category**: malware\n\n## Executive Summary\n\n6 post(s) from discord, reddit and x posted on 2026-03-31 were consolidated into one malware and command-and-control cluster across 3 platform(s), rated CRITICAL. The cluster carries 1 domain, 2 file hashes. Matched threat vocabulary: malware, payload, npm. This summary is composed from the cluster's indicators, counts and vocabulary matches; the source posts are quoted under source evidence in the language they were posted in.\n\n## Key Findings\n\n- **Infrastructure**\n  - Infrastructure focus selection used the heuristic planner (no LLM agent configured).\n  - Infrastructure agent investigated domain_registration_and_whois, dns_and_passive_dns_analysis, ssl_tls_certificate_analysis with 5 tool query/queries (5 successful).\n  - Infrastructure agent pivoted one level into 2 newly discovered indicator query/queries.\n- **Technical**\n  - Technical focus selection used the heuristic planner (no LLM agent configured).\n  - Technical agent investigated technical_intelligence_and_security_report_collection, cve_exploitation_analysis with 2 tool query/queries (2 successful).\n- **Social**\n  - Social focus selection used the heuristic planner (no LLM agent configured).\n  - Social agent investigated sns_account_abuse_and_spread_tracking, social_engineering_tactics_analysis with 4 tool query/queries (4 successful).\n- **Actor**\n  - Actor focus selection used the heuristic planner (no LLM agent configured).\n  - Actor agent investigated apt_group_and_threat_actor_investigation, cybercrime_group_and_market_analysis, campaign_tracking with 5 tool query/queries (5 successful).\n- **Indicators**\n  - Extracted from the cluster's posts: 1 domain, 2 file hashes.\n  - Severity CRITICAL across 3 platform(s).\n\n## IoCs\n\n| Type | Value | Extraction Type | Source Platforms |\n|------|-------|-----------------|------------------|\n| domain | `sfrclak.com` | Direct | discord, reddit, x |\n| ip | `142.11.206.73` | Pivot | - |\n| hash | `92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a` | Direct | reddit, x |\n| hash | `f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd` | Direct | reddit, x |\n\n## CVEs\n\n| CVE ID | Exploited In Wild |\n|--------|-------------------|\n| none | - |\n\n## TTPs\n\n| MITRE ID | Tactic | Technique | Evidence |\n|----------|--------|-----------|----------|\n| `T1105` | Command and Control | Ingress Tool Transfer | Payload/C2 context appears in the cluster. |\n\n## Threat Actor\n\nUnknown\n\n## Attack Timeline\n\n| Timestamp | Event | Significance |\n|-----------|-------|--------------|\n| 2026-03-31T03:20:27Z | x source post sample-x-axios-0001 | Primary source evidence used for clustering and report generation. |\n| 2026-03-31T04:22:49Z | x source post sample-x-axios-0002 | Primary source evidence used for clustering and report generation. |\n| 2026-03-31T04:52:56Z | x source post sample-x-axios-0003 | Primary source evidence used for clustering and report generation. |\n| 2026-03-31T07:54:11Z | discord source post sample-discord-axios-0001 | Primary source evidence used for clustering and report generation. |\n| 2026-03-31T13:53:00Z | reddit source post sample-reddit-axios-0001 | Primary source evidence used for clustering and report generation. |\n| 2026-03-31T14:56:44Z | reddit source post sample-reddit-axios-0002 | Primary source evidence used for clustering and report generation. |\n\n## Recommendations\n\n### Immediate\n\n1. **Block or monitor the listed domains, URLs and IP addresses according to local policy.** The cluster carries network indicators that can be actioned directly.\n2. **Add the listed file hashes to endpoint blocklists and hunt for prior executions.** File hashes in the cluster identify the delivered sample.\n3. **Search SIEM and EDR telemetry for the listed indicators and the associated campaign terms.** Retrospective search establishes whether the campaign already reached the estate.\n\n### Short-Term\n\n1. **Preserve the source evidence and re-run enrichment if new platform posts appear in the next cycle.** Evidence is credible but the cluster is still developing.\n\n\n## Source Evidence\n\n- `sample-discord-axios-0001` (discord, 2026-03-31T07:54:11Z): Malware signal: Discord incident channel is treating the Axios npm compromise as one campaign across x, reddit, and discord evidence. The affected package versions, sfrclak[.]com payload host, and payload hashes are linked to the same malicious postinstall activity. IoCs: sfrclak.com\n- `sample-reddit-axios-0001` (reddit, 2026-03-31T13:53:00Z): Malware signal: Reddit triage thread for the Axios npm compromise confirms this is not a simple typosquat. The same sfrclak[.]com payload host, malicious postinstall behavior, and affected versions axios@1.14.1 / axios@0.30.4 are listed as one supply-chain campaign. IoCs: sfrclak.com\n- `sample-reddit-axios-0002` (reddit, 2026-03-31T14:56:44Z): Other signal: Axios supply-chain response notes: audit CI runners and developer workstations that installed axios@1.14.1, axios@0.30.4, or plain-crypto-js@4.2.1. Known indicators include sfrclak[.]com, f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd, and 92ff08773995ebc8d55ec4. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com\n- `sample-x-axios-0001` (x, 2026-03-31T03:20:27Z): Malware signal: Axios npm supply-chain compromise: affected packages include axios@1.14.1, axios@0.30.4, and plain-crypto-js@4.2.1. The active payload host sfrclak[.]com is being shared for CI and developer workstation hunting. IoCs: sfrclak.com\n- `sample-x-axios-0002` (x, 2026-03-31T04:22:49Z): Malware signal: Additional Axios campaign triage links the same malicious npm postinstall flow to sfrclak[.]com. Reported payload hashes are f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd and 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a. IoCs: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd sfrclak.com\n- `sample-x-axios-0003` (x, 2026-03-31T04:52:56Z): Malware signal: Axios incident update: the malicious npm postinstall path contacts sfrclak[.]com after users install affected package versions. Hunt for axios@1.14.1, axios@0.30.4, plain-crypto-js@4.2.1, and the two payload hashes already circulating in the thread. IoCs: sfrclak.com",
+  "stix_bundle": {
+    "type": "bundle",
+    "spec_version": "2.1",
+    "id": "bundle--c8f90099-4f0c-5654-9ff5-c9a2c1698aac",
+    "objects": [
+      {
+        "type": "report",
+        "spec_version": "2.1",
+        "id": "report--f283076d-383e-5c5d-911e-769114cf6a39",
+        "created": "2026-09-16T08:49:00Z",
+        "modified": "2026-09-16T08:49:00Z",
+        "name": "sfrclak.com malware and command-and-control campaign",
+        "description": "6 post(s) from discord, reddit and x posted on 2026-03-31 were consolidated into one malware and command-and-control cluster across 3 platform(s), rated CRITICAL. The cluster carries 1 domain, 2 file hashes. Matched threat vocabulary: malware, payload, npm. This summary is composed from the cluster's indicators, counts and vocabulary matches; the source posts are quoted under source evidence in the language they were posted in.",
+        "published": "2026-09-16T08:49:00Z",
+        "report_types": [
+          "threat-report"
+        ],
+        "labels": [
+          "malware",
+          "high"
+        ],
+        "object_refs": [
+          "indicator--ea6bc4ba-1075-59d9-9c60-f3a4f77682a4",
+          "indicator--13e4cc9e-0a3a-5326-944a-680a1f9d25a6",
+          "indicator--0a24f030-9a1d-5420-825e-e3fe09aefe7c",
+          "indicator--d120988c-1ca0-51c4-a990-c543310bfadb",
+          "attack-pattern--ed158952-97c2-5a3d-8693-faae7749ed30"
+        ]
+      },
+      {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--ea6bc4ba-1075-59d9-9c60-f3a4f77682a4",
+        "created": "2026-09-16T08:49:00Z",
+        "modified": "2026-09-16T08:49:00Z",
+        "name": "Domain indicator: sfrclak.com",
+        "description": "Indicator observed in sfrclak.com malware and command-and-control campaign.",
+        "pattern": "[domain-name:value = 'sfrclak.com']",
+        "pattern_type": "stix",
+        "valid_from": "2026-09-16T08:49:00Z",
+        "labels": [
+          "malware"
+        ],
+        "confidence": 85
+      },
+      {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--13e4cc9e-0a3a-5326-944a-680a1f9d25a6",
+        "created": "2026-09-16T08:49:00Z",
+        "modified": "2026-09-16T08:49:00Z",
+        "name": "IP indicator: 142.11.206.73",
+        "description": "Indicator observed in sfrclak.com malware and command-and-control campaign.",
+        "pattern": "[ipv4-addr:value = '142.11.206.73']",
+        "pattern_type": "stix",
+        "valid_from": "2026-09-16T08:49:00Z",
+        "labels": [
+          "malware"
+        ],
+        "confidence": 85
+      },
+      {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--0a24f030-9a1d-5420-825e-e3fe09aefe7c",
+        "created": "2026-09-16T08:49:00Z",
+        "modified": "2026-09-16T08:49:00Z",
+        "name": "File hash indicator: 92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+        "description": "Indicator observed in sfrclak.com malware and command-and-control campaign.",
+        "pattern": "[file:hashes.'SHA-256' = '92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a']",
+        "pattern_type": "stix",
+        "valid_from": "2026-09-16T08:49:00Z",
+        "labels": [
+          "malware"
+        ],
+        "confidence": 85
+      },
+      {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--d120988c-1ca0-51c4-a990-c543310bfadb",
+        "created": "2026-09-16T08:49:00Z",
+        "modified": "2026-09-16T08:49:00Z",
+        "name": "File hash indicator: f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+        "description": "Indicator observed in sfrclak.com malware and command-and-control campaign.",
+        "pattern": "[file:hashes.'SHA-256' = 'f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd']",
+        "pattern_type": "stix",
+        "valid_from": "2026-09-16T08:49:00Z",
+        "labels": [
+          "malware"
+        ],
+        "confidence": 85
+      },
+      {
+        "type": "attack-pattern",
+        "spec_version": "2.1",
+        "id": "attack-pattern--ed158952-97c2-5a3d-8693-faae7749ed30",
+        "created": "2026-09-16T08:49:00Z",
+        "modified": "2026-09-16T08:49:00Z",
+        "name": "Ingress Tool Transfer",
+        "description": "Payload/C2 context appears in the cluster.",
+        "external_references": [
+          {
+            "source_name": "mitre-attack",
+            "external_id": "T1105"
+          }
+        ]
+      }
+    ]
+  },
+  "iocs_evidence": [
+    {
+      "value": "142.11.206.73",
+      "ioc_type": "ip",
+      "extraction_type": "Pivot",
+      "confidence": "MEDIUM",
+      "sources": [
+        "tool:PASSIVE_DNS_LOOKUP:sfrclak.com",
+        "tool:WHOIS_LOOKUP:142.11.206.73"
+      ],
+      "perspectives": [
+        "Infrastructure"
+      ],
+      "tools": [
+        "PASSIVE_DNS_LOOKUP",
+        "WHOIS_LOOKUP"
+      ],
+      "adjustments": [
+        "shared_hosting_environment:co_tenants_dropped"
+      ]
+    },
+    {
+      "value": "92ff08773995ebc8d55ec4b8e1a225d0d1e51efa4ef88b8849d0071230c9645a",
+      "ioc_type": "hash",
+      "extraction_type": "Direct",
+      "confidence": "HIGH",
+      "sources": [
+        "post:sample-reddit-axios-0002",
+        "post:sample-x-axios-0002",
+        "tool:REDDIT_SEARCH:sfrclak.com malware",
+        "tool:X_SEARCH:sfrclak.com malware"
+      ],
+      "perspectives": [
+        "Actor",
+        "Social"
+      ],
+      "tools": [
+        "REDDIT_SEARCH",
+        "X_SEARCH"
+      ],
+      "adjustments": []
+    },
+    {
+      "value": "f7d335205b8d7b20208fb3ef93ee6dc817905dc3ae0c10a0b164f4e7d07121cd",
+      "ioc_type": "hash",
+      "extraction_type": "Direct",
+      "confidence": "HIGH",
+      "sources": [
+        "post:sample-reddit-axios-0002",
+        "post:sample-x-axios-0002",
+        "tool:REDDIT_SEARCH:sfrclak.com malware",
+        "tool:X_SEARCH:sfrclak.com malware"
+      ],
+      "perspectives": [
+        "Actor",
+        "Social"
+      ],
+      "tools": [
+        "REDDIT_SEARCH",
+        "X_SEARCH"
+      ],
+      "adjustments": []
+    },
+    {
+      "value": "sfrclak.com",
+      "ioc_type": "domain",
+      "extraction_type": "Direct",
+      "confidence": "HIGH",
+      "sources": [
+        "post:sample-discord-axios-0001",
+        "post:sample-reddit-axios-0001",
+        "post:sample-reddit-axios-0002",
+        "post:sample-x-axios-0001",
+        "post:sample-x-axios-0002",
+        "post:sample-x-axios-0003",
+        "tool:DISCORD_SEARCH:sfrclak.com malware",
+        "tool:PASSIVE_DNS_LOOKUP:sfrclak.com",
+        "tool:REDDIT_SEARCH:sfrclak.com malware",
+        "tool:WHOIS_LOOKUP:sfrclak.com",
+        "tool:X_SEARCH:sfrclak.com malware"
+      ],
+      "perspectives": [
+        "Actor",
+        "Infrastructure",
+        "Social"
+      ],
+      "tools": [
+        "DISCORD_SEARCH",
+        "PASSIVE_DNS_LOOKUP",
+        "REDDIT_SEARCH",
+        "WHOIS_LOOKUP",
+        "X_SEARCH"
+      ],
+      "adjustments": []
+    }
+  ]
+}

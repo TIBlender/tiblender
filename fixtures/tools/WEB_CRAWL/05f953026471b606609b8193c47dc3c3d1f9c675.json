@@ -1,0 +1,29 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.nytimes.com/2018/03/28/business/media/walmart-cosmo.html"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "nytimes.com",
+    "javascript_rendered": true,
+    "title": "nytimes.com",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:21:40Z",
+  "source_url": "https://www.nytimes.com/2018/03/28/business/media/walmart-cosmo.html",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.nytimes.com/2018/03/28/business/media/walmart-cosmo.html. Title: nytimes.com. Excerpt: nytimes.com",
+  "tool_type": "WEB_CRAWL"
+}

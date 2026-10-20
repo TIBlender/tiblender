@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host www.yahoo.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://www.yahoo.com/news/articles/reddit-user-uncovers-behind-meta-154717384.html"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:26:21Z",
+  "source_url": "https://www.yahoo.com/news/articles/reddit-user-uncovers-behind-meta-154717384.html",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host www.yahoo.com for https://www.yahoo.com/news/articles/reddit-user-uncovers-behind-meta-154717384.html",
+  "tool_type": "WEB_CRAWL"
+}

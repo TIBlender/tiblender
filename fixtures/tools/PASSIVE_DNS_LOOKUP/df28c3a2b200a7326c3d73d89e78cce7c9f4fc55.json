@@ -1,0 +1,95 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.pbs.org"
+    ],
+    "hashes": [],
+    "ips": [
+      "108.156.184.10",
+      "108.156.184.100",
+      "108.156.184.18",
+      "108.156.184.7",
+      "13.224.125.2",
+      "13.224.125.33",
+      "13.224.125.48",
+      "13.224.125.70",
+      "13.249.228.50",
+      "18.239.83.118",
+      "18.239.83.84",
+      "65.9.62.103",
+      "65.9.62.16",
+      "65.9.62.18",
+      "65.9.62.93"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.pbs.org"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1782080829,
+        "host_name": "www.pbs.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.224.125.2",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782080829,
+        "host_name": "www.pbs.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.224.125.48",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782080829,
+        "host_name": "www.pbs.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.224.125.70",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782080829,
+        "host_name": "www.pbs.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.224.125.33",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1779789869,
+        "host_name": "www.pbs.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "65.9.62.16",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:16:00Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.pbs.org/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.pbs.org: 20 resolution(s); addresses: 13.224.125.2, 13.224.125.48, 13.224.125.70, 13.224.125.33, 65.9.62.16, 65.9.62.103, 65.9.62.93, 65.9.62.18, 108.156.184.100, 108.156.184.10",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WHOIS_LOOKUP unavailable: HTTP 404: {\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https://icann.org/epp\"],\"links\":[{\"value\":\"https://rdap.zdnsgtld.com/top/domain/api.japfc.top\",\"rel\":\"glossary\",\"href\":\"https://icann.org/epp\",\"title\":\"More information on domain status codes\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on domain status codes, please visit https://icann.org/epp\",\"\",\"NOTICE: The expiration date displayed in this record is the date the\",\"registrar's sponsorship of the domain name registration in the registry is\",\"currently set to expire. This date does not necessarily reflect the expiration\",\"d",
+  "parameters": {
+    "domain": "api.japfc.top"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:55:44Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WHOIS_LOOKUP unavailable: HTTP 404: {\"rdapConformance\":[\"icann_rdap_response_profile_1\",\"icann_rdap_technical_implementation_guide_1\",\"rdap_level_0\"],\"objectClassName\":\"error\",\"notices\":[{\"title\":\"Status Codes\",\"description\":[\"For more information on domain status codes, please visit https://icann.org/epp\"],\"links\":[{\"value\":\"https://rdap.zdnsgtld.com/top/domain/api.japfc.top\",\"rel\":\"glossary\",\"href\":\"https://icann.org/epp\",\"title\":\"More information on domain status codes\"}]},{\"title\":\"Terms of Use\",\"description\":[\"For more information on domain status codes, please visit https://icann.org/epp\",\"\",\"NOTICE: The expiration date displayed in this record is the date the\",\"registrar's sponsorship of the domain name registration in the registry is\",\"currently set to expire. This date does not necessarily reflect the expiration\",\"d",
+  "tool_type": "WHOIS_LOOKUP"
+}

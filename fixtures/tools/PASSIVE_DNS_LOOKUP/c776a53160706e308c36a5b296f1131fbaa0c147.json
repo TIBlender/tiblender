@@ -1,0 +1,91 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "apnews.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.16.22.8",
+      "104.16.23.8",
+      "165.1.58.190",
+      "165.1.90.190",
+      "216.239.32.21",
+      "216.239.34.21",
+      "216.239.36.21",
+      "216.239.38.21",
+      "34.111.72.3",
+      "34.96.67.30",
+      "34.96.72.156"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "apnews.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1775758482,
+        "host_name": "apnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2606:4700::6810:1708",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1775758482,
+        "host_name": "apnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2606:4700::6810:1608",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1710202084,
+        "host_name": "apnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.22.8",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1710202084,
+        "host_name": "apnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.23.8",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1687851260,
+        "host_name": "apnews.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "34.111.72.3",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 13
+  },
+  "recorded_at": "2026-09-10T12:08:16Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/apnews.com/resolutions?limit=40",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for apnews.com: 13 resolution(s); addresses: 2606:4700::6810:1708, 2606:4700::6810:1608, 104.16.22.8, 104.16.23.8, 34.111.72.3, 34.96.72.156, 34.96.67.30, 216.239.34.21, 216.239.36.21, 216.239.38.21",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

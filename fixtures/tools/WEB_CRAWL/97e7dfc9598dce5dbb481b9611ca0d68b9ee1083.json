@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host sploitus.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://sploitus.com/exploit?id=3CFEEF64-C04E-5BBB-8608-5B0A34151752"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:14Z",
+  "source_url": "https://sploitus.com/exploit?id=3CFEEF64-C04E-5BBB-8608-5B0A34151752",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host sploitus.com for https://sploitus.com/exploit?id=3CFEEF64-C04E-5BBB-8608-5B0A34151752",
+  "tool_type": "WEB_CRAWL"
+}

@@ -1,0 +1,386 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "192.0.66.91"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "192.0.66.91"
+  },
+  "raw": {
+    "arin_originas0_originautnums": [],
+    "cidr0_cidrs": [
+      {
+        "length": 18,
+        "v4prefix": "192.0.64.0"
+      }
+    ],
+    "endAddress": "192.0.127.255",
+    "entities": [
+      {
+        "entities": [
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-08-27T12:53:23-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2011-10-04T02:07:42-04:00"
+              }
+            ],
+            "handle": "NOC12276-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/NOC12276-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/NOC12276-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "technical",
+              "administrative",
+              "noc"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "60 29th Street #343\nSan Francisco\nCA\n94110\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "NOC"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Automattic"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "ipadmin@automattic.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-877-273-8550"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-01-02T19:05:31-05:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2013-11-01T22:12:18-04:00"
+              }
+            ],
+            "handle": "ABUSE3970-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/ABUSE3970-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/ABUSE3970-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "abuse"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "60 29th Street #343\nSan Francisco\nCA\n94110\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Abuse"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Automattic"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abuse@automattic.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-877-273-8550"
+                ]
+              ]
+            ]
+          }
+        ],
+        "events": [
+          {
+            "eventAction": "last changed",
+            "eventDate": "2023-08-11T09:01:48-04:00"
+          },
+          {
+            "eventAction": "registration",
+            "eventDate": "2011-10-05T07:41:31-04:00"
+          }
+        ],
+        "handle": "AUTOM-93",
+        "links": [
+          {
+            "href": "https://rdap.arin.net/registry/entity/AUTOM-93",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+          },
+          {
+            "href": "https://whois.arin.net/rest/org/AUTOM-93",
+            "rel": "alternate",
+            "type": "application/xml",
+            "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+          }
+        ],
+        "objectClassName": "entity",
+        "port43": "whois.arin.net",
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Automattic, Inc"
+            ],
+            [
+              "adr",
+              {
+                "label": "60 29th Street #343\nSan Francisco\nCA\n94110\nUnited States"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "org"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "last changed",
+        "eventDate": "2024-05-21T19:37:14-04:00"
+      },
+      {
+        "eventAction": "registration",
+        "eventDate": "2012-11-20T18:28:50-05:00"
+      }
+    ],
+    "handle": "NET-192-0-64-0-1",
+    "ipVersion": "v4",
+    "links": [
+      {
+        "href": "https://rdap.arin.net/registry/ip/192.0.64.0",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+      },
+      {
+        "href": "https://whois.arin.net/rest/net/NET-192-0-64-0-1",
+        "rel": "alternate",
+        "type": "application/xml",
+        "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+      }
+    ],
+    "name": "AUTOMATTIC",
+    "notices": [
+      {
+        "description": [
+          "By using the ARIN RDAP/Whois service, you are agreeing to the RDAP/Whois Terms of Use"
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/tou/",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit: "
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/inaccuracy_reporting/",
+            "rel": "inaccuracy-report",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/192.0.66.91"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      },
+      {
+        "description": [
+          "Copyright 1997-2026, American Registry for Internet Numbers, Ltd."
+        ],
+        "title": "Copyright Notice"
+      }
+    ],
+    "objectClassName": "ip network",
+    "parentHandle": "NET-192-0-0-0-0",
+    "port43": "whois.arin.net",
+    "rdapConformance": [
+      "nro_rdap_profile_0",
+      "rdap_level_0",
+      "cidr0",
+      "arin_originas0"
+    ],
+    "remarks": [
+      {
+        "description": [
+          "Geofeed https://as2635.network/geofeed.csv"
+        ],
+        "title": "Registration Comments"
+      }
+    ],
+    "startAddress": "192.0.64.0",
+    "status": [
+      "active"
+    ],
+    "type": "DIRECT ALLOCATION"
+  },
+  "recorded_at": "2026-09-16T05:30:30Z",
+  "source_url": "https://rdap.arin.net/registry/ip/192.0.66.91",
+  "status": "success",
+  "summary": "RDAP ip lookup for 192.0.66.91: handle=NET-192-0-64-0-1; status=active; nameservers=n/a; events=last changed=2024-05-21T19:37:14-04:00; registration=2012-11-20T18:28:50-05:00; entities=AUTOM-93.",
+  "tool_type": "WHOIS_LOOKUP"
+}

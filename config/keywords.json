@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "categories": [
+    {"id": "phishing_fraud", "label": "Phishing/Fraud"},
+    {"id": "malware_c2", "label": "Malware/C2"},
+    {"id": "vulnerability", "label": "Vulnerability"},
+    {"id": "apt_ransomware", "label": "APT/Ransomware"}
+  ],
+  "terms": {
+    "phishing_fraud": {
+      "en": ["phishing", "smishing", "credential harvesting", "fake login", "#phishing"],
+      "ja": ["フィッシング", "スミッシング", "偽サイト", "詐欺メール"],
+      "ko": ["피싱", "스미싱", "가짜 로그인"],
+      "ru": ["фишинг", "смишинг", "поддельный сайт"],
+      "zh": ["钓鱼", "短信钓鱼", "假冒登录"],
+      "es": ["phishing", "smishing", "sitio falso"],
+      "pt": ["phishing", "smishing", "site falso"],
+      "ar": ["تصيد", "رسائل احتيال"],
+      "fr": ["hameçonnage", "phishing", "faux site"]
+    },
+    "malware_c2": {
+      "en": ["malware", "stealer", "ransomware", "c2 panel", "botnet"],
+      "ja": ["マルウェア", "スティーラー", "ランサムウェア", "C2パネル"],
+      "ko": ["악성코드", "스틸러", "랜섬웨어"],
+      "ru": ["вредонос", "стилер", "ботнет"],
+      "zh": ["恶意软件", "窃密木马", "勒索软件"],
+      "es": ["malware", "ransomware", "botnet"],
+      "pt": ["malware", "ransomware", "botnet"],
+      "ar": ["برمجيات خبيثة", "برنامج فدية"],
+      "fr": ["logiciel malveillant", "rançongiciel", "voleur"]
+    },
+    "vulnerability": {
+      "en": ["CVE", "zero-day", "exploit PoC", "vulnerability scanner"],
+      "ja": ["脆弱性", "ゼロデイ", "PoC", "CVE"],
+      "ko": ["취약점", "제로데이", "익스플로잇"],
+      "ru": ["уязвимость", "эксплойт", "нулевой день"],
+      "zh": ["漏洞", "零日", "利用代码"],
+      "es": ["vulnerabilidad", "exploit", "día cero"],
+      "pt": ["vulnerabilidade", "exploit", "dia zero"],
+      "ar": ["ثغرة", "استغلال", "يوم الصفر"],
+      "fr": ["vulnérabilité", "exploit", "jour zéro"]
+    },
+    "apt_ransomware": {
+      "en": ["APT group", "ransomware affiliate", "data leak site", "threat actor"],
+      "ja": ["APTグループ", "ランサムウェア affiliate", "情報漏えい", "脅威アクター"],
+      "ko": ["APT 그룹", "랜섬웨어 제휴사", "데이터 유출"],
+      "ru": ["APT-группа", "партнёр вымогателей", "утечка данных"],
+      "zh": ["APT组织", "勒索附属", "数据泄露"],
+      "es": ["grupo APT", "afiliado de ransomware", "filtración de datos"],
+      "pt": ["grupo APT", "afiliado de ransomware", "vazamento de dados"],
+      "ar": ["مجموعة APT", "تسريب بيانات"],
+      "fr": ["groupe APT", "affilié rançongiciel", "fuite de données"]
+    }
+  },
+  "platform_queries": {
+    "x": [
+      {"category": "phishing_fraud", "language": "ja", "query": "(フィッシング OR スミッシング OR 偽サイト OR #phishing) -is:retweet -is:quote"},
+      {"category": "vulnerability", "language": "en", "query": "(CVE OR \"zero-day\" OR \"exploit PoC\") -is:retweet -is:quote"},
+      {"category": "malware_c2", "language": "en", "query": "(stealer OR ransomware OR botnet OR \"C2 panel\") -is:retweet -is:quote"},
+      {"category": "apt_ransomware", "language": "en", "query": "(\"APT group\" OR \"ransomware affiliate\" OR \"data leak site\") -is:retweet -is:quote"},
+      {"category": "phishing_fraud", "language": "en", "query": "(phishing OR smishing OR \"credential harvesting\") -is:retweet -is:quote"}
+    ],
+    "reddit": [
+      {"category": "vulnerability", "language": "en", "query": "CVE exploit PoC"},
+      {"category": "malware_c2", "language": "en", "query": "stealer logs ransomware"},
+      {"category": "phishing_fraud", "language": "en", "query": "phishing kit credential harvesting"},
+      {"category": "apt_ransomware", "language": "en", "query": "ransomware affiliate data leak"},
+      {"category": "vulnerability", "language": "en", "query": "zero-day exploit vulnerability"}
+    ]
+  }
+}

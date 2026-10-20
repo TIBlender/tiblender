@@ -1,0 +1,34 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+The TIBlender dataset (raw_dataset/, notebook/, viewer/) is licensed under the
+Creative Commons Attribution-NonCommercial 4.0 International License
+(CC BY-NC 4.0).
+
+Full licence text: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Copyright (c) 2026 Hiroki Nakano, Takashi Koide, Daiki Chiba.
+
+In short: you may copy, redistribute, adapt and build on the dataset, and
+share your adapted versions, for non-commercial purposes only, with
+attribution. As stated in the licence, no patent or trademark rights are
+granted.
+
+Third-party material. The dataset contains the text of publicly posted social
+media content, whose copyright remains with its authors, and its use may also
+be subject to the terms of the originating platforms. The licence above
+applies only to the extent of the copyright holders' rights: the selection and
+arrangement of the records, the generated reports, the annotations and
+evaluation evidence, and the notebook. The executed notebook
+(notebook/evaluation_figures_executed.html) embeds Jupyter components that
+remain under their own BSD licence.
+
+Attribution: cite the ACSAC 2026 paper
+
+  Hiroki Nakano, Takashi Koide, and Daiki Chiba. "TIBlender: Early-Warning
+  Threat Intelligence from Cross-Platform Social Media Evidence." In
+  Proceedings of the 42nd Annual Computer Security Applications Conference
+  (ACSAC 2026), 2026.
+
+The accompanying code at the repository root is licensed separately, under
+the TIBlender Research and Evaluation License; see the LICENSE file at the
+repository root.

@@ -1,0 +1,41 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "dashy.bsky.app",
+      "redirect.bsky.app",
+      "status.bsky.app",
+      "video.cdn.bsky.app"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "bsky.app"
+  },
+  "raw": {
+    "count": 1591,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YR1",
+      "C=US, O=Let's Encrypt, CN=YR2"
+    ],
+    "names": [
+      "dashy.bsky.app",
+      "status.bsky.app",
+      "status.bsky.app",
+      "video.cdn.bsky.app",
+      "redirect.bsky.app"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:09:12Z",
+  "source_url": "https://crt.sh/?q=%25.bsky.app&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for bsky.app: 1591 certificate row(s); sample names=dashy.bsky.app, status.bsky.app, status.bsky.app, video.cdn.bsky.app, redirect.bsky.app.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

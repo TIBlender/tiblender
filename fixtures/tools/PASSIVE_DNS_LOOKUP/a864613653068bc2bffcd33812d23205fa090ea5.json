@@ -1,0 +1,41 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "account-helpdesk.icu"
+    ],
+    "hashes": [],
+    "ips": [
+      "91.202.233.206"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "account-helpdesk.icu"
+  },
+  "raw": {
+    "malicious_count": 22,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1770730712,
+        "host_name": "account-helpdesk.icu",
+        "host_name_malicious": 15,
+        "host_name_suspicious": 2,
+        "ip_address": "91.202.233.206",
+        "ip_address_malicious": 7,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 2,
+    "total_count": 1
+  },
+  "recorded_at": "2026-09-15T01:12:17Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/account-helpdesk.icu/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for account-helpdesk.icu: 1 resolution(s); addresses: 91.202.233.206",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

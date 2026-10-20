@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WHOIS_LOOKUP unavailable: HTTP 404: ",
+  "parameters": {
+    "domain": "edition.cnn.com"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-10T12:11:38Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WHOIS_LOOKUP unavailable: HTTP 404: ",
+  "tool_type": "WHOIS_LOOKUP"
+}

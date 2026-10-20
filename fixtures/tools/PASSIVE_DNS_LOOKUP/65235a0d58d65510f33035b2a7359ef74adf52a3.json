@@ -1,0 +1,52 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "jerusalemsolutions.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.63.16",
+      "172.67.142.102"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "jerusalemsolutions.com"
+  },
+  "raw": {
+    "malicious_count": 34,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1761730275,
+        "host_name": "jerusalemsolutions.com",
+        "host_name_malicious": 17,
+        "host_name_suspicious": 1,
+        "ip_address": "104.21.63.16",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1761730275,
+        "host_name": "jerusalemsolutions.com",
+        "host_name_malicious": 17,
+        "host_name_suspicious": 1,
+        "ip_address": "172.67.142.102",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 2,
+    "total_count": 2
+  },
+  "recorded_at": "2026-09-15T01:18:24Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/jerusalemsolutions.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for jerusalemsolutions.com: 2 resolution(s); addresses: 104.21.63.16, 172.67.142.102",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

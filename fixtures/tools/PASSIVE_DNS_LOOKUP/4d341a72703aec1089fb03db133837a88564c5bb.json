@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.drupal.org"
+    ],
+    "hashes": [],
+    "ips": [
+      "146.75.106.217",
+      "146.75.118.217",
+      "146.75.122.217",
+      "146.75.50.217",
+      "151.101.1.175",
+      "151.101.114.217",
+      "151.101.122.217",
+      "151.101.129.175",
+      "151.101.130.217",
+      "151.101.14.217",
+      "151.101.193.175",
+      "151.101.194.217",
+      "151.101.2.217",
+      "151.101.38.217",
+      "151.101.54.217",
+      "151.101.65.175",
+      "151.101.66.217",
+      "151.101.86.217",
+      "151.101.90.217",
+      "199.232.254.217"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.drupal.org"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1723714354,
+        "host_name": "www.drupal.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "146.75.122.217",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "SecondWrite"
+      },
+      {
+        "date": 1712392031,
+        "host_name": "www.drupal.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.86.217",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "SecondWrite"
+      },
+      {
+        "date": 1697470105,
+        "host_name": "www.drupal.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "146.75.50.217",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "C2AE"
+      },
+      {
+        "date": 1694168397,
+        "host_name": "www.drupal.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "151.101.54.217",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "SecondWrite"
+      },
+      {
+        "date": 1693768132,
+        "host_name": "www.drupal.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "146.75.106.217",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "SecondWrite"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:21:49Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.drupal.org/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.drupal.org: 20 resolution(s); addresses: 146.75.122.217, 151.101.86.217, 146.75.50.217, 151.101.54.217, 146.75.106.217, 146.75.118.217, 199.232.254.217, 151.101.122.217, 151.101.90.217, 151.101.114.217",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

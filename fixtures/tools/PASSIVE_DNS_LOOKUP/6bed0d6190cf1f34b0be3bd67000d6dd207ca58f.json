@@ -1,0 +1,73 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "api.thesproutlyapp.com",
+      "app.recoverydatabase.net",
+      "bsky.app"
+    ],
+    "hashes": [],
+    "ips": [
+      "13.58.212.194"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "13.58.212.194"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789285954,
+        "host_name": "bsky.app",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.58.212.194",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1761354806,
+        "host_name": "api.strats.gg",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.58.212.194",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1761163280,
+        "host_name": "app.recoverydatabase.net",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.58.212.194",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1752520804,
+        "host_name": "api.thesproutlyapp.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "13.58.212.194",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 0,
+    "total_count": 4
+  },
+  "recorded_at": "2026-09-16T05:29:13Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/13.58.212.194/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 13.58.212.194: 4 resolution(s); hosts: bsky.app, api.strats.gg, app.recoverydatabase.net, api.thesproutlyapp.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

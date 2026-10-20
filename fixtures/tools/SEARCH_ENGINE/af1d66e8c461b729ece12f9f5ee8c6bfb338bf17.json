@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "jerusalemsolutions.com"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Votre robinet fuit ? Votre toilette est bouchée ? Ou vous souhaitez tout simplement changer de salle de bain ? Que ce soit pour une …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Plombiers en Belgique : dépannage, débouchage & détection de fuites",
+        "url": "https://www.plombiers-belgique.be/"
+      },
+      {
+        "category": "general",
+        "content": "Réservez votre Plombier en Belgique en quelques clics pour vos besoins de service à domicile. Prestataires certifiés et évalués. …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Plombiers en Belgique : 1205 profils - Yoojo",
+        "url": "https://yoojo.be/bricolage/plombier"
+      },
+      {
+        "category": "general",
+        "content": "Nov 10, 2025 · MonPlombier, expert plombier chauffagiste en Belgique. Dépannage, fuite, chauffage ou débouchage. Intervention …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Plombier chauffagiste 24h/7j partout en Belgique | MonPlombier",
+        "url": "https://monplombier.be/"
+      },
+      {
+        "category": "general",
+        "content": "Nous vous recommandons des prestataires de confiance Le choix d'un plombier est toujours difficile. Les frais de déplacement, les …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Plombiers Belgique - Plombier Belgique",
+        "url": "http://www.plombiers.be/"
+      },
+      {
+        "category": "general",
+        "content": "Voici la liste complète de nos meilleurs plombiers évalués par la communauté StarOfService. Vous voulez savoir qui est dans le top …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Les 10 meilleurs plombiers autour de moi (devis gratuit)",
+        "url": "https://www.starofservice.be/plomberie/near-me"
+      },
+      {
+        "category": "general",
+        "content": "Les meilleures entreprises en plombiers à Belgique. Consultez notre sélection pour trouver des professionnels fiables et proches de …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Plombiers | Pagesdor.be",
+        "url": "https://www.pagesdor.be/entreprises/plombiers/"
+      },
+      {
+        "category": "general",
+        "content": "Find and compare the best Plombier companies in Belgique on Trustpilot, and add your own experience",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Best Plombier companies in Belgique on Trustpilot",
+        "url": "https://fr-be.trustpilot.com/categories/plumber"
+      },
+      {
+        "category": "general",
+        "content": "A la recherche d'un plombier ? Tous les plombiers à Wallonie dans 1 guide. Comparer les tarifs & économisez de l'argent !",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "ᐅ Tous les plombiers en Wallonie [2026 ] dans ① guide!",
+        "url": "https://www.plombier-belgique.be/"
+      },
+      {
+        "category": "general",
+        "content": "Les 20 meilleurs plombiers de Liège à la suite [2026]. Comparez les tarifs de plomberie & gagnez du temps et de l'argent !",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "ᐅ Plombier Liège ⇒ Les 20 meilleurs plombiers agréés [2026] !",
+        "url": "https://www.plombier-belgique.be/liege/"
+      },
+      {
+        "category": "general",
+        "content": "Annuaire téléphonique des Plombiers en Belgique : numéro de téléphone, adresse, horaires, avis. Trouvez votre Plombier en …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Annuaire des Plombiers en Belgique | Bottin.be",
+        "url": "https://www.bottin.be/fr/activites/plombier.htm"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:28Z",
+  "source_url": "http://searxng:8080/search?q=jerusalemsolutions.com&format=json",
+  "status": "success",
+  "summary": "SearXNG search for jerusalemsolutions.com: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

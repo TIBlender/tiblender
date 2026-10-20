@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.washingtonpost.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "184.25.61.200",
+      "184.30.214.210",
+      "184.31.130.92",
+      "23.12.2.173",
+      "23.14.27.128",
+      "23.204.33.216",
+      "23.207.129.111",
+      "23.214.134.210",
+      "23.222.39.41",
+      "23.37.130.251",
+      "23.38.6.61",
+      "23.39.241.100",
+      "23.4.37.212",
+      "23.4.43.156",
+      "23.41.25.144",
+      "23.43.65.23",
+      "23.49.179.128",
+      "23.61.54.150",
+      "23.7.177.214",
+      "96.6.197.53"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.washingtonpost.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789091108,
+        "host_name": "www.washingtonpost.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.43.65.23",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "Offensive Security"
+      },
+      {
+        "date": 1787817139,
+        "host_name": "www.washingtonpost.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.14.27.128",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1787301856,
+        "host_name": "www.washingtonpost.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "23.37.130.251",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1786147634,
+        "host_name": "www.washingtonpost.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "184.25.61.200",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1784798896,
+        "host_name": "www.washingtonpost.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "184.31.130.92",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:19:31Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.washingtonpost.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.washingtonpost.com: 20 resolution(s); addresses: 23.43.65.23, 23.14.27.128, 23.37.130.251, 184.25.61.200, 184.31.130.92, 23.61.54.150, 23.222.39.41, 184.30.214.210, 23.41.25.144, 23.4.43.156",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

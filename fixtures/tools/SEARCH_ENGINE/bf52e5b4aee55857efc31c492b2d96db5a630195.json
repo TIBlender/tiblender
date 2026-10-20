@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "getbreachflow.co other"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Jul 2, 2026 · 公共施設の整備基準は、尼崎市住環境整備条例施行規則に基づく開発基準及び技術基準に定めていますので、こちらを …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "尼崎市住環境整備条例施行規則 開発基準・技術基準",
+        "url": "https://www.city.amagasaki.hyogo.jp/kurashi/tosi_seibi/kentiku/1005036/1017326/1017883.html"
+      },
+      {
+        "category": "general",
+        "content": "Jan 8, 2025 · グレーチング設置に関しての申請は、道路施工承認申請（道路法24条）で受付しておりますが、尼崎市住環境整備条 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "道路工事の施工承認について（申請書様式）｜尼崎市公式 ...",
+        "url": "https://www.city.amagasaki.hyogo.jp/kurashi/tosi_seibi/douro/1004753/078_24jyou.html"
+      },
+      {
+        "category": "general",
+        "content": "May 30, 2007 · 小型構造物標準図集〔平成25年12月〕について、一部改訂しました。 Copyright © Hyogo Prefectural Government. …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "兵庫県／小型構造物標準図集（最新版）",
+        "url": "https://web.pref.hyogo.lg.jp/ks04/kogatakouzoubutu.html"
+      },
+      {
+        "category": "general",
+        "content": "Jan 1, 2023 · この基準は、尼崎市で排水設備工事を施行する上で必要な事項を記載していますので、ダウンロードしてご活用くださ …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "尼崎市排水設備設置基準｜尼崎市公営企業局ホームページ",
+        "url": "https://amasui.org/jigyou/gesuido/2000975.html"
+      },
+      {
+        "category": "general",
+        "content": "令和8年4月1日改定版「尼崎市公営企業局水道部水道工事共通仕様書」を掲載しています。 ※本仕様書は日本水道協会の水道工事標 …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "工事共通仕様書｜尼崎市公営企業局ホームページ",
+        "url": "https://amasui.org/jigyou/kouji/2000405.html"
+      },
+      {
+        "category": "general",
+        "content": "A. ご回答内容 道路側溝や集水桝が、壊れている・排水不良・ゴミや土砂・除草については、スマートフォンアプリから「あまレポ …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "道路側溝や集水桝が、壊れている、又はゴミや土砂などによる ...",
+        "url": "https://faq.city.amagasaki.hyogo.jp/faq/detail.aspx?id=1194"
+      },
+      {
+        "category": "general",
+        "content": "道路側溝や集水桝が、壊れている、又はゴミや土砂などによる排水不良に関する問合せ先について（FAQ）｜尼崎市コールセンター .",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "道路側溝や集水桝が、壊れている、又はゴミや土砂などによる ...",
+        "url": "https://chatbot.city.amagasaki.hyogo.jp/faq/detail.aspx?id=1194"
+      },
+      {
+        "category": "general",
+        "content": "地図情報あまがさきは、住民の安心安全とサービスの向上を図るための「市民公開型地理情報システム」です。",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "地図情報あまがさき",
+        "url": "https://amagasaki.geocloud.jp/webgis/?bt=0&p=1"
+      },
+      {
+        "category": "general",
+        "content": "Mar 28, 2017 · 尼崎市住環境整備条例施行規則 開発基準・技術基準 平成28年7月 目 第1部 開 発 次 基 準（住環境整備条例施行規則 …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "尼崎市住環境整備条例施行規則 開発基準・技術基準（PDF ...",
+        "url": "https://happylibus.com/doc/165497/%E5%B0%BC%E5%B4%8E%E5%B8%82%E4%BD%8F%E7%92%B0%E5%A2%83%E6%95%B4%E5%82%99%E6%9D%A1%E4%BE%8B%E6%96%BD%E8%A1%8C%E8%A6%8F%E5%89%87-%E9%96%8B%E7%99%BA%E5%9F%BA%E6%BA%96%E3%83%BB%E6%8A%80%E8%A1%93%E5%9F%BA%E6%BA%96%EF%BC%88pdf-2239.9-kb%EF%BC%89"
+      },
+      {
+        "category": "general",
+        "content": ")」は、兵庫県県土整備部が事業を実施する土木構造物の標準化、規格化を図り、土木工事の設計、積算、施工等における業務の簡 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "untitled [web.pref.hyogo.lg.jp]",
+        "url": "https://web.pref.hyogo.lg.jp/ks04/documents/h25kogatakouzoubutuhyoujunzusyuukaitei2.pdf"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:22Z",
+  "source_url": "http://searxng:8080/search?q=getbreachflow.co+other&format=json",
+  "status": "success",
+  "summary": "SearXNG search for getbreachflow.co other: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

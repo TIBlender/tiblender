@@ -1,0 +1,52 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "intel.threadlinqs.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.32.152",
+      "172.67.223.229"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "intel.threadlinqs.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1770234434,
+        "host_name": "intel.threadlinqs.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.67.223.229",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1770234434,
+        "host_name": "intel.threadlinqs.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.32.152",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 0,
+    "total_count": 2
+  },
+  "recorded_at": "2026-09-15T01:17:50Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/intel.threadlinqs.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for intel.threadlinqs.com: 2 resolution(s); addresses: 172.67.223.229, 104.21.32.152",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

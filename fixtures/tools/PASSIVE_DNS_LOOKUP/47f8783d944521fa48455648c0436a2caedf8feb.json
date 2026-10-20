@@ -1,0 +1,85 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "reclaimthenet.org"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.26.6.82",
+      "104.26.7.82",
+      "104.27.186.190",
+      "104.27.187.190",
+      "172.67.68.4"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "reclaimthenet.org"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1591058468,
+        "host_name": "reclaimthenet.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.67.68.4",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1575872663,
+        "host_name": "reclaimthenet.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.26.7.82",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1575872663,
+        "host_name": "reclaimthenet.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.26.6.82",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1575313598,
+        "host_name": "reclaimthenet.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.27.187.190",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1575313598,
+        "host_name": "reclaimthenet.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.27.186.190",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 0,
+    "total_count": 5
+  },
+  "recorded_at": "2026-09-16T05:11:15Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/reclaimthenet.org/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for reclaimthenet.org: 5 resolution(s); addresses: 172.67.68.4, 104.26.7.82, 104.26.6.82, 104.27.187.190, 104.27.186.190",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

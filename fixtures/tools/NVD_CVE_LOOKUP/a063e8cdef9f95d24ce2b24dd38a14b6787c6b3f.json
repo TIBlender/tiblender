@@ -1,0 +1,70 @@
+{
+  "discovered_iocs": {
+    "cves": [
+      "CVE-2025-32975"
+    ],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "cve": "CVE-2025-32975"
+  },
+  "raw": {
+    "description": "Quest KACE Systems Management Appliance (SMA) 13.0.x before 13.0.385, 13.1.x before 13.1.81, 13.2.x before 13.2.183, 14.0.x before 14.0.341 (Patch 5), and 14.1.x before 14.1.101 (Patch 4) contains an authentication bypass vulnerability that allows attackers to impersonate legitimate users without valid credentials. The vulnerability exists in the SSO authentication handling mechanism and can lead to complete administrative takeover.",
+    "id": "CVE-2025-32975",
+    "metrics": {
+      "cvssMetricV31": [
+        {
+          "cvssData": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 10.0,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "CHANGED",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "exploitabilityScore": 3.9,
+          "impactScore": 6.0,
+          "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "type": "Secondary"
+        }
+      ],
+      "ssvcV203": [
+        {
+          "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+          "ssvcData": {
+            "id": "CVE-2025-32975",
+            "options": [
+              {
+                "exploitation": "active"
+              },
+              {
+                "automatable": "yes"
+              },
+              {
+                "technicalImpact": "total"
+              }
+            ],
+            "role": "CISA Coordinator",
+            "timestamp": "2026-04-20T00:00:00+00:00",
+            "version": "2.0.3"
+          }
+        }
+      ]
+    }
+  },
+  "recorded_at": "2026-09-15T00:59:26Z",
+  "source_url": "https://services.nvd.nist.gov/rest/json/cves/2.0?cveId=CVE-2025-32975",
+  "status": "success",
+  "summary": "NVD lookup for CVE-2025-32975: Quest KACE Systems Management Appliance (SMA) 13.0.x before 13.0.385, 13.1.x before 13.1.81, 13.2.x before 13.2.183, 14.0.x before 14.0.341 (Patch 5), and 14.1.x before 14.1.101 (Patch 4) contains an authentication bypass vulnerability that allows attackers to impersonate legitimate users without valid credentials. The vulnerability exists in the SSO authentication handling mechanism and can lead to complete administrative takeover.",
+  "tool_type": "NVD_CVE_LOOKUP"
+}

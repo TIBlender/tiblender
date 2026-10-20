@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.crowdstrike.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.16.180.118",
+      "104.16.181.118",
+      "104.16.242.231",
+      "104.16.243.231",
+      "104.16.28.8",
+      "104.16.29.8",
+      "104.17.6.58",
+      "104.18.153.9",
+      "104.18.154.9",
+      "104.18.215.225",
+      "104.18.216.225",
+      "104.18.64.82",
+      "104.20.94.246",
+      "104.20.95.246",
+      "141.101.112.117",
+      "190.93.248.107",
+      "190.93.249.107",
+      "190.93.251.8",
+      "198.41.190.24",
+      "198.41.191.24"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.crowdstrike.com"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1712124883,
+        "host_name": "www.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.181.118",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1712120851,
+        "host_name": "www.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.180.118",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1707441351,
+        "host_name": "www.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.28.8",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1707441348,
+        "host_name": "www.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.16.29.8",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1692903031,
+        "host_name": "www.crowdstrike.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.18.153.9",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:21:30Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.crowdstrike.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.crowdstrike.com: 20 resolution(s); addresses: 104.16.181.118, 104.16.180.118, 104.16.28.8, 104.16.29.8, 104.18.153.9, 104.18.154.9, 104.16.243.231, 104.16.242.231, 104.17.6.58, 104.18.64.82",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

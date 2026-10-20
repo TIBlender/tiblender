@@ -1,0 +1,171 @@
+{
+  "notes": {
+    "noise_post_refs": [
+      "TIBLENDER-2026-03-27-6597190d37e84a14-8b93dc7f:p3",
+      "TIBLENDER-2026-03-28-4b57ecc577560559-ba3d7a89:p3",
+      "TIBLENDER-2026-03-28-4b5f1a17c7005bd8-0edb7129:p8",
+      "TIBLENDER-2026-03-29-600e1c7bf257e2c7-d780a30e:p6",
+      "TIBLENDER-2026-03-30-c7e8bfab614eff7a-08096cfb:p6",
+      "TIBLENDER-2026-04-10-fa9aa422386fff92-df2f8281:p8"
+    ]
+  },
+  "platform": "discord",
+  "posts": [
+    {
+      "kind": "primary",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+      "source_ref": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889:p17",
+      "timestamp": "2026-03-26T01:12:00Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-04-10-fa9aa422386fff92-df2f8281",
+      "source_ref": "TIBLENDER-2026-04-10-fa9aa422386fff92-df2f8281:p8",
+      "timestamp": "2026-03-26T03:42:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+      "source_ref": "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889:p14",
+      "timestamp": "2026-03-26T08:11:00Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-03-28-4b5f1a17c7005bd8-0edb7129",
+      "source_ref": "TIBLENDER-2026-03-28-4b5f1a17c7005bd8-0edb7129:p8",
+      "timestamp": "2026-03-27T11:32:00Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-03-30-c7e8bfab614eff7a-08096cfb",
+      "source_ref": "TIBLENDER-2026-03-30-c7e8bfab614eff7a-08096cfb:p6",
+      "timestamp": "2026-03-29T03:30:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+      "source_ref": "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356:p3",
+      "timestamp": "2026-03-29T11:22:58Z"
+    }
+  ],
+  "provenance": "anonymized_dataset_excerpt",
+  "responses": [
+    {
+      "payload": [
+        {
+          "id": "900100200300400500",
+          "name": "artifact-demo-guild"
+        }
+      ],
+      "request": {
+        "endpoint": "users/@me/guilds"
+      }
+    },
+    {
+      "payload": [
+        {
+          "id": "910100200300400500",
+          "name": "threat-intel",
+          "type": 0
+        }
+      ],
+      "request": {
+        "endpoint": "guilds/{id}/channels",
+        "guild_id": "900100200300400500"
+      }
+    },
+    {
+      "payload": [
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "714458890733",
+            "username": "u995a5725"
+          },
+          "content": "**CVE-2026-33032 hype?** Patch is out and 'active exploitation' claims lean on threat intel briefs—need firm PoCs to confirm wild takeovers.",
+          "id": "1486533144088193863",
+          "timestamp": "2026-03-26T01:12:00.000000+00:00"
+        },
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "707347663106",
+            "username": "u72bc4e67"
+          },
+          "content": "ByteToBreach's Ikeja Electric breach looks like those recent utility ransomware waves. Check logs for darkforums.su activity.",
+          "id": "1486570892824379042",
+          "timestamp": "2026-03-26T03:42:00.000000+00:00"
+        },
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "188194631774",
+            "username": "u908e3663"
+          },
+          "content": "Patch for nginx-ui CVE-2026-33032 dropped already, but The Hacker News flagged active exploits late April.",
+          "id": "1486638588891162351",
+          "timestamp": "2026-03-26T08:11:00.000000+00:00"
+        },
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "820031598997",
+            "username": "u333cb846"
+          },
+          "content": "\"TA446 Deploys Leaked DarkSword iOS Exploit Kit in Spear-Phishing\" – but zero details on victims or TTPs so far.",
+          "id": "1487051560060670274",
+          "timestamp": "2026-03-27T11:32:00.000000+00:00"
+        },
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "178422716269",
+            "username": "u1b6b6ad2"
+          },
+          "content": "Qilin hitting more victims like Miles Electric shows ransomware ops are ramping up speed.",
+          "id": "1487655036519326419",
+          "timestamp": "2026-03-29T03:30:00.000000+00:00"
+        },
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "980274522186",
+            "username": "u0cc7b43b"
+          },
+          "content": "The targeting of first responders is getting out of hand in Lebanon. The IDF spokesperson keep saying Hezb is using ambulances but no evidence was provided.",
+          "id": "1487774064015921752",
+          "timestamp": "2026-03-29T11:22:58.366000+00:00"
+        }
+      ],
+      "request": {
+        "channel_id": "910100200300400500",
+        "endpoint": "channels/{id}/messages"
+      }
+    }
+  ],
+  "source_reports": [
+    "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+    "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+    "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+    "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+    "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c"
+  ],
+  "window": {
+    "cycle_index": 2,
+    "end": "2026-03-29T23:59:59Z",
+    "label": "cycle_002",
+    "start": "2026-03-26T00:00:00Z"
+  }
+}

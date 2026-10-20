@@ -1,0 +1,98 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.reuters.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "143.204.1.101",
+      "143.204.1.102",
+      "143.204.1.64",
+      "143.204.1.74",
+      "18.238.243.129",
+      "18.238.243.24",
+      "18.238.243.92",
+      "18.238.243.94",
+      "18.245.199.45",
+      "3.163.224.42",
+      "3.164.240.115",
+      "3.164.240.21",
+      "65.8.180.100",
+      "65.8.180.107",
+      "65.8.180.46",
+      "65.8.180.56",
+      "65.8.54.49",
+      "99.84.203.68"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.reuters.com"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1785206500,
+        "host_name": "www.reuters.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "99.84.203.68",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1782706772,
+        "host_name": "www.reuters.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "65.8.54.49",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1781011005,
+        "host_name": "www.reuters.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2600:9000:2201:ba00:15:5a3e:9d40:93a1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1781011005,
+        "host_name": "www.reuters.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2600:9000:2201:a00:15:5a3e:9d40:93a1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1781011005,
+        "host_name": "www.reuters.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2600:9000:2201:be00:15:5a3e:9d40:93a1",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 40
+  },
+  "recorded_at": "2026-09-10T12:16:32Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.reuters.com/resolutions?limit=40",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.reuters.com: 40 resolution(s); addresses: 99.84.203.68, 65.8.54.49, 2600:9000:2201:ba00:15:5a3e:9d40:93a1, 2600:9000:2201:a00:15:5a3e:9d40:93a1, 2600:9000:2201:be00:15:5a3e:9d40:93a1, 2600:9000:2201:7400:15:5a3e:9d40:93a1, 2600:9000:2201:1600:15:5a3e:9d40:93a1, 65.8.180.56, 65.8.180.107, 65.8.180.100",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

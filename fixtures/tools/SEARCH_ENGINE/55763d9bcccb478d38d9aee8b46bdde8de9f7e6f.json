@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "blog.0patch.com exploitation"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Ameba (アメーバ)を利用している芸能人・有名人のブログを見ることができます。 俳優・女優・グラビア・アイドル・お笑い芸人 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Ameba（アメーバ） | 芸能人・有名人ブログ",
+        "url": "https://official.ameba.jp/"
+      },
+      {
+        "category": "general",
+        "content": "食レポ熟女ヤギネでございます。 ここ数カ月、このブログで海産物を紹介することが多いのですが、日常生活でもすっかり魚には …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "はてなブログ | 無料ブログを作成しよう",
+        "url": "https://hatena.blog/"
+      },
+      {
+        "category": "general",
+        "content": "NEW日本中のブログに光が当たる無料アプリ「ブログみる」をダウンロードしてください NEW好きなブログをすばやく見られる無 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "人気ブログランキングとブログ検索 にほんブログ村",
+        "url": "https://blogmura.com/"
+      },
+      {
+        "category": "general",
+        "content": "人気アーティストやアイドル、スポーツ選手など17,000人以上の芸能人・有名人ブログを読めるのはAmebaだけ。 Amebaに無料登 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Ameba (アメーバ)｜ブログ&ゲーム 1万人以上の芸能人ブログや ...",
+        "url": "https://www.ameba.jp/"
+      },
+      {
+        "category": "general",
+        "content": "写真家やプロカメラマンも愛用する画像にこだわる無料ブログサービス。 洗練されたデザインで、料理、暮らし、アートなど、あ …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "エキサイトブログ｜使いやすい無料ブログ",
+        "url": "https://www.exblog.jp/"
+      },
+      {
+        "category": "general",
+        "content": "ブログ （blog）とは、 World Wide Web 上の ウェブページ に、 日記 や 覚え書き 、論評などを記す ソーシャルメディア のことで …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "ブログ - Wikipedia",
+        "url": "https://ja.wikipedia.org/wiki/%E3%83%96%E3%83%AD%E3%82%B0"
+      },
+      {
+        "category": "general",
+        "content": "Amebaのサービス Amebaチョイス マネ会 by Ameba Amebaブログ Ameba Ownd アメーバピグ PIGG PARTY Pigg U Amebaマンガ …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Ameba公式ジャンル | アメーバブログ（アメブロ）",
+        "url": "https://blogger.ameba.jp/"
+      },
+      {
+        "category": "general",
+        "content": "Ameba (アメーバ)を利用している芸能人・有名人のブログを新着順に見ることができます。 ママ・モデル・女優・グラビア・アイ …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "人気ブログ速報｜Ameba（アメーバ） | 芸能人・有名人ブログ",
+        "url": "https://official.ameba.jp/news/popular"
+      },
+      {
+        "category": "general",
+        "content": "クリエイターが文章やマンガ、写真、音声を投稿することができ、ユーザーはそのコンテンツを楽しんで応援できるメディアプラッ …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "note ――つくる、つながる、とどける。",
+        "url": "https://note.com/"
+      },
+      {
+        "category": "general",
+        "content": "ライブドアブログは簡単に開設できるブログサービスです。 豊富なデザインが全て無料で利用でき、自由にドメインを設定できま …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "ライブドアブログ｜豊富な機能で無料ブログ作成",
+        "url": "https://blog.livedoor.com/"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-16T05:24:40Z",
+  "source_url": "http://searxng:8080/search?q=blog.0patch.com+exploitation&format=json",
+  "status": "success",
+  "summary": "SearXNG search for blog.0patch.com exploitation: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

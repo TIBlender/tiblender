@@ -1,0 +1,108 @@
+TIBlender Research and Evaluation License
+
+Copyright (c) 2026 Hiroki Nakano, Takashi Koide, Daiki Chiba.
+All rights reserved.
+
+This license applies to the software in this repository, meaning everything
+outside the dataset/ directory (the "Software"). The dataset/ directory is
+licensed separately; see dataset/LICENSE.
+
+1. Definitions
+
+   "Licensor" means the copyright holders named above.
+
+   "You" means any individual or organization, including a for-profit
+   organization, that obtains the Software under this license.
+
+   "Non-Commercial Research Purposes" means research, teaching, and the
+   reproduction and evaluation of the results published in the paper cited
+   in Section 7, carried out by any individual or organization, including
+   the research divisions of for-profit organizations. It excludes any use
+   in or for a commercial product, a commercial service, or a commercial or
+   internal business operation, and any use primarily intended for
+   commercial advantage or monetary compensation.
+
+2. Grant
+
+   Subject to the terms of this license, the Licensor grants You a
+   worldwide, non-exclusive, non-transferable, royalty-free license to use,
+   copy, and modify the Software, and to share the Software and Your
+   modified versions of it, solely for Non-Commercial Research Purposes.
+
+3. Conditions for sharing
+
+   If You share the Software or a modified version of it, including as part
+   of a research artifact, for peer review, or for artifact evaluation, You
+   must:
+
+   a. share it only under this license, and include a copy of this license
+      and all copyright notices;
+   b. state clearly that You modified it, if You did, and identify the
+      changed files;
+   c. not charge any fee for it, other than a reasonable fee to cover the
+      cost of distribution;
+   d. not impose any further restrictions on the recipients' exercise of the
+      rights granted by this license.
+
+   Each recipient automatically receives a license from the Licensor under
+   the terms of this license.
+
+4. Restrictions
+
+   You may not use the Software, or any modified version of it, for any
+   purpose other than Non-Commercial Research Purposes, or sublicense it
+   under any other terms.
+
+   You may publish research results obtained with the Software or with a
+   modified version of it, provided that You cite the paper in Section 7.
+
+5. Third-party material
+
+   The Software includes material the Licensor does not own, including
+   excerpts of publicly posted social media content and recorded responses
+   of external services (web pages, search results, and WHOIS, DNS, and
+   certificate records) under fixtures/ and sample_runs/. That material
+   remains subject to the rights of its owners and to any terms that apply to
+   it. This license grants rights in it only to the extent that the Licensor
+   holds them.
+
+6. No patent or trademark rights
+
+   No license is granted, expressly, by implication, by estoppel, or
+   otherwise, under any patent or patent application, or under any trademark,
+   owned or controlled by the Licensor or by any other party. All such rights
+   are reserved.
+
+7. Attribution
+
+   Any publication that uses the Software, or a modified version of it, must
+   cite:
+
+     Hiroki Nakano, Takashi Koide, and Daiki Chiba. "TIBlender: Early-Warning
+     Threat Intelligence from Cross-Platform Social Media Evidence." In
+     Proceedings of the 42nd Annual Computer Security Applications Conference
+     (ACSAC 2026), 2026.
+
+8. Reservation of rights and commercial use
+
+   All rights not expressly granted in this license are reserved by the
+   Licensor. Any use outside this license, including any commercial use,
+   requires a separate written agreement with the Licensor. Contact the
+   authors through https://tiblender.github.io/.
+
+9. Termination
+
+   This license terminates automatically if You breach any of its terms. On
+   termination, You must stop using the Software and delete all copies of it,
+   including any modified versions. Recipients who received the Software from
+   You in compliance with this license keep their rights as long as they
+   comply with it.
+
+10. Disclaimer of warranty and limitation of liability
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+   ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+   WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

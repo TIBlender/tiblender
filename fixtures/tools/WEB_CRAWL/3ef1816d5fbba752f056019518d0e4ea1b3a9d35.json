@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WEB_CRAWL unavailable: The read operation timed out",
+  "parameters": {
+    "url": "https://www.washingtonpost.com/wp-intelligence/ai-tech-brief/2026/03/30/ai-tech-brief-forecasting-an-ai-deal/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-19T06:30:14Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL unavailable: The read operation timed out",
+  "tool_type": "WEB_CRAWL"
+}

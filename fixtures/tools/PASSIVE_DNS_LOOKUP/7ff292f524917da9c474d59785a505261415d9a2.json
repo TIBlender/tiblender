@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "vote.webbyawards.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "3.170.185.101",
+      "3.170.185.4",
+      "3.170.185.63",
+      "3.170.185.66",
+      "52.222.244.128",
+      "52.222.244.13",
+      "52.222.244.39",
+      "52.222.244.91",
+      "54.230.253.108",
+      "54.230.253.63",
+      "54.230.253.85",
+      "54.230.253.88",
+      "65.8.180.114",
+      "65.8.180.125",
+      "65.8.180.21",
+      "65.8.180.43",
+      "99.86.91.119",
+      "99.86.91.45",
+      "99.86.91.80",
+      "99.86.91.98"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "vote.webbyawards.com"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1781974061,
+        "host_name": "vote.webbyawards.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.170.185.4",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1781974061,
+        "host_name": "vote.webbyawards.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.170.185.66",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1781974061,
+        "host_name": "vote.webbyawards.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.170.185.101",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1781974061,
+        "host_name": "vote.webbyawards.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.170.185.63",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1776090227,
+        "host_name": "vote.webbyawards.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "99.86.91.119",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:12:48Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/vote.webbyawards.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for vote.webbyawards.com: 20 resolution(s); addresses: 3.170.185.4, 3.170.185.66, 3.170.185.101, 3.170.185.63, 99.86.91.119, 99.86.91.45, 99.86.91.98, 99.86.91.80, 52.222.244.13, 52.222.244.39",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

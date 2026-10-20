@@ -1,0 +1,92 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "acess.eu.org",
+      "dreamy9t.com",
+      "eilishandted.com",
+      "entomoldataneo.click",
+      "kfwmw.com",
+      "mediabeamza.info",
+      "opehus.com",
+      "safecore-ouvido.benjamimcvgomes.workers.dev",
+      "strapi.sabanamarket.com",
+      "test-sp61618.accesspropertyservices.com.au",
+      "uk-bet.petechurchill.co.uk",
+      "www.567tv22.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.50.137"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.21.50.137"
+  },
+  "raw": {
+    "malicious_count": 5,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789410621,
+        "host_name": "opehus.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.50.137",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789401319,
+        "host_name": "www.91heiliaok.cc",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 1,
+        "ip_address": "104.21.50.137",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789397889,
+        "host_name": "eilishandted.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.50.137",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789395361,
+        "host_name": "acess.eu.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.50.137",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789392979,
+        "host_name": "www.lmx.casino",
+        "host_name_malicious": 1,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.50.137",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:28:34Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/104.21.50.137/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 104.21.50.137: 20 resolution(s); hosts: opehus.com, www.91heiliaok.cc, eilishandted.com, acess.eu.org, www.lmx.casino, www.streamacheespull.wiki, www.yagmursuyuduvari.com.tr, mediabeamza.info, kfwmw.com, entomoldataneo.click",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

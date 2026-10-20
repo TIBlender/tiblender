@@ -1,0 +1,41 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "ameli-gouv.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "103.45.247.45"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "103.45.247.45"
+  },
+  "raw": {
+    "malicious_count": 16,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1690532145,
+        "host_name": "ameli-gouv.com",
+        "host_name_malicious": 16,
+        "host_name_suspicious": 0,
+        "ip_address": "103.45.247.45",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 1,
+    "total_count": 1
+  },
+  "recorded_at": "2026-09-15T01:27:09Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/103.45.247.45/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 103.45.247.45: 1 resolution(s); hosts: ameli-gouv.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

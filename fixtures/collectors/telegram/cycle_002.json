@@ -1,0 +1,191 @@
+{
+  "notes": {
+    "noise_post_refs": [
+      "TIBLENDER-2026-03-27-6597190d37e84a14-8b93dc7f:p3",
+      "TIBLENDER-2026-03-28-4b57ecc577560559-ba3d7a89:p3",
+      "TIBLENDER-2026-03-28-4b5f1a17c7005bd8-0edb7129:p8",
+      "TIBLENDER-2026-03-29-600e1c7bf257e2c7-d780a30e:p6",
+      "TIBLENDER-2026-03-30-c7e8bfab614eff7a-08096cfb:p6",
+      "TIBLENDER-2026-04-10-fa9aa422386fff92-df2f8281:p8"
+    ]
+  },
+  "platform": "telegram",
+  "posts": [
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+      "source_ref": "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b:p3",
+      "timestamp": "2026-03-26T21:55:19Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-27-6597190d37e84a14-8b93dc7f",
+      "source_ref": "TIBLENDER-2026-03-27-6597190d37e84a14-8b93dc7f:p3",
+      "timestamp": "2026-03-27T02:27:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+      "source_ref": "TIBLENDER-2026-03-29-2365876c516c5fbe-3c41bc36:p2",
+      "timestamp": "2026-03-28T17:20:48Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+      "source_ref": "TIBLENDER-2026-03-29-2365876c516c5fbe-3c41bc36:p3",
+      "timestamp": "2026-03-28T17:20:48Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+      "source_ref": "TIBLENDER-2026-03-29-2365876c516c5fbe-3c41bc36:p9",
+      "timestamp": "2026-03-28T17:20:48Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c",
+      "source_ref": "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c:p2",
+      "timestamp": "2026-03-28T18:40:08Z"
+    },
+    {
+      "kind": "noise",
+      "platform": "telegram",
+      "report_id": "TIBLENDER-2026-03-28-4b57ecc577560559-ba3d7a89",
+      "source_ref": "TIBLENDER-2026-03-28-4b57ecc577560559-ba3d7a89:p3",
+      "timestamp": "2026-03-28T20:29:09Z"
+    }
+  ],
+  "provenance": "anonymized_dataset_excerpt",
+  "responses": [
+    {
+      "payload": {
+        "chats": [
+          {
+            "id": "5889002410",
+            "title": "channel-u838edb71",
+            "username": "tichan62u2qj97"
+          },
+          {
+            "id": "6270821995",
+            "title": "channel-u8b2d1fdd",
+            "username": "tichanv1eifws1"
+          },
+          {
+            "id": "8243386486",
+            "title": "channel-u33ff5421",
+            "username": "tichanxmkk63d7"
+          }
+        ]
+      },
+      "request": {
+        "endpoint": "dialogs"
+      }
+    },
+    {
+      "payload": [
+        {
+          "date": "2026-03-26T21:55:19Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 194571,
+          "media": {},
+          "message": "Новым же моделям для выхода на рынок потребуется так называемое \"условное одобрение\" (Conditional Approval) от Министерства обороны или Министерства внутренней безопасности США. Для получения такого одобрения производителю нужно объяснить, почему роутер пока невозможно выпускать на территории США, и предоставить план по переносу производства в страну. В FCC объясняют, что скомпрометированные роутеры неоднократно использовались для слежки, кражи данных, создания ботнетов и атак на критическую инфраструктуру США. В качестве примеров комиссия приводит кампании Volt Typhoon, Flax Typhoon и Salt Typhoon - серию нашумевших атак, связанных с китайскими хак-группами. Глава FCC Брендан Карр (Brendan Carr) заявил, что решение было принято в рамках Стратегии национальной безопасности, согласно которой \"Соединенные Штаты никогда не должны зависеть от внешних сил в вопросах ключевых компонентов, необходимых для обороны и экономики страны\". . . .",
+          "views": 0
+        },
+        {
+          "date": "2026-03-28T17:20:48Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 194572,
+          "media": {},
+          "message": "10 MILLIONS DE DOLLARS DE RÉCOMPENSE POUR LES HACKERS IRANIENS Les États-Unis viennent de placer une prime record de jusqu'à 10 millions de dollars sur la tête de plusieurs hackers iraniens liés à l'IRGC (Gardiens de la Révolution). Parmi les cibles récentes : le groupe Handala, accusé d'avoir piraté la boîte mail personnelle de l'ancien directeur du FBI Kash Patel. Plus de 300 emails datant de 2010-2019 et des photos privées (voitures, cigares…) ont été publiés en ligne. Pas de données classifiées, mais un camouflet humiliant pour Washington. Le programme Rewards for Justice du Département d'État offre cette somme pour toute information permettant d'identifier ou de localiser ces acteurs cyber, y compris des groupes comme CyberAv3ngers, Emennet Pasargad / Shahid Shushtari et d'autres unités de l'IRGC-CEC. ⭐️ Abonnez-vous à [HANDLE_REDACTED]",
+          "views": 0
+        },
+        {
+          "date": "2026-03-28T17:20:48Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 194573,
+          "media": {},
+          "message": "The U.S. State Department is offering up to $10 million for information on Iranian-linked cyber actors, including Parsian Afzar Rayan Borna and the Handala hacking group. The move came after the FBI said Iran-linked hackers breached Kash Patel's personal email and leaked materials online.",
+          "views": 0
+        },
+        {
+          "date": "2026-03-28T17:20:48Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 194574,
+          "media": {},
+          "message": "Le Département d'État américain offre jusqu'à 10 millions de dollars pour des informations sur les cyber-acteurs liés à l'Iran, notamment Parsian Afzar Rayan Borna et le groupe de piratage Handala. Cette initiative a été prise après que le FBI ait déclaré que des hackers liés à l'Iran avaient piraté l'email personnel de Kash Patel et divulgué des documents en ligne.",
+          "views": 0
+        }
+      ],
+      "request": {
+        "channel_id": "5889002410",
+        "endpoint": "messages"
+      }
+    },
+    {
+      "payload": [
+        {
+          "date": "2026-03-27T02:27:00Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 547104,
+          "media": {},
+          "message": "🔍 Defenders, one quick check for potential ANA Mileage Club phishing: compare any such email's mile quantities and expiration dates against your official ANA member page. Mismatches tipped off users here, leading to fraud confirmation by calling support. This simple step stopped compromise cold.",
+          "views": 0
+        },
+        {
+          "date": "2026-03-28T20:29:09Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 547105,
+          "media": {},
+          "message": "**WTS TOOLS COURSE UP RANK SEO BLACKHAT 🔥 SIAP BANTU DOMAIN NAIK RANK CEPAT!!**** ****🌟 1. CREATE PRIVATE ULP [NEW] 🌅 Fresh ULP + Full Logs 🌅 Full User & Password Login 🌅 Cocok untuk Brute Force Attack 🌅 Bisa dibuat sesuai target spesifik 🌅 VIP Quality (Tidak untuk semua orang) 🛡️ 2. DEFEND SHELL & DOMAIN Lindungi shell & domain kamu dari hacker & seller nakal! 🎆 Shell Anti-Delete + Auto Defend 🎆 Auto Create Mass Backup 🎆 Rooting Server 100% 🎆 Malware Scanner Terintegrasi 🎆 Shell Anti-Hilang & Super Aman 🎆 Anti Take Back Seller — Aman selamanya 🔎 3. FIND / TEMUKAN SHELL & ACCESS Cari celah & dapatkan akses server dengan mudah! 🩻 Scan Domain Vulnerable 🩻 Get Access hingga Upload Shell 🩻 Tools Super Mudah Digunakan 🩻 Bisa Langsung Diamankan 🩻 Masuk hingga ke Level Server 🩻 Diajarkan Teknik Bypass Terbaru 🩻 Bahan Belajar Lengkap 🩻 Fresh & Selalu Update 🩻 Support: cPanel, WordPress, FTP, dll 🗼 4. CLOACKING RANK [NEW] Metode SEO Blackhat paling ampuh untuk naikkan ranking! 🗾 Teknik Cloaking + Google Manipulation 🗾 Mirip Iklan (Like Ads) 🗾 Membantu Domain Naik Rank Cepat 🗾 Setting Terbaik & Teroptimasi 🗾 Mudah Dipasang di Semua Server 🗾 Modal Kecil, Hasil Besar 🗾 Terbukti Bikin Website Ranked 💥 5. DDOS ATTACKING WEBSITE Hilangkan saingan & website phishing dengan cepat! 🌠 Serang Website Target Sesuai Permintaan 🌠 Hilangkan Kompetitor & Phising 🌠 Tembus Cloudflare (CF Bypass) 🌠 Serang Sepuasnya & Bebas 🌠 Lifetime Tools 100% — Menjadi milik Anda sepenuhnya**** ****🎁 Bonus Tambahan: ✅ Menerima Pembuatan Script Custom sesuai request kamu ✅ Transaksi Aman via Rekber 💬 Langsung chat admin untuk info harga & detail lebih lanjut! ****[HANDLE_REDACTED]**",
+          "views": 0
+        }
+      ],
+      "request": {
+        "channel_id": "6270821995",
+        "endpoint": "messages"
+      }
+    },
+    {
+      "payload": [
+        {
+          "date": "2026-03-28T18:40:08Z",
+          "forwards": 0,
+          "fwd_from_username": "",
+          "id": 182114,
+          "media": {},
+          "message": "**2026-04-30 04:00:07.674210 (UTC +09:00)** 1. **📄 Pizzafy Ecommerce System 1.0 Shell Upload exploit** - Wed, 29 Apr 2026 00:00:00 +0000 - hxxps://sploitus[.]com/exploit?id=PACKETSTORM:220075 2. **Threatswarm exploit** - Wed, 29 Apr 2026 14:46:18 +0000 - hxxps://sploitus[.]com/exploit?id=95614A09-0EE7-5275-B7AD-1DDB231969ED 3. **obliteratus-brain exploit** - Wed, 29 Apr 2026 15:38:38 +0000 - hxxps://sploitus[.]com/exploit?id=53AA1783-10FD-58B9-96E7-87CA0C261C72 4. **Exploit for Time-of-check Time-of-use (TOCTOU) Race Condition in Packagekit_Project Packagekit exploit** - Wed, 29 Apr 2026 15:40:54 +0000 - hxxps://sploitus[.]com/exploit?id=20D856EB-9DCC-5DA6-BE57-076255B097F7 5. **Exploit for Missing Authentication for Critical Function in Flowiseai Flowise exploit** - Wed, 29 Apr 2026 16:18:01 +0000 - hxxps://sploitus[.]com/exploit?id=42BD4D56-3716-5026-B5B8-1F89FF1FA2B8 6. **Exploit for CVE-2026-41940 exploit** - Wed, 29 Apr 2026 17:44:32 +0000 - hxxps://sploitus[.]com/exploit?id=557FA01A-594C-58C2-A26E-F7295CF2C82F 7. **cve_2026_31431 exploit** - Wed, 29 Apr 2026 17:46:43 +0000 - hxxps://sploitus[.]com/exploit?id=2701B38E-308B-578E-A22D-1538782B2A0C",
+          "views": 0
+        }
+      ],
+      "request": {
+        "channel_id": "8243386486",
+        "endpoint": "messages"
+      }
+    }
+  ],
+  "source_reports": [
+    "TIBLENDER-2026-03-27-71d1cd539fd50f24-96de2a7b",
+    "TIBLENDER-2026-03-28-2365876c516c5fbe-3c41bc36",
+    "TIBLENDER-2026-03-29-c752bcde9c5c00b0-fa5c4356",
+    "TIBLENDER-2026-04-27-9c8d9e5fcea9b48d-270b5889",
+    "TIBLENDER-2026-04-29-d4e4f8f4aa25aeb3-9d91b62c"
+  ],
+  "window": {
+    "cycle_index": 2,
+    "end": "2026-03-29T23:59:59Z",
+    "label": "cycle_002",
+    "start": "2026-03-26T00:00:00Z"
+  }
+}

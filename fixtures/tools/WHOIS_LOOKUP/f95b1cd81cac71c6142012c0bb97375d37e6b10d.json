@@ -1,0 +1,205 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "exploitreversing.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "exploitreversing.com"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  ""
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+1 877 273-3049"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "domainabuse@automattic.com"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "1531",
+        "links": [
+          {
+            "href": "http://www.wordpress.com",
+            "rel": "about",
+            "type": "text/html",
+            "value": "https://rdap.sawbuck.com/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "1531",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Automattic Inc."
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2021-03-25T17:17:35Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2027-03-25T17:17:35Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-02-23T13:25:08Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-16T05:09:42Z"
+      }
+    ],
+    "handle": "2600486689_DOMAIN_COM-VRSN",
+    "ldhName": "EXPLOITREVERSING.COM",
+    "links": [
+      {
+        "href": "https://rdap.verisign.com/com/v1/domain/exploitreversing.com",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/exploitreversing.com"
+      },
+      {
+        "href": "https://rdap.sawbuck.com/domain/EXPLOITREVERSING.COM",
+        "rel": "related",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/exploitreversing.com"
+      }
+    ],
+    "nameservers": [
+      {
+        "ldhName": "NS1.WORDPRESS.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS2.WORDPRESS.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS3.WORDPRESS.COM",
+        "objectClassName": "nameserver"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "Service subject to Terms of Use."
+        ],
+        "links": [
+          {
+            "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/exploitreversing.com"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/exploitreversing.com"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/exploitreversing.com"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_1",
+      "icann_rdap_response_profile_1"
+    ],
+    "secureDNS": {
+      "delegationSigned": false
+    },
+    "status": [
+      "client transfer prohibited"
+    ]
+  },
+  "recorded_at": "2026-09-16T05:10:00Z",
+  "source_url": "https://rdap.verisign.com/com/v1/domain/exploitreversing.com",
+  "status": "success",
+  "summary": "RDAP domain lookup for exploitreversing.com: handle=2600486689_DOMAIN_COM-VRSN; status=client transfer prohibited; nameservers=NS1.WORDPRESS.COM,NS2.WORDPRESS.COM,NS3.WORDPRESS.COM; events=registration=2021-03-25T17:17:35Z; expiration=2027-03-25T17:17:35Z; last changed=2026-02-23T13:25:08Z; last update of RDAP database=2026-09-16T05:09:42Z; entities=1531.",
+  "tool_type": "WHOIS_LOOKUP"
+}

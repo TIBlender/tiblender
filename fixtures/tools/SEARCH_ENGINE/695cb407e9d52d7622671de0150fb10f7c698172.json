@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "threatbook.io malware"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Enhance your enterprise security with ThreatBook's Agentic SecOps, leveraging unparalleled APAC threat intelligence for automated …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "ThreatBook | The Agentic Security Company",
+        "url": "https://threatbook.io/"
+      },
+      {
+        "category": "general",
+        "content": "Copyright © ThreatBook.com All Rights Reserved. 京ICP备2022014156号-1 北京步刻科技有限公司 京公网安备11010802039436号",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "threatbook - 微步在线云沙箱",
+        "url": "https://s.threatbook.com/"
+      },
+      {
+        "category": "general",
+        "content": "Founded in 2015, ThreatBook is a pioneer of cybersecurity innovation in the AI era. Powered by battle-tested Agentic AI and industry …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "ThreatBook | The Agentic Security Company",
+        "url": "https://threatbook.cn/en"
+      },
+      {
+        "category": "general",
+        "content": "Sep 30, 2025 · ThreatBookの最高経営責任者である薛鋒氏は次のように述べています。 「世界中から毎日数十億件規模の攻撃デー …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "ThreatBook、先進的な脅威インテリジェンス・ソリューション ...",
+        "url": "https://kyodonewsprwire.jp/release/202509306205"
+      },
+      {
+        "category": "general",
+        "content": "基于 TShark 的网络流量采集与离线分析技能，支持 PCAP 解析、协议统计、字段提取，以及 ThreatBook 威胁情报（网页优先、API …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "微步在线X情报中心-威胁情报查询_威胁分析平台_开放平台",
+        "url": "https://x.threatbook.com/"
+      },
+      {
+        "category": "general",
+        "content": "From the region's largest state-owned banks to global manufacturing leaders and critical infrastructure operators, ThreatBook …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "ThreatBook | The Agentic Security Company",
+        "url": "https://threatbook.io/company"
+      },
+      {
+        "category": "general",
+        "content": "Sep 30, 2025 · ThreatBookの最高経営責任者である薛鋒氏は次のように述べています。 「世界中から毎日数十億件規模の攻撃デー …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "ThreatBook、先進的な脅威インテリジェンス・ソリューション ...",
+        "url": "https://www.kyodo.co.jp/pr/2025-09-30_3964660/"
+      },
+      {
+        "category": "general",
+        "content": "微信公众号 服务热线 400-030-1051 北京微步在线科技有限公司 地址：北京市海淀区知春路76号京东科技大厦10层 京ICP备 15044984 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "ThreatBook - 微步在线 | 智能体安全公司 | 智能网络安全专家",
+        "url": "https://threatbook.cn/"
+      },
+      {
+        "category": "general",
+        "content": "Boost CTI Analysis with ThreatBook CTI Accurate Threat Verdicts Comprehensive Threat Labels Historical Attack Insights",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "ThreatBook Intelligence｜ThreatBook CTI",
+        "url": "https://i.threatbook.io/research"
+      },
+      {
+        "category": "general",
+        "content": "Sep 30, 2025 · 「世界中から毎日数十億件規模の攻撃データを解析しているThreatBook ATIは、グローバルでありながら地域に根ざ …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "ThreatBook、先進的な脅威インテリジェンス・ソリューション ...",
+        "url": "https://www.prnewswire.com/jp/news-releases/threatbookthreatbook-ati-302570226.html"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:42:01Z",
+  "source_url": "http://searxng:8080/search?q=threatbook.io+malware&format=json",
+  "status": "success",
+  "summary": "SearXNG search for threatbook.io malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

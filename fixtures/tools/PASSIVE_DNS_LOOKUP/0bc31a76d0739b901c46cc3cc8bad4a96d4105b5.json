@@ -1,0 +1,74 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "specterops.io"
+    ],
+    "hashes": [],
+    "ips": [
+      "192.0.66.91",
+      "34.202.112.177",
+      "54.81.133.139",
+      "54.88.38.104"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "specterops.io"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1663866374,
+        "host_name": "specterops.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.66.91",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1582168736,
+        "host_name": "specterops.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "54.81.133.139",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1573663051,
+        "host_name": "specterops.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "54.88.38.104",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1496016000,
+        "host_name": "specterops.io",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "34.202.112.177",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 0,
+    "total_count": 4
+  },
+  "recorded_at": "2026-09-16T05:11:37Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/specterops.io/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for specterops.io: 4 resolution(s); addresses: 192.0.66.91, 54.81.133.139, 54.88.38.104, 34.202.112.177",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

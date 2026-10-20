@@ -1,0 +1,32 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "justicehomeland.org",
+      "karmabelow80.org"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.theregister.com/2026/03/22/russian_messaging_support_phishing_scam/"
+  },
+  "raw": {
+    "blocked_resource_types": [
+      "font",
+      "image",
+      "media"
+    ],
+    "excerpt": "Russians posing as Signal support to launch phishing raids Jump to main content Sign in AI Security Software Microsoft Developer Open Source BOFH Who, Me? On Call Science SECURITY Russians are posing as Signal support to launch phishing attacks PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more! Matt Rosoff 21 Published Sun 22 Mar 2026 // 22:12 UTC INFOSEC IN BRIEF Russian intelligence-affiliated parties are posing as customer support services on commercial messaging applications such as Signal to compromise accounts and conduct phishing attacks, the FBI and Cybersecurity and Infrastructure Security Agency (CISA) warned last Frida",
+    "javascript_rendered": true,
+    "title": "Russians posing as Signal support to launch phishing raids",
+    "wait_ms": 1000
+  },
+  "recorded_at": "2026-09-19T06:22:36Z",
+  "source_url": "https://www.theregister.com/security/2026/03/22/russians-posing-as-signal-support-to-launch-phishing-raids/5221189",
+  "status": "success",
+  "summary": "JavaScript-rendered crawl of https://www.theregister.com/security/2026/03/22/russians-posing-as-signal-support-to-launch-phishing-raids/5221189. Title: Russians posing as Signal support to launch phishing raids. Excerpt: Russians posing as Signal support to launch phishing raids Jump to main content Sign in AI Security Software Microsoft Developer Open Source BOFH Who, Me? On Call Science SECURITY Russians are posing as Signal support to launch phishing attacks PLUS: US takes down Iranian propaganda sites; Marketing company asks 'Why Do We Have Your Information?' And more! Matt Rosoff 21 Published Sun 22 Mar 2026 // 22:12 UTC INFOSEC IN BRIEF Russian intelligence-affiliated parties are posing as customer support services on commercial messaging applications such as Signal to compromise accounts and conduct phishing attacks, the FBI and Cybersecurity and Infrastructure Security Agency (CISA) warned last Frida",
+  "tool_type": "WEB_CRAWL"
+}

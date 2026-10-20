@@ -1,0 +1,503 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "142.11.206.73"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "142.11.206.73"
+  },
+  "raw": {
+    "arin_originas0_originautnums": [],
+    "cidr0_cidrs": [
+      {
+        "length": 18,
+        "v4prefix": "142.11.192.0"
+      }
+    ],
+    "endAddress": "142.11.255.255",
+    "entities": [
+      {
+        "entities": [
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2025-12-12T12:24:28-05:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2020-11-17T09:48:43-05:00"
+              }
+            ],
+            "handle": "NETOP351-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/NETOP351-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/NETOP351-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "remarks": [
+              {
+                "description": [
+                  "https://www.hostpapa.com"
+                ],
+                "title": "Registration Comments"
+              }
+            ],
+            "roles": [
+              "administrative"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "5063 North Service Rd.\nSuite 102\nBurlington\nON\nL7L 5H6\nCanada"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "NETOPS"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Hostpapa, Inc"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "net-ops@hostpapa.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-905-315-3455"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-05-01T07:01:57-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2020-11-17T11:28:27-05:00"
+              }
+            ],
+            "handle": "NETTE9-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/NETTE9-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/NETTE9-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "technical"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "325 Delaware Avenue\nSuite 300\nBuffalo\nNY\n14202\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "NETTECH"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "HostPapa, Inc"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "net-tech-global@hostpapa.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-905-315-3455"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-05-11T01:57:51-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2020-11-17T09:56:02-05:00"
+              }
+            ],
+            "handle": "NETAB23-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/NETAB23-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/NETAB23-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "remarks": [
+              {
+                "description": [
+                  "================================",
+                  "",
+                  "PLEASE SUBMIT ALL ABUSE REPORTS VIA THE RESOURCE ABUSE POINT OF CONTACT.",
+                  "",
+                  "REPORTS TO THIS MAILBOX MAY NOT BE ACTIONED.",
+                  "",
+                  "================================"
+                ],
+                "title": "Registration Comments"
+              }
+            ],
+            "roles": [
+              "abuse"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "325 Delaware Avenue\nSuite 300\nBuffalo\nNY\n14202\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "NETABUSE"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "HostPapa, Inc"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "net-abuse-global@hostpapa.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-905-315-3455"
+                ]
+              ]
+            ]
+          }
+        ],
+        "events": [
+          {
+            "eventAction": "last changed",
+            "eventDate": "2025-10-05T08:17:55-04:00"
+          },
+          {
+            "eventAction": "registration",
+            "eventDate": "2016-06-06T18:09:05-04:00"
+          }
+        ],
+        "handle": "HOSTP-7",
+        "links": [
+          {
+            "href": "https://rdap.arin.net/registry/entity/HOSTP-7",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+          },
+          {
+            "href": "https://whois.arin.net/rest/org/HOSTP-7",
+            "rel": "alternate",
+            "type": "application/xml",
+            "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+          }
+        ],
+        "objectClassName": "entity",
+        "port43": "whois.arin.net",
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "HostPapa"
+            ],
+            [
+              "adr",
+              {
+                "label": "325 Delaware Avenue\nSuite 300\nBuffalo\nNY\n14202\nUnited States"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "org"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-05-13T09:37:07-04:00"
+      },
+      {
+        "eventAction": "registration",
+        "eventDate": "2012-06-22T17:54:30-04:00"
+      }
+    ],
+    "handle": "NET-142-11-192-0-1",
+    "ipVersion": "v4",
+    "links": [
+      {
+        "href": "https://rdap.arin.net/registry/ip/142.11.192.0",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+      },
+      {
+        "href": "https://whois.arin.net/rest/net/NET-142-11-192-0-1",
+        "rel": "alternate",
+        "type": "application/xml",
+        "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+      }
+    ],
+    "name": "HOSTWINDS-18-1",
+    "notices": [
+      {
+        "description": [
+          "By using the ARIN RDAP/Whois service, you are agreeing to the RDAP/Whois Terms of Use"
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/tou/",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit: "
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/inaccuracy_reporting/",
+            "rel": "inaccuracy-report",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/142.11.206.73"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      },
+      {
+        "description": [
+          "Copyright 1997-2026, American Registry for Internet Numbers, Ltd."
+        ],
+        "title": "Copyright Notice"
+      }
+    ],
+    "objectClassName": "ip network",
+    "parentHandle": "NET-142-0-0-0-0",
+    "port43": "whois.arin.net",
+    "rdapConformance": [
+      "nro_rdap_profile_0",
+      "rdap_level_0",
+      "cidr0",
+      "arin_originas0"
+    ],
+    "remarks": [
+      {
+        "description": [
+          "Geofeed https://geofeeds.oniaas.io/geofeeds.csv"
+        ],
+        "title": "Registration Comments"
+      }
+    ],
+    "startAddress": "142.11.192.0",
+    "status": [
+      "active"
+    ],
+    "type": "DIRECT ALLOCATION"
+  },
+  "recorded_at": "2026-09-10T13:38:41Z",
+  "source_url": "https://rdap.arin.net/registry/ip/142.11.206.73",
+  "status": "success",
+  "summary": "RDAP ip lookup for 142.11.206.73: handle=NET-142-11-192-0-1; status=active; nameservers=n/a; events=last changed=2026-05-13T09:37:07-04:00; registration=2012-06-22T17:54:30-04:00; entities=HOSTP-7.",
+  "tool_type": "WHOIS_LOOKUP"
+}

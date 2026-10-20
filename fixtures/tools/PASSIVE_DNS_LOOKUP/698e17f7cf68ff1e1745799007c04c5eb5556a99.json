@@ -1,0 +1,52 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "exploitreversing.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "192.0.78.24",
+      "192.0.78.25"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "exploitreversing.com"
+  },
+  "raw": {
+    "malicious_count": 2,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1616738700,
+        "host_name": "exploitreversing.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.78.24",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1616738700,
+        "host_name": "exploitreversing.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "192.0.78.25",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 1,
+    "total_count": 2
+  },
+  "recorded_at": "2026-09-16T05:09:40Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/exploitreversing.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for exploitreversing.com: 2 resolution(s); addresses: 192.0.78.24, 192.0.78.25",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,63 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "securityaid.co.uk"
+    ],
+    "hashes": [],
+    "ips": [
+      "217.160.0.21",
+      "217.160.0.58",
+      "217.160.0.86"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "securityaid.co.uk"
+  },
+  "raw": {
+    "malicious_count": 1,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1781465271,
+        "host_name": "securityaid.co.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "217.160.0.21",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1685718627,
+        "host_name": "securityaid.co.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "217.160.0.58",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1634306747,
+        "host_name": "securityaid.co.uk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "217.160.0.86",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": false,
+    "suspicious_count": 2,
+    "total_count": 3
+  },
+  "recorded_at": "2026-09-15T01:19:48Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/securityaid.co.uk/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for securityaid.co.uk: 3 resolution(s); addresses: 217.160.0.21, 217.160.0.58, 217.160.0.86",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

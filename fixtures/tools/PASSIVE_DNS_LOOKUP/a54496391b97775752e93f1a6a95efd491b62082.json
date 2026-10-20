@@ -1,0 +1,96 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "auth.test.mandosolo.dev",
+      "d10o2d94q1rkyw.amplifyapp.com",
+      "d13cxpueyyzhq3.amplifyapp.com",
+      "d14yv9v8pyz7oi.amplifyapp.com",
+      "d1n6v4h87jd1cn.amplifyapp.com",
+      "d2cg9rp3b0p167.amplifyapp.com",
+      "d3nf38f7nrme80.amplifyapp.com",
+      "d6xhsis3hfjeb.amplifyapp.com",
+      "dashboard.solution.orchestral.dev",
+      "dev.gograce.app",
+      "distributorconnect.io",
+      "drnwzp7voij5l.amplifyapp.com",
+      "dwm8kz6247wnz.amplifyapp.com",
+      "inventory.dev4.solomonadmissions.practicetest.online",
+      "jobs.dev4.lazarcenter.practicetest.online",
+      "www.distributorconnect.io"
+    ],
+    "hashes": [],
+    "ips": [
+      "3.167.138.123"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "3.167.138.123"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789435181,
+        "host_name": "additional.ikpfzbpjm.cc",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.167.138.123",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789428343,
+        "host_name": "dashboard.solution.orchestral.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.167.138.123",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789427562,
+        "host_name": "d10o2d94q1rkyw.amplifyapp.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.167.138.123",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789426321,
+        "host_name": "auth.test.mandosolo.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.167.138.123",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789422250,
+        "host_name": "auth.aivokat.ai",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.167.138.123",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:32:16Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/3.167.138.123/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 3.167.138.123: 20 resolution(s); hosts: additional.ikpfzbpjm.cc, dashboard.solution.orchestral.dev, d10o2d94q1rkyw.amplifyapp.com, auth.test.mandosolo.dev, auth.aivokat.ai, jobs.dev4.lazarcenter.practicetest.online, auth.bytthjem.no, inventory.dev4.solomonadmissions.practicetest.online, drnwzp7voij5l.amplifyapp.com, d3nf38f7nrme80.amplifyapp.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,100 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "bsky.app"
+    ],
+    "hashes": [],
+    "ips": [
+      "13.58.212.194",
+      "18.216.127.134",
+      "18.217.233.117",
+      "18.224.85.19",
+      "18.225.51.236",
+      "18.227.131.171",
+      "18.227.231.242",
+      "3.129.28.179",
+      "3.13.97.235",
+      "3.131.225.66",
+      "3.133.176.129",
+      "3.135.133.140",
+      "3.135.29.205",
+      "3.141.171.67",
+      "3.147.156.125",
+      "3.149.115.209",
+      "3.151.243.228",
+      "3.17.54.38",
+      "3.21.250.153",
+      "77.112.78.161"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "bsky.app"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789388131,
+        "host_name": "bsky.app",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.151.243.228",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789382229,
+        "host_name": "bsky.app",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.21.250.153",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789381990,
+        "host_name": "bsky.app",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.217.233.117",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789285954,
+        "host_name": "bsky.app",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.147.156.125",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789285954,
+        "host_name": "bsky.app",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "3.17.54.38",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:08:52Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/bsky.app/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for bsky.app: 20 resolution(s); addresses: 3.151.243.228, 3.21.250.153, 18.217.233.117, 3.147.156.125, 3.17.54.38, 13.58.212.194, 3.135.29.205, 3.135.133.140, 77.112.78.161, 3.149.115.209",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

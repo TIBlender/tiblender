@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.technologyreview.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.technologyreview.com"
+  },
+  "raw": {
+    "count": 280,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=E8",
+      "C=US, O=Let's Encrypt, CN=E8",
+      "C=US, O=Let's Encrypt, CN=E7"
+    ],
+    "names": [
+      "www.technologyreview.com",
+      "www.technologyreview.com",
+      "www.technologyreview.com",
+      "www.technologyreview.com",
+      "www.technologyreview.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:18:39Z",
+  "source_url": "https://crt.sh/?q=%25.www.technologyreview.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.technologyreview.com: 280 certificate row(s); sample names=www.technologyreview.com, www.technologyreview.com, www.technologyreview.com, www.technologyreview.com, www.technologyreview.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

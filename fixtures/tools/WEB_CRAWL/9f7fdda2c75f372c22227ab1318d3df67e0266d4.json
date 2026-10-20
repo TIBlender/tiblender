@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host reclaimthenet.org is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://reclaimthenet.org/trump-america-ai-act-section-230-repeal-ai-liability-age-verification"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:08Z",
+  "source_url": "https://reclaimthenet.org/trump-america-ai-act-section-230-repeal-ai-liability-age-verification",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host reclaimthenet.org for https://reclaimthenet.org/trump-america-ai-act-section-230-repeal-ai-liability-age-verification",
+  "tool_type": "WEB_CRAWL"
+}

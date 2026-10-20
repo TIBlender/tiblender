@@ -1,0 +1,96 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.eff.org"
+    ],
+    "hashes": [],
+    "ips": [
+      "146.75.104.201",
+      "146.75.116.201",
+      "146.75.120.201",
+      "146.75.72.201",
+      "151.101.0.201",
+      "151.101.112.201",
+      "151.101.120.201",
+      "151.101.128.201",
+      "151.101.192.201",
+      "151.101.20.201",
+      "151.101.236.201",
+      "151.101.36.201",
+      "151.101.52.201",
+      "151.101.64.201",
+      "151.101.84.201",
+      "199.232.252.201"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.eff.org"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1783024022,
+        "host_name": "www.eff.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:400::201",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1783024022,
+        "host_name": "www.eff.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:200::201",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1783024022,
+        "host_name": "www.eff.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42::201",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1783024022,
+        "host_name": "www.eff.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "2a04:4e42:600::201",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "CAPE Sandbox"
+      },
+      {
+        "date": 1717597600,
+        "host_name": "www.eff.org",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "199.232.252.201",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "SecneurX"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-16T05:13:12Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/www.eff.org/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for www.eff.org: 20 resolution(s); addresses: 2a04:4e42:400::201, 2a04:4e42:200::201, 2a04:4e42::201, 2a04:4e42:600::201, 199.232.252.201, 151.101.84.201, 146.75.116.201, 146.75.72.201, 151.101.20.201, 146.75.104.201",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

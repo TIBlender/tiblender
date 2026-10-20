@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "sfrclak.com malware"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "在职场中，你有没有遇到这样的“疑难杂症”，想把Word To PPT、PPT To Word再或者PDF To Word，最终苦于无奈只能 “乱投医”。 …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "怎么快速把Word转换PPT？ - 知乎",
+        "url": "https://www.zhihu.com/question/55513666"
+      },
+      {
+        "category": "general",
+        "content": "知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的分享知识、经验和见 …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "smallpdf - 知乎",
+        "url": "https://www.zhihu.com/topic/20142040/newest"
+      },
+      {
+        "category": "general",
+        "content": "Nov 14, 2019 · 强大的PDF在线工具——Smallpdf,今天推荐一款在线工具，用于处理工作中的PDF非常的高效便捷，它就是Smalldf。 …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "强大的PDF在线工具——Smallpdf - 百度经验",
+        "url": "https://jingyan.baidu.com/article/11c17a2ca4efb1b447e39d29.html"
+      },
+      {
+        "category": "general",
+        "content": "Oct 28, 2014 · Word把图片设置为背景的三种方法,Word是一种专门用来编辑文字的软件，可是有的时候文字配上好看的图片会是文章 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Word把图片设置为背景的三种方法-百度经验",
+        "url": "https://jingyan.baidu.com/article/fec7a1e50cb7541191b4e765.html"
+      },
+      {
+        "category": "general",
+        "content": "Jan 20, 2020 · [Windows] Smallpdf 1.24.2 安装包与无限期试用安装教程 [复制链接]",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Smallpdf 1.24.2 安装包与无限期试用安装教程 - 吾爱破解 - 52pojie.cn",
+        "url": "https://www.52pojie.cn/thread-1093277-1-1.html"
+      },
+      {
+        "category": "general",
+        "content": "May 1, 2020 · SketchUp（简称SU，俗称草图大师）全球知名的三维建模软件，强大的绘图工具、建模渲染、扩展插件和渲染器模板、 …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "SketchUp Pro 2020 v20.1.229 绿色特别版 - 吾爱破解 - 52pojie.cn",
+        "url": "https://www.52pojie.cn/thread-1169940-1-1.html"
+      },
+      {
+        "category": "general",
+        "content": "smallpdf怎么申请退款？ 感觉这个small pdf就是个坑，让你试用7天，7天后忘记取消订阅就扣费，而且一扣就是扣325，昨天已经扣 …",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "smallpdf怎么申请退款？ - 知乎",
+        "url": "https://www.zhihu.com/question/1921529620332798495"
+      },
+      {
+        "category": "general",
+        "content": "Feb 13, 2020 · smallpdf怎么取消订阅,malldf是一个非常强大的df处理网站，订阅malldf可以开通会员功能。那么，malldf怎么取消订阅 …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "smallpdf怎么取消订阅 - 百度经验",
+        "url": "https://jingyan.baidu.com/article/5553fa821522ef24a3393409.html"
+      },
+      {
+        "category": "general",
+        "content": "Dec 19, 2017 · smallpdf主页上显示了经常要用到的14项功能，PDF转Word，JPG,EXCEL,PPT,PDF加密，解密，合并，分割，旋转， …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "最好的PDF在线无损转换工具Smallpdf - 百度经验",
+        "url": "https://jingyan.baidu.com/article/63f236282392110208ab3d14.html"
+      },
+      {
+        "category": "general",
+        "content": "Jun 10, 2017 · 首先我们通过电脑打开百度，在百度搜索中输入： smallpdf。 就是图1中红圈圈中的部分。 然后我们选择搜索结果中第 …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "分割、剪裁pdf文件的超简单方法 - 百度经验",
+        "url": "https://jingyan.baidu.com/article/b2c186c8db7463c46ef6ff23.html"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:41:56Z",
+  "source_url": "http://searxng:8080/search?q=sfrclak.com+malware&format=json",
+  "status": "success",
+  "summary": "SearXNG search for sfrclak.com malware: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

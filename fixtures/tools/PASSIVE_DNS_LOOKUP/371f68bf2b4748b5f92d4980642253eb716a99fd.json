@@ -1,0 +1,26 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "47.237.15.197"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [],
+    "records_truncated": false,
+    "suspicious_count": 0,
+    "total_count": 0
+  },
+  "recorded_at": "2026-09-16T05:21:20Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/47.237.15.197/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 47.237.15.197: 0 resolution(s); hosts: n/a",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,22 @@
+.env
+.pytest_cache/
+__pycache__/
+*.pyc
+# Local `pip install` residue: a stale build/lib copy of tiblender_runtime
+# alongside the real one is exactly what an rsync/tar export must not ship.
+/build/
+*.egg-info/
+# The output directory itself is tracked (via .gitkeep) even though its
+# contents are not: Docker Compose bind-mounts ./output into the container,
+# and dockerd would create a MISSING host directory as root -- which the
+# container's unprivileged user then cannot write to. Shipping the empty
+# directory keeps `docker compose up --build` working on a fresh clone.
+/output/*
+!/output/.gitkeep
+/.venv/
+*.session
+/viewer/reports_viewer_data.js
+
+# The repository-root .gitignore excludes every reports/ directory; the
+# bundled sample run must ship its report JSON.
+!/sample_runs/**/reports/

@@ -1,0 +1,135 @@
+{
+  "notes": {
+    "noise_post_refs": [
+      "TIBLENDER-2026-03-17-76f8cab684e42e71-35db711f:p3",
+      "TIBLENDER-2026-03-24-08b4ffb2df969e47-0b8bc1d7:p5",
+      "TIBLENDER-2026-03-24-3d70e4de4dfc5998-c199ac38:p3",
+      "TIBLENDER-2026-03-25-3b6f1dfa94696319-069df8a7:p5",
+      "TIBLENDER-2026-03-25-57a16249db9a4247-226e7f0f:p11",
+      "TIBLENDER-2026-04-12-e97a5df62a933274-0f15a0cc:p2"
+    ]
+  },
+  "platform": "discord",
+  "posts": [
+    {
+      "kind": "primary",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+      "source_ref": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f:p3",
+      "timestamp": "2026-03-22T13:38:00Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+      "source_ref": "TIBLENDER-2026-03-23-10a9a091f0e6f2f6-7e283510:p2",
+      "timestamp": "2026-03-22T22:07:03Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+      "source_ref": "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f:p2",
+      "timestamp": "2026-03-23T00:14:56Z"
+    },
+    {
+      "kind": "primary",
+      "platform": "discord",
+      "report_id": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+      "source_ref": "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44:p4",
+      "timestamp": "2026-03-23T08:59:44Z"
+    }
+  ],
+  "provenance": "anonymized_dataset_excerpt",
+  "responses": [
+    {
+      "payload": [
+        {
+          "id": "900100200300400500",
+          "name": "artifact-demo-guild"
+        }
+      ],
+      "request": {
+        "endpoint": "users/@me/guilds"
+      }
+    },
+    {
+      "payload": [
+        {
+          "id": "910100200300400500",
+          "name": "threat-intel",
+          "type": 0
+        }
+      ],
+      "request": {
+        "endpoint": "guilds/{id}/channels",
+        "guild_id": "900100200300400500"
+      }
+    },
+    {
+      "payload": [
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "115812635391",
+            "username": "u7e8b6024"
+          },
+          "content": "FBI/CISA: Russian actors posing as support on Signal to phish creds. Someone mentioned 1iinch[.]gr[.]com in the replies—odd one to note.",
+          "id": "1485271329672144760",
+          "timestamp": "2026-03-22T13:38:00.000000+00:00"
+        },
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "759861924292",
+            "username": "u551240b2"
+          },
+          "content": "Hi, quick question about IDA Pro vs Ghidra type resolution. I'm reversing wevtsvc.dll and I noticed that Ghidra gives me much better type information than IDA Pro for example Ghidra reconstructs basic structures like EVENTLOGRECORD, while IDA struggles without a good FLIRT sig or manual work. Anyone else notice this on wevtsvc.dll? Also, connecting from 142.251.39.129 and 142.251.39.193 for remote analysis.",
+          "id": "1485399439187292143",
+          "timestamp": "2026-03-22T22:07:03.689000+00:00"
+        },
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "781181388413",
+            "username": "uf2e7b427"
+          },
+          "content": "https://www.theregister.com/2026/03/22/russian_messaging_support_phishing_scam/",
+          "id": "1485431620455987458",
+          "timestamp": "2026-03-23T00:14:56.301000+00:00"
+        },
+        {
+          "attachments": [],
+          "author": {
+            "bot": false,
+            "id": "332832479877",
+            "username": "u69183f20"
+          },
+          "content": "📰 | **Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems** https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
+          "id": "1485563689815352048",
+          "timestamp": "2026-03-23T08:59:44.090000+00:00"
+        }
+      ],
+      "request": {
+        "channel_id": "910100200300400500",
+        "endpoint": "channels/{id}/messages"
+      }
+    }
+  ],
+  "source_reports": [
+    "TIBLENDER-2026-03-22-10a9a091f0e6f2f6-7e283510",
+    "TIBLENDER-2026-03-23-192660cfb5140a8f-38ae9f3f",
+    "TIBLENDER-2026-03-23-f80fb525b1c14dbf-6604af44",
+    "TIBLENDER-2026-04-26-6bbd75e43c56d709-62c344c5",
+    "TIBLENDER-2026-04-26-890d6a122915c2fa-c1929f4b"
+  ],
+  "window": {
+    "cycle_index": 1,
+    "end": "2026-03-25T23:59:59Z",
+    "label": "cycle_001",
+    "start": "2026-03-22T00:00:00Z"
+  }
+}

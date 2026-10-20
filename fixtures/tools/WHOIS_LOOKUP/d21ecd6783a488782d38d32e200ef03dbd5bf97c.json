@@ -1,0 +1,492 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "104.207.76.72"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.207.76.72"
+  },
+  "raw": {
+    "arin_originas0_originautnums": [],
+    "cidr0_cidrs": [
+      {
+        "length": 19,
+        "v4prefix": "104.207.64.0"
+      }
+    ],
+    "endAddress": "104.207.95.255",
+    "entities": [
+      {
+        "entities": [
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-05-15T08:42:16-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2026-05-15T08:42:16-04:00"
+              }
+            ],
+            "handle": "NAA44-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/NAA44-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/NAA44-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "administrative"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "11400 W. Olympic Blvd. Suite 200\nLos Angeles\nCA\n90064\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Namecheap ARIN Admin"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Namecheap, Inc."
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "arin-admin@namecheap.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-323-375-2822;ext405"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-05-25T02:46:57-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2011-01-24T11:27:00-05:00"
+              }
+            ],
+            "handle": "ABUSE2885-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/ABUSE2885-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/ABUSE2885-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "abuse"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "11400 W. Olympic Blvd. Suite 200\nLos Angeles\nCA\n90064\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Abuse team"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "NameCheap, Inc"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abuse@namecheaphosting.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-323-375-2822"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-05-26T10:41:39-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2011-01-25T05:34:01-05:00"
+              }
+            ],
+            "handle": "TECHT4-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/TECHT4-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/TECHT4-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "technical"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "11400 W. Olympic Blvd. Suite 200\nLos Angeles\nCA\n90064\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Tech team"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "NameCheap, Inc"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "tech@namecheaphosting.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-323-375-2822"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "fax"
+                    ]
+                  },
+                  "text",
+                  "+1-661-310-2107"
+                ]
+              ]
+            ]
+          }
+        ],
+        "events": [
+          {
+            "eventAction": "last changed",
+            "eventDate": "2026-05-27T03:04:18-04:00"
+          },
+          {
+            "eventAction": "registration",
+            "eventDate": "2011-01-28T10:34:07-05:00"
+          }
+        ],
+        "handle": "NAMEC-4",
+        "links": [
+          {
+            "href": "https://rdap.arin.net/registry/entity/NAMEC-4",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+          },
+          {
+            "href": "https://whois.arin.net/rest/org/NAMEC-4",
+            "rel": "alternate",
+            "type": "application/xml",
+            "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+          }
+        ],
+        "objectClassName": "entity",
+        "port43": "whois.arin.net",
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Namecheap, Inc."
+            ],
+            [
+              "adr",
+              {
+                "label": "11400 W. Olympic Blvd. Suite 200\nLos Angeles\nCA\n90064\nUnited States"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "org"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-01-13T10:46:15-05:00"
+      },
+      {
+        "eventAction": "registration",
+        "eventDate": "2025-10-28T15:45:05-04:00"
+      }
+    ],
+    "handle": "NET-104-207-64-0-1",
+    "ipVersion": "v4",
+    "links": [
+      {
+        "href": "https://rdap.arin.net/registry/ip/104.207.64.0",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+      },
+      {
+        "href": "https://whois.arin.net/rest/net/NET-104-207-64-0-1",
+        "rel": "alternate",
+        "type": "application/xml",
+        "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+      }
+    ],
+    "name": "NAMEC-4",
+    "notices": [
+      {
+        "description": [
+          "By using the ARIN RDAP/Whois service, you are agreeing to the RDAP/Whois Terms of Use"
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/tou/",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit: "
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/inaccuracy_reporting/",
+            "rel": "inaccuracy-report",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/104.207.76.72"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      },
+      {
+        "description": [
+          "Copyright 1997-2026, American Registry for Internet Numbers, Ltd."
+        ],
+        "title": "Copyright Notice"
+      }
+    ],
+    "objectClassName": "ip network",
+    "parentHandle": "NET-104-0-0-0-0",
+    "port43": "whois.arin.net",
+    "rdapConformance": [
+      "nro_rdap_profile_0",
+      "rdap_level_0",
+      "cidr0",
+      "arin_originas0"
+    ],
+    "remarks": [
+      {
+        "description": [
+          "Geofeed https://geofeed.web-hosting.com/geofeed.csv"
+        ],
+        "title": "Registration Comments"
+      }
+    ],
+    "startAddress": "104.207.64.0",
+    "status": [
+      "active"
+    ],
+    "type": "DIRECT ALLOCATION"
+  },
+  "recorded_at": "2026-09-16T05:29:09Z",
+  "source_url": "https://rdap.arin.net/registry/ip/104.207.76.72",
+  "status": "success",
+  "summary": "RDAP ip lookup for 104.207.76.72: handle=NET-104-207-64-0-1; status=active; nameservers=n/a; events=last changed=2026-01-13T10:46:15-05:00; registration=2025-10-28T15:45:05-04:00; entities=NAMEC-4.",
+  "tool_type": "WHOIS_LOOKUP"
+}

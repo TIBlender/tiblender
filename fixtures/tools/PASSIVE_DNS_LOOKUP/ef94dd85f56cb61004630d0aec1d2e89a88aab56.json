@@ -1,0 +1,89 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "gbhackers.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.18.44.223",
+      "104.18.45.223",
+      "104.21.34.223",
+      "172.233.149.136",
+      "172.64.80.1",
+      "172.67.165.236",
+      "173.255.202.211",
+      "45.33.114.180",
+      "68.65.122.99"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "gbhackers.com"
+  },
+  "raw": {
+    "malicious_count": 2,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1727034951,
+        "host_name": "gbhackers.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.233.149.136",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1725456781,
+        "host_name": "gbhackers.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "45.33.114.180",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 1,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1668218211,
+        "host_name": "gbhackers.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "173.255.202.211",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1643020388,
+        "host_name": "gbhackers.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.64.80.1",
+        "ip_address_malicious": 1,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1610903502,
+        "host_name": "gbhackers.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.34.223",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 1,
+    "total_count": 9
+  },
+  "recorded_at": "2026-09-16T05:10:02Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/gbhackers.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for gbhackers.com: 9 resolution(s); addresses: 172.233.149.136, 45.33.114.180, 173.255.202.211, 172.64.80.1, 104.21.34.223, 172.67.165.236, 104.18.45.223, 104.18.44.223, 68.65.122.99",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

@@ -1,0 +1,205 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "ameli-gouv.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "ameli-gouv.com"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  ""
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+31.104482297"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abuse@registrar.eu"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "1647",
+        "links": [
+          {
+            "href": "http://www.openprovider.com",
+            "rel": "about",
+            "type": "text/html",
+            "value": "https://rdap.registrar.eu/v1/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "1647",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Hosting Concepts B.V. d/b/a Registrar.eu"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2026-03-28T10:34:04Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2027-03-28T10:34:04Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2026-05-12T04:23:44Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-15T00:55:22Z"
+      }
+    ],
+    "handle": "3081594928_DOMAIN_COM-VRSN",
+    "ldhName": "AMELI-GOUV.COM",
+    "links": [
+      {
+        "href": "https://rdap.verisign.com/com/v1/domain/ameli-gouv.com",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/ameli-gouv.com"
+      },
+      {
+        "href": "https://rdap.registrar.eu/v1/domain/AMELI-GOUV.COM",
+        "rel": "related",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/ameli-gouv.com"
+      }
+    ],
+    "nameservers": [
+      {
+        "ldhName": "INA1.REGISTRAR.EU",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "INA2.REGISTRAR.EU",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "INA3.REGISTRAR.EU",
+        "objectClassName": "nameserver"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "Service subject to Terms of Use."
+        ],
+        "links": [
+          {
+            "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/ameli-gouv.com"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/ameli-gouv.com"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/ameli-gouv.com"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_1",
+      "icann_rdap_response_profile_1"
+    ],
+    "secureDNS": {
+      "delegationSigned": false
+    },
+    "status": [
+      "client transfer prohibited"
+    ]
+  },
+  "recorded_at": "2026-09-15T00:55:39Z",
+  "source_url": "https://rdap.verisign.com/com/v1/domain/ameli-gouv.com",
+  "status": "success",
+  "summary": "RDAP domain lookup for ameli-gouv.com: handle=3081594928_DOMAIN_COM-VRSN; status=client transfer prohibited; nameservers=INA1.REGISTRAR.EU,INA2.REGISTRAR.EU,INA3.REGISTRAR.EU; events=registration=2026-03-28T10:34:04Z; expiration=2027-03-28T10:34:04Z; last changed=2026-05-12T04:23:44Z; last update of RDAP database=2026-09-15T00:55:22Z; entities=1647.",
+  "tool_type": "WHOIS_LOOKUP"
+}

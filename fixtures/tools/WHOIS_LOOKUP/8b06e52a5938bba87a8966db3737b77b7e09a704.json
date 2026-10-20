@@ -1,0 +1,214 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "venmo.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "venmo.com"
+  },
+  "raw": {
+    "entities": [
+      {
+        "entities": [
+          {
+            "objectClassName": "entity",
+            "roles": [
+              "abuse"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  ""
+                ],
+                [
+                  "tel",
+                  {
+                    "type": "voice"
+                  },
+                  "uri",
+                  "tel:+1.2086851750"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "abusecomplaints@markmonitor.com"
+                ]
+              ]
+            ]
+          }
+        ],
+        "handle": "292",
+        "links": [
+          {
+            "href": "http://www.markmonitor.com",
+            "rel": "about",
+            "type": "text/html",
+            "value": "https://rdap.markmonitor.com/rdap/"
+          }
+        ],
+        "objectClassName": "entity",
+        "publicIds": [
+          {
+            "identifier": "292",
+            "type": "IANA Registrar ID"
+          }
+        ],
+        "roles": [
+          "registrar"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "MarkMonitor Inc."
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "registration",
+        "eventDate": "2008-12-26T16:44:05Z"
+      },
+      {
+        "eventAction": "expiration",
+        "eventDate": "2026-12-26T16:44:05Z"
+      },
+      {
+        "eventAction": "last changed",
+        "eventDate": "2025-11-24T10:15:35Z"
+      },
+      {
+        "eventAction": "last update of RDAP database",
+        "eventDate": "2026-09-15T00:56:07Z"
+      }
+    ],
+    "handle": "1534766363_DOMAIN_COM-VRSN",
+    "ldhName": "VENMO.COM",
+    "links": [
+      {
+        "href": "https://rdap.verisign.com/com/v1/domain/venmo.com",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/venmo.com"
+      },
+      {
+        "href": "https://rdap.markmonitor.com/rdap/domain/VENMO.COM",
+        "rel": "related",
+        "type": "application/rdap+json",
+        "value": "https://rdap.verisign.com/com/v1/domain/venmo.com"
+      }
+    ],
+    "nameservers": [
+      {
+        "ldhName": "NS-1457.AWSDNS-54.ORG",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS-1599.AWSDNS-07.CO.UK",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS-304.AWSDNS-38.COM",
+        "objectClassName": "nameserver"
+      },
+      {
+        "ldhName": "NS-665.AWSDNS-19.NET",
+        "objectClassName": "nameserver"
+      }
+    ],
+    "notices": [
+      {
+        "description": [
+          "Service subject to Terms of Use."
+        ],
+        "links": [
+          {
+            "href": "https://www.verisign.com/domain-names/registration-data-access-protocol/terms-service/index.xhtml",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/venmo.com"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "For more information on domain status codes, please visit https://icann.org/epp"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/epp",
+            "rel": "glossary",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/venmo.com"
+          }
+        ],
+        "title": "Status Codes"
+      },
+      {
+        "description": [
+          "URL of the ICANN RDDS Inaccuracy Complaint Form: https://icann.org/wicf"
+        ],
+        "links": [
+          {
+            "href": "https://icann.org/wicf",
+            "rel": "help",
+            "type": "text/html",
+            "value": "https://rdap.verisign.com/com/v1/domain/venmo.com"
+          }
+        ],
+        "title": "RDDS Inaccuracy Complaint Form"
+      }
+    ],
+    "objectClassName": "domain",
+    "rdapConformance": [
+      "rdap_level_0",
+      "icann_rdap_technical_implementation_guide_1",
+      "icann_rdap_response_profile_1"
+    ],
+    "secureDNS": {
+      "delegationSigned": false
+    },
+    "status": [
+      "client delete prohibited",
+      "client transfer prohibited",
+      "client update prohibited",
+      "server delete prohibited",
+      "server transfer prohibited",
+      "server update prohibited"
+    ]
+  },
+  "recorded_at": "2026-09-15T00:56:27Z",
+  "source_url": "https://rdap.verisign.com/com/v1/domain/venmo.com",
+  "status": "success",
+  "summary": "RDAP domain lookup for venmo.com: handle=1534766363_DOMAIN_COM-VRSN; status=client delete prohibited,client transfer prohibited,client update prohibited,server delete prohibited; nameservers=NS-1457.AWSDNS-54.ORG,NS-1599.AWSDNS-07.CO.UK,NS-304.AWSDNS-38.COM,NS-665.AWSDNS-19.NET; events=registration=2008-12-26T16:44:05Z; expiration=2026-12-26T16:44:05Z; last changed=2025-11-24T10:15:35Z; last update of RDAP database=2026-09-15T00:56:07Z; entities=292.",
+  "tool_type": "WHOIS_LOOKUP"
+}

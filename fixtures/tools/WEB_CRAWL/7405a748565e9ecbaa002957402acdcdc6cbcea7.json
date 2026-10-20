@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host intel.threadlinqs.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://intel.threadlinqs.com/#TL-2026-0302"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-15T00:57:32Z",
+  "source_url": "https://intel.threadlinqs.com/#TL-2026-0302",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host intel.threadlinqs.com for https://intel.threadlinqs.com/#TL-2026-0302",
+  "tool_type": "WEB_CRAWL"
+}

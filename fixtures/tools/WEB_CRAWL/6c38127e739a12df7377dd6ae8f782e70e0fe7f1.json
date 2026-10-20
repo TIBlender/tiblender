@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "crawl_skipped_untrusted_host: host exploitreversing.com is not in the WEB_CRAWL allowlist",
+  "parameters": {
+    "url": "https://exploitreversing.com/2026/03/31/exploiting-reversing-er-series-article-08/"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:24:57Z",
+  "source_url": "https://exploitreversing.com/2026/03/31/exploiting-reversing-er-series-article-08/",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL skipped untrusted host exploitreversing.com for https://exploitreversing.com/2026/03/31/exploiting-reversing-er-series-article-08/",
+  "tool_type": "WEB_CRAWL"
+}

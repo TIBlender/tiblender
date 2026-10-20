@@ -1,0 +1,806 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [
+      "3.167.138.123"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "3.167.138.123"
+  },
+  "raw": {
+    "arin_originas0_originautnums": [],
+    "cidr0_cidrs": [
+      {
+        "length": 15,
+        "v4prefix": "3.166.0.0"
+      }
+    ],
+    "endAddress": "3.167.255.255",
+    "entities": [
+      {
+        "entities": [
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2025-11-05T17:39:37-05:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2021-07-22T10:42:42-04:00"
+              }
+            ],
+            "handle": "ARMP-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/ARMP-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/ARMP-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "routing"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "13200 Woodland Park Dr\nHerndon\nHerndon\nVA\n20171\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "AWS RPKI Management POC"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Amazon Web Services"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "aws-rpki-routing-poc@amazon.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-206-555-0000"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2025-11-13T21:35:59-05:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2019-07-24T13:17:11-04:00"
+              }
+            ],
+            "handle": "IPROU3-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/IPROU3-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/IPROU3-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "remarks": [
+              {
+                "description": [
+                  "Report abuse incidents to our Abuse POC AEA8-ARIN.  ",
+                  "",
+                  "Thank you for your cooperation."
+                ],
+                "title": "Registration Comments"
+              }
+            ],
+            "roles": [
+              "routing"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "1918 8th Ave\nSeattle\nWA\n98109\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "IP Routing"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Amazon"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "aws-routing-poc@amazon.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-206-555-0000"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2025-08-28T17:03:29-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2008-03-24T14:12:07-04:00"
+              }
+            ],
+            "handle": "AEA8-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/AEA8-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/AEA8-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "remarks": [
+              {
+                "description": [
+                  "    Abuse of Amazon Web Services - The activity you have detected originates from a dynamic hosting environment.",
+                  "    For fastest response, please submit abuse reports via the AWS webform: https://repost.aws/knowledge-center/report-aws-abuse",
+                  "    If your company system is configured to automatically send abuse reports, please send them to abuse@amazonaws.com including:",
+                  "    * src IP",
+                  "    * dest IP (your IP)",
+                  "    * dest port",
+                  "    * Accurate date/timestamp and timezone of activity",
+                  "    * Intensity/frequency (short log extracts)",
+                  "    * Your contact details (phone and email)"
+                ],
+                "title": "Registration Comments"
+              }
+            ],
+            "roles": [
+              "abuse"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "Amazon Web Services Elastic Compute Cloud, EC2\n410 Terry Avenue North\nSeattle\nWA\n98109-5210\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Amazon EC2 Abuse"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Amazon Web Services, LLC"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "trustandsafety@support.aws.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-206-555-0000"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2025-08-28T17:03:33-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2005-09-19T06:00:05-04:00"
+              }
+            ],
+            "handle": "ANO24-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/ANO24-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/ANO24-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "technical"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "PO BOX 81226\nSeattle\nWA\n98108-1226\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Amazon EC2 Network Operations"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Amazon Webservices EC2"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "amzn-noc-contact@amazon.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-206-555-0000"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2025-08-28T17:03:21-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2010-03-04T18:38:30-05:00"
+              }
+            ],
+            "handle": "AANO1-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/AANO1-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/AANO1-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "roles": [
+              "noc"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "410 Terry Ave N\nSeattle\nWA\n98109\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "Amazon AWS Network Operations"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Amazon Web Services, LLC"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "amzn-noc-contact@amazon.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-206-555-0000"
+                ]
+              ]
+            ]
+          },
+          {
+            "events": [
+              {
+                "eventAction": "last changed",
+                "eventDate": "2026-03-25T15:54:01-04:00"
+              },
+              {
+                "eventAction": "registration",
+                "eventDate": "2013-11-12T22:06:06-05:00"
+              }
+            ],
+            "handle": "IPMAN40-ARIN",
+            "links": [
+              {
+                "href": "https://rdap.arin.net/registry/entity/IPMAN40-ARIN",
+                "rel": "self",
+                "type": "application/rdap+json",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              },
+              {
+                "href": "https://whois.arin.net/rest/poc/IPMAN40-ARIN",
+                "rel": "alternate",
+                "type": "application/xml",
+                "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+              }
+            ],
+            "objectClassName": "entity",
+            "port43": "whois.arin.net",
+            "remarks": [
+              {
+                "description": [
+                  "Report abuse incidents to our Abuse POC AEA8-ARIN.  ",
+                  "",
+                  "Thank you for your cooperation."
+                ],
+                "title": "Registration Comments"
+              }
+            ],
+            "roles": [
+              "administrative"
+            ],
+            "status": [
+              "validated"
+            ],
+            "vcardArray": [
+              "vcard",
+              [
+                [
+                  "version",
+                  {},
+                  "text",
+                  "4.0"
+                ],
+                [
+                  "adr",
+                  {
+                    "label": "1918 8th Ave\nSeattle\nWA\n98109\nUnited States"
+                  },
+                  "text",
+                  [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                ],
+                [
+                  "fn",
+                  {},
+                  "text",
+                  "IP Management"
+                ],
+                [
+                  "org",
+                  {},
+                  "text",
+                  "Amazon"
+                ],
+                [
+                  "kind",
+                  {},
+                  "text",
+                  "group"
+                ],
+                [
+                  "email",
+                  {},
+                  "text",
+                  "ipmanagement@amazon.com"
+                ],
+                [
+                  "tel",
+                  {
+                    "type": [
+                      "work",
+                      "voice"
+                    ]
+                  },
+                  "text",
+                  "+1-703-464-1336"
+                ]
+              ]
+            ]
+          }
+        ],
+        "events": [
+          {
+            "eventAction": "last changed",
+            "eventDate": "2022-09-30T16:19:20-04:00"
+          },
+          {
+            "eventAction": "registration",
+            "eventDate": "1995-01-23T00:00:00-05:00"
+          }
+        ],
+        "handle": "AMAZON-4",
+        "links": [
+          {
+            "href": "https://rdap.arin.net/registry/entity/AMAZON-4",
+            "rel": "self",
+            "type": "application/rdap+json",
+            "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+          },
+          {
+            "href": "https://whois.arin.net/rest/org/AMAZON-4",
+            "rel": "alternate",
+            "type": "application/xml",
+            "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+          }
+        ],
+        "objectClassName": "entity",
+        "port43": "whois.arin.net",
+        "roles": [
+          "registrant"
+        ],
+        "vcardArray": [
+          "vcard",
+          [
+            [
+              "version",
+              {},
+              "text",
+              "4.0"
+            ],
+            [
+              "fn",
+              {},
+              "text",
+              "Amazon.com, Inc."
+            ],
+            [
+              "adr",
+              {
+                "label": "1918 8th Ave\nSEATTLE\nWA\n98101-1244\nUnited States"
+              },
+              "text",
+              [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ]
+            ],
+            [
+              "kind",
+              {},
+              "text",
+              "org"
+            ]
+          ]
+        ]
+      }
+    ],
+    "events": [
+      {
+        "eventAction": "last changed",
+        "eventDate": "2024-01-17T16:50:37-05:00"
+      },
+      {
+        "eventAction": "registration",
+        "eventDate": "2024-01-17T16:50:37-05:00"
+      }
+    ],
+    "handle": "NET-3-166-0-0-1",
+    "ipVersion": "v4",
+    "links": [
+      {
+        "href": "https://rdap.arin.net/registry/ip/3.166.0.0",
+        "rel": "self",
+        "type": "application/rdap+json",
+        "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+      },
+      {
+        "href": "https://whois.arin.net/rest/net/NET-3-166-0-0-1",
+        "rel": "alternate",
+        "type": "application/xml",
+        "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+      },
+      {
+        "href": "https://rdap.arin.net/registry/ip/3.128.0.0/9",
+        "rel": "up",
+        "type": "application/rdap+json",
+        "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+      }
+    ],
+    "name": "AMAZON-CF",
+    "notices": [
+      {
+        "description": [
+          "By using the ARIN RDAP/Whois service, you are agreeing to the RDAP/Whois Terms of Use"
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/tou/",
+            "rel": "terms-of-service",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+          }
+        ],
+        "title": "Terms of Service"
+      },
+      {
+        "description": [
+          "If you see inaccuracies in the results, please visit: "
+        ],
+        "links": [
+          {
+            "href": "https://www.arin.net/resources/registry/whois/inaccuracy_reporting/",
+            "rel": "inaccuracy-report",
+            "type": "text/html",
+            "value": "https://rdap.arin.net/registry/ip/3.167.138.123"
+          }
+        ],
+        "title": "Whois Inaccuracy Reporting"
+      },
+      {
+        "description": [
+          "Copyright 1997-2026, American Registry for Internet Numbers, Ltd."
+        ],
+        "title": "Copyright Notice"
+      }
+    ],
+    "objectClassName": "ip network",
+    "parentHandle": "NET-3-128-0-0-1",
+    "port43": "whois.arin.net",
+    "rdapConformance": [
+      "nro_rdap_profile_0",
+      "rdap_level_0",
+      "cidr0",
+      "arin_originas0"
+    ],
+    "startAddress": "3.166.0.0",
+    "status": [
+      "active"
+    ],
+    "type": "ALLOCATION"
+  },
+  "recorded_at": "2026-09-15T01:26:57Z",
+  "source_url": "https://rdap.arin.net/registry/ip/3.167.138.123",
+  "status": "success",
+  "summary": "RDAP ip lookup for 3.167.138.123: handle=NET-3-166-0-0-1; status=active; nameservers=n/a; events=last changed=2024-01-17T16:50:37-05:00; registration=2024-01-17T16:50:37-05:00; entities=AMAZON-4.",
+  "tool_type": "WHOIS_LOOKUP"
+}

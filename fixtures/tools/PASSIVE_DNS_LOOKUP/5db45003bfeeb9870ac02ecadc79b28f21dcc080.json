@@ -1,0 +1,95 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "115bi.com",
+      "api-sevenhills.damra.co",
+      "clyphic.com",
+      "drivescript.tempmail-handler.workers.dev",
+      "emilbonaks.info",
+      "enbet1703.com",
+      "hdtianlan.com",
+      "lab.gon-kikaku.com",
+      "seee.gd.cn",
+      "sellyourhandmade.com",
+      "sevenhills.damra.co",
+      "stake5813.com",
+      "vidhyatrip.com",
+      "www.you-id-8271.shop",
+      "you-id-8271.shop"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.32.152"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.21.32.152"
+  },
+  "raw": {
+    "malicious_count": 12,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1789421313,
+        "host_name": "blackfriday.humbleha.us",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.32.152",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789403404,
+        "host_name": "seee.gd.cn",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.32.152",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789400408,
+        "host_name": "vidhyatrip.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.32.152",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789385401,
+        "host_name": "clyphic.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.32.152",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1789372363,
+        "host_name": "drivescript.tempmail-handler.workers.dev",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.32.152",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 12,
+    "total_count": 20
+  },
+  "recorded_at": "2026-09-15T01:28:17Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/104.21.32.152/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 104.21.32.152: 20 resolution(s); hosts: blackfriday.humbleha.us, seee.gd.cn, vidhyatrip.com, clyphic.com, drivescript.tempmail-handler.workers.dev, hdtianlan.com, www.you-id-8271.shop, enbet1703.com, fortisconnecthq.space, you-id-8271.shop",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

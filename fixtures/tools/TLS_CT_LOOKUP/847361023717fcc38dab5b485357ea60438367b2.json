@@ -1,0 +1,24 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "sfrclak.com"
+  },
+  "raw": {
+    "count": 0,
+    "issuers": [],
+    "names": [],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-09T11:37:04Z",
+  "source_url": "https://crt.sh/?q=%25.sfrclak.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for sfrclak.com: 0 certificate row(s); sample names=n/a.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

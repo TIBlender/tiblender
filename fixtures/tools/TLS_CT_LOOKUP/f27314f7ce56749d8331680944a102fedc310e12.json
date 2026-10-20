@@ -1,0 +1,40 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "support.talosintelligence.com",
+      "talosintelligence.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "talosintelligence.com"
+  },
+  "raw": {
+    "count": 613,
+    "issuers": [
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1",
+      "C=US, O=Google Trust Services, CN=WE1",
+      "C=US, O=Google Trust Services, CN=WR1"
+    ],
+    "names": [
+      "*.talosintelligence.com",
+      "talosintelligence.com",
+      "support.talosintelligence.com",
+      "support.talosintelligence.com",
+      "support.talosintelligence.com",
+      "support.talosintelligence.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:12:19Z",
+  "source_url": "https://crt.sh/?q=%25.talosintelligence.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for talosintelligence.com: 613 certificate row(s); sample names=*.talosintelligence.com, talosintelligence.com, support.talosintelligence.com, support.talosintelligence.com, support.talosintelligence.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "07fcd5216ceae44965de79a60a4623da"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find …",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Google",
+        "url": "https://www.google.co.kr/index.html"
+      },
+      {
+        "category": "general",
+        "content": "무료로 제공되는 Google의 서비스는 영어와 100가지 이상의 다른 언어로 단어, 구문, 웹페이지를 즉시 번역합니다.",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Google 번역",
+        "url": "https://translate.google.co.kr/"
+      },
+      {
+        "category": "general",
+        "content": "Google Images. The most comprehensive image search on the web.",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Google Images",
+        "url": "https://www.google.co.kr/imghp"
+      },
+      {
+        "category": "general",
+        "content": "데이터와 새를 조합하면 어떻게 될까요? 나디에 브레머 (Nadieh Bremer)의 최신작에서 미국 전역의 조류 관찰과 Google 트렌드 데이터를 …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Google 트렌드",
+        "url": "https://trends.google.co.kr/trends/"
+      },
+      {
+        "category": "general",
+        "content": "전체 텍스트가 제공되는 전 세계 도서의 광범위한 색인을 검색해 보세요. 내 라이브러리",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "Google Books: Find, Preview, and Read Books Online.",
+        "url": "https://books.google.co.kr/"
+      },
+      {
+        "category": "general",
+        "content": "확인 버튼을 누르면 개인정보 수집 및 이용에 동의하게 됩니다.",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "성인 인증 - Google",
+        "url": "https://ageverification.google.co.kr/ageverification?hl=ko&prev=google.com%2Fsearch&cl=0"
+      },
+      {
+        "category": "general",
+        "content": "의견 보내기 텍스트를 입력하여 세부정보 확인하기",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Google 번역",
+        "url": "https://translate.google.co.kr/details"
+      },
+      {
+        "category": "general",
+        "content": "Search the world's most comprehensive index of full-text books. Your library",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "Google Books: Find, Preview, and Read Books Online.",
+        "url": "https://books.google.co.kr/?hl=zh"
+      },
+      {
+        "category": "general",
+        "content": "Google 트렌드에서 전 세계 사용자의 검색 동향을 살펴보세요.",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "살펴보기 - Google 트렌드",
+        "url": "https://trends.google.co.kr/explore"
+      },
+      {
+        "category": "general",
+        "content": "Google 이미지 - 가장 광범위한 이미지 검색",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "Google 이미지",
+        "url": "https://images.google.co.kr/?hl=ko"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:41:46Z",
+  "source_url": "http://searxng:8080/search?q=07fcd5216ceae44965de79a60a4623da&format=json",
+  "status": "success",
+  "summary": "SearXNG search for 07fcd5216ceae44965de79a60a4623da: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

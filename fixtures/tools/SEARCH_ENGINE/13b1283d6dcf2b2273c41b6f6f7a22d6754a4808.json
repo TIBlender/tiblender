@@ -1,0 +1,103 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "query": "phishstats.info phishing"
+  },
+  "raw": {
+    "items": [
+      {
+        "category": "general",
+        "content": "Search and compare cheap flights from all major airlines and online travel agents, and book airline tickets to your favourite destinations.",
+        "engine": "bing",
+        "score": 1.0,
+        "title": "Cheap Flights, Hotels & Car Hire to Everywhere | Skyscanner",
+        "url": "https://www.skyscanner.com.au/?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Flight deals from Sydney to Melbourne Looking for a cheap last-minute deal or the best return flight from Sydney Airport to …",
+        "engine": "bing",
+        "score": 0.5,
+        "title": "Cheap Flights from Sydney (SYD) to Melbourne (MELA)",
+        "url": "https://www.skyscanner.com.au/routes/syd/mela/sydney-to-melbourne.html?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Get the best flight deals and offers to all your favourite destinations, and compare prices from 1000s of airlines and providers. Book …",
+        "engine": "bing",
+        "score": 0.3333333333333333,
+        "title": "Cheap Flights - Find the Best Flight & Airfare Deals | Skyscanner",
+        "url": "https://www.skyscanner.com.au/flights?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Flight deals to Athens International Looking for a cheap last-minute deal or the best return flight to Athens International Airport? If you …",
+        "engine": "bing",
+        "score": 0.25,
+        "title": "Cheap Flights to Athens International Airport - Skyscanner",
+        "url": "https://www.skyscanner.com.au/flights-to/ath/cheap-flights-to-athens-international-airport.html?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Cheap flight deals to Philippines Looking for a cheap last-minute deal or the best return flight to Philippines? If you want to travel to …",
+        "engine": "bing",
+        "score": 0.2,
+        "title": "️ Cheap Flights to Philippines from $237 - Skyscanner",
+        "url": "https://www.skyscanner.com.au/flights-to/ph/cheap-flights-to-philippines.html?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Flight deals from Sydney to Auckland International Looking for a cheap last-minute deal or the best return flight from Sydney Airport …",
+        "engine": "bing",
+        "score": 0.16666666666666666,
+        "title": "Cheap Flights from Sydney (SYD) to Auckland (AKL) - Skyscanner",
+        "url": "https://www.skyscanner.com.au/routes/syd/akl/sydney-to-auckland-international.html?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Compare and book cheap flights from Brisbane Airport to thousands of destinations worldwide with Skyscanner Australia.",
+        "engine": "bing",
+        "score": 0.14285714285714285,
+        "title": "Cheap Flights from Brisbane Airport from $117 | Skyscanner",
+        "url": "https://www.skyscanner.com.au/flights-from/bne/cheap-flights-from-brisbane-airport.html?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Aug 5, 2026 · Skyscanner data reveals the cheapest days and weeks to fly from Australia this winter, plus average fares to Osaka, …",
+        "engine": "bing",
+        "score": 0.125,
+        "title": "What are the cheapest days and weeks to fly? - Skyscanner",
+        "url": "https://www.skyscanner.com.au/flights/advice/cheapest-days-to-fly?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Melbourne to Vietnam flight deals Looking for a cheap last-minute deal or the best return flight from Melbourne to Vietnam? If you …",
+        "engine": "bing",
+        "score": 0.1111111111111111,
+        "title": "Cheap Flights from Melbourne to Vietnam from $422 | Skyscanner",
+        "url": "https://www.skyscanner.com.au/routes/mela/vn/melbourne-to-vietnam.html?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      },
+      {
+        "category": "general",
+        "content": "Cheap flight deals to India Looking for a cheap last-minute deal or the best return flight to India? If you want to travel to India next …",
+        "engine": "bing",
+        "score": 0.1,
+        "title": "️ Cheap Flights to India from $267 - Skyscanner",
+        "url": "https://www.skyscanner.com.au/flights-to/in/cheap-flights-to-india.html?msockid=0ff1fe8778f46abc3a49e952790c6b56"
+      }
+    ],
+    "result_count": 10
+  },
+  "recorded_at": "2026-09-15T01:03:33Z",
+  "source_url": "http://searxng:8080/search?q=phishstats.info+phishing&format=json",
+  "status": "success",
+  "summary": "SearXNG search for phishstats.info phishing: 10 result(s). Result titles are retained only in internal tool payloads.",
+  "tool_type": "SEARCH_ENGINE"
+}

@@ -1,0 +1,25 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/"
+  },
+  "raw": {
+    "blocked_resource_types": [],
+    "excerpt": "Cisco source code stolen in Trivy-linked dev environment breach News Featured Latest Hackers hijack HBO Max Reddit account to push malware in ClickFix ads Homebrew 7.0.0 gets built-in GUI, better security controls Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent New Android malware encrypts files, steals data, and harasses victims Acronis warns of actively exploited flaw in its cPanel backup plugin Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites Cover 10 devices with 5 years of AdGuard VPN for $34.97 CenterPoint Energy confirms customer data stolen in cyberattack Tutorials Latest Popular How to access the Dark Web using the Tor Browser How to enable K",
+    "fallback_reason": "Playwright is not installed for JavaScript rendering.",
+    "javascript_rendered": false,
+    "title": "Cisco source code stolen in Trivy-linked dev environment breach"
+  },
+  "recorded_at": "2026-09-16T05:25:43Z",
+  "source_url": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/",
+  "status": "success",
+  "summary": "Static crawl of https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/. Title: Cisco source code stolen in Trivy-linked dev environment breach. Excerpt: Cisco source code stolen in Trivy-linked dev environment breach News Featured Latest Hackers hijack HBO Max Reddit account to push malware in ClickFix ads Homebrew 7.0.0 gets built-in GUI, better security controls Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent New Android malware encrypts files, steals data, and harasses victims Acronis warns of actively exploited flaw in its cPanel backup plugin Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites Cover 10 devices with 5 years of AdGuard VPN for $34.97 CenterPoint Energy confirms customer data stolen in cyberattack Tutorials Latest Popular How to access the Dark Web using the Tor Browser How to enable K",
+  "tool_type": "WEB_CRAWL"
+}

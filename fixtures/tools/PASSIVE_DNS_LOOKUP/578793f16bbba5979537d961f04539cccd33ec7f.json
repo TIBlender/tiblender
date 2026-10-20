@@ -1,0 +1,84 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "cubaviaja.com",
+      "www.cubaviaja.com",
+      "www.esentire.com",
+      "www2.esentire.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.20.162.46"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "ip": "104.20.162.46"
+  },
+  "raw": {
+    "malicious_count": 0,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1650286723,
+        "host_name": "www2.esentire.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.20.162.46",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1649910539,
+        "host_name": "www.esentire.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.20.162.46",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1585508715,
+        "host_name": "cissii.cdcaccess.com.pk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.20.162.46",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1585508715,
+        "host_name": "eservices.cdcaccess.com.pk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.20.162.46",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1575410072,
+        "host_name": "www.cdcaccess.com.pk",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.20.162.46",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 0,
+    "total_count": 7
+  },
+  "recorded_at": "2026-09-15T01:27:43Z",
+  "source_url": "https://www.virustotal.com/api/v3/ip_addresses/104.20.162.46/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for 104.20.162.46: 7 resolution(s); hosts: www2.esentire.com, www.esentire.com, cissii.cdcaccess.com.pk, eservices.cdcaccess.com.pk, www.cdcaccess.com.pk, cubaviaja.com, www.cubaviaja.com",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}

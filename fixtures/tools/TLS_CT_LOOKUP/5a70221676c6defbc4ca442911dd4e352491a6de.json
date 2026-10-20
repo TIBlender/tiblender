@@ -1,0 +1,41 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "www.cnn.com--com.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "www.cnn.com"
+  },
+  "raw": {
+    "count": 51,
+    "issuers": [
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M03",
+      "C=US, O=Amazon, CN=Amazon RSA 2048 M02",
+      "C=US, O=Let's Encrypt, CN=R3",
+      "C=US, O=Let's Encrypt, CN=R3"
+    ],
+    "names": [
+      "fave.www.cnn.com",
+      "www.cnn.com",
+      "fave.www.cnn.com",
+      "www.cnn.com",
+      "fave.www.cnn.com",
+      "www.cnn.com",
+      "www.cnn.com--com.com",
+      "www.cnn.com--com.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-15T01:09:31Z",
+  "source_url": "https://crt.sh/?q=%25.www.cnn.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for www.cnn.com: 51 certificate row(s); sample names=fave.www.cnn.com, www.cnn.com, fave.www.cnn.com, www.cnn.com, fave.www.cnn.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

@@ -1,0 +1,38 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "blog.0patch.com"
+    ],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "blog.0patch.com"
+  },
+  "raw": {
+    "count": 91,
+    "issuers": [
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE2",
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=YE1",
+      "C=US, O=Let's Encrypt, CN=YE1"
+    ],
+    "names": [
+      "blog.0patch.com",
+      "blog.0patch.com",
+      "blog.0patch.com",
+      "blog.0patch.com",
+      "blog.0patch.com"
+    ],
+    "provider": "crt.sh"
+  },
+  "recorded_at": "2026-09-16T05:08:46Z",
+  "source_url": "https://crt.sh/?q=%25.blog.0patch.com&output=json",
+  "status": "success",
+  "summary": "Certificate transparency lookup for blog.0patch.com: 91 certificate row(s); sample names=blog.0patch.com, blog.0patch.com, blog.0patch.com, blog.0patch.com, blog.0patch.com.",
+  "tool_type": "TLS_CT_LOOKUP"
+}

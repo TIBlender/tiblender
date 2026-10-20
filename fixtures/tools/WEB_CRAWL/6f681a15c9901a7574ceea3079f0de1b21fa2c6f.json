@@ -1,0 +1,19 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [],
+    "hashes": [],
+    "ips": [],
+    "urls": []
+  },
+  "error": "WEB_CRAWL unavailable: HTTP 451: \n\n\n\n<!DOCTYPE html>\n<html\n  lang=\"en\"\n  \n  data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\"\n  data-a11y-animated-images=\"system\" data-a11y-link-underlines=\"true\"\n  \n  >\n\n\n\n\n  <head>\n    <meta charset=\"utf-8\">\n  <link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\">\n  <link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\">\n  <link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\">\n  <link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\">\n  <link rel=\"preconnect\" href=\"https://github.githubassets.com\" crossorigin>\n  <link rel=\"preconnect\" href=\"https://avatars.githubusercontent.com\">\n\n<script type=\"importmap\">{\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"http",
+  "parameters": {
+    "url": "https://github.com/Revnin/CCTV-MACHINE"
+  },
+  "raw": {},
+  "recorded_at": "2026-09-16T05:25:01Z",
+  "source_url": "",
+  "status": "unavailable",
+  "summary": "WEB_CRAWL unavailable: HTTP 451: \n\n\n\n<!DOCTYPE html>\n<html\n  lang=\"en\"\n  \n  data-color-mode=\"auto\" data-light-theme=\"light\" data-dark-theme=\"dark\"\n  data-a11y-animated-images=\"system\" data-a11y-link-underlines=\"true\"\n  \n  >\n\n\n\n\n  <head>\n    <meta charset=\"utf-8\">\n  <link rel=\"dns-prefetch\" href=\"https://github.githubassets.com\">\n  <link rel=\"dns-prefetch\" href=\"https://avatars.githubusercontent.com\">\n  <link rel=\"dns-prefetch\" href=\"https://github-cloud.s3.amazonaws.com\">\n  <link rel=\"dns-prefetch\" href=\"https://user-images.githubusercontent.com/\">\n  <link rel=\"preconnect\" href=\"https://github.githubassets.com\" crossorigin>\n  <link rel=\"preconnect\" href=\"https://avatars.githubusercontent.com\">\n\n<script type=\"importmap\">{\"imports\":{\"react\":\"https://github.githubassets.com/assets/react-e27d1b3e03961e68.js\",\"react-dom\":\"http",
+  "tool_type": "WEB_CRAWL"
+}

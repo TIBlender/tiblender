@@ -1,0 +1,93 @@
+{
+  "discovered_iocs": {
+    "cves": [],
+    "domains": [
+      "factide.com"
+    ],
+    "hashes": [],
+    "ips": [
+      "104.21.87.75",
+      "109.234.109.84",
+      "109.234.109.85",
+      "159.69.42.212",
+      "159.69.83.207",
+      "172.67.142.90",
+      "18.185.154.59",
+      "18.195.135.92",
+      "184.168.131.241",
+      "34.98.99.30",
+      "35.157.176.26",
+      "52.57.11.109",
+      "95.216.161.60"
+    ],
+    "urls": []
+  },
+  "error": "",
+  "parameters": {
+    "domain": "factide.com"
+  },
+  "raw": {
+    "malicious_count": 13,
+    "provider": "virustotal",
+    "records": [
+      {
+        "date": 1765643226,
+        "host_name": "factide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "104.21.87.75",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1765643226,
+        "host_name": "factide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "172.67.142.90",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1661733466,
+        "host_name": "factide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "34.98.99.30",
+        "ip_address_malicious": 7,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1599833398,
+        "host_name": "factide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "35.157.176.26",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      },
+      {
+        "date": 1599829986,
+        "host_name": "factide.com",
+        "host_name_malicious": 0,
+        "host_name_suspicious": 0,
+        "ip_address": "18.185.154.59",
+        "ip_address_malicious": 0,
+        "ip_address_suspicious": 0,
+        "resolver": "VirusTotal"
+      }
+    ],
+    "records_truncated": true,
+    "suspicious_count": 3,
+    "total_count": 13
+  },
+  "recorded_at": "2026-09-15T01:16:27Z",
+  "source_url": "https://www.virustotal.com/api/v3/domains/factide.com/resolutions?limit=20",
+  "status": "success",
+  "summary": "VirusTotal passive DNS for factide.com: 13 resolution(s); addresses: 104.21.87.75, 172.67.142.90, 34.98.99.30, 35.157.176.26, 18.185.154.59, 18.195.135.92, 52.57.11.109, 184.168.131.241, 109.234.109.84, 109.234.109.85",
+  "tool_type": "PASSIVE_DNS_LOOKUP"
+}
