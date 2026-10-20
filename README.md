@@ -1,5 +1,7 @@
 # TIBlender
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23489084.svg)](https://doi.org/10.5281/zenodo.23489084)
+
 **Early-Warning Threat Intelligence from Cross-Platform Social Media Evidence**
 
 This repository contains the implementation and the released dataset of the
@@ -11,6 +13,8 @@ ACSAC 2026 paper:
 > (ACSAC 2026), 2026.
 
 Project page: <https://tiblender.github.io/>
+
+Archived on Zenodo: <https://doi.org/10.5281/zenodo.23489084>
 
 ## Overview
 

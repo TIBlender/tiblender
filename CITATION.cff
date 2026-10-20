@@ -10,6 +10,7 @@ authors:
     family-names: Koide
   - given-names: Daiki
     family-names: Chiba
+doi: 10.5281/zenodo.23489084
 url: "https://tiblender.github.io/"
 repository-code: "https://github.com/TIBlender/tiblender"
 license-url: "https://github.com/TIBlender/tiblender/blob/main/LICENSE"
